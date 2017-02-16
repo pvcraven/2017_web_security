@@ -4,8 +4,9 @@ Cross-Site Scripting
 Introduction
 ------------
 
-Cross-site scripting is when an attacker inserts code into a legitimate website,
- and is one of the biggest website vunerabilities. Web sites are especially vunerable 
+
+Cross-site scripting is when an attacker inserts code into a legitimate website, 
+and is one of the biggest website vunerabilities. Web sites are especially vunerable 
 when they don't use validation or encoding on user generated data. [xss]_
 
 
