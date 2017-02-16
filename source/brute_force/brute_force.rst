@@ -1,5 +1,7 @@
 Brute-Force Attacks
 ===================
 
-*Written by Tyler, Edited by Lana and Nathan.*
+
+
+*Written by Tyler G, Edited by Lana and Nathan.*
 
