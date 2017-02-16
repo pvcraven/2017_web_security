@@ -9,8 +9,9 @@ Introduction
 Distributed Denial-of-Service is the same concept as Denial-of-Service, but it is harder to prevent and stop, because instead of one computer attacking a target, many compromised computers attack a target by sending multiple messages or connection requests to it. The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than a an attack from a single host or IP address where they can be blocked easily with a firewall.
 
 .. figure:: ddos.jpg 
-	:height: 200px
-	:width: 200px
+	:height: 400px
+	:width: 400px
+	:align: center
 [Dsa]_
 
 Different Types of Attacks
