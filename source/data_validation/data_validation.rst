@@ -45,8 +45,8 @@ Why is Data Valdidatin important?
 
 Conclusion
 ^^^^^^^^^^
-'Happy <http://imgur.com/a/2lZWZ>'
+
 Sources
 ^^^^^^^
 
-.. [dta]	'“Directory traversal attack.”<http://imgur.com/a/2lZWZ>'_ Wikipedia. Wikimedia Foundation, 07 Feb. 2017. Web. 15 Feb. 2017.
+.. [dat] ".. _Happy: http://imgur.com/a/2lZWZ" Wikipedia. Wikimedia Foundation, 07 Feb. 2017. Web. 15 Feb. 2017.
