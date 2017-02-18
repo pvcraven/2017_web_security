@@ -17,7 +17,7 @@ Data Validation
 * What is data validation?
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
-* "How to" on data validation
+* "How to" on data validation [WEB]
 	a. Instructions on how to add data validation to a website.
 	b. Picture examples.
 * Why is data validation important?
@@ -49,4 +49,5 @@ Conclusion
 Sources
 ^^^^^^^
 
-.. [dat] `"Link Text" <http://example.com/>`_ Wikipedia. Wikimedia Foundation, 07 Feb. 2017. Web. 15 Feb. 2017.
+.. [WEB] `"Web Development" <http://web-development-class.readthedocs.io/en/latest/index.html>`_ Simpson College Web Development Class, 018 Feb. 2017. Web. 2016.
+.. [Weinstock-Herman] Weinstock-Herman, Eli. `"Client-side vs Server-side Validation in Web Applications" <http://blogs.lessthandot.com/index.php/webdev/client-side-vs-server-side-validation-in-web-applications/>`_ LessThanDot A Technical Community for IT Professionals, 18 Feb. 2017. Web. 01 Aug. 2014.
