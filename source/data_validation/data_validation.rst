@@ -14,14 +14,14 @@ Data Validation
 * Intro:
 	a. Thesis Statment
 	b. Brief overview of each topic.
-* What is data validation?
+* What is data validation? [Data]_
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
-* "How to" on data validation [WEB]
+* "How to" on data validation [WEB]_
 	a. Instructions on how to add data validation to a website.
 	b. Picture examples.
 * Why is data validation important?
-	a. Risks Involving data validation.
+	a. Risks Involving data validation. [Weinstock-Herman]_
 		1. Risk of not having.
 		2. Risk of Front end only.
 		3. Risk of Back end only.
@@ -49,5 +49,7 @@ Conclusion
 Sources
 ^^^^^^^
 
-.. [WEB] `"Web Development" <http://web-development-class.readthedocs.io/en/latest/index.html>`_ Simpson College Web Development Class, 018 Feb. 2017. Web. 2016.
+.. [WEB] `"Web Development" <http://web-development-class.readthedocs.io/en/latest/index.html>`_ Simpson College Web Development Class, 18 Feb. 2017. Web. 2016.
 .. [Weinstock-Herman] Weinstock-Herman, Eli. `"Client-side vs Server-side Validation in Web Applications" <http://blogs.lessthandot.com/index.php/webdev/client-side-vs-server-side-validation-in-web-applications/>`_ LessThanDot A Technical Community for IT Professionals, 18 Feb. 2017. Web. 01 Aug. 2014.
+.. [DATA] `"Data Validation" <https://msdn.microsoft.com/en-us/library/aa291820(v=vs.71).aspx>`_ Data Validation, 18 Feb. 2017. Web. 2013.
+.. [Cade] Cairns, Cade, and Daniel Somerfield. `"The Basics of Web Application Security." <https://martinfowler.com/articles/web-security-basics.html>`_ MartinFlower, 18 Feb. 2017. Web. 5 Jan. 2017.
