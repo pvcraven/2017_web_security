@@ -14,7 +14,7 @@ Data Validation
 * Intro:
 	a. Thesis Statment
 	b. Brief overview of each topic.
-* What is data validation? [Data]_
+* What is data validation? [DATA]_ [Cade]_
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
 * "How to" on data validation [WEB]_
