@@ -21,3 +21,18 @@ Data Validation
 * Conclusion:
 	a. Thesis Statement
 	b. Brief review of each topic. 
+
+Introduction
+^^^^^^^^^^^^
+
+What is Data Validation?
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+How to code Data Validation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Why is Data Valdidatin important?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Conclusion
+^^^^^^^^^^
