@@ -3,7 +3,7 @@ Data Validation
 
 *Written by Anthony, Edited by Ashtyne and Esteban.*
 
-..image: data_validation.png
+.. image: : data_validation.png
 	:height: 439px
 	:width: 190px
 
