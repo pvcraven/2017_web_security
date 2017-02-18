@@ -40,7 +40,7 @@ What is Data Validation?
 How to code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Why is Data Valdidatin important?
+Why is Data Validation important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Conclusion
@@ -49,4 +49,4 @@ Conclusion
 Sources
 ^^^^^^^
 
-.. [dat] ".. _Happy: http://imgur.com/a/2lZWZ" Wikipedia. Wikimedia Foundation, 07 Feb. 2017. Web. 15 Feb. 2017.
+.. [dat] `"Link Text" <http://example.com/>`_ Wikipedia. Wikimedia Foundation, 07 Feb. 2017. Web. 15 Feb. 2017.
