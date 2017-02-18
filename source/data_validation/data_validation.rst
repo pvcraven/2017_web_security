@@ -4,8 +4,8 @@ Data Validation
 *Written by Anthony, Edited by Ashtyne and Esteban.*
 
 .. image:: datav.png
-	:height: 439px
-	:width: 190px
+	:height: 690px
+	:width: 390px
 
 
 *Outline*
