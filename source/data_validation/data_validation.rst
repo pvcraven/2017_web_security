@@ -3,7 +3,7 @@ Data Validation
 
 *Written by Anthony, Edited by Ashtyne and Esteban.*
 
-..image: : ./datav.png
+.. image:: datav.png
 	:height: 439px
 	:width: 190px
 
