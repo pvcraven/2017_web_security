@@ -3,18 +3,21 @@ Data Validation
 
 *Written by Anthony, Edited by Ashtyne and Esteban.*
 
-*Intro:
+*Outline*
+-------
+
+* Intro:
 	a. Thesis Statment
 	b. Brief overview of each topic.
-*What is data validation?
+* What is data validation?
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
-*"How to" on data validation
+* "How to" on data validation
 	a. Instructions on how to add data validation to a website.
 	b. Picture examples.
-*Why is data validation important?
+* Why is data validation important?
 	a. Risks of not having data validation.
 	b. Pros and Cons. 
-*Conclusion:
+* Conclusion:
 	a. Thesis Statement
 	b. Brief review of each topic. 
