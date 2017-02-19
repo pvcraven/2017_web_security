@@ -18,7 +18,7 @@ The Threat: Your Accounts Are In Danger
 
 	* The threat of brute forcing means that both the user and the creator of the website need to take action to protect against these attacks.
 	* According to Sucuri, these attacks mean that someone can gain illegitimate administrative privileges to websites and use that power to upload harmful code where it will be spread to the users. [sucuri]
-	* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. 
+	* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. [Wikipedia]
 
 	.. image:: DESkeybreaker.jpg 
 
@@ -123,7 +123,7 @@ The Method: A Rudimentary Way to Brute Force Passwords
 
 [increment]		Nathan Wall. `"What is a method that can be used to increment letters?" <http://stackoverflow.com/questions/12504042/what-is-a-method-that-can-be-used-to-increment-letters>`_ StackOverflow, 19 Sep. 2012. Web. 18 Feb. 2017.
 
-[wikipedia]		Matt Crypto. `"Brute-force attack" <https://en.wikipedia.org/w/index.php?curid=36781082>`_ Wikipedia, 9 Feb. 2017. Web. 18 Feb. 2017.
+[Wikipedia]		Matt Crypto. `"Brute-force attack" <https://en.wikipedia.org/w/index.php?curid=36781082>`_ Wikipedia, 9 Feb. 2017. Web. 18 Feb. 2017.
 
 *Written by Tyler G, Edited by Lana and Nathan.*
 
