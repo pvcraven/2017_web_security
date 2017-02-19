@@ -15,9 +15,10 @@ The Threat: Your Accounts Are In Danger
 	* With the help of brute force attacks and a lack of protections against them, anyone can access your accounts online.
 		
 		* Even for an old computer with minimal power, it takes only about twenty minutes to crack most passwords. [TechTarget] It would take much less with today's computers.
-		
+
 	* The threat of brute forcing means that both the user and the creator of the website need to take action to protect against these attacks.
 	* According to Sucuri, these attacks mean that someone can gain illegitimate administrative privileges to websites and use that power to upload harmful code where it will be spread to the users. [sucuri]
+	* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. .. image:: DESkeybreaker.jpg 
 
 =================================================================
 The Protection: How You, the Account Holder, Can Protect Yourself
@@ -119,6 +120,8 @@ The Method: A Rudimentary Way to Brute Force Passwords
 [click]			Adam Salma. `"How to simulate a click with JavaScript?" <http://stackoverflow.com/questions/2705583/how-to-simulate-a-click-with-javascript>`_ StackOverflow, 24 Jan. 2016. Web. 18 Feb. 2017.
 
 [increment]		Nathan Wall. `"What is a method that can be used to increment letters?" <http://stackoverflow.com/questions/12504042/what-is-a-method-that-can-be-used-to-increment-letters>`_ StackOverflow, 19 Sep. 2012. Web. 18 Feb. 2017.
+
+[wikipedia]		Matt Crypto. `"Brute-force attack" <https://en.wikipedia.org/w/index.php?curid=36781082>`_ Wikipedia, 9 Feb. 2017. Web. 18 Feb. 2017.
 
 *Written by Tyler G, Edited by Lana and Nathan.*
 
