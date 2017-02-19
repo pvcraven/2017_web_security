@@ -13,7 +13,9 @@ The Threat: Your Accounts Are In Danger
 =======================================
 
 	* With the help of brute force attacks and a lack of protections against them, anyone can access your accounts online.
+		
 		* Even for an old computer with minimal power, it takes only about twenty minutes to crack most passwords. [TechTarget] It would take much less with today's computers.
+		
 	* The threat of brute forcing means that both the user and the creator of the website need to take action to protect against these attacks.
 	* According to Sucuri, these attacks mean that someone can gain illegitimate administrative privileges to websites and use that power to upload harmful code where it will be spread to the users. [sucuri]
 
