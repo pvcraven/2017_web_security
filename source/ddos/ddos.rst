@@ -1,8 +1,6 @@
 Distributed Denial-of-Service
 =============================
 
-*Written by Taylor, Edited by Esteban and Morgan.*
-
 Introduction
 ------------
 
@@ -26,13 +24,13 @@ Volumetric Attacks
 
 Protocol Attacks
 ~~~~~~~~~~~~~~~~
-*Targeting protocol operation weaknesses
-*SYN flood attack [Kar]_
+* Targeting protocol operation weaknesses
+* SYN flood attack [Kar]_
 
 Application Attacks
 ~~~~~~~~~~~~~~~~~~~
-*Target application weaknesses
-*Slowloris- attacking web servers [Kar]_
+* Target application weaknesses
+* Slowloris- attacking web servers [Kar]_
 
 Past DDoS Attack Examples
 -------------------------
@@ -40,87 +38,89 @@ Large DDoS Attack on Dyn [Hil]_
 ```````````````````````````````
 Attack Specifics
 ++++++++++++++++
-*Dyn is a DNS provider that is a link between URLS and corresponding IP addresses
-*Twitter, SoundCloud, Spotify were some of the inaccessible websites
-*Mirai botnet, a network of infected Internet of Things devices (security cameras, DVR players, etc.) instead of computers
-*100,000 infected devices
-*1.2 Tbps
+* Dyn is a DNS provider that is a link between URLS and corresponding IP addresses
+* Twitter, SoundCloud, Spotify were some of the inaccessible websites
+* Mirai botnet, a network of infected Internet of Things devices (security cameras, DVR players, etc.) instead of computers
+* 100,000 infected devices
+* 1.2 Tbps
 
 Attack Timeline
 +++++++++++++++
-*October 21, 2016
-*3 different waves of attacks spaced out throughout the day
+* October 21, 2016
+* 3 different waves of attacks spaced out throughout the day
 
 Response to the Attack
 ++++++++++++++++++++++
-*Attack came from tens of millions of source IP addresses from around the world
-*Dyn's Engineering and Operations teams worked hard to mitigate attack
-*Traffic-shaping incoming traffic, rebalancing of that traffic by manipulation of anycast policies, application of internal filtering, and deployment of scrubbing services 
+* Attack came from tens of millions of source IP addresses from around the world
+* Dyn's Engineering and Operations teams worked hard to mitigate attack
+* Traffic-shaping incoming traffic, rebalancing of that traffic by manipulation of any cast policies, application of internal filtering, and deployment of scrubbing services 
 
 Example of Conducting a DDoS Attack
 -----------------------------------
 Ping of Death
 `````````````
-*Ping command in the command prompt (Windows)
-*Attacking the target computer with pings from more than one computer
-*Seeing the effect on the targeted computer [Ult]_
+* Ping command in the command prompt (Windows)
+* Attacking the target computer with pings from more than one computer
+* Seeing the effect on the targeted computer [Ult]_
 
 Nemesy
 ``````
-*Disable anti-virus
-*Download Nemesy
-*Sending number of packets, load size, and delay frequency for certain target IP address
-*Seeing the effect on the targeted computer
+* Disable anti-virus
+* Download Nemesy
+* Sending number of packets, load size, and delay frequency for certain target IP address
+* Seeing the effect on the targeted computer
 
 How to Know if an Attack is Happening
 -------------------------------------
 According to Akamai, an American content delivery network and cloud services provider, at the end of 2015, there was an 180% increase in the total number of DDoS attacks compared to 2014. Online gaming is the most susceptible to attacks, but software and technology companies still make up 25% of all DDoS attacks. [Rub]_
 
-*Performing Network Data Analysis to understand network traffic
-*Unusually slow network performance
-*Unavailability of website or inability to access site
-*Increase in spam
+* Performing Network Data Analysis to understand network traffic
+* Unusually slow network performance
+* Unavailability of website or inability to access site
+* Increase in spam
 
-What to do If an Attack Might be Happening
+What to do If an Attack Might Be Happening
 ------------------------------------------
-*Rate limit router to prevent web server from being overwhelmed
-*Add filters to tell your router to drop packets from obvious sources of attack
-*Timeout half-open connections
-*Drop spoofed or malformed packages
-*set lower SYN, ICMP (Internet Control Message Protocol), and UDP drop thresholds
-*Call ISP or hosting provider to stop traffic getting on the network
-*Divert traffic to a scrubber to remove malicious packets [Rub]_
+* Rate limit router to prevent web server from being overwhelmed
+* Add filters to tell your router to drop packets from obvious sources of attack
+* Timeout half-open connections
+* Drop spoofed or malformed packages
+* set lower SYN, ICMP (Internet Control Message Protocol), and UDP drop thresholds
+* Call ISP or hosting provider to stop traffic getting on the network
+* Divert traffic to a scrubber to remove malicious packets [Rub]_
 
 How to Avoid DDoS Attacks
 -------------------------
 Architecture
 ~~~~~~~~~~~~
-*Servers in different data centers, located on different networks, have diverse paths
-*Geographically dispersed resources
-*Different internet providers
-*Eliminate bottlenecks [Kar]_
+* Servers in different data centers, located on different networks, have diverse paths
+* Geographically dispersed resources
+* Different internet providers
+* Eliminate bottlenecks [Kar]_
 
 Hardware
 ~~~~~~~~
--Network firewalls, web application firewalls, and load balancers [Kar]_
+* Network firewalls, web application firewalls, and load balancers [Kar]_
 
 Bandwidth
 ~~~~~~~~~
-*Scale up if affordable [Kar]_
+* Scale up if affordable [Kar]_
 
 Outsourcing
 ~~~~~~~~~~~
-*Providers that specialize in responding to an attack
-*Cloud Scrubbing services to attack traffic
-*Internet Service Provider DDoS mitigation services [Kar]_
+* Providers that specialize in responding to an attack
+* Cloud Scrubbing services to attack traffic
+* Internet Service Provider DDoS mitigation services [Kar]_
 
 Other
 ~~~~~
-*Following good email distribution practices or applying email filters
-*Create proper authentication credentials for system administration
-*Like any potential risk, having a response plan set up in preparation of an attack can help immensely
-    -This could include contacts of companies that could help or running attack simulations
-*Have good communication with customers [Rub]_
+* Following good email distribution practices or applying email filters
+* Create proper authentication credentials for system administration
+* Like any potential risk, having a response plan set up in preparation of an attack can help immensely
+    - This could include contacts of companies that could help or running attack simulations
+* Have good communication with customers [Rub]_
+
+*Written by Taylor, Edited by Esteban and Morgan.*
 
 Sources
 -------
@@ -128,7 +128,7 @@ Sources
 
 .. [Dsa] "`Denial of a Service Attack <https://www.ebankingabersicher.ch/en/your-security-contribution/extended-protection/denial-of-service-attack>`_." Lucerne University of Applied Sciences and Arts, Web. 16 Feb. 2017.
 
-.. [Hil] Scott Hilton. "`Dyn Analysis Summary Of Friday October 21 Attack <http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/>`_." Dyn, 26 Oct. 2016 Web. 20 Feb. 2017.
+.. [Hil] Scott Hilton. "`Dyn Analysis Summary of Friday October 21 Attack <http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/>`_." Dyn, 26 Oct. 2016 Web. 20 Feb. 2017.
 
 .. [Kar] Rachel Kartch. "`Distributed Denial of Service Attacks: Four Best Practices for Prevention and Response <https://insights.sei.cmu.edu/sei_blog/2016/11/distributed-denial-of-service-attacks-four-best-practices-for-prevention-and-response.html>`_." Software Engineering Institute. Carnegie Mellon University, 21 Nov. 2016. Web. 16 Feb. 2017.
 
