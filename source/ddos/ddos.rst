@@ -20,9 +20,9 @@ Different Types of Attacks
 --------------------------
 Volumetric Attacks
 ~~~~~~~~~~~~~~~~~~
-*Filling up a victim's network bandwidth
-*User Datagram Protocol (UDP) flood attacks
-*Reflection and Amplification [Kar]_
+* Filling up a victim's network bandwidth
+* User Datagram Protocol (UDP) flood attacks
+* Reflection and Amplification [Kar]_
 
 Protocol Attacks
 ~~~~~~~~~~~~~~~~
