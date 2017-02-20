@@ -4,7 +4,7 @@ Distributed Denial-of-Service
 Introduction
 ------------
 
-Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service when an attacker overloads a server with requests and it stops being able to process them. However, DDoS is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to certain circumstances such as a spike in a website's popularity [Rou]_. The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall [Kar]_. Attackers can come from a wide range of groups or individuals or just be the result of very poor code.
+Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service when an attacker overloads a server with requests and it stops being able to process them. However, DDoS is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to certain circumstances such as a spike in a website's popularity [Rou]_. The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall [Kar]_. Attackers can come from a wide range of groups or individuals or just be the result of very poor code. Large companies are most often the victims of DDoS attacks.
 
 In a DDoS attack, an attacker exploits a weakness of a computer system and becomes the DDoS master. The DDoS master then finds other weak systems and gains control using malware, another term for software that is intended to damage or disable computer systems, or bypassing their security. The computers that are under the control of the attacker are called zombies or bots. There can be any number of zombie computers from ten to thousands. The attacker then uses the traffic from these zombie computers to flood the target computer system. The owners of the infected computers are likely to experience poor service during these attacks as well [Rou]_. It is important for business, especially IT to know of the risks associated with DDoS and make sure their system has the right mitigation techniques in place to make it harder for these attacks to take place.
 
@@ -90,6 +90,8 @@ What to do If an Attack Might Be Happening
 
 How to Avoid DDoS Attacks
 -------------------------
+While there is no way to absolutely rid a company from the threat of a DDoS attack, there are measures the company can take to decrease the chance of a large, expensive and damaging attack from taking place. 
+
 Architecture
 ~~~~~~~~~~~~
 * Servers in different data centers, locate them on different networks, and have diverse paths
