@@ -10,6 +10,9 @@ Denial of service is typically accomplished by flooding the ragerted maching or 
 
 * This is a real word example of how Denial of service happens because This has happened to me way to many times when trying to get downtown during rush hour.
 
+.. image:: ddos.png
+	
+
 Why is it dangerous?
 --------------------
 
@@ -36,7 +39,33 @@ Distributed DOS
 * In this attack Perpetrators using more then one IP address to hit the computer with.
 [Dos]_
 
- 
+Advanced Persistent DOS
+
+* These attacks are caused by more skilled hackers. The attacks involve multiple layers of attacks, starting with application layer floods, followed by repeated SQLI and XSS attacks. [Dos]_
+
+How to protect my self
+----------------------
+
+Typical users do not need to worry about being the target of a denial of service attack. There are a few exceptions to this though listed below.
+
+1. Online streamers
+2. Professional gamers
+3. Social Media Inflencers
+4. YouTube Stars
+
+It is uncommon for one specific user to be the target of an attack. [geek]_
+The tricky thing here is that there is no real way to prevent a DOS attack. It is almost impossible to tell the difference between a normal request and a malicious request, because they come to the end point the same way. There are a few things you can do to help prevent and make it not as effective. 
+
+1. Have PLENTY of bandwidth. Although this can rack up a big bill it is easier to keep your services up and running if you have free bandwidth.
+
+2. DOS attack identification. This helps with trying to decide if the request is real or malicious. This is not the perfect system but it can help. 
+
+3. Prepare for DOS response. Using technology to slow down people connections or limiting each request to half a megebyte for example can prevent the attack from taking over and shutting down the service. 
+
+All in all There is not perfect way to prevent the attack. To me it works like cold and flu medicen its great stuff and help but you can still catch a cold even with medicen. 
+[safe]_
+
+
 
 
 
@@ -61,7 +90,9 @@ Sources
 
 .. [Dos] https://en.wikipedia.org/wiki/Denial-of-service_attack
 
+.. [geek] https://www.howtogeek.com/281707/what-are-denial-of-service-and-ddos-attacks/
 
+.. [safe] http://searchsecurity.techtarget.com/answer/How-to-prevent-a-denial-of-service-DoS-attack
 *Written by Rasim, Edited by Kyann and Kyle.*
 
 
