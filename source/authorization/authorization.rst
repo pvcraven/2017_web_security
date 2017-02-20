@@ -8,13 +8,13 @@ Introduction
 -------------
 Authorization is very closely coupled with authentication, but they are two very different things. While authentication proves the user's identity, authorization determines what permissions and rights the user has. Authorization and authentication can be tied together with session management. Session management makes it possible to relate requests made by a user so that a user does not have to authenticate during each request they make. [bwa]_
 
-.. figure:: session.png 
+.. image:: session.png 
 	:height: 400px
 	:width: 400px
 	:align: center
 [bwa]_
 
- Every time a user makes a request they must undergo a valid and effective authorization procedure. A good authorization procedure consists of identifying the user making the request, verifying that the request has not changed since its initiation, applying the appropriate authorization procedures of the user, and re-examining previously authorized request of the user. [wcs]_ 
+Every time a user makes a request they must undergo a valid and effective authorization procedure. A good authorization procedure consists of identifying the user making the request, verifying that the request has not changed since its initiation, applying the appropriate authorization procedures of the user, and re-examining previously authorized request of the user. [wcs]_ 
 
 Vulnerabilities
 ----------------
