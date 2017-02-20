@@ -28,6 +28,7 @@ Conclusion
 image :: Data.png
 	
 References
-[e]	“Encoding.” Techopedia. Techopedia, 2017. Web. 19 Feb. 2017.
-[det]	Data Encoding Techniques.” Worchester Polytechnic Institute. Worchester Polytechnic Institute, 2017. Web(PDF). 19 Feb. 2017.
+[e]“Encoding.” Techopedia. Techopedia, 2017. Web. 19 Feb. 2017.
+[det]“Data Encoding Techniques.” Worchester Polytechnic Institute. Worchester Polytechnic Institute, 2017. Web(PDF). 19 Feb. 2017.
+[how]“How to Protect Your Website from Being Hacked.” ahrefsblog. ahregsblog, 22 Sept. 2015. Web. 19 Feb. 2017.
 [sphinx]	Georg Brandl. “reStructuredText Primer” Sphinx Team, Web. 15 Feb. 2017.
