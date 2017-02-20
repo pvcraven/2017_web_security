@@ -25,7 +25,7 @@ Analog Data and Digital Signals
 	DM
 Conclusion
 
-image :: slide_2.jpg
+image :: Data.png
 	
 References
 [e]	“Encoding.” Techopedia. Techopedia, 2017. Web. 19 Feb. 2017.
