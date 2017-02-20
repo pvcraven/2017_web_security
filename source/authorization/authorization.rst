@@ -8,7 +8,7 @@ Introduction
 -------------
 Authorization is very closely coupled with authentication, but they are two very different things. While authentication proves the user's identity, authorization determines what permissions and rights the user has. Authorization and authentication can be tied together with session management. Session management makes it possible to relate requests made by a user so that a user does not have to authenticate during each request they make. [bwa]_
 
-.. image:: images/session.png
+.. figure:: session.png
 	:align: center
 [bwa]_
 
