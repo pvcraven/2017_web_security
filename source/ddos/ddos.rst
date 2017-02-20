@@ -12,6 +12,7 @@ In a DDoS attack, an attacker exploits a weakness of a computer system and becom
 	:height: 400px
 	:width: 400px
 	:align: center
+    
     This image depicts a typical DDoS attack [Dsa]_.
 
 
