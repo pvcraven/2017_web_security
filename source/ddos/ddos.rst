@@ -13,8 +13,7 @@ In a DDoS attack, an attacker exploits a weakness of a computer system and becom
 	:width: 400px
 	:align: center
     
-    This image depicts a typical DDoS attack [Dsa]_.
-
+This image depicts a typical DDoS attack [Dsa]_.
 
 Different Types of Attacks 
 --------------------------
@@ -36,8 +35,8 @@ Application Attacks
 
 Past DDoS Attack Example
 -------------------------
-Large DDoS Attack on Dyn [Hil]_
-```````````````````````````````
+Large DDoS Attack on Dyn 
+````````````````````````
 Attack Specifics
 ++++++++++++++++
 * Dyn is a DNS provider that is a link between URLs and corresponding IP addresses
@@ -55,7 +54,7 @@ Response to the Attack
 ++++++++++++++++++++++
 * Attack came from many source IP addresses from around the world
 * Dyn's Engineering and Operations teams worked hard to mitigate attack
-* Traffic-shaping incoming traffic, application of internal filtering, and deployment of scrubbing services 
+* Traffic-shaping incoming traffic, application of internal filtering, and deployment of scrubbing services  [Hil]_
 
 Example of Conducting a DDoS Attack
 -----------------------------------
@@ -126,15 +125,11 @@ Other
 
 Sources
 -------
-.. [Cox] Ryan Cox. "`Denial of a Service Attack <http://siliconangle.com/blog/2013/08/26/5-notorious-ddos-attacks-in-2013-big-problem-for-the-internet-of-things/>`_." SiliconANGLE. SiliconANGLE Media, Inc., 26 Aug. 2013 Web. 17 Feb. 2017.
-
 .. [Dsa] "`Denial of a Service Attack <https://www.ebankingabersicher.ch/en/your-security-contribution/extended-protection/denial-of-service-attack>`_." Lucerne University of Applied Sciences and Arts, Web. 16 Feb. 2017.
 
 .. [Hil] Scott Hilton. "`Dyn Analysis Summary of Friday October 21 Attack <http://dyn.com/blog/dyn-analysis-summary-of-friday-october-21-attack/>`_." Dyn, 26 Oct. 2016 Web. 20 Feb. 2017.
 
 .. [Kar] Rachel Kartch. "`Distributed Denial of Service Attacks: Four Best Practices for Prevention and Response <https://insights.sei.cmu.edu/sei_blog/2016/11/distributed-denial-of-service-attacks-four-best-practices-for-prevention-and-response.html>`_." Software Engineering Institute. Carnegie Mellon University, 21 Nov. 2016. Web. 16 Feb. 2017.
-
-.. [McD] Mindi McDowell. "`Understanding Denial-of-Service Attacks <https://www.us-cert.gov/ncas/tips/ST04-015>`_." United States Computer Emergency Readiness Team. Department of Homeland Security, 04 Nov. 2009. Web. 16 Feb. 2017.
 
 .. [Rou] Margaret Rouse. "`Distributed Denial of Service (DDoS) Attack <http://searchsecurity.techtarget.com/definition/distributed-denial-of-service-attack>`_." TechTarget, Jan. 2017. Web. 16 Feb. 2017.
 
