@@ -4,9 +4,9 @@ Distributed Denial-of-Service
 Introduction
 ------------
 
-Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service, or when an attacker overloads a server with requests and it stops being able to process them. However, DDoS it is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to a spike in a websites popularity, for example. [Rou]_ The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall. [Kar]_ Attackers can come from a wide range of groups or individuals or just be the result of very poor code.
+Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service when an attacker overloads a server with requests and it stops being able to process them. However, DDoS is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to a spike in a website's popularity, for example. [Rou]_ The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall. [Kar]_ Attackers can come from a wide range of groups or individuals or just be the result of very poor code.
 
-In a DDoS attack, an attacker exploits a weakness of a computer system and becomes the DDoS master. They DDoS master then finds other weak system and gains control using malware, another term for software that is intended to damage or disable computer systems, or bypassing their security. The computers that are under the control of the attacker are called zombies or bots. There can be any number of zombie computers from ten to thousands. The attacker then uses the traffic from these zombie computers to flood the target computer system. The owners of the infected computers are likely to experience poor service during these attacks as well. [Rou]_ It is important for business, especially IT to know of the risks associated with DDoS and make sure their system has the right prevention techniques in place to make it harder for these attacks to take place.
+In a DDoS attack, an attacker exploits a weakness of a computer system and becomes the DDoS master. The DDoS master then finds other weak systems and gains control using malware, another term for software that is intended to damage or disable computer systems, or bypassing their security. The computers that are under the control of the attacker are called zombies or bots. There can be any number of zombie computers from ten to thousands. The attacker then uses the traffic from these zombie computers to flood the target computer system. The owners of the infected computers are likely to experience poor service during these attacks as well. [Rou]_ It is important for business, especially IT to know of the risks associated with DDoS and make sure their system has the right mitigation techniques in place to make it harder for these attacks to take place.
 
 .. figure:: ddos.jpg 
 	:height: 400px
@@ -32,15 +32,15 @@ Application Attacks
 * Target application weaknesses
 * Slowloris- attacking web servers [Kar]_
 
-Past DDoS Attack Examples
+Past DDoS Attack Example
 -------------------------
 Large DDoS Attack on Dyn [Hil]_
 ```````````````````````````````
 Attack Specifics
 ++++++++++++++++
-* Dyn is a DNS provider that is a link between URLS and corresponding IP addresses
-* Twitter, SoundCloud, Spotify were some of the inaccessible websites
-* Mirai botnet, a network of infected Internet of Things devices (security cameras, DVR players, etc.) instead of computers
+* Dyn is a DNS provider that is a link between URLs and corresponding IP addresses
+* Twitter, SoundCloud, Spotify were some of the inaccessible websites during this attack
+* Used a Mirai botnet, a network of infected Internet of Things devices (security cameras, DVR players, etc.) instead of computers
 * 100,000 infected devices
 * 1.2 Tbps
 
@@ -51,9 +51,9 @@ Attack Timeline
 
 Response to the Attack
 ++++++++++++++++++++++
-* Attack came from tens of millions of source IP addresses from around the world
+* Attack came from many source IP addresses from around the world
 * Dyn's Engineering and Operations teams worked hard to mitigate attack
-* Traffic-shaping incoming traffic, rebalancing of that traffic by manipulation of any cast policies, application of internal filtering, and deployment of scrubbing services 
+* Traffic-shaping incoming traffic, application of internal filtering, and deployment of scrubbing services 
 
 Example of Conducting a DDoS Attack
 -----------------------------------
@@ -61,20 +61,20 @@ Ping of Death
 `````````````
 * Ping command in the command prompt (Windows)
 * Attacking the target computer with pings from more than one computer
-* Seeing the effect on the targeted computer [Ult]_
+* Seeing the effect on the targeted computer 
 
 Nemesy
 ``````
-* Disable anti-virus
-* Download Nemesy
-* Sending number of packets, load size, and delay frequency for certain target IP address
-* Seeing the effect on the targeted computer
+* Tool to conduct DDoS attacks
+* Disable anti-virus to download Nemesy
+* Sending number of packets, load size, and delay frequency for a certain target IP address
+* Seeing the effect on the targeted computer [Ult]_
 
 How to Know if an Attack is Happening
 -------------------------------------
 According to Akamai, an American content delivery network and cloud services provider, at the end of 2015, there was an 180% increase in the total number of DDoS attacks compared to 2014. Online gaming is the most susceptible to attacks, but software and technology companies still make up 25% of all DDoS attacks. [Rub]_
 
-* Performing Network Data Analysis to understand network traffic
+* Performing network data analysis to understand network traffic
 * Unusually slow network performance
 * Unavailability of website or inability to access site
 * Increase in spam
@@ -85,7 +85,7 @@ What to do If an Attack Might Be Happening
 * Add filters to tell your router to drop packets from obvious sources of attack
 * Timeout half-open connections
 * Drop spoofed or malformed packages
-* set lower SYN, ICMP (Internet Control Message Protocol), and UDP drop thresholds
+* Set lower SYN, ICMP (Internet Control Message Protocol), and UDP drop thresholds
 * Call ISP or hosting provider to stop traffic getting on the network
 * Divert traffic to a scrubber to remove malicious packets [Rub]_
 
@@ -93,7 +93,7 @@ How to Avoid DDoS Attacks
 -------------------------
 Architecture
 ~~~~~~~~~~~~
-* Servers in different data centers, located on different networks, have diverse paths
+* Servers in different data centers, locate them on different networks, and have diverse paths
 * Geographically dispersed resources
 * Different internet providers
 * Eliminate bottlenecks [Kar]_
