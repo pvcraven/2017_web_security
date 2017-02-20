@@ -4,7 +4,7 @@ Distributed Denial-of-Service
 Introduction
 ------------
 
-Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service when an attacker overloads a server with requests and it stops being able to process them. However, DDoS is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to a spike in a website's popularity, for example [Rou]_. The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall [Kar]_. Attackers can come from a wide range of groups or individuals or just be the result of very poor code.
+Distributed Denial-of-Service (DDoS) is a type of Denial-of-Service when an attacker overloads a server with requests and it stops being able to process them. However, DDoS is harder to prevent and stop, because instead of one computer attacking a target, an attacker will take over many computers to attack a target by sending multiple messages or connection requests to it. Furthermore, it is more difficult to distinguish these attacks from real requests due to certain circumstances such as a spike in a website's popularity [Rou]_. The victim computer, website, or network source may be significantly slower, crash, or shut down denying real users of the service. This is a more advanced security breach than an attack from a single host or IP address where they can be blocked easily with a firewall [Kar]_. Attackers can come from a wide range of groups or individuals or just be the result of very poor code.
 
 In a DDoS attack, an attacker exploits a weakness of a computer system and becomes the DDoS master. The DDoS master then finds other weak systems and gains control using malware, another term for software that is intended to damage or disable computer systems, or bypassing their security. The computers that are under the control of the attacker are called zombies or bots. There can be any number of zombie computers from ten to thousands. The attacker then uses the traffic from these zombie computers to flood the target computer system. The owners of the infected computers are likely to experience poor service during these attacks as well [Rou]_. It is important for business, especially IT to know of the risks associated with DDoS and make sure their system has the right mitigation techniques in place to make it harder for these attacks to take place.
 
@@ -36,9 +36,7 @@ Application Attacks
 Past DDoS Attack Example
 -------------------------
 Large DDoS Attack on Dyn 
-````````````````````````
-Attack Specifics
-++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~
 * Dyn is a DNS provider that is a link between URLs and corresponding IP addresses
 * Twitter, SoundCloud, Spotify were some of the inaccessible websites during this attack
 * Used a Mirai botnet, a network of infected Internet of Things devices (security cameras, DVR players, etc.) instead of computers
@@ -46,12 +44,12 @@ Attack Specifics
 * 1.2 Tbps
 
 Attack Timeline
-+++++++++++++++
+~~~~~~~~~~~~~~~
 * October 21, 2016
 * 3 different waves of attacks spaced out throughout the day
 
 Response to the Attack
-++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~
 * Attack came from many source IP addresses from around the world
 * Dyn's Engineering and Operations teams worked hard to mitigate attack
 * Traffic-shaping incoming traffic, application of internal filtering, and deployment of scrubbing services  [Hil]_
@@ -59,13 +57,13 @@ Response to the Attack
 Example of Conducting a DDoS Attack
 -----------------------------------
 Ping of Death
-`````````````
+~~~~~~~~~~~~
 * Ping command in the command prompt (Windows)
 * Attacking the target computer with pings from more than one computer
 * Seeing the effect on the targeted computer 
 
 Nemesy
-``````
+~~~~~~
 * Tool to conduct DDoS attacks
 * Disable anti-virus to download Nemesy
 * Sending number of packets, load size, and delay frequency for a certain target IP address
@@ -97,15 +95,15 @@ Architecture
 * Servers in different data centers, locate them on different networks, and have diverse paths
 * Geographically dispersed resources
 * Different internet providers
-* Eliminate bottlenecks [Kar]_
+* Eliminate bottlenecks
 
 Hardware
 ~~~~~~~~
-* Network firewalls, web application firewalls, and load balancers [Kar]_
+* Network firewalls, web application firewalls, and load balancers 
 
 Bandwidth
 ~~~~~~~~~
-* Scale up if affordable [Kar]_
+* Scale up if affordable 
 
 Outsourcing
 ~~~~~~~~~~~
@@ -117,8 +115,7 @@ Other
 ~~~~~
 * Following good email distribution practices or applying email filters
 * Create proper authentication credentials for system administration
-* Like any potential risk, having a response plan set up in preparation of an attack can help immensely
-    - This could include contacts of companies that could help or running attack simulations
+* Like any potential risk, having a response plan set up in preparation of an attack can help immensely. This could include contacts of companies that could help or running attack simulations.
 * Have good communication with customers [Rub]_
 
 *Written by Taylor, Edited by Esteban and Morgan.*
