@@ -2,15 +2,14 @@
 
 Directory Traversal / Poisoned File Upload
 ==========================================
---------------------------------------------------------
-Introduction Directory Traversal or Poisoned File Upload
---------------------------------------------------------
 
 
 
-		 ----------------------------
-		 Directory Traversal Examples
-		 ----------------------------
+
+
+ ----------------------------
+ Directory Traversal Examples
+ ----------------------------
 
 
 
