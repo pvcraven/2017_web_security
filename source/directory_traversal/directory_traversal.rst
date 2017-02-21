@@ -12,10 +12,12 @@ Directory Traversal Examples
 
 
 .. image:: figure_3_6.jpg
-	:height: 300px
-	:width:  300px
-	:align: center
-	:alt: figure 3.6
+	:height: 450px
+	:width:  450px
+	:align: right
+	:alt: figure 3.6 
+
+([CENGAGE]_)
 
 
 			
