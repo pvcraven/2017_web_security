@@ -40,13 +40,17 @@ techniques in place to make it harder for these attacks
 to take place.
 
 
-Past DDoS Attack Example
+Past DDoS Attack Examples
 -------------------------
 Past Large Botnets
 ~~~~~~~~~~~~~~~~~~
 The ability for hackers to gain control of large botnets gives them the 
 possibility to do cybercriminal activity, spend billions of spam emails, 
-and complete large DDoS attacks.
+and complete large DDoS attacks. The security industry estimates that over time,
+botnets have resulted in more than $110 billion in losses to victims globally
+[Zet]_.
+
+Although there have been many botnets, here are a few noteworthy ones:
 
 * Grum - From 2008 to 2012, it became responsible for up to 26% of the world's
   spam traffic. In 2010, it was capable of emitting 39.9 billion messages a 
@@ -55,16 +59,22 @@ and complete large DDoS attacks.
   world, focusing on click fraud and bitcoin mining. It was reported to be 
   consuming enough energy to power 111,000 homes per day from all of its 
   infected computers
-* Windigo - was discovered in 2014 after running undetected for three years.
+* Windigo - Discovered in 2014 after running undetected for three years.
   It infected 10,000 Linux servers and sent 35 million spam emails a day, 
   infecting 500,000 computers. It had different forms of malware depending 
   on the operating system of the device receiving it.
-* Conficker - at its peak in 2009, it was estimated to have infected 15 
+* Conficker - At its peak in 2009, it was estimated to have infected 15 
   million computers, but the total number of machines under the botnet control
   totaled between 3 and 4 million
 * Srizbi - Only active for about a year, but was responsible for 60% of spam
   worldwise and sent 60 billion emails every day from 2007 to 2008. When it 
   was taken offline, spam volume worldwide dropped by 75% [Tho]_.
+* Bredolab - Hijacked more than 30 million machines. Georgy Avanesov developed 
+  it in 2009 to collect bank account passwords but also earned about $125,000 
+  a month from renting out access of his botnet to other criminals to spread
+  malware and conduct DDoS attacks.
+  https://www.wired.com/2015/12/hacker-lexicon-botnets-the-zombie-computer-armies-that-earn-hackers-millions/
+  https://www.fbi.gov/news/testimony/taking-down-botnets
 
 Large DDoS Attack on Dyn 
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,8 +103,13 @@ some of their techniques included traffic-shaping incoming traffic,
 applications of internal filtering, and deployment of scrubbing services [Hil]_
 
 
-Example of Conducting a DDoS Attack
------------------------------------
+DDoS Botnets and Botnet Tools
+-----------------------------
+Botnets are available from many different sources and are auctioned and traded
+by hackers. There are even online marketplaces for trading huge numbers of 
+malware-infected computers. They can be rented and used for DDoS or various 
+other attacks for a low cost, although the impact on these users can vary.
+
 How to Build a Botnet
 ~~~~~~~~~~~~~~~~~~~~~
 Another reason a DDoS attack is very threatening is due to the fact that 
@@ -116,8 +131,8 @@ These are the steps Mullis took:
    [Pro]_
 
 .. figure:: iceix.png
-	:height: 400px
-	:width: 400px
+	:height: 500px
+	:width: 500px
 	:align: center
     
 This image depicts an early version of Ice IX Botnet [Mie]_.
@@ -160,22 +175,30 @@ While there is no way to absolutely rid a company from the threat of a DDoS
 attack, there are measures the company can take to decrease the chance of a 
 large, expensive and damaging attack from taking place. 
 
+Architecture
+~~~~~~~~~~~~
 Having a strong technical architecture can be important to decrease the risk
 of an attack. This includes having servers in different data centers, locating
 data centers on different networks, ensuring data centers have diverse paths,
 and eliminating bottlenecks in data centers and networks they are connected to.
 
+Hardware & Bandwidth
+~~~~~~~~~~~~~~~~~~~~
 In addition, having the right security hardware can help mitigate DDoS attacks.
 Network firewalls, web application firewalls, and load balancers can defend
 against protocol attacks and application attacks. If it is affordable, it can
 be beneficial to scale up network bandwidth to absorb large traffic volume. 
 This is more realistic for large organizations and service providers.
 
+Outsourcing
+~~~~~~~~~~~
 There are also several services that specialize in responding to different 
 kinds of attacks. They can provide cloud scrubbing services for attack 
 traffic. Internet Service Providers can also offer DDoS mitigation that can 
 help respond to attacks [Kar]_.
 
+Other
+~~~~~
 It is important to follow good email distribution practices and apply email
 filters to protect against becoming victim in a botnet. It is also crucial to
 create proper authentication credentials for system administration. Maintaining
