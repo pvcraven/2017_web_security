@@ -80,7 +80,7 @@ with a magnitude of 1.2 Tbps.
 	this manner gives hackers the ability to interrupt many more companies 
 	than they could by directly attacking corporate servers, because several 
 	companies shared Dyn's network."
-	Spectrum, a magazine that explores the development, applications, and 
+	-Spectrum, a magazine that explores the development, applications, and 
 	implications of new technologies
 
 This attack came in three phases throughout the course of the day. Since it was
@@ -100,8 +100,10 @@ How to Build a Botnet
 Another reason a DDoS attack is very threatening is due to the fact that 
 setting up a botnet is fairly easy. Simon Mullis from FireEye simulated this 
 process with a clean Window virtual machine and a LAMP server on Amazon
-Web Service's EC2 platform. 
+Web Service's EC2 platform.
+
 These are the steps Mullis took:
+
 1. Downloading and installing the botnet builder tool for malware known as 
    Ice IX
 2. Specifying parameters. For example, how often the malware would 
@@ -113,7 +115,7 @@ These are the steps Mullis took:
 4. At this point, the bot master can spread more malware to other computers 
    [Pro]_
 
-.. figure:: iceix.PNG 
+.. figure:: iceix.png
 	:height: 400px
 	:width: 400px
 	:align: center
@@ -129,6 +131,7 @@ attacks, but software and technology companies still make up 25% of all DDoS
 attacks. [Rub]_
 
 Below are some indications of a DDoS attack is taking place:
+
 * Performing network data analysis to understand network traffic. Unusual
   traffic could be the result of an attack
 * Unusually slow network performance
@@ -141,6 +144,7 @@ If an attack is taking place, there are some steps a victim can take to mitigate
 the effect of the attack.
 
 Some of these steps include:
+
 * Rate limit router to prevent web server from being overwhelmed
 * Add filters to tell your router to drop packets from obvious sources of attack
 * Timeout half-open connections
