@@ -25,11 +25,11 @@ The first objective here is to explain any terminology, and refer back to introd
 
 Directory Traversal / Poisoned File Upload Examples
 ===================================================
-.. image:: bad_upload.jpg
-	:height: 450px
-	:width: 450px
-	:align: 
-	:alt: bad upload 
+			.. image:: bad_upload.jpg
+				:height: 450px
+				:width: 450px
+				:align: 
+				:alt: bad upload 
 
 
 
