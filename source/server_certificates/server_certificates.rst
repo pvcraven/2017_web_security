@@ -10,10 +10,6 @@ A server certificate is a digital certificate installed onto a web server. It is
 .. image:: screenshotSSL.PNG
 		:align: left
 		:alt: Lock Icon on URL
-		
-.. figure:: screenshotSSL.PNG
-		:align: left
-		:alt: Lock Icon on URL
 
 Why Do Companies Need an SSL Certificate?
 ------------------------------------------
