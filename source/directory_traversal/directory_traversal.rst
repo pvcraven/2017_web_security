@@ -21,10 +21,10 @@ The goal here is to find a detailed account of poisened file upload in a company
 Directory Traversal / Poisoned File Upload Examples
 ===================================================
 .. image:: bad_upload.jpg
-:height: 450px
-:width: 450px
-:align: left
-:alt: bad upload 
+	:height: 450px
+	:width: 450px
+	:align: left
+	:alt: bad upload 
 
 
 
