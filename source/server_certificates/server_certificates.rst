@@ -3,14 +3,23 @@ Server Certificates
 
 *Written by Lana, Edited by Paul and Taylor.*
 
+Introduction
+-------------
 A server certificate is a digital certificate installed onto a web server. It is used for data encryption, and to authenticate an organizational identity (GlobalSign). Users will know if the website is secure due to the lock icon in the URL. For example, I took a screenshot of Global Sign URL which indicates is a secure website. 
- 
+.. image :: screenshotSSL.PNG
+
 Why do companies need an SSL Certificate?
+
 Companies need an SSL to encrypt the data the customer is entering such as username, password, credit card and more. This ensures clients that their sensitive information is not easily obtainable. (GlobalSign). If a server does not have a certificate, it cannot protect the clients from potentially being compromised. 
+
 Who needs an SSL Certificate?
+
 SSL certificates are not only used to encrypt transactions, but to also verify the identity of the company. Clients are more likely to visit a trusted website such as Amazon, GameStop, U.S. Bank, and more. Therefore, it is highly recommended to have an SSL certificate. (GoDaddy)
+
 What could happen if there is no SSL certificate?
+
 Login forms have sensitive information such as username, and password. If this is not properly secure, someone can easily obtain that information. Also, for some users, they may use the same password for multiple sites, therefore, the attacker can potentially compromise the user. (SSL Shopper).
+
 What vulnerabilities are there? 
 There are websites that may appear legitimate, but is the imposter. If the “real” company doesn’t contain an SSL, an imposter can affirm the certificate, resulting in users entering their sensitive information into a website that appears genuine but is actually fake. (Digicert).
 
