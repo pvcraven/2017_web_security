@@ -6,15 +6,7 @@ Directory Traversal / Poisoned File Upload
 Introduction 
 ------------
 
-Directory Traversal / Poisoned File Upload Examples
-===================================================
- The image you see below walks through in picture diagram form, what happens when someone is performing a directory transversal attack on you. It is similar to the example Professor Craven gave in class, in that the hacker is trying to read restricted files in a directory he, or she shouldn't have access to.    [CENGAGE]_
 
-.. image:: figure_3_6.jpg
-	:height: 450px
-	:width:  450px
-	:align: left
-	:alt: figure 3.6 
 
 ====================================================
 Real World Directory Traversal Vulnerability Example
@@ -25,7 +17,15 @@ Real World Poisened File Vulnerability Example
 ----------------------------------------------
 
 
+Directory Traversal / Poisoned File Upload Examples
+===================================================
+ The image you see below walks through in picture diagram form, what happens when someone is performing a directory transversal attack on you. It is similar to the example Professor Craven gave in class, in that the hacker is trying to read restricted files in a directory he, or she shouldn't have access to.    [CENGAGE]_
 
+.. image:: figure_3_6.jpg
+	:height: 450px
+	:width:  450px
+	:align: right
+	:alt: figure 3.6 
 
 			
 
