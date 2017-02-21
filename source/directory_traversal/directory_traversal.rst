@@ -6,6 +6,14 @@ Introduction Directory Traversal or Poisoned File Upload
 
 
 
+ ----------------------------
+ Directory Traversal Examples
+ ----------------------------
+.. image::figure3_6.png
+	:height: 300px
+	:width:  300px
+	:alt: Directory Traversal Attack figure 
+	:align:center
 
 [CENGAGE]_
 
@@ -13,7 +21,7 @@ Introduction Directory Traversal or Poisoned File Upload
 -----------
 Works Cited  
 -----------
-.. [CENGAGE]  Ciampa, Mark."Security Guide to Network Security Fundamentals." 5th Ed. "`Figure 3_6 Directory Traversal Attack  <http://www.wadsworthmedia.com/marketing/sample_chapters/2014/9781305093911_ch03.pdf>`_."Independence: Cengage Learning, 2014. Web.Date Accessed 20 Feb 2017.
+.. [CENGAGE]  Ciampa, Mark."Security Guide to Network Security Fundamentals." 5th Ed. "`Figure 3_6 Directory Traversal Attack  <http://www.wadsworthmedia.com/marketing/sample_chapters/2014/9781305093911_ch03.pdf>`_." pg 101.Independence: Cengage Learning, 2014. Web.Date Accessed 20 Feb 2017.
 
 .. [VERACODE] DuPaul, Neil."`Directory Traversal <https://www.veracode.com/security/directory-traversal>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
 
