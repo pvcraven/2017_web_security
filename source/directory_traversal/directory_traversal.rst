@@ -13,7 +13,7 @@ Directory Traversal / Poisoned File Upload Examples
 .. image:: figure_3_6.jpg
 	:height: 450px
 	:width:  450px
-	:align: center
+	:align: right
 	:alt: figure 3.6 
 
 
