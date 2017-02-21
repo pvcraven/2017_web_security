@@ -16,9 +16,9 @@ Introduction
 ==================================================
 The first objective here is to explain any terminology, and refer back to introduction for the descriptions of the two vulnerabilities. Next, goal here is to find a detailed account of poisoned file upload in a company setting that caused some issues for them infrastructure wise. The other main goal of this section, will be to drive home the devastation that this vulnerability can cause to a company's file system at the minimum, or their core operations at the most serve.  After I go into detail about the event, next I will layout prevention techniques for poisoned file upload to end this section. 
 
-*It should be a large technology firm, that create change when it finds problems.
-*If I can't find a big tech example, find a couple small examples with probably less impact on industry.
-*Use the Win32/Poison malware as an example of a file that a hacker could upload and take control of some core functions of every computer infected. Explained in picture, and bullets points below.  [MICROSOFT]_
+* It should be a large technology firm, that create change when it finds problems.
+* If I can't find a big tech example, find a couple small examples with probably less impact on industry.
+* Use the Win32/Poison malware as an example of a file that a hacker could upload and take control of some core functions of every computer infected. Explained in picture, and bullets points below.  [MICROSOFT]_
 
 
 
@@ -28,7 +28,7 @@ Directory Traversal / Poisoned File Upload Examples
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
-	:align: right
+	:align: 
 	:alt: bad upload 
 
 
