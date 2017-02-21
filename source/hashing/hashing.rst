@@ -1,3 +1,4 @@
+=======
 Hashing
 =======
 One of the more successful developments in the world of computer security was the implementation of hashing to encode sensitive
@@ -12,7 +13,7 @@ listen to the line of communication to learn the victim's password. A solution t
 hashing function. This hash is used to form a response to a random number, which is a challenge that the server sends to the user. The
 answer sent back to the server is compared to the expected answer that the server formed with its copy of the users hash that it keeps.
 If the answers are the same, then the server knows that the user is using the correct password associated with the username.
-  .. image:: challenge_response.png 
+ .. image:: challenge_response.png 
 To put the password problem more simply: 
 ----------------------------------------
 
@@ -45,6 +46,10 @@ administrator who is higher in the system and cause problems or get access to im
 These attacks are some of the most common, in 2016, Yahoo and up to a few hundred million accounts were the victims of an attack which
 compromised passwords and personal information [BBC]_. According to an article by the BBC covering the incident, this attack was likely
 done with a PtH.
+
+Birthday Attack
+---------------
+(insert birthday attack)
 
 Defending Against Hash Attacks
 ==============================
