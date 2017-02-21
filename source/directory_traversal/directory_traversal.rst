@@ -10,21 +10,31 @@ Introduction
 
 **Real World Directory Traversal Vulnerability Example**
 --------------------------------------------------------
+The focus of the top of this section will be describing directory traveral vulnerability in detail to give a prospective on how dangerous it its to leave yourself vulrable to this attack. this section  will give a real life application of this technique this technique, and where it has been found. I found a directory transversal vulnerability from a router company i've never heard of named Huawei, on their model  HG532. [CISCO]_
 
 
 **Real World Poisened File Vulnerability Example**
 ==================================================
-The first objective here is to explain any terminology, and refer back to introduction for the descriptions of the two vulnerabilities. Next, goal here is to find a detailed account of poisoned file upload in a company setting that caused some issues for them infrastructure wise. The other main goal of this section, will be to drive home the devastation that this vulnerability can cause to a company's file system at the minimum, or their core operations at the most serve.  After I go into detail about the event, next I will layout prevention techniques for poisoned file upload to end this section. 
+The first objective here is to explain any terminology, and refer back to introduction for the description of the vulnerability. Next, goal here is to find a detailed account of poisoned file upload in a company setting that caused some issues for them infrastructure wise. The other main goal of this section, will be to drive home the devastation that this vulnerability can cause to a company's file system at the minimum, or their core operations at the most serve.  After I go into detail about the event, next I will layout prevention techniques for poisoned file upload to end this section.[COMWEEKLY]_ 
 
 * It should be a large technology firm, that create change when it finds problems.
 * If I can't find a big tech example, find a couple small examples with probably less impact on industry.
-* Use the Win32/Poison malware as an example of a file that a hacker could upload and take control of some core functions of every computer infected. Explained in picture, and bullets points below.  [MICROSOFT]_
+* Use the Win32/Poison malware as an example of a file that a hacker could upload and take control of some core functions of every computer infected. Explained in picture, and bullets points below  [MICROSOFT]_.
 
 
 
 
 Directory Traversal / Poisoned File Upload Examples
 ===================================================
+This section will have both text and image examples of both vulrabilities, to show how evasive they both are to privacy of an individuals information if these attacks have been excuted. The image below with the text description is a possible Poisoned File Upload. A few of the side effects of the potential poisened upload are bulleted below courtesy of [MICROSOFT]_. Directory Traversal examples will be hashed out from these three sources [VERACODE]_, [ACUNETIX]_, and [USENIX]_
+
+*The below list are things Win32/Poison does when it is uploaded to your computer*
+
+* Downloading or uploading of files
+* Keylogging
+* Stealing WiFi keys
+* Injecting into processes
+
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
