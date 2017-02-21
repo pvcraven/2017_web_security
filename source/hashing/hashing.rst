@@ -30,7 +30,7 @@ To put the password problem more simply:
     The response is formulated using both the question and the code --> The people who hold both know what the answer should be
    
     The answer is sent to the server from the user --> The server recognizes the correct answer and grants access
-
+====================================    
 Hashing Attacks and Credential Theft
 ====================================
 Systems like these, which rely on credentials to be exchanged, can be exploited in a few ways. The most common attacks are 'Pass the
