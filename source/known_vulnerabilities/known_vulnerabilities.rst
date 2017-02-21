@@ -11,6 +11,7 @@ There are many examples of known vulnerabilities regarding web security. Althoug
 SQL Injection
 -------------
 See :keyword:: _site-two
+.. image:: sql-injection.gif
 Explain:
 - What is gained
 - Modifying the tables
