@@ -23,7 +23,7 @@ Directory Traversal / Poisoned File Upload Examples
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
-	:align: left
+	:align: center
 	:alt: bad upload 
 
 
