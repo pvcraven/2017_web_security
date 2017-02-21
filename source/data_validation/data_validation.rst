@@ -19,7 +19,9 @@ Data Validation
 	b. How did data validation come about? (History)
 * "How to" on data validation [WEB]_
 	a. Instructions on how to add data validation to a website.
-	b. Picture examples.
+	b. Regular Expressions
+	c. Picture examples.
+
 * Why is data validation important?
 	a. Risks Involving data validation. [Weinstock-Herman]_
 		1. Risk of not having.
@@ -37,10 +39,10 @@ Introduction
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-How to code Data Validation
+How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Why is Data Validation important?
+Why is Data Validation Important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Conclusion
