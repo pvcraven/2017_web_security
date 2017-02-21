@@ -4,7 +4,9 @@ One of the more successful developments in the world of computer security was th
 material. The main idea of hashing is that a person can convert a value of any size and convert it into a, seemingly, arbitrary value of
 a uniform size. The advantage of this is the most obvious in the form of passwords. To validate the accuracy of a password, a system
 must compare the password submitted to the correct answer. However, if for example, a person wanted to sign on to a website like YouTube
-in this way, they would have to send their password over the internet for YouTube to verify. This form of password validation leaves a
+in this way, they would have to send their password over the internet for YouTube to verify. 
+
+This form of password validation leaves a
 person incredibly susceptible to many forms of security attacks, such as a 'Man in the Middle' attack, where a person merely needs to
 listen to the line of communication to learn the victim's password. A solution to this problem is for a password to be encrypted with a
 hashing function. This hash is used to form a response to a random number, which is a challenge that the server sends to the user. The
