@@ -10,24 +10,34 @@ When working with security issues within your program there is one way to make s
 Outline
 =============
 Impact of Data Encoding
+========================
 	*	How will Data Encoding increase security?
 	*	What are some techniques you can use?
+	
 Data Encoding Techniques
+==========================
 
 Digital Data and Analog Signals
+================================
 	*	Define
 	*	Modems
+	
 Digital Data and Digital Signals
+==================================
 	*	Define
 	*	NRZ Codes
 	*	Bi-Phase Codes
 	*	Manchester Encoding
 	*	Bi-Polar Encoding
+	
 Analog Data and Digital Signals
+=================================
 	*	Define
 	*	PCM
 	*	DM
+	
 Conclusion
+===========
 
 .. image :: Manchester.png
 	
