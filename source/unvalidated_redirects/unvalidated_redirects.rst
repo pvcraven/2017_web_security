@@ -45,13 +45,9 @@ Listed below are a few simple ways to avoid unvalidated redirects. [mtsu]_
 
 
 
-
-
-*Written by Cody, Edited by Sara and Paul.*
-
 *Sources*
 
-[owasp] Susanna Bezold, Johanna Curiel, Jim Manico. 'Link "Unvalidated Redirects and Forwards Cheat Sheet." <https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet>'
+[owasp] Susanna Bezold, Johanna Curiel, Jim Manico. "Unvalidated Redirects and Forwards Cheat Sheet."
 		OWASP, 20 Sept. 2016. Web. 20 Feb. 2017.
 
 [kemp] Maurice McMullin. "OWASP Top Ten Series: Unvalidated Redirects and Forwards." Kemp Technologies,
@@ -60,3 +56,6 @@ Listed below are a few simple ways to avoid unvalidated redirects. [mtsu]_
 [tp] "Security Testing - Unvalidated Redirects and Forwards" TutorialsPoint. Web. 20 Feb. 2017.
 
 [mtsu] "Unvalidated Redirects and Forwards." Montana State University. Web. 20 Feb. 2017.
+
+
+*Written by Cody, Edited by Sara and Paul.*
