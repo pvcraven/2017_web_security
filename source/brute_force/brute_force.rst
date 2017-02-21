@@ -15,12 +15,13 @@ The Threat: Your Accounts Are In Danger
 	* With the help of brute force attacks and a lack of protections against them, anyone can access your accounts online.
 		
 		* Even for an old computer with minimal power, it takes only about twenty minutes to crack most passwords. [TechTarget] It would take much less with today's computers.
+		* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. [Wikipedia]
+
+		.. image:: DESkeybreaker.jpg 
 
 	* The threat of brute forcing means that both the user and the creator of the website need to take action to protect against these attacks.
 	* According to Sucuri, these attacks mean that someone can gain illegitimate administrative privileges to websites and use that power to upload harmful code where it will be spread to the users. [sucuri]
-	* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. [Wikipedia]
-
-	.. image:: DESkeybreaker.jpg 
+	
 
 =================================================================
 The Protection: How You, the Account Holder, Can Protect Yourself
