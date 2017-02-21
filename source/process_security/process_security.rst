@@ -11,8 +11,9 @@ Process Accounts
 ----------------
 One way to secure processes is through the use of process accounts. If you have ever used a Linux computer, you have likely seen some kind of warning about running a program as root. This can be especially annoying if you are the only user on a personal computer and you find yourself frequently switching between your regular user account and the root acccount.
 
-.. image:: Wireshark_warning.png
+.. image:: Wireshark_warning.jpg
 	:align: center
+[MWR]_
 
 So, how do you know when to make process accounts and how do you make them?
 
@@ -42,8 +43,8 @@ Here are some things to do to limit process security vulnerabilities:
 * Install security updates regularly.
 * Turn on server logs and watch them for strange entries. [WSS]_
 
-Additional Example:
---------------------
+Additional Example
+------------------
 On Linux computers you must be running as root or a superuser to listen on ports 0-1024. This was originally a security feature although at least one author argues it is completely outdated and useless. Regardless, this feature requires web servers to be run with superuser priviledges if they are operating traditionally on port 80 which could also be a vulnerability if a web server is being run from a superuser account. [RPL]_
 
 Sources
@@ -51,3 +52,4 @@ Sources
 .. [UGP] User and Group permissions, with chmod, and Apache. 2013. 21 2 2017. <http://fideloper.com/user-group-permissions-chmod-apache>.
 .. [RPL] Ståldal, Mikael. Why can only root listen to ports below 1024? 31 10 2007. 21 2 2017. <https://www.staldal.nu/tech/2007/10/31/why-can-only-root-listen-to-ports-below-1024/>.
 .. [WSS] Acunetix. Web Server Security and Database Server Security. 2017. 21 2 2017. <http://www.acunetix.com/websitesecurity/webserver-security/>.
+.. [MWR] Wireshark_warning.jpg created by Michael Reuter
