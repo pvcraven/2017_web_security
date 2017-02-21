@@ -17,7 +17,7 @@ Directory Traversal Examples
 	:align: right
 	:alt: figure 3.6 
 
-([CENGAGE]_)
+[CENGAGE]_
 
 
 			
