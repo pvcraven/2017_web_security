@@ -36,11 +36,11 @@ Security Steps
 --------------
 Here are some things to do to limit process security vulnerabilities:
 
-*Install only the minimum necessary programs on your server and run one process per server if possible.
-*Save your web content and the operating system on different disks or file partitions. On Windows, it's typical to have a C: and D: drive. On Linux, the OS is typically installed in /etc and the data is typically saved in /var.
-*Give process accounts minimum necessary permissions. Don't guess. Figure out the absolute minimum permissions needed for a process account.
-*Install security updates regularly.
-*Turn on server logs and watch them for strange entries. [WSS]_
+* Install only the minimum necessary programs on your server and run one process per server if possible.
+* Save your web content and the operating system on different disks or file partitions. On Windows, it's typical to have a C: and D: drive. On Linux, the OS is typically installed in /etc and the data is typically saved in /var.
+* Give process accounts minimum necessary permissions. Don't guess. Figure out the absolute minimum permissions needed for a process account.
+* Install security updates regularly.
+* Turn on server logs and watch them for strange entries. [WSS]_
 
 Additional Example:
 --------------------
