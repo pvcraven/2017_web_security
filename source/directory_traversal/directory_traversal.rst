@@ -12,10 +12,10 @@ Introduction Directory Traversal or Poisoned File Upload
  Directory Traversal Examples
  -----------------------------
 .. image:: figure_3_6.jpg
-:height: 300px
-:width:  300px
-:align: center
-:alt: figure 3.6
+	:height: 300px
+	:width:  300px
+	:align: center
+	:alt: figure 3.6
 
 
 			
