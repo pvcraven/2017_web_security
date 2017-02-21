@@ -41,7 +41,7 @@ Analog Data and Digital Signals
 Conclusion
 ===========
 
-.. image :: Manchester.png
+.. image :: encoding.png
 	
 References
 ============
