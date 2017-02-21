@@ -76,4 +76,3 @@ This section will have both text and image examples of both vulnerabilities, to 
 
 *Written by Michael B. Edited by Kyle and Michael R*
 
-  Independence: Cengage Learning, 2014. Print.
