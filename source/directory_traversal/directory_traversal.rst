@@ -3,13 +3,11 @@
 Directory Traversal / Poisoned File Upload
 ==========================================
 
+Introduction 
+------------
 
-
-
-
-		 ----------------------------
-		 Directory Traversal Examples
-		 ----------------------------
+Directory Traversal Examples
+----------------------------
 
 
 
