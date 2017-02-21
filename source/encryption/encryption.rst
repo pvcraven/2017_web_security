@@ -10,6 +10,9 @@ History of Encryption
 ---------------------
 The word encryption comes from the Greek word kryptos, meaning hidden or secret. People have been ecrypting text as early since the beginning of communication. Egyptians scribe used non-standard hieroglyphs to hide the meaning of an inscription. In 700 BC, the Spartans wrote sensitive messages on strips of leather wrapped around sticks.Until this point, all encryption schemes used `Symmetric key`. In 1976, B. Whitfield Diffie and Martin Hellman helped to solve one of the fundamental problems of cryptography, how to send the key to decypher the text without exposing the data/information. Then the RSA implemented  the public-key cryptography using `Asymmetric algorithms`, or public-key.
 
+.. image:: publicKey.png
+        :align: center
+
 Different kinds of encryption
 -----------------------------
     * Base64 Encoding
@@ -33,6 +36,10 @@ Let say that someone has access to your computer now if he goes to the browser h
 Vulnerability example
 ---------------------
 There is a reason almost everything on your phone is encrypted now-a-days, because you have important information in your phone. Now, what could happen if someone could overpass that encryption and have access to the data and information on your phone. Last year in 2016, chipmaker Qualcomm's mobile processor that was used in 60% of Android had a flaw. In combination with a vulnerability with Android's media sever, together these vulnerabilities could allow someone with physical access to the phone to bypass the full disk encryptionIt was not long for people to discover the vulnerability, but when it was made public by Duo Labs. 
+
+
+Cited
+-----
 
 https://pixabay.com/en/encrypted-binary-file-computer-key-156514/
 
