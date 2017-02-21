@@ -10,7 +10,7 @@ listen to the line of communication to learn the victim's password. A solution t
 hashing function. This hash is used to form a response to a random number, which is a challenge that the server sends to the user. The
 answer sent back to the server is compared to the expected answer that the server formed with its copy of the users hash that it keeps.
 If the answers are the same, then the server knows that the user is using the correct password associated with the username.
-  ..image:: challenge_response.png 
+  .. image:: challenge_response.png 
 To put the password problem more simply: 
 ----------------------------------------
 
