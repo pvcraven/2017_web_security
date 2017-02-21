@@ -8,13 +8,12 @@ Introduction
 
 
 
-====================================================
-Real World Directory Traversal Vulnerability Example
+**Real World Directory Traversal Vulnerability Example**
 
 
 
 **Real World Poisened File Vulnerability Example**
-================================================== 
+
 
 
 
@@ -25,7 +24,7 @@ Directory Traversal / Poisoned File Upload Examples
 .. image:: figure_3_6.jpg
 	:height: 450px
 	:width:  450px
-	:align: left
+	:align: center
 	:alt: figure 3.6 
 
 			
