@@ -17,6 +17,16 @@ Directory Traversal / Poisoned File Upload Examples
 	:alt: figure 3.6 
 
 
+Real World Directory Traversal Vulnerability Example
+----------------------------------------------------
+
+
+
+Real World Poisened File Vulnerability Example 
+----------------------------------------------
+
+
+
 
 			
 
