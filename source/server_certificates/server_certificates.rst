@@ -6,8 +6,8 @@ Server Certificates
 Introduction
 -------------
 A server certificate is a digital certificate installed onto a web server. It is used for data encryption, and to authenticate an organizational identity (GlobalSign). Users will know if the website is secure due to the lock icon in the URL. For example, I took a screenshot of Global Sign URL which indicates is a secure website. 
-.. image:: screenshotSSL.PNG
-		:align: right
+.. image:: screenshotSSL.png
+		:align: left
 		:alt: Lock Icon on URL
 
 Why Do Companies Need an SSL Certificate?
