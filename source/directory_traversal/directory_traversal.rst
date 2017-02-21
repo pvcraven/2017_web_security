@@ -13,7 +13,7 @@ Directory Traversal / Poisoned File Upload Examples
 .. image:: figure_3_6.jpg
 	:height: 450px
 	:width:  450px
-	:align: left
+	:align: center
 	:alt: figure 3.6 
 
 
@@ -24,7 +24,8 @@ Directory Traversal / Poisoned File Upload Examples
 
 
 
-**Works Cited**  
+**Works Cited**
+---------------  
 
 .. [CENGAGE]  Ciampa, Mark."Security Guide to Network Security Fundamentals." 5th Ed. "`Figure 3_6 Directory Traversal Attack  <http://www.wadsworthmedia.com/marketing/sample_chapters/2014/9781305093911_ch03.pdf>`_." pg 101.Independence: Cengage Learning, 2014. Web.Date Accessed 20 Feb 2017.
 
