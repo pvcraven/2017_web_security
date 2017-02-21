@@ -92,6 +92,9 @@ Example Of SQL Injection
 							SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
 		
 
+.. image :: sqlinjection.png 		
+		
+		
 Sources
 -------
 
