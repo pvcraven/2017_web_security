@@ -1,3 +1,5 @@
+
+
 Directory Traversal / Poisoned File Upload
 ==========================================
 --------------------------------------------------------
@@ -9,12 +11,14 @@ Introduction Directory Traversal or Poisoned File Upload
  -----------------------------
  Directory Traversal Examples
  -----------------------------
-		.. image::figure_3_6.png
-				:height: 300px
-				:width:  300px
-				:alt: Directory Traversal Attack figure 
-				:align:center  
-				[CENGAGE]_
+.. image:: figure_3_6.png
+:height: 300px
+:width:  300px
+:align: center
+:alt: figure 3.6
+
+
+			
 
 
 
