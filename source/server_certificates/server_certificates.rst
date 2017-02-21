@@ -21,7 +21,7 @@ SSL certificates are not only used to encrypt transactions, but to also verify t
 
 What Could Happen if There are No SSL Certificate?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Login forms have sensitive information such as username, and password. If this is not properly secure, someone can easily obtain that information. Also, for some users, they may use the same password for multiple sites, therefore, the attacker can potentially compromise the user. [SSL Shopper]_
+Login forms have sensitive information such as username, and password. If this is not properly secure, someone can easily obtain that information. Also, for some users, they may use the same password for multiple sites, therefore, the attacker can potentially compromise the user. [SSL-Shopper]_
 
 What Vulnerabilities are There? 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,4 +36,4 @@ Sources
 
 .. [GoDaddy] "Do you need SSL encryption if you don't sell anything on your website?" GoDaddy. N.p., 16 Jan. 2017. Web. 21 Feb. 2017. <https://www.godaddy.com/garage/smallbusiness/secure/do-you-need-ssl-encryption-if-you-dont-sell-anything-on-your-website/>.
 
-.. [SSL Shopper] "Do I Need An SSL Certificate For My Website?" Do I Need An SSL Certificate For My Website? N.p., n.d. Web. 21 Feb. 2017. <https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.
+.. [SSL-Shopper] "Do I Need An SSL Certificate For My Website?" Do I Need An SSL Certificate For My Website? N.p., n.d. Web. 21 Feb. 2017. <https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.
