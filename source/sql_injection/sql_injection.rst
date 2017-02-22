@@ -80,7 +80,7 @@ Why Protect Against SQL Injection?
 
 Example Of SQL Injection
 ------------------------
-*Example [w3schools]_
+* Example [w3schools]_
 
 
 		
