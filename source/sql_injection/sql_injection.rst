@@ -10,13 +10,16 @@ SQL Injection is the insertion of malicious SQL queries through the input on the
 
 How SQL Injection Works
 -----------------------
-*Find input in application that is included inside of an SQL Query [acunetix]_
+* Find input in application that is included inside of an SQL Query [acunetix]_
 
-	*The user's input has to be directly included in an SQL Statement [acunetix]_
+	* The user's input has to be directly included in an SQL Statement [acunetix]_
 	
-	*User could insert coded that would run against server to give sensitive data [acunetix]_
+	* User could insert coded that would run against server to give sensitive data [acunetix]_
 	
-	*Example [acunetix]_ 
+	* Example [acunetix]_ 
+	
+.. code-block:: sql	
+	
 		# Define POST variables
 		uname = request.POST['username']
 		passwd = request.POST['password']
@@ -27,61 +30,74 @@ How SQL Injection Works
 		# Execute the SQL statement
 		database.execute(sql)
 
-		USER THEN ENTERS: password’ OR 1=1
-		
-		THAT WOULD RUN THE STATEMENT: SELECT id FROM users WHERE username=’username’ AND password=’password’ OR 1=1’
-		
-		*User could comment out the rest of the code and make a more in depth query.
-		
-		*The result they bypasses teh authentication
-		*The first account in a database is usally the administrator
+USER THEN ENTERS: password’ OR 1=1
+
+THAT WOULD RUN THE STATEMENT: SELECT id FROM users WHERE username=’username’ AND password=’password’ OR 1=1’
+
+* User could comment out the rest of the code and make a more in depth query.
+ 
+* The result they bypasses teh authentication
+* The first account in a database is usally the administrator
 		
 		
 Preventing SQL Injection
 ---------------
-*Blacklist of words or characters [w3schools]_
+* Blacklist of words or characters [w3schools]_
 
-	*checks for these words or characters in the SQL statement before executing [w3schools]_
+	* checks for these words or characters in the SQL statement before executing [w3schools]_
 	
-	*not alwasy the best idea because many characters and words are legal to be used in a SQL statement and should be allowed in the input [w3schools]_
+	* not alwasy the best idea because many characters and words are legal to be used in a SQL statement and should be allowed in the input [w3schools]_
 	
-*Only proven way to to protect against SQL injection is the use of parameters [w3schools]_
+* Only proven way to to protect against SQL injection is the use of parameters [w3schools]_
 
-	*a parameter is a value added to a query in a controlled manner
+	* a parameter is a value added to a query in a controlled manner
 	
-*Example [w3schools]_ 
+* Example [w3schools]_ 
 
-	txtNam = getRequestString("CustomerName");
-	txtAdd = getRequestString("Address");
-	txtCit = getRequestString("City");
-	txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";
-	db.Execute(txtSQL,txtNam,txtAdd,txtCit);
+.. code-block:: sql	
+
+		txtNam = getRequestString("CustomerName");
+		txtAdd = getRequestString("Address");
+		txtCit = getRequestString("City");
+		txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";
+		db.Execute(txtSQL,txtNam,txtAdd,txtCit);
 	
 	
 	
 Why Protect Against SQL Injection?
 ----------------------------------
-*Impersonate users [owasp]_
 
-*Sensitive data could be given out
+* Impersonate users [owasp]_
 
-*alter data and databases
+* Sensitive data could be given out
+
+* alter data and databases
 	
-*causes repudiation issues [owasp]_
+* causes repudiation issues [owasp]_
 	
-*Records could be deleted all together
+* Records could be deleted all together
 
 
 Example Of SQL Injection
 ------------------------
 *Example [w3schools]_
+
+
 		
-		Server Code: 	txtUserId = getRequestString("UserId");
+		Server Code: 	
+		
+					.. code-block:: sql	
+		
+						txtUserId = getRequestString("UserId");
 						txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 						
 		User Inupt:		105 OR 1=1
 		
-		Server Result:	SELECT * FROM Users WHERE UserId = 105 or 1=1;
+		Server Result:	
+		
+					.. code-block:: sql	
+		
+						SELECT * FROM Users WHERE UserId = 105 or 1=1;
 		
 						The SQL above is valid. It will return all rows from the table Users, since WHERE 1=1 is always true.
 
@@ -89,7 +105,7 @@ Example Of SQL Injection
 
 						The SQL statement above is much the same as this:
 							
-							SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
+						SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
 		
 
 .. image :: sqlinjection.png 		
