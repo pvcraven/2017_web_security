@@ -11,13 +11,14 @@ Data Validation
 
 *Outline*
 ^^^^^^^^^
-
+* Introduction:
+	a. Brief overview of each topic. 
 * What is data validation? [DATA]_ [Cade]_
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
 * "How to" on data validation [WEB]_
 	a. Instructions on how to add data validation to a website.
-	b. Regular Expressions
+	b. Regular Expressions (Back End)
 	c. Picture examples.
 
 * Why is data validation important?
@@ -27,26 +28,26 @@ Data Validation
 		3. Risk of Back end only.
 	b. Picture Examples.
 * Conclusion:
-	a. Thesis Statement
 	b. Brief review of each topic. 
 
 Introduction
 ^^^^^^^^^^^^
-	Data Validation is one of the most important aspect of coding any website 
-	that takes inputs from an outside user. Data validation is the process in 
-	which a website verity's the data being input by the user is in the correct 
-	form. For example if the website asks for a first name and the user inputs a
-	phone number, validation will prevent the website from taking that input. 
-	Creating validation can be a lengthy process, however the risk of not 
-	having any validation are high. Users could input code that could change 
-	features of a website, without validation to stop this your website could 
-	be at risk. There are short cuts to data validation such as front end or 
-	back end only validation, but these leave the door open for potential risks. 
+
+Data Validation is one of the most important aspect of coding any website 
+that takes inputs from an outside user. Data validation is the process in 
+which a website verity's the data being input by the user is in the correct 
+form. For example if the website asks for a first name and the user inputs a
+phone number, validation will prevent the website from taking that input. 
+Creating validation can be a lengthy process, however the risk of not 
+having any validation are high. Users could input code that could change 
+features of a website, without validation to stop this your website could 
+be at risk. There are short cuts to data validation such as front end or 
+back end only validation, but these leave the door open for potential risks. 
 
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
 	"Data validation guarantees to your application that every data value is 
-	correct and accurate." [DATA] Data Validation answers simple questions such
+	correct and accurate." [DATA]_ Data Validation answers simple questions such
 	such as "is the string alphabetic" or "is the string numerical". If you are
 	asking for a first name it will be helpful if you do not accept a telephone
 	number as the users first name. Another form of validation is ensuring the
@@ -57,8 +58,7 @@ What is Data Validation?
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: frontendCodeExample.png
-	:height: 700px
-	:width: 200px
+	:width: 600px
 	:align: center
 
 Why is Data Validation Important?
