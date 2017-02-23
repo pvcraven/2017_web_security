@@ -24,18 +24,7 @@ they have found that vulnerability, they will then enter an input that will
 run against the server.  When this is done, the attacker is then able to 
 bypass many forms of security to access sensitive data.  
 	
-* Find input in application that is included inside of an SQL 
-Query [acunetix]_
-
-	* The user's input has to be directly included in an SQL 
-	Statement [acunetix]_
-	
-	* User could insert coded that would run against server to 
-	give sensitive data [acunetix]_
-	
-	* Example [acunetix]_ 
-	
-	To put this into code form, the application would have a code block 
+To put this into code form, the application would have a code block 
 similiar to the one below.  The server will have the username and password 
 variables declared will will then become the input that the user provided.  
 The application then runs a SQL query that is very vulnerable to SQL 
@@ -62,10 +51,23 @@ authentication to reach the first record in the database which is usually the
 administrator.  With the administrator information, they can then access the 
 database will full privelages. 
 
+
+* Find input in application that is included inside of an SQL 
+Query [acunetix]_
+
+	* The user's input has to be directly included in an SQL 
+	Statement [acunetix]_
+	
+	* User could insert coded that would run against server to 
+	give sensitive data [acunetix]_
+	
+	* Example [acunetix]_ 
+	
 * User could comment out the rest of the code and make a 
 more in depth query.
  
 * The result they bypasses teh authentication
+
 * The first account in a database is usally the administrator
 		
 		
