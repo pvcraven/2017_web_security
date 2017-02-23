@@ -16,6 +16,14 @@ attackers depth and skill in SQL.
 
 How SQL Injection Works
 -----------------------
+	The way that SQL Injection works is actually quite simple.  The attacker
+looks for any area in the application where the user input is included 
+inside of a SQL Query. In order for it to work, the users input has to be 
+directly used inside of the query on the back end of the application.  Once 
+they have found that vulnerability, they will then enter an input that will 
+run against the server.  When this is done, the attacker is then able to 
+bypass many forms of security to access sensitive data.  
+	
 * Find input in application that is included inside of an SQL 
 Query [acunetix]_
 
@@ -26,6 +34,12 @@ Query [acunetix]_
 	give sensitive data [acunetix]_
 	
 	* Example [acunetix]_ 
+	
+	To put this into code form, the application would have a code block 
+similiar to the one below.  The server will have the username and password 
+variables declared will will then become the input that the user provided.  
+The application then runs a SQL query that is very vulnerable to SQL 
+Injection.  
 	
 .. code-block:: sql	
 	
@@ -39,11 +53,14 @@ Query [acunetix]_
 		# Execute the SQL statement
 		database.execute(sql)
 
-USER THEN ENTERS: password’ OR 1=1
-
-THAT WOULD RUN THE STATEMENT: 
-``SELECT id FROM users WHERE username=’username’ 
-AND password=’password’ OR 1=1’``
+With that being said, all the attacker would have to enter is password’ OR 
+1=1.  The statement ``SELECT id FROM users WHERE username=’username’ AND 
+password=’password’ OR 1=1’`` would then be ran. The attacker could then 
+comment out the rest of the code to make a more in depth query depending on 
+their intentions. Because of their input, they would have bypassed any 
+authentication to reach the first record in the database which is usually the 
+administrator.  With the administrator information, they can then access the 
+database will full privelages. 
 
 * User could comment out the rest of the code and make a 
 more in depth query.
