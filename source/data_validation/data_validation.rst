@@ -4,8 +4,7 @@ Data Validation
 *Written by Anthony, Edited by Ashtyne and Esteban.*
 
 .. image:: datav.png
-	:height: 690px
-	:width: 390px
+	:width: 400px
 	:align: center
 
 
@@ -32,17 +31,16 @@ Data Validation
 
 Introduction
 ^^^^^^^^^^^^
-
-Data Validation is one of the most important aspect of coding any website 
-that takes inputs from an outside user. Data validation is the process in 
-which a website verity's the data being input by the user is in the correct 
-form. For example if the website asks for a first name and the user inputs a
-phone number, validation will prevent the website from taking that input. 
-Creating validation can be a lengthy process, however the risk of not 
-having any validation are high. Users could input code that could change 
-features of a website, without validation to stop this your website could 
-be at risk. There are short cuts to data validation such as front end or 
-back end only validation, but these leave the door open for potential risks. 
+	Data Validation is one of the most important aspect of coding any website 
+	that takes inputs from an outside user. Data validation is the process in 
+	which a website verity's the data being input by the user is in the correct 
+	form. For example if the website asks for a first name and the user inputs a
+	phone number, validation will prevent the website from taking that input. 
+	Creating validation can be a lengthy process, however the risk of not 
+	having any validation are high. Users could input code that could change 
+	features of a website, without validation to stop this your website could 
+	be at risk. There are short cuts to data validation such as front end or 
+	back end only validation, but these leave the door open for potential risks. 
 
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -57,9 +55,23 @@ What is Data Validation?
 
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	The image below is an example of front end validation. Notice the first 
+	parameter is what type of characters can be used in. For example in "name" 
+	we would only want to use capital or lower case letter A-Z and a-z. For 
+	"phone" and "birthday_check" we would only want numbers 0-9. The next set of
+	parameters is the format and number of characters allowed. If we look back 
+	at "name" we will only accept names that are between 1 and 20 characters
+	long. "phone" and "birthday_check" both have formating parameters. Phone for
+	example can use any number between 0-9 three times. After the third number
+	you need a "-". This repeats, then we end with four numbers instead of 
+	three, "515-285-2929".
+
+
 .. image:: frontendCodeExample.png
 	:width: 600px
 	:align: center
+
+
 
 Why is Data Validation Important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
