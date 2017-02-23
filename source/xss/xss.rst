@@ -43,9 +43,10 @@ What is Cross-site scripting and Why is it Dangerous?
 
 	* Reflective xss is stored in a link embedded in the website that the user has to 
 	  click on to activate. [xss-attacks]_ 
-
+ 
+  
 * XSS attacks have been around since the start of the web, first becoming a problem when 
-	JavaScript langauage was introduced to the web application world. [Grossman]_
+  JavaScript langauage was introduced to the web application world. [Grossman]_
 
 * One of the earliest XSS worms was known as "Samy", which was a small code that 
   a 19 put in his MySpace profile to add anyone who viewed his profile as a friend. 
