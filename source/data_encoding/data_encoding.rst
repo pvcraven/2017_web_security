@@ -47,12 +47,12 @@ Conclusion
 	
 References
 -----------
-.. [e]	“Encoding.” Techopedia. Techopedia, 2017. Web. 19 Feb. 2017.
+.. [e]	“Encoding <https://www.techopedia.com/definition/948/encoding Techopedia>`_", Web. 19 Feb. 2017.
 
-.. [det] “Data Encoding Techniques.” Worchester Polytechnic Institute. Worchester Polytechnic Institute, 2017. Web(PDF). 19 Feb. 2017.
+.. [det] “Data Encoding Techniques <https://web.cs.wpi.edu/~rek/Undergrad_Nets/B06/Data_Encoding.pdf Worchester Polytechnic Institute>`_", Web(PDF). 19 Feb. 2017.
 
-.. [how] “How to Protect Your Website from Being Hacked.” ahrefsblog. ahregsblog, 22 Sept. 2015. Web. 19 Feb. 2017.
+.. [how] “How to Protect Your Website from Being Hacked.” <https://ahrefs.com/blog/protect-website-from-hackers/>`_", Web. 19 Feb. 2017.
 
-.. [Image] “File: Manchester encoding both conventions.svg.” Wikimedia. Wikimedia, 27 Sept. 2006. Web. 19 Feb. 2017.
+.. [Image] “File: Manchester encoding both conventions.svg Wikimedia. Wikimedia, 27 Sept. 2006. Web. 19 Feb. 2017.
 
-.. [sphinx]	Georg Brandl. “reStructuredText Primer” Sphinx Team, Web. 15 Feb. 2017.
+.. [sphinx]	Georg Brandl. "`reStructuredText Primer <http://www.sphinx-doc.org/en/stable/rest.html>`_" Sphinx Team, Web. 15 Feb. 2017.
