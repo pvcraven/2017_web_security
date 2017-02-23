@@ -100,15 +100,17 @@ Example Of SQL Injection
 * Example [w3schools]_
 
 
-Server Code: 	
+Server Code: 
+	
 .. code-block:: sql	
 	
 		txtUserId = getRequestString("UserId");
 		txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 					
-User Inupt:		105 OR 1=1
+User Inupt:		``105 OR 1=1``
 	
-Server Result:	
+Server Result:
+	
 .. code-block:: sql	
 
 		SELECT * FROM Users WHERE UserId = 105 or 1=1;
