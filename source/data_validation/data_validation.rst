@@ -6,14 +6,12 @@ Data Validation
 .. image:: datav.png
 	:height: 690px
 	:width: 390px
+	:align: center
 
 
 *Outline*
 ^^^^^^^^^
 
-* Intro:
-	a. Thesis Statement
-	b. Brief overview of each topic.
 * What is data validation? [DATA]_ [Cade]_
 	a. Explain what data validation does.
 	b. How did data validation come about? (History)
@@ -34,10 +32,10 @@ Data Validation
 
 Introduction
 ^^^^^^^^^^^^
-	Data Validation is the most important aspect of coding any website that 
-	takes inputs from an outside user. Data validation is the process in which 
-	a website verity's the data being input by the user is in the correct form. 
-	For example if the website asks for a first name and the user inputs a
+	Data Validation is one of the most important aspect of coding any website 
+	that takes inputs from an outside user. Data validation is the process in 
+	which a website verity's the data being input by the user is in the correct 
+	form. For example if the website asks for a first name and the user inputs a
 	phone number, validation will prevent the website from taking that input. 
 	Creating validation can be a lengthy process, however the risk of not 
 	having any validation are high. Users could input code that could change 
