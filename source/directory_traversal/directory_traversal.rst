@@ -20,7 +20,7 @@ The focus of the top of this section will be describing directory traversal vuln
 
 
 **Real World Poisoned File Vulnerability Example**
-==================================================
+-------------------------------------------------
 The first objective here is to explain any terminology, and refer back to introduction for the description of the vulnerability. Next, goal here is to find a detailed account of poisoned file upload in a company setting that caused some issues for them infrastructure wise. The other main goal of this section, will be to drive home the devastation that this vulnerability can cause to a company's file system at the minimum, or their core operations at the most serve.  After I go into detail about the event, next I will layout prevention techniques for poisoned file upload to end this section. [COMWEEKLY]_ 
 
 * It should be a large technology firm, that create change when it finds problems.
@@ -31,7 +31,7 @@ The first objective here is to explain any terminology, and refer back to introd
 
 
 Directory Traversal / Poisoned File Upload Examples
-===================================================
+---------------------------------------------------
 This section will have both text and image examples of both vulnerabilities, to show how evasive they both are to privacy of an individual’s information if these attacks have been executed. The image below with the text description is a possible Poisoned File Upload. A few of the side effects of the potential poisoned upload are bulleted below courtesy of [MICROSOFT]_. Directory Traversal examples will be hashed out from these three sources [VERACODE]_, [ACUNETIX]_, and [USENIX]_.
 
 *The below list are things Win32/Poison does when it is uploaded to your computer*
