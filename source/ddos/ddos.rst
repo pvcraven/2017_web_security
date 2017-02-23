@@ -288,32 +288,33 @@ large, expensive and damaging attack from taking place.
 * Architecture
 
   - Having a strong technical architecture can be important to decrease the risk
-    of an attack. This includes having servers in different data centers, locating
-    data centers on different networks, ensuring data centers have diverse paths,
-    and eliminating bottlenecks in data centers and networks they are connected 
-    to.
+    of an attack
+  - H aving servers in different data centers, locating data centers on different
+    networks, ensuring data centers have diverse paths, and eliminating 
+    bottlenecks in data centers and networks they are connected to
 
 * Hardware & Bandwidth
 
-  - Having the right security hardware can help mitigate DDoS attacks.
-    Network firewalls, web application firewalls, and load balancers can defend
-    against protocol attacks and application attacks. If it is affordable, it 
-    can be beneficial to scale up network bandwidth to absorb large traffic 
-    volume. This is more realistic for large organizations.
+  - Network firewalls, web application firewalls, and load balancers can defend
+    against protocol attacks and application attacks
+  - If it is affordable, it can be beneficial to scale up network bandwidth
+    to absorb large traffic volume. This is more realistic for large 
+    organizations.
 
 * Outsourcing
 
   - There are also several services that specialize in responding to different 
-    kinds of attacks. They can provide cloud scrubbing services for attack 
-    traffic. Internet Service Providers can also offer DDoS mitigation that can 
-    help respond to attacks [Kar]_.
+    kinds of attacks
+  - They can provide cloud scrubbing services for attack traffic
+  - Internet Service Providers can also offer DDoS mitigation that can help 
+    respond to attacks [Kar]_.
 
 * Other
 
-  - Good email distribution practicies
-  - Apply email filters
-  - Create proper authentication credentials for system administration
-  - Maintain proper communication with customers
+  - Having Good email distribution practicies
+  - Applying email filters
+  - Creating proper authentication credentials for system administration
+  - Maintaining proper communication with customers
   - Having a plan in preparation of an attack [Rub]_.
 
 *Written by Taylor, Edited by Esteban and Morgan.*
