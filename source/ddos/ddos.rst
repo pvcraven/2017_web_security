@@ -16,7 +16,7 @@ slower, crash, or shut down denying real users of the service. This is a more
 advanced security breach than an attack from a single host or IP address
 where they can be blocked easily with a firewall [Kar]_.
 
-.. figure:: ddos.PNG
+.. figure:: ddos.png
   :height: 400px
   :width: 400px
   :align: center
@@ -128,7 +128,7 @@ Herzber, Dima Bekerman, and Igal Zeifman with their new Mirai scanner found that
 the attack was made up of 49,657 unique IP addresses and devices in 164
 different countries. 
 
-.. figure:: mirai-botnet-map.PNG
+.. figure:: mirai-botnet-map.png
   :height: 400px
   :width: 400px
   :align: center
@@ -244,7 +244,7 @@ These are the steps Mullis took:
 4. At this point, the bot master can spread more malware to other computers 
    [Pro]_
 
-.. figure:: iceix.PNG
+.. figure:: iceix.png
   :height: 500px
   :width: 500px
   :align: center
