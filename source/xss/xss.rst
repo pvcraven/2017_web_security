@@ -51,7 +51,7 @@ What is Cross-site scripting and Why is it Dangerous?
   a 19 put in his MySpace profile to add anyone who viewed his profile as a friend. 
   But it also added the code invisible to everyone who viewed it, and quickly 
   multiplied exponentially, adding just over one million friend requests within 
-  24 hours before MySpace took the website down. 
+  24 hours before MySpace took the website down. [Grossman]_ [Franceschi]_ 
 
 What Can Be Done to Prevent XSS through Web Security
 ----------------------------------------------------
