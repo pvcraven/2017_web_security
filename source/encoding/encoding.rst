@@ -8,7 +8,7 @@ Introduction
 
 Encoding is used for the process of putting a sequence of characters (letters, numbers, punctuation, etc.) into a specialized format for efficient transmission or storage. However, encoding can be a little difficult to use at times. Have you ever opened up a file on your computer or seen a text message on your phone that has question marks pop up instead of what you're assumng should be a comma or an emoticon? It is most likely because that that rogram cannot read the type of encoding that the characters are in. Most files containing text are encoded with UTF-8, but that doesn't men every web developer in the world uses it. [Ld]_
 
-.. figure:: IMG_0134.jpg 
+.. figure:: IMG_0134.JPG
 	:height: 400px
 	:width: 400px
 	:align: center
