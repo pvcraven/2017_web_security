@@ -28,15 +28,15 @@ becomes the DDoS master. The DDoS master then finds other weak systems and
 gains control using malware, another term for software that is intended to 
 damage or disable computer systems, or bypassing their security. The 
 computers that are under the control of the attacker are called zombies or
-bots. There can be any number of zombie computers from ten to thousands 
-to make up a botnet [Rou]_. 
+bots. There can be any number of zombie computers from ten to thousands, or
+even millions that make up a botnet [Rou]_. 
 
 Past DDoS Attack Examples
 -------------------------
 Past Large Botnets
 ~~~~~~~~~~~~~~~~~~
 The ability for hackers to gain control of large botnets gives them the 
-possibility to do cybercriminal activity, spend billions of spam emails, 
+possibility to do cybercriminal activity, send billions of spam emails, 
 and complete large DDoS attacks. The security industry estimates that over time,
 botnets have resulted in more than $110 billion in losses to victims globally
 [Zet]_.
@@ -49,16 +49,16 @@ Although there have been many botnets, here are a few noteworthy ones:
 * ZeroAccess - Estimated to have controlled 1.9 million computers around the 
   world, focusing on click fraud and bitcoin mining. It was reported to be 
   consuming enough energy to power 111,000 homes per day from all of its 
-  infected computers
+  infected computers.
 * Windigo - Discovered in 2014 after running undetected for three years.
   It infected 10,000 Linux servers and sent 35 million spam emails a day, 
   infecting 500,000 computers. It had different forms of malware depending 
   on the operating system of the device receiving it.
 * Conficker - At its peak in 2009, it was estimated to have infected 15 
   million computers, but the total number of machines under the botnet control
-  totaled between 3 and 4 million
+  totaled between 3 and 4 million.
 * Srizbi - Only active for about a year, but was responsible for 60% of spam
-  worldwise and sent 60 billion emails every day from 2007 to 2008. When it 
+  worldwide and sent 60 billion emails every day from 2007 to 2008. When it 
   was taken offline, spam volume worldwide dropped by 75%.
 * Bredolab - Hijacked more than 30 million machines. Georgy Avanesov developed 
   it in 2009 to collect bank account passwords but also earned about $125,000 
@@ -70,17 +70,17 @@ Large DDoS Attack on Dyn
 On October 21, 2016, the DNS provider, Dyn, was a victim of a DDoS attack.
 This impacted users from using popular websites that are Dyn customers 
 including Twitter, Reddit, Twitter, Spotify, and Netflix. The attacker 
-used a Mirai botnet, a network of Infected Internet of Things devices such
-as security cameras and DVR players, which have poor security and a 
-large quantity. It is estimated that there were 100,000 infected devices
-with a magnitude of 1.2 Tbps.
+used a Mirai botnet, a network of infected Internet of Things devices such
+as security cameras and DVR players, which have poor security. 
+It is estimated that there were 100,000 infected devices that caused the
+attack with a magnitude of 1.2 Tbps.
 
   "Attacking a DNS or a content delivery provider such as Dyn or Akamai in 
   this manner gives hackers the ability to interrupt many more companies 
   than they could by directly attacking corporate servers, because several 
   companies shared Dyn's network."
-  -Spectrum, a magazine that explores the development, applications, and 
-  implications of new technologies
+  
+  -Spectrum magazine
 
 This attack came in three phases throughout the course of the day. Since it was
 difficult to distinguish legitimate traffic from attack traffic, it was very
@@ -93,21 +93,21 @@ applications of internal filtering, and deployment of scrubbing services [Hil]_
 
 Involving the FBI
 ~~~~~~~~~~~~~~~~~
-In April 2011, the FBI obtained a court order to seize control of server used to 
+In April 2011, the FBI obtained a court order to seize control of a server used to 
 command the Coreflood botnet and sent code to the infected machines to disable
 the malware on them. The private security firm that did this first hijacked
 communication between the infected devices and the attacker's command servers.
 After collecting the IP addresses of the infected devices, they sent code to
 disable the botnet malware on them. Although the effect of this code on the
-devices was unknown, the action was successful and helped disable malware on
-over 700,000 devices in one week.
+devices was unknown, the action was ultimately successful and helped disable
+malware on over 700,000 devices in one week.
 
 In November 2011, an FBI investigation brought down the Butterfly Botnet, 
 which stole credit card and bank account information. It was comprised of over
 11 million infected devices and resulted in over $850 million losses. Overall, 
 10 individuals were arrested from several countries.
 
-In May 2014, the FBI found one of the co-developers of the malware Backshades, 
+In May 2014, the FBI arrested one of the co-developers of the malware Backshades, 
 which was used to infect over 500,000 devices around the world. The FBI held
 over 100 interviews, 100 email and physical search warrants, and seized more
 than 1,900 domains used to control infected devices [Dem]_.
@@ -117,14 +117,14 @@ DDoS Botnets and Botnet Tools
 Botnets are available from many different sources and are auctioned and traded
 by hackers. There are even online marketplaces for trading huge numbers of 
 malware-infected computers. They can be rented and used for DDoS or various 
-other attacks for a low cost, although the impact on these users can vary.
+other attacks for a low cost, although the impact of these attacks can vary.
 
 Analysis of a Mirai Botnet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 On September 20, 2016, the website of journalist Brian Krebs was subject to a
 very large DDoS attack. Like the attack on Dyn, the attacker used a Mirai
 botnet, mostly made up of hacked CCTV security cameras. An analysis by Ben
-Herzber, Dima Bekerman, and Igal Zeifman with their new Mirai scanner found that
+Herzber, Dima Bekerman, and Igal Zeifman with their Mirai scanner found that
 the attack was made up of 49,657 unique IP addresses and devices in 164
 different countries. 
 
@@ -137,7 +137,7 @@ This image shows the locations of Mirai infected devices that made up the
 botnet [Bek]_.
 
 Mirai attackers gain control of IoT devices mainly by guessing login 
-credentials and gain access to do default usernames and passwords still being 
+credentials and gain access due to default usernames and passwords still being 
 used. The attacker gained control by using brute force based on the following
 list of credentials.
 
@@ -183,7 +183,7 @@ list of credentials.
 One of the most interesting things they found while analyzing this attack
 was a list of hardcoded IP addresses the Mirai bots are programmed to avoid
 when performing IP scans. It include the U.S. Postal service, the Department
-of Defense, and the Internet Assigned Numbers Authority [Bek]_.
+of Defense, and the Internet Assigned Numbers Authority.
 
 .. code-block:: plain
 
@@ -213,7 +213,7 @@ of Defense, and the Internet Assigned Numbers Authority [Bek]_.
 The botnet also holds several killer scripts to locate and eradicate other
 botnet processes from a device's memory. This is known as memory scraping. This
 behavior helped the attacker to maximize the potential of the botnet devices
-and prevent other malware from doing the same behavior to the devices.
+and prevent other malware from doing the same behavior to the devices [Bek]_.
 
 .. code-block ::
 
@@ -240,7 +240,8 @@ These are the steps Mullis took:
    would hide from anti-virus scans. It can take screenshots of pages visited 
    by the victim's machine, block sites such as anti-virus sites, and redirect 
    legitimate URLS to malevolent sites to collect information.
-3. Encrypting and packing the infected file to install malware on victim machine
+3. Encrypting and packing the infected file to install malware on the victim's 
+   machine
 4. At this point, the bot master can spread more malware to other computers 
    [Pro]_
 
@@ -285,37 +286,37 @@ While there is no way to absolutely rid a company from the threat of a DDoS
 attack, there are measures the company can take to decrease the chance of a 
 large, expensive and damaging attack from taking place. 
 
-* Architecture
+* Architecture:
 
   - Having a strong technical architecture can be important to decrease the risk
     of an attack
-  - H aving servers in different data centers, locating data centers on different
+  - Having servers in different data centers, locating data centers on different
     networks, ensuring data centers have diverse paths, and eliminating 
     bottlenecks in data centers and networks they are connected to
 
-* Hardware & Bandwidth
+* Hardware & Bandwidth:
 
   - Network firewalls, web application firewalls, and load balancers can defend
     against protocol attacks and application attacks
   - If it is affordable, it can be beneficial to scale up network bandwidth
     to absorb large traffic volume. This is more realistic for large 
-    organizations.
+    organizations
 
-* Outsourcing
+* Outsourcing:
 
   - There are also several services that specialize in responding to different 
     kinds of attacks
   - They can provide cloud scrubbing services for attack traffic
   - Internet Service Providers can also offer DDoS mitigation that can help 
-    respond to attacks [Kar]_.
+    respond to attacks [Kar]_
 
-* Other
+* Other:
 
   - Having Good email distribution practicies
   - Applying email filters
   - Creating proper authentication credentials for system administration
   - Maintaining proper communication with customers
-  - Having a plan in preparation of an attack [Rub]_.
+  - Having a plan in preparation of an attack [Rub]_
 
 *Written by Taylor, Edited by Esteban and Morgan.*
 
