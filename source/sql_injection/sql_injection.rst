@@ -16,7 +16,8 @@ attackers depth and skill in SQL.
 
 How SQL Injection Works
 -----------------------
-	The way that SQL Injection works is actually quite simple.  The attacker
+
+The way that SQL Injection works is actually quite simple.  The attacker
 looks for any area in the application where the user input is included 
 inside of a SQL Query. In order for it to work, the users input has to be 
 directly used inside of the query on the back end of the application.  Once 
