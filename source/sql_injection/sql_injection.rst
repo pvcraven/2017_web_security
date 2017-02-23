@@ -101,7 +101,7 @@ Example Of SQL Injection
 
 
 	Server Code: 	
-	.. code-block:: sql	
+.. code-block:: sql	
 	
 		txtUserId = getRequestString("UserId");
 		txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
@@ -109,7 +109,7 @@ Example Of SQL Injection
 	User Inupt:		105 OR 1=1
 	
 	Server Result:	
-	.. code-block:: sql	
+.. code-block:: sql	
 
 		SELECT * FROM Users WHERE UserId = 105 or 1=1;
 
