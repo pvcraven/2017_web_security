@@ -100,26 +100,26 @@ Example Of SQL Injection
 * Example [w3schools]_
 
 
-	Server Code: 	
+Server Code: 	
 .. code-block:: sql	
 	
 		txtUserId = getRequestString("UserId");
 		txtSQL = "SELECT * FROM Users WHERE UserId = " + txtUserId;
 					
-	User Inupt:		105 OR 1=1
+User Inupt:		105 OR 1=1
 	
-	Server Result:	
+Server Result:	
 .. code-block:: sql	
 
 		SELECT * FROM Users WHERE UserId = 105 or 1=1;
 
-		The SQL above is valid. It will return all rows from the table Users, since WHERE 1=1 is always true.
+The SQL above is valid. It will return all rows from the table Users, since ``WHERE 1=1`` is always true.
 
-		Does the example above seem dangerous? What if the Users table contains names and passwords?
+Does the example above seem dangerous? What if the Users table contains names and passwords?
 
-		The SQL statement above is much the same as this:
-			
-		SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;
+The SQL statement above is much the same as this:
+	
+``SELECT UserId, Name, Password FROM Users WHERE UserId = 105 or 1=1;``
 		
 
 .. image :: sqlinjection.png 		
