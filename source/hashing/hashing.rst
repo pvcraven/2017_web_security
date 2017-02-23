@@ -74,9 +74,9 @@ that Microsoft developed were beaten within a year [Rem]_.)
 
 Sources
 -------
-.. [BBC] Mark Ward. "`Yahoo: How do state hackers break in? <http://www.bbc.com/news/technology-38331894`_" BBC News. BBC, 15 Dec. 2016. Web. 21 Feb. 2017.
+.. [BBC] Mark Ward. "`Yahoo: How do state hackers break in? <http://www.bbc.com/news/technology-38331894>`_" BBC News. BBC, 15 Dec. 2016. Web. 21 Feb. 2017.
 
-.. [Mic] Chris Paoli. "`Microsoft Updates Advance Threat Analytics with Increased Detection Capabilities <https://redmondmag.com/articles/2016/09/06/microsoft-updates-advance-threat-analytics.aspx`_" Redmond Magazine. Redmond Media Group, 06 Sep. 2016. Web. 21 Feb. 2017.
+.. [Mic] Chris Paoli. "`Microsoft Updates Advance Threat Analytics with Increased Detection Capabilities <https://redmondmag.com/articles/2016/09/06/microsoft-updates-advance-threat-analytics.aspx>`_" Redmond Magazine. Redmond Media Group, 06 Sep. 2016. Web. 21 Feb. 2017.
 
 .. [Rem] Lucian Constantin. "`Remote Safe Mode attack defeats Windows 10 pass-the-hash defenses <http://www.pcworld.com/article/3121269/remote-safe-mode-attack-defeats-windows-10-pass-the-hash-defenses.html>`_" PCWorld. IDG Communications, Inc, 16 Sep. 2016. Web. 21 Feb. 2017.
 
