@@ -20,8 +20,8 @@ traversal attack has begun [ACUNETIX]_. According to [ACUNETIX]_  ,  this is a
  website you are trying to break is being stored on you too can do this 
  malicious attack (I don’t recommend anyone try this at home).
 
- How are these 
- attacks actually executed? In the paper by Wei Xu,   Sandeep Bhatkar,   and R.
+ How are these attacks actually executed? In the paper by Wei Xu,   Sandeep 
+ Bhatkar,   and R.
  Sekar ,  they explain in much greater detail of how to do directory traversal 
  than other sources currently cited.  To sum it up short and sweet, the process
  of traversing directories depending on security, you try using forward slashes 
@@ -40,8 +40,8 @@ happen.  Just covering a couple gives a good picture for how bad this attack
 is for anyone on the receiving end.  Rob Shapland from [COMWEEKLY]_ explains 
 two really good reasons, and one, I already glossed over. 
 
-One, a nefarious 
-user decides they want to just make your website or web application useless,
+One, a nefarious user decides they want to just make your website or web
+application useless,
 so they upload a file with the same name as a core process that makes your 
 web server run and add it to the same directory.  The core process is then 
 overwritten, making your web application useless. Two, he explains that the 
