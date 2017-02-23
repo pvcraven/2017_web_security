@@ -16,7 +16,7 @@ slower, crash, or shut down denying real users of the service. This is a more
 advanced security breach than an attack from a single host or IP address
 where they can be blocked easily with a firewall [Kar]_.
 
-.. figure:: ddos.jpg 
+.. figure:: ddos.PNG
   :height: 400px
   :width: 400px
   :align: center
@@ -128,7 +128,7 @@ Herzber, Dima Bekerman, and Igal Zeifman with their new Mirai scanner found that
 the attack was made up of 49,657 unique IP addresses and devices in 164
 different countries. 
 
-.. figure:: mirai-botnet-map.jpg
+.. figure:: mirai-botnet-map.PNG
   :height: 400px
   :width: 400px
   :align: center
@@ -185,7 +185,7 @@ was a list of hardcoded IP addresses the Mirai bots are programmed to avoid
 when performing IP scans. It include the U.S. Postal service, the Department
 of Defense, and the Internet Assigned Numbers Authority [Bek]_.
 
-.. code-block ::
+.. code-block:: plain
 
   127.0.0.0/8               - Loopback
   0.0.0.0/8                 - Invalid address space
@@ -244,7 +244,7 @@ These are the steps Mullis took:
 4. At this point, the bot master can spread more malware to other computers 
    [Pro]_
 
-.. figure:: iceix.jpg
+.. figure:: iceix.PNG
   :height: 500px
   :width: 500px
   :align: center
@@ -286,6 +286,7 @@ attack, there are measures the company can take to decrease the chance of a
 large, expensive and damaging attack from taking place. 
 
 * Architecture
+
   - Having a strong technical architecture can be important to decrease the risk
     of an attack. This includes having servers in different data centers, locating
     data centers on different networks, ensuring data centers have diverse paths,
@@ -293,6 +294,7 @@ large, expensive and damaging attack from taking place.
     to.
 
 * Hardware & Bandwidth
+
   - Having the right security hardware can help mitigate DDoS attacks.
     Network firewalls, web application firewalls, and load balancers can defend
     against protocol attacks and application attacks. If it is affordable, it 
@@ -300,12 +302,14 @@ large, expensive and damaging attack from taking place.
     volume. This is more realistic for large organizations.
 
 * Outsourcing
+
   - There are also several services that specialize in responding to different 
     kinds of attacks. They can provide cloud scrubbing services for attack 
     traffic. Internet Service Providers can also offer DDoS mitigation that can 
     help respond to attacks [Kar]_.
 
 * Other
+
   - Good email distribution practicies
   - Apply email filters
   - Create proper authentication credentials for system administration
