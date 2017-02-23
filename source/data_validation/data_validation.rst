@@ -56,6 +56,10 @@ What is Data Validation?
 
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: frontendCodeExample.png
+	:height: 700px
+	:width: 200px
+	:align: center
 
 Why is Data Validation Important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
