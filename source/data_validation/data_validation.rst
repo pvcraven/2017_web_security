@@ -45,6 +45,14 @@ Introduction
 
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
+	"Data validation guarantees to your application that every data value is 
+	correct and accurate." [DATA] Data Validation answers simple questions such
+	such as "is the string alphabetic" or "is the string numerical". If you are
+	asking for a first name it will be helpful if you do not accept a telephone
+	number as the users first name. Another form of validation is ensuring the
+	users uses the correct amount of characters. Most phone numbers are ten
+	digits, so we would not want a users inputing "1119-67-2" as their phone
+	number.
 
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
