@@ -1,5 +1,6 @@
 Distributed Denial-of-Service
 =============================
+*Written by Taylor, Edited by Esteban and Morgan.*
 
 Introduction
 ------------
@@ -25,8 +26,7 @@ This image depicts a typical DDoS attack [Dsa]_.
 
 In a DDoS attack, an attacker exploits a weakness of a computer system and 
 becomes the DDoS master. The DDoS master then finds other weak systems and
-gains control using malware, another term for software that is intended to 
-damage or disable computer systems, or bypassing their security. The 
+gains control using malware or bypassing their security. The 
 computers that are under the control of the attacker are called zombies or
 bots. There can be any number of zombie computers from ten to thousands, or
 even millions that make up a botnet [Rou]_. 
@@ -78,9 +78,7 @@ attack with a magnitude of 1.2 Tbps.
   "Attacking a DNS or a content delivery provider such as Dyn or Akamai in 
   this manner gives hackers the ability to interrupt many more companies 
   than they could by directly attacking corporate servers, because several 
-  companies shared Dyn's network."
-  
-  -Spectrum magazine
+  companies shared Dyn's network." -Spectrum magazine
 
 This attack came in three phases throughout the course of the day. Since it was
 difficult to distinguish legitimate traffic from attack traffic, it was very
@@ -136,8 +134,8 @@ different countries.
 This image shows the locations of Mirai infected devices that made up the 
 botnet [Bek]_.
 
-Mirai attackers gain control of IoT devices mainly by guessing login 
-credentials and gain access due to default usernames and passwords still being 
+Mirai attackers gained control of IoT devices mainly by guessing login 
+credentials and gained access due to default usernames and passwords still being 
 used. The attacker gained control by using brute force based on the following
 list of credentials.
 
@@ -228,7 +226,7 @@ How to Build a Botnet
 ~~~~~~~~~~~~~~~~~~~~~
 Another reason a DDoS attack is very threatening is due to the fact that 
 setting up a botnet is fairly easy. Simon Mullis from FireEye simulated this 
-process with a clean Window virtual machine and a LAMP server on Amazon
+process with a clean Windows virtual machine and a LAMP server on Amazon
 Web Service's EC2 platform.
 
 These are the steps Mullis took:
@@ -260,10 +258,10 @@ of DDoS attacks compared to 2014. Online gaming is the most susceptible to
 attacks, but software and technology companies still make up 25% of all DDoS
 attacks. [Rub]_
 
-Below are some indications of a DDoS attack is taking place:
+Below are some indications of a DDoS attack taking place:
 
-* Performing network data analysis to understand network traffic. Unusual
-  traffic could be the result of an attack
+* Unusual network traffic could be the result of an attack. Performing network
+  data analysis is important in understanding usual traffic flows. 
 * Unusually slow network performance
 * Unavailability of website or inability to access site
 * Increase in spam
@@ -312,13 +310,11 @@ large, expensive and damaging attack from taking place.
 
 * Other:
 
-  - Having Good email distribution practicies
+  - Having clear email distribution practices
   - Applying email filters
   - Creating proper authentication credentials for system administration
   - Maintaining proper communication with customers
   - Having a plan in preparation of an attack [Rub]_
-
-*Written by Taylor, Edited by Esteban and Morgan.*
 
 Sources
 -------
