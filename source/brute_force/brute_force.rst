@@ -1,48 +1,69 @@
 Brute-Force Attacks
 ===================
 
-  A brute force attack (aka brute force cracking) is when someone runs a program that tries to login to an account by running a loop that tries a 
-  long series of passwords.  Someone could make a program that simply goes through a list of the most popular passwords used online 
-  until it reaches the end of the list, or it could run through every possible password someone could use, starting with something like "000000" and
-  ending with "zzzzzzzzzzzzzzzz" for something that requires passwords to be at least six characters long and at most sixteen characters long,
-  using only letters and numbers.  This second way is the more traditional meaning of "brute force attack", as it simply tries everything rather than
-  employing any amount of sophistication.
+A brute force attack (aka brute force cracking) is when someone runs a program that tries to login to an account by running a loop that tries a 
+long series of passwords.  Someone could make a program that simply goes through a list of the most popular passwords used online 
+until it reaches the end of the list, or it could run through every possible password someone could use, starting with something like "000000" and
+ending with "zzzzzzzzzzzzzzzz" for something that requires passwords to be at least six characters long and at most sixteen characters long,
+using only letters and numbers.  This second way is the more traditional meaning of "brute force attack", as it simply tries everything rather than
+employing any amount of sophistication.
 
 =======================================
 The Threat: Your Accounts Are In Danger
 =======================================
 
-	* With the help of brute force attacks and a lack of protections against them, anyone can access your accounts online.
-		
-		* Even for an old computer with minimal power, it takes only about twenty minutes to crack most passwords. [TechTarget] It would take much less with today's computers.
-		* For the more difficult passwords to crack, the hacker will implement a more heavy duty solution than your standard home PC.  In 1998, the Electronic Frontier Foundation built a machine with over 1,800 chips in order to crack Data Encryption Standard keys.  The image below is of a circuit board from that machine. [Wikipedia]
+With the help of brute force attacks and a lack of protections against them, 
+anyone can access your accounts online.  Even for an old computer with minimal 
+power, it takes only about twenty minutes to crack most passwords. [TechTarget]
+It would take much less with today's computers.  For the more difficult 
+passwords to crack, the hacker will implement a more heavy duty solution than 
+your standard home PC.  In 1998, the Electronic Frontier Foundation built a
+machine with over 1,800 chips in order to crack Data Encryption Standard keys.  
+The image below is of a circuit board from that machine. [Wikipedia]
+Modern encryption standards are much more secure than the DES keys that that
+machine had dealt with, but it is still important for people to use some sort
+of safeguard against brute force attacks.
 
-		.. image:: DESkeybreaker.jpg 
+.. image:: DESkeybreaker.jpg 
 
-	* The threat of brute forcing means that both the user and the creator of the website need to take action to protect against these attacks.
-	* According to Sucuri, these attacks mean that someone can gain illegitimate administrative privileges to websites and use that power to upload harmful code where it will be spread to the users. [sucuri]
+The threat of brute forcing means that both the user and the creator
+of the website need to take action to protect against these attacks.  
+According to Sucuri, these attacks mean that someone can gain illegitimate 
+administrative privileges to websites and use that power to upload harmful code 
+where it will be spread to the users. [sucuri] This would result in a vast
+amount of computers being compromised by whatever the hacker had used.
 	
 
 =================================================================
 The Protection: How You, the Account Holder, Can Protect Yourself
 =================================================================
 
-	* Don't just use normal words as your password; many brute force algorithms just input words from the dictionary as the password.
-	* Use a longer password; a true brute force attack will run through every single possible combination. It will take a lot longer to
-	  match the combination you used if your password is sixteen characters long instead of six due to there being exponentially more combinations.
+Don't just use normal words as your password; many brute-force-like algorithms just
+input words from the dictionary as the password. Use a longer password; a true
+brute force attack will run through every single possible combination. It will
+take a lot longer to match the combination you used if your password is sixteen
+characters long instead of six due to there being exponentially more 
+combinations. A common trick is to make up a sentence and use the first letter of
+each word as one character in the password, letting any numbers take their numerical
+form, rather than using the initial of the word.
 
 =======================================================
 The Hope: What You Hope Is In Place to Help Protect You
 =======================================================
 
-	* If the creator of the website is thinking about brute force attacks when they made the login system, there are a few measures they
-	  would have in place to protect their users' accounts.
-	* For example, they might have a limit in place for the number of times someone can try to login to a particular account before it locks them
-	  out for a period of time, as Techopedia suggests. [techopedia] 
-	* A five-try limit on an account before it locks out whoever is trying to login for five minutes is going to slow down
-	  a brute force attack immensely while holding off even the most forgetful user for a minimal amount of time.
-	* It is also common to require users to have complex passwords as Techopedia points out. Involving a variety of 
-	  character types (capital letters, lowercase letters, numbers, and a special character like a $) is a fairly common requirement.
+If the creator of the website is thinking about brute force attacks when they
+made the login system, there are a few measures they would have in place to
+protect their users' accounts. For example, they might have a limit in place
+for the number of times someone can try to login to a particular account 
+before it locks them out for a period of time, 
+as Techopedia suggests. [techopedia] 
+A five-try limit on an account before it locks out whoever is trying to login
+for five minutes is going to slow down a brute force attack immensely while 
+holding off even the most forgetful user for a minimal amount of time.
+It is also common to require users to have complex passwords as Techopedia 
+points out. Involving a variety of character types (capital letters, 
+lowercase letters, numbers, and a special character like a $) 
+is a fairly common requirement.
 
 
 
