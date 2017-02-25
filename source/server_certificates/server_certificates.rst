@@ -90,6 +90,7 @@ secure connection".
 .. figure:: amazonSecure.png
 		:align: left
 		:height: 100px
+		:width: 100px
 		:alt: Secure Message
 		
 		An example of a secure website
@@ -97,6 +98,7 @@ secure connection".
 .. figure:: cupcakeUnsecure.png
 		:align: left
 		:height: 100px
+		:width: 100px
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
