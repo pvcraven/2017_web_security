@@ -3,8 +3,6 @@ Data Encoding - Morgan Ryan
 
 *Written by Morgan, Edited by Anthony and Kyann.*
 
-THIS IS NOT CORRECT INFORMATION! I WILL CORRECT TOMORROW 2/23/17!!
-
 Introduction
 ------------
 
@@ -26,6 +24,7 @@ URL Encoding
 Working with websites can be a challenge when it comes to securing your website from hackers. One way to secure your website is by URL encoding. URL encoding deals with "converting characters into a format that can be transmitted over the Internet [u]_." First things first, you have to have to understand that all URLs are sent over the internet by using the ASCII character-set that I talked about before this section.  But since "URLS contain characters outside the ASII set, then the URL has to be converted into a valid format using ASCII [u]." With this in mind, you have to replace any characters that are "unsafe" with % and any spaces with a +. To encode in Javascript you must use the function encodeURI(). Below is how Javascript encodes text.
 
 Text:  Hello World
+
 Encoded Text:  Hello%20World
 
 UTF-8 (Unicode) Encoding
@@ -46,42 +45,20 @@ Base64 Encoding
 
 Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation [b]_." In Javascript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
 
-function b64EncodeUnicode(str) {
-    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
-        return String.fromCharCode('0x' + p1);
-    }));
-}
+::
+	function b64EncodeUnicode(str) {
+		return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+			return String.fromCharCode('0x' + p1);
+		}));
+	}
 
-b64EncodeUnicode('✓ à la mode'); // "4pyTIMOgIGxhIG1vZGU="
-b64EncodeUnicode('\n'); // "Cg=="
+	b64EncodeUnicode('✓ à la mode'); // "4pyTIMOgIGxhIG1vZGU="
+	b64EncodeUnicode('\n'); // "Cg=="
+::
 
 Conclusion
 ----------
 
-
-
-Outline
--------
-
-Impact of Encoding
------------------------
-	*	How will Data Encoding increase security?
-	*	What are some techniques you can use?
-	
-ASCII Encoding
----------------
-
-URL Encoding
--------------
-
-UTF-8 Encoding
----------------
-
-Base64 Encoding
-----------------
-	
-Conclusion
-----------
 
 .. image :: encoding.png
 	
@@ -89,9 +66,13 @@ References
 -----------
 .. [e]	"`Encoding <https://www.techopedia.com/definition/948/encoding Techopedia>`_", Technopedia. Web. 19 Feb. 2017.
 
-.. [det] "`Data Encoding Techniques <https://web.cs.wpi.edu/~rek/Undergrad_Nets/B06/Data_Encoding.pdf Worchester Polytechnic Institute>`_", Worchester Polytechnic Institute. Web(PDF). 19 Feb. 2017.
+.. [u]	"`HTML URL Encode <https://www.w3schools.com/tags/ref_urlencode.asp>`_", W3Schools. Web. 25 Feb. 2017.
 
-.. [how] "`How to Protect Your Website from Being Hacked.” <https://ahrefs.com/blog/protect-website-from-hackers/>`_", ahrefsblog. Web. 19 Feb. 2017.
+.. [t]	"`HTML UTF-8 <https://www.w3schools.com/charsets/ref_html_utf8.asp>`_", W3Schools. Web. 25 Feb. 2017.
+
+.. [b]	"`Base64 Encoding and Decoding <https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding>`_", Mozilla Developer Network. Web. 25 Feb. 2017.
+
+..	[s]	"Security Testing - Encoding <https://www.tutorialspoint.com/security_testing/encoding_and_decoding.htm>`_", Tutorialspoint Simplyeasylearning. Web. 25 Feb. 2017.
 
 .. [Image] "File: Manchester encoding both conventions.svg <https://commons.wikimedia.org/wiki/File:Differential_Manchester_encoding_alternatives.png>`_", Wikimedia. Wikimedia, 27 Sept. 2006. Web. 19 Feb. 2017.
 
