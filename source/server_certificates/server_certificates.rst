@@ -84,18 +84,19 @@ at the beginning of the URL (except Internet Explorer, they only have the lock
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
 secure connection". 
 
-.. figure:: amazon.png
-		:align: left
-		:alt: Amazon Secure Website
 		
-		An example of a secure website 
+		 
 		
-.. image:: amazonSecure.png
+.. figure:: amazonSecure.png
 		:align: left
+		:height: 100px
 		:alt: Secure Message
+		
+		An example of a secure website
 		
 .. figure:: cupcakeUnsecure.png
 		:align: left
+		:height: 100px
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
