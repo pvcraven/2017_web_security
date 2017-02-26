@@ -14,22 +14,10 @@ ASCII Encoding
 
 We are going to start out with the basics when dealing with encoding, which is ASCII encoding. ASCII encoding deals with "the browser or client side of things, it will encode the input according to the character-set used in the web=page and the default character-set in HTML5 which is UTF-8 [s]_." Below is an example table of what each symbol represents and what it gets replaced with to use in the URL before it reaches the server.
 
-+----------+------------+--------------------------------+
-| ASCII    | Symbol     | Replacement                    | 
-+==========+============+================================+
-| <32      |            | Encode with %xx where xx is    |
-|	       | 		    | the hexadecimal representation |
-+----------+------------+--------------------------------+
-| 32       | space      | + or %20                       |          
-+----------+------------+--------------------------------+
-| 33       | !          | %21                            |          
-+----------+------------+--------------------------------+
-| 34       | "          | %22                            |          
-+----------+------------+--------------------------------+
-| 35       | #          | %23                            |          
-+----------+------------+--------------------------------+
-| 36       | $          | %24                            |          
-+----------+------------+--------------------------------+
+.. image :: ASCII.png
+   :height: 400px
+   :width: 400px
+   :align: center
 
 To view the rest of the table go to www.tutorialspoint.com
 
@@ -53,23 +41,10 @@ UTF-16: "16-bit Unicode Transformation Format is a variable-length character enc
 
 If you are using anything other than UTF-8 it needs to be specified in th <meta> tag for example, <meta charset="ISO-8859-1">. The reason for this is due to the fact that HTML5 is defaulted to UTF-8. You have heard me reference Unicode which to clarify is the character set that UTF-8 is using to encode. "The encoding part of this is how those character sets are represented by decimal numbers and then translated to binary numbers and store in the computer [t]_." Below is an example table of the translated decimal numbers.
 
-+------------------------+------------+---------------+
-| Character Codes  		 | Decimal    | Hexadecimal   | 
-+========================+============+===============+
-| C0 Controls and Basic  |  0-127     | 0000-007F     |
-| Latin					 | 		      |               |
-+------------------------+------------+---------------+
-| C1 Controls and Latin-1|  128-255   | 0080-00FF     |
-| Supplement		     | 		      |               |          
-+------------------------+------------+---------------+
-| Latin Extended-A       |  256-383   | 0100-017F     |          
-+------------------------+------------+---------------+
-| Latin Extended-B       | 384-591    | 0180-024F     |          
-+------------------------+------------+---------------+
-| Spacing Modifiers      | 688-767    | 02B0-02FF     |          
-+------------------------+------------+---------------+
-| Diacritical Marks      | 768-879    | 0300-036F     |          
-+------------------------+------------+---------------+
+.. image :: UTF8.png
+   :height: 400px
+   :width: 400px
+   :align: center
 
 To view the rest of the table go to www.w3schools.com.
 
