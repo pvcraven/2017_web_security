@@ -88,8 +88,7 @@ at the beginning of the URL (except Internet Explorer, they only have the lock
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
 secure connection". 
 
-|br|\		 
-		
+
 .. figure:: amazonSecure.png
 		:align: right
 		:width: 300px
@@ -104,7 +103,7 @@ secure connection".
 		
 		Be cautious on what information is being enter on an unsecure website. 
 		
-|br|\
+
 
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
@@ -116,7 +115,10 @@ would most likely direct you to a fake website.
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
 is advised to only shop at reputable websites such as Amazon.  
 
-|br|\ 
+
+
+
+
 
 Sources
 +++++++++
