@@ -19,7 +19,7 @@ Why Do Companies Need an SSL Certificate?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Companies need an SSL to encrypt the data the customer is entering such as 
 username, password, credit card and more. This ensures clients that their 
-sensitive information is not easily obtainable. [GlobalSign]_. If a server does 
+sensitive information is not easily obtainable [GlobalSign]_. If a server does 
 not have a certificate, it cannot protect the clients from potentially being 
 compromised. 
 
@@ -47,6 +47,7 @@ appears genuine but is actually fake. [Digicert]_
 Types of Certificates
 ~~~~~~~~~~~~~~~~~~~~~~
 *Domain Validated Certificate*
+
 This type of certificate is mainly used for owning the domain name and verifying 
 ownership. This is the cheapest type of certificate where it can be obtained for 
 free. This is not commonly used for commercial purposes because it is a high 
@@ -54,23 +55,26 @@ risk certificate use on a public website. The risk involves clients not able to
 verify the organization when they visit the website. [Symantec-Corp]_
 
 *Organization Validated Certificate*
+
 This type of certificate is a standard type of certificate that is at least used 
-on commercial website. Organization Validated Certificate are trusted because 
+on commercial website. Organization Validated Certificates are trusted because 
 they are "authenticated by real agents against business registry databases 
 hosted by governments" [Symantec-Corp]_. Meaning, the website legitimatizes their 
 business information. 
 
 *Extended Validation Certificate*
-This type of certificate is the most trusted type of certificate. This gives
+
+This type of certificate is the most trusted type of certificates. This gives
 users peace of mind that the domain is a secured website. It has more define 
-guidelines for companies to follow. [Symantec-Corp]_
+guidelines for companies to follow. It encrypts all data between the user and web 
+server. [Symantec-Corp]_
 
 How to Obtain an SSL Certificate?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A SSL Certificate can be purchased through a domain provider such as GoDaddy, 
 DigiCert, GlobalSign and more. They will offer several different service 
 packages including standard SSL certificate, Extended Validation Certificate, 
-Multiple-Domains, and Wildcard.
+Multiple-Domains, and Wildcard(s).
 
 How to Tell if a Website is Secure?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,39 +82,45 @@ How to Tell if a Website is Secure?
 There are several indications that can help identify if the website is secure. 
 
 1. Check to see if the URL has a lock on it. Depending on which browser, it will 
-display a lock icon either left (Firefox and Chrome) of the URL or right 
-(internet Explorer) of it. Also, if the website is secure, it will have "https" 
+display a lock icon either left of the URL (Firefox and Chrome) or right 
+(Internet Explorer). Also, if the website is secure, it will have "https" 
 at the beginning of the URL (except Internet Explorer, they only have the lock 
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
 secure connection". 
 
-		
-		 
-		
+
 .. figure:: amazonSecure.png
-		:align: left
-		:height: 100px
-		:width: 100px
+		:align: right
+		:width: 300px
 		:alt: Secure Message
 		
 		An example of a secure website
-		
-.. figure:: //cupcakeUnsecure.png
+	
+.. figure:: cupcakeUnsecure.png
 		:align: left
-		:height: 100px
-		:width: 100px
+		:width: 500px
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
+		
+
 
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
 email from your bank stating you need to verify your account information. Do not 
 click on the URL provided within the email. If you hover your mouse over it, it 
-will display the true URL which will most likely direct you to a fake website.
+will display the true URL. In the case of it being a phishing attempt email, it 
+would most likely direct you to a fake website.
+
+|br|
 
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
-is advised to only shop at reputable websites such as Amazon.   
+is advised to only shop at reputable websites such as Amazon.  
+
+
+
+
+
 
 Sources
 +++++++++
