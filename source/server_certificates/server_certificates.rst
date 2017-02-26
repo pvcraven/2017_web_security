@@ -91,7 +91,7 @@ secure connection".
 		 
 		
 .. figure:: amazonSecure.png
-		:align: left
+		:align: right
 		:width: 300px
 		:alt: Secure Message
 		
@@ -99,6 +99,9 @@ secure connection".
 		
 		
 |br|\	
+|br|\
+|br|\
+|br|\
 	
 .. figure:: cupcakeUnsecure.png
 		:align: left
