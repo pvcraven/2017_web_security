@@ -98,7 +98,8 @@ secure connection".
 		An example of a secure website
 		
 		
-		
+|br|\	
+	
 .. figure:: cupcakeUnsecure.png
 		:align: left
 		:width: 500px
