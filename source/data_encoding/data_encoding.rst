@@ -8,8 +8,6 @@ Introduction
 
 When working with security issues within your program there are many ways to make sure your program is secure, encoding is one of them. Encoding involves "applying a specific code, such as letters, symbols and numbers, to your data for conversion into a equivalent cipher [e]_." In other words, encoding will make your code unreadable to other people when they try to view it but will be readable when you view it. If hackers don't understand your code then they won't be able to change anything to enable them to hack your website. The goal is to help you understand encoding, how it can impact your website, and how to use encoding. Once you understand those three things then hopefully your websites will be protect aganist hackers.
 
-Impact of Encoding
-------------------
 
 ASCII Encoding
 --------------
@@ -82,7 +80,7 @@ Base64 Encoding
 
 Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation [b]_." In Javascript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
 
-::
+
 	 function b64EncodeUnicode(str) {
 		 return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
 			 return String.fromCharCode('0x' + p1);
@@ -91,10 +89,11 @@ Lastly, "Base64 is a group of similar binary-to-text encoding schemes that repre
 
 	 b64EncodeUnicode('✓ à la mode'); // "4pyTIMOgIGxhIG1vZGU="
 	 b64EncodeUnicode('\n'); // "Cg=="
-::
+
 
 Conclusion
 ----------
+
 
 	
 References
