@@ -82,7 +82,7 @@ What Can Be Done to Prevent XSS through Web Security
 	  
 	* One way to do this is to use regulat expressions to validate data that is entered. 
 	  Regular expressions often include escape characters that would be allowed, such as 
-	  *\.* for "." Regular expressions can also be user to find special characters 
+	  "*\.*" for "." Regular expressions can also be user to find special characters 
 	  and escape them with a special sequense such as *&amp;* for &. [Watts]_  
 	  
 	* Many browers use a *blacklist* or a *whitelist* with regular expressions. 
@@ -170,7 +170,7 @@ Sources
 
 .. [Shema] Shema, Mike. “HTML Injection & Cross-Site Scripting (XSS).” *Hacking Web Apps: Detecting and Preventing Web Application Security Problems* , Syngress, 2012, pp. 23–78.
 
-.. [Watts] Watt, Andrew. **Beginning Regular Expressions**. Indianapolis , IN, Wiley, 2005. Print.  
+.. [Watts] Watt, Andrew. *Beginning Regular Expressions*. Indianapolis , IN, Wiley, 2005. Print.  
 
 .. [xss] "`What is Cross-Site Scripting and How Can You Fix it? <https://www.acunetix.com/websitesecurity/cross-site-scripting/>`_." Acunetix. Acunetix. n.d. Web. 16 Feb. 2017. 
 
