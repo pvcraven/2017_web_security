@@ -135,7 +135,7 @@ What You Can Do To Spot/Prevent XSS
 Example of Cross-Site Scripting:
 -------------------------------
 
-.. figure:: sorted-XSS.png
+.. figure:: stored_XSS.png
 
 	Stored XSS [xss-attacks]_ 
 
