@@ -97,8 +97,8 @@ secure connection".
 		Example of a secure website
 	
 .. figure:: cakeUnsecure.png
-		:align: left
-		:width: 300px
+		:align: center
+		:width: 400px
 		:alt: Cupcake Form
 		
 		Example of an unsecure website. Even though the information is not 
