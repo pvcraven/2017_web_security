@@ -66,8 +66,8 @@ What Can Be Done to Prevent XSS through Web Security
 * Web Application Firewall (WAF) - the most common protection [xss-attacks]_ 
 	
 	* Many web browsers now come with built-in defenses against some XSS attacks. 
-	  This mostly works on reflective XSS, as the browers can detect when common attacks 
-	  senarios are run, and can nutralize them even if the user clicks on the link 
+	  This mostly works on reflective XSS, as the browsers can detect when common attack 
+	  senarios are run, and can neutralize them even if the user clicks on the link 
 	  itself. [Shema]_
 	
 * Signature based Filtering - "identifies and blocks malicious requests" [xss-attacks]_ 
@@ -78,12 +78,12 @@ What Can Be Done to Prevent XSS through Web Security
 	  escaping characters 
 	
 	* Also escape any HTML, attribute, JavaScript, JSON (with HTML), CSS, and URL 
-	  before entering any untrusted or un-validated data [xss_cheat_sheet]_
+	  before entering any un-trusted or un-validated data [xss_cheat_sheet]_
 	  
-	* One way to do this is to use regulat expressions to validate data that is entered. 
+	* One way to do this is to use regular expressions to validate data that is entered. 
 	  Regular expressions often include escape characters that would be allowed, such as 
-	  ``\.`` for "." Regular expressions can also be user to find special characters 
-	  and escape them with a special sequense such as *&amp;* for &. [Watts]_  
+	  ``\.`` for "." Regular expressions can also be used to find special characters 
+	  and escape them with a special sequences  such as ``&amp;`` for &. [Watts]_  
 	  
 	* Many browers use a *blacklist* or a *whitelist* with regular expressions. 
 	  The *blacklist* looks for matches to disallowed data, while the *whitelist* 
@@ -106,7 +106,7 @@ What You Can Do To Spot/Prevent XSS
 ---------------------------
 
 * Be careful of links that you click on in websites and through emails. Phishing 
-  attacks are usually heard of coming through emails, and happen when the user clicks on a 
+  attacks are usually heard coming through emails, and happen when the user clicks on a 
   link that leads them to a malicious website. 
   
   * For example, if you get an email saying that your password/username has expired 
