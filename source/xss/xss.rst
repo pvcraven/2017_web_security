@@ -82,7 +82,7 @@ What Can Be Done to Prevent XSS through Web Security
 	  
 	* One way to do this is to use regulat expressions to validate data that is entered. 
 	  Regular expressions often include escape characters that would be allowed, such as 
-	  '*\.*' for "." Regular expressions can also be user to find special characters 
+	  ``\.`` for "." Regular expressions can also be user to find special characters 
 	  and escape them with a special sequense such as *&amp;* for &. [Watts]_  
 	  
 	* Many browers use a *blacklist* or a *whitelist* with regular expressions. 
