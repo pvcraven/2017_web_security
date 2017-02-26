@@ -94,20 +94,20 @@ secure connection".
 		:width: 300px
 		:alt: Secure Message
 		
-		Example of a secure website
+		For example, I took a screenshot of Amazon.com to display this is a 
+		secure website. Before the URL, it has a lock icon with the word 
+		"Secure" to identify the information will be encrypted. 
 	
 .. figure:: cakeUnsecure.png
 		:align: center
 		:width: 400px
 		:alt: Cupcake Form
 		
-		Example of an unsecure website. Even though the information is not 
-		extremely sensitive in this example, be it is good practice to be 
-		cautious on what website you are on and what information is being 
-		entered. 
+		This screenshot is an example of an unsecure website. Even though the 
+		information is not extremely sensitive in this example, it is good 
+		practice to be cautious on what website you are on and what information 
+		is being entered. 
 		
-
-
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
 email from your bank stating you need to verify your account information. Do not 
@@ -117,11 +117,6 @@ would most likely direct you to a fake website.
 
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
 is advised to only shop at reputable websites such as Amazon.  
-
-
-
-
-
 
 Sources
 +++++++++
