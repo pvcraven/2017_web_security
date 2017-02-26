@@ -120,24 +120,12 @@ is advised to only shop at reputable websites such as Amazon.
 
 Sources
 +++++++++
-.. [Digicert] `"Protect Yourself Against Fraudulent SSL Certificates." What Are 
-Fraudulent SSL Certificates & How Can Users Protect Themselves. Digicert, n.d. Web. 
-21 Feb. 2017. 
-<https://www.digicert.com/protecting-against-fraudulent-certificates.htm>.`
+.. [Digicert] "Protect Yourself Against Fraudulent SSL Certificates." What Are Fraudulent SSL Certificates & How Can Users Protect Themselves. Digicert, n.d. Web. 21 Feb. 2017. <https://www.digicert.com/protecting-against-fraudulent-certificates.htm>.
 
-.. [GlobalSign] `"GlobalSign." SSL & Digital Certificates by GlobalSign., 
-n.d. Web. 20 Feb. 2017. 
-<https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/>.`
+.. [GlobalSign] "GlobalSign." SSL & Digital Certificates by GlobalSign., n.d. Web. 20 Feb. 2017. <https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/>.
 
-.. [GoDaddy] `"Do you need SSL encryption if you don't sell anything on your 
-website?" GoDaddy., 16 Jan. 2017. Web. 21 Feb. 2017. 
-<https://www.godaddy.com/garage/smallbusiness/secure/do-you-need-ssl-encryption-if-you-dont-sell-anything-on-your-website/>.`
+.. [GoDaddy] "Do you need SSL encryption if you don't sell anything on your website?" GoDaddy., 16 Jan. 2017. Web. 21 Feb. 2017. <https://www.godaddy.com/garage/smallbusiness/secure/do-you-need-ssl-encryption-if-you-dont-sell-anything-on-your-website/>.
 
-.. [SSL-Shopper] `"Do I Need An SSL Certificate For My Website?" Do I Need An 
-SSL Certificate For My Website? SSL-Shopper, n.d. Web. 21 Feb. 2017. 
-<https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.`
+.. [SSL-Shopper] "Do I Need An SSL Certificate For My Website?" Do I Need An SSL Certificate For My Website? SSL-Shopper, n.d. Web. 21 Feb. 2017. <https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.
 
-.. [Symantec-Corp] `"Types of SSL certificates – choose the right one." Symantec 
-- Global Leader In Next-Generation Cyber Security. Symantec, n.d. Web. 23 Feb. 
-2017. 
-<https://www.symantec.com/connect/blogs/types-ssl-certificates-choose-right-one>.`
+.. [Symantec-Corp] "Types of SSL certificates – choose the right one." Symantec - Global Leader In Next-Generation Cyber Security. Symantec, n.d. Web. 23 Feb. 2017. <https://www.symantec.com/connect/blogs/types-ssl-certificates-choose-right-one>.
