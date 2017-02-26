@@ -94,15 +94,14 @@ secure connection".
 		:width: 300px
 		:alt: Secure Message
 		
-		An example of a secure website
+		Example of a secure website
 	
 .. figure:: cakeUnsecure.png
 		:align: left
 		:width: 300px
 		:alt: Cupcake Form
 		
-|		Be cautious on what information is being enter
-|		on an unsecure website
+		Example of an unsecure website
 		
 
 
