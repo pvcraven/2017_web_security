@@ -74,7 +74,7 @@ What Can Be Done to Prevent XSS through Web Security
 	
 * Use escape characters -  escape any characters that could change the websites code [xss-prevention]_ 
 	
-	* PHP Applications can use **htmlentities()** , a built in function for 
+	* PHP Applications can use ``htmlentities()`` , a built in function for 
 	  escaping characters 
 	
 	* Also escape any HTML, attribute, JavaScript, JSON (with HTML), CSS, and URL 
