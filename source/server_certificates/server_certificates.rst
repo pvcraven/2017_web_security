@@ -112,6 +112,8 @@ click on the URL provided within the email. If you hover your mouse over it, it
 will display the true URL. In the case of it being a phishing attempt email, it 
 would most likely direct you to a fake website.
 
+|br|
+
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
 is advised to only shop at reputable websites such as Amazon.  
 
