@@ -101,7 +101,9 @@ secure connection".
 		:width: 300px
 		:alt: Cupcake Form
 		
-		Example of an unsecure website
+		Example of an unsecure website. Even though the information is not 
+		extremely sensitive, be cautious on what website you are on and what 
+		information is being entered. 
 		
 
 
