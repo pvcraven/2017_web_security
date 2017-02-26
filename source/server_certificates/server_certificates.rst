@@ -99,8 +99,7 @@ secure connection".
 		
 .. figure:: cupcakeUnsecure.png
 		:align: left
-		:height: 100px
-		:width: 100px
+		:width: 500px
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
