@@ -90,13 +90,13 @@ secure connection".
 
 
 .. figure:: amazonSecure.png
-		:align: right
+		:align: left
 		:width: 300px
 		:alt: Secure Message
 		
 		An example of a secure website
 	
-.. figure:: cupcakeUnsecure.png
+.. figure:: cakeUnsecure.png
 		:align: left
 		:width: 300px
 		:alt: Cupcake Form
