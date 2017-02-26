@@ -90,7 +90,7 @@ secure connection".
 
 
 .. figure:: amazonSecure.png
-		:align: left
+		:align: center
 		:width: 300px
 		:alt: Secure Message
 		
@@ -102,8 +102,9 @@ secure connection".
 		:alt: Cupcake Form
 		
 		Example of an unsecure website. Even though the information is not 
-		extremely sensitive, be cautious on what website you are on and what 
-		information is being entered. 
+		extremely sensitive in this example, be it is good practice to be 
+		cautious on what website you are on and what information is being 
+		entered. 
 		
 
 
