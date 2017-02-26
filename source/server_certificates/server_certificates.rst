@@ -90,21 +90,24 @@ secure connection".
 
 
 .. figure:: amazonSecure.png
-		:align: right
+		:align: center
 		:width: 300px
 		:alt: Secure Message
 		
-		An example of a secure website
+		For example, I took a screenshot of Amazon.com to display this is a 
+		secure website. Before the URL, it has a lock icon with the word 
+		"Secure" to identify the information will be encrypted. 
 	
-.. figure:: cupcakeUnsecure.png
-		:align: left
-		:width: 500px
+.. figure:: cakeUnsecure.png
+		:align: center
+		:width: 400px
 		:alt: Cupcake Form
 		
-		Be cautious on what information is being enter on an unsecure website. 
+		This screenshot is an example of an unsecure website. Even though the 
+		information is not extremely sensitive in this example, it is good 
+		practice to be cautious on what website you are on and what information 
+		is being entered. 
 		
-
-
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
 email from your bank stating you need to verify your account information. Do not 
@@ -112,36 +115,17 @@ click on the URL provided within the email. If you hover your mouse over it, it
 will display the true URL. In the case of it being a phishing attempt email, it 
 would most likely direct you to a fake website.
 
-|br|
-
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
 is advised to only shop at reputable websites such as Amazon.  
 
-
-
-
-
-
 Sources
 +++++++++
-.. [Digicert] "Protect Yourself Against Fraudulent SSL Certificates." What Are 
-Fraudulent SSL Certificates & How Can Users Protect Themselves. Digicert, n.d. Web. 
-21 Feb. 2017. 
-<https://www.digicert.com/protecting-against-fraudulent-certificates.htm>.
+.. [Digicert] "Protect Yourself Against Fraudulent SSL Certificates." What Are Fraudulent SSL Certificates & How Can Users Protect Themselves. Digicert, n.d. Web. 21 Feb. 2017. <https://www.digicert.com/protecting-against-fraudulent-certificates.htm>.
 
-.. [GlobalSign] "GlobalSign." SSL & Digital Certificates by GlobalSign., 
-n.d. Web. 20 Feb. 2017. 
-<https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/>.
+.. [GlobalSign] "GlobalSign." SSL & Digital Certificates by GlobalSign., n.d. Web. 20 Feb. 2017. <https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/>.
 
-.. [GoDaddy] "Do you need SSL encryption if you don't sell anything on your 
-website?" GoDaddy., 16 Jan. 2017. Web. 21 Feb. 2017. 
-<https://www.godaddy.com/garage/smallbusiness/secure/do-you-need-ssl-encryption-if-you-dont-sell-anything-on-your-website/>.
+.. [GoDaddy] "Do you need SSL encryption if you don't sell anything on your website?" GoDaddy., 16 Jan. 2017. Web. 21 Feb. 2017. <https://www.godaddy.com/garage/smallbusiness/secure/do-you-need-ssl-encryption-if-you-dont-sell-anything-on-your-website/>.
 
-.. [SSL-Shopper] "Do I Need An SSL Certificate For My Website?" Do I Need An 
-SSL Certificate For My Website? SSL-Shopper, n.d. Web. 21 Feb. 2017. 
-<https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.
+.. [SSL-Shopper] "Do I Need An SSL Certificate For My Website?" Do I Need An SSL Certificate For My Website? SSL-Shopper, n.d. Web. 21 Feb. 2017. <https://www.sslshopper.com/article-do-i-need-an-ssl-certificate-for-my-website.html>.
 
-.. [Symantec-Corp] "Types of SSL certificates – choose the right one." Symantec 
-- Global Leader In Next-Generation Cyber Security. Symantec, n.d. Web. 23 Feb. 
-2017. 
-<https://www.symantec.com/connect/blogs/types-ssl-certificates-choose-right-one>.
+.. [Symantec-Corp] "Types of SSL certificates – choose the right one." Symantec - Global Leader In Next-Generation Cyber Security. Symantec, n.d. Web. 23 Feb. 2017. <https://www.symantec.com/connect/blogs/types-ssl-certificates-choose-right-one>.
