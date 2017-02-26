@@ -88,7 +88,6 @@ at the beginning of the URL (except Internet Explorer, they only have the lock
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
 secure connection".
 
-
 .. figure:: cakeUnsecure.png
 		:align: center
 		:width: 400px
@@ -117,7 +116,6 @@ secure connection".
 		secure website. Before the URL, it has a lock icon with the word 
 		"Secure" to identify the information will be encrypted. 
 
-		
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
 email from your bank stating you need to verify your account information. Do not 
