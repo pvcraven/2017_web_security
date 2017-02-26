@@ -88,6 +88,15 @@ at the beginning of the URL (except Internet Explorer, they only have the lock
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
 secure connection". 
 
+.. figure:: hotTopic.png
+		:align: center
+		: width: 300px
+		:alt: Hot Topic partially secure
+		
+		I took a screenshot while checking out of Hot Topic. Even though it says
+		https, this is an indication that the certificate is not an Extended 
+		Validation Certificate. 
+
 
 .. figure:: amazonSecure.png
 		:align: center
