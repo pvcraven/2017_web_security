@@ -102,7 +102,7 @@ secure connection".
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter
-		on an unsecure website. 
+		|on an unsecure website. 
 		
 
 
