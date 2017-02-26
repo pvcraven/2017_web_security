@@ -98,7 +98,7 @@ secure connection".
 	
 .. figure:: cupcakeUnsecure.png
 		:align: left
-		:width: 500px
+		:width: 300px
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
@@ -111,8 +111,6 @@ email from your bank stating you need to verify your account information. Do not
 click on the URL provided within the email. If you hover your mouse over it, it 
 will display the true URL. In the case of it being a phishing attempt email, it 
 would most likely direct you to a fake website.
-
-|br|
 
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
 is advised to only shop at reputable websites such as Amazon.  
