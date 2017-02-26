@@ -82,11 +82,11 @@ What Can Be Done to Prevent XSS through Web Security
 	  
 	* One way to do this is to use regulat expressions to validate data that is entered. 
 	  Regular expressions often include escape characters that would be allowed, such as 
-	  **\.** for "." Regular expressions can also be user to find special characters 
-	  and escape them with a special sequense such as **&amp;** for &. [Watts]_  
+	  *\.* for "." Regular expressions can also be user to find special characters 
+	  and escape them with a special sequense such as *&amp;* for &. [Watts]_  
 	  
-	* Many browers use a **blacklist** or a **whitelist** with regular expressions. 
-	  The **blacklist** looks for matches to disallowed data, while the **whitelist** 
+	* Many browers use a *blacklist* or a *whitelist* with regular expressions. 
+	  The *blacklist* looks for matches to disallowed data, while the *whitelist* 
 	  matches valid data. [Shema]_ 
 	
 * Escape data output, not input - when displaying to user [xss-prevention]_ 
@@ -166,9 +166,9 @@ Sources
 
 .. [Franceschi] Franceschi-Bicchierai, Lorenzo. "`The MySpace Worm that Changed the Internet Forever. <https://motherboard.vice.com/en_us/article/the-myspace-worm-that-changed-the-internet-forever>`_." Motherboard. Motherboard, 04 Oct. 2015. Web. 23 Feb. 2017. 
 
-.. [Grossman] Grossman, Jeremiah. **XSS Attacks: Cross-site Scripting Exploits and Defense**. N.p.: Syngress, 2007. Print. 
+.. [Grossman] Grossman, Jeremiah. *XSS Attacks: Cross-site Scripting Exploits and Defense*. N.p.: Syngress, 2007. Print. 
 
-.. [Shema] Shema, Mike. “HTML Injection & Cross-Site Scripting (XSS).” **Hacking Web Apps: Detecting and Preventing Web Application Security Problems** , Syngress, 2012, pp. 23–78.
+.. [Shema] Shema, Mike. “HTML Injection & Cross-Site Scripting (XSS).” *Hacking Web Apps: Detecting and Preventing Web Application Security Problems* , Syngress, 2012, pp. 23–78.
 
 .. [Watts] Watt, Andrew. **Beginning Regular Expressions**. Indianapolis , IN, Wiley, 2005. Print.  
 
