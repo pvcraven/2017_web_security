@@ -99,15 +99,14 @@ secure connection".
 		practice to be cautious on what website you are on and what information 
 		is being entered.  
 
-.. figure:: hotTopic.png
+.. figure:: httpsHotTopic.png
 		:align: center
 		: width: 300px
 		:alt: Hot Topic partially secure
 		
-		I took a screenshot while checking out of Hot Topic. Even though it says
-		https, this is an indication that the certificate is not an Extended 
-		Validation Certificate. 
-
+		I took a screenshot of the login page on Hot Topic's website. Even 
+		though it says https, this is an indication that not all data is 
+		encrypted and some of the content is readable. 
 
 .. figure:: amazonSecure.png
 		:align: center
