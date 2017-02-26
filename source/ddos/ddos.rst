@@ -13,7 +13,7 @@ attack a target by sending multiple messages or connection requests to it.
 Furthermore, it is more difficult to distinguish these attacks from real 
 requests due to certain circumstances such as a spike in a website's popularity
 [Rou]_. The victim computer, website, or network source may be significantly 
-slower, crash, or shut down denying real users of the service. This is a more
+slower or shut down denying real users of the service. This is a more
 advanced security breach than an attack from a single host or IP address
 where they can be blocked easily with a firewall [Kar]_.
 
@@ -71,7 +71,7 @@ On October 21, 2016, the DNS provider, Dyn, was a victim of a DDoS attack.
 This impacted users from using popular websites that are Dyn customers 
 including Twitter, Reddit, Twitter, Spotify, and Netflix. The attacker 
 used a Mirai botnet, a network of infected Internet of Things devices such
-as security cameras and DVR players, which have poor security. 
+as security cameras and DVR players that have poor security. 
 It is estimated that there were 100,000 infected devices that caused the
 attack with a magnitude of 1.2 Tbps.
 
@@ -135,7 +135,7 @@ This image shows the locations of Mirai infected devices that made up the
 botnet [Bek]_.
 
 Mirai attackers gained control of IoT devices mainly by guessing login 
-credentials and gained access due to default usernames and passwords still being 
+credentials and gained access from default usernames and passwords still being 
 used. The attacker gained control by using brute force based on the following
 list of credentials.
 
@@ -315,6 +315,8 @@ large, expensive and damaging attack from taking place.
   - Creating proper authentication credentials for system administration
   - Maintaining proper communication with customers
   - Having a plan in preparation of an attack [Rub]_
+  
+Distributed Denial of Service attacks vary in the effect they can have on a company or service, but they have the potential to cause a large amount of damage, especially when combined with other hacking methods. Although they are harder to stop and prevent than other denial of service attacks, there are ways that they can be mitigated and having a plan in place in preparation will also help.
 
 Sources
 -------
