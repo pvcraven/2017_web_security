@@ -96,12 +96,6 @@ secure connection".
 		:alt: Secure Message
 		
 		An example of a secure website
-		
-		
-|br|\	
-|br|\
-|br|\
-|br|\
 	
 .. figure:: cupcakeUnsecure.png
 		:align: left
@@ -109,6 +103,10 @@ secure connection".
 		:alt: Cupcake Form
 		
 		Be cautious on what information is being enter on an unsecure website. 
+		
+|br|\
+|br|\
+|br|\
 
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
@@ -118,7 +116,11 @@ will display the true URL. In the case of it being a phishing attempt email, it
 would most likely direct you to a fake website.
 
 3. Be a wise shopper. If the prices are too low, it is too good to be true. It 
-is advised to only shop at reputable websites such as Amazon.   
+is advised to only shop at reputable websites such as Amazon.  
+
+|br|\
+|br|\
+|br|\ 
 
 Sources
 +++++++++
