@@ -75,32 +75,24 @@ Here are some example steps an intruder would take to execute a privilege
 escalation attack:
 1. Gather information about the computer you have limited access to. On Windows,
    this can be done by opening the command prompt and changing the directory to
-   \Windows\system32. Then execute the following:
+   ``\Windows\system32``. Then execute the following:
 
-   .. code-block:: bash
-
-   C:\Windows\system32> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+   ``C:\Windows\system32> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"``
 
 2. If you don't already know them, find the computer's name and the username 
    you're logged on with:
 
-   .. code-block:: bash
-
-   C:\Windows\system32> hostname
-   C:\Windows\system32> echo %username%
+   ``C:\Windows\system32> hostname``
+   ``C:\Windows\system32> echo %username%``
 
 3. Then, check what other accounts have been created on the system:
 
-	.. code-block:: bash
-
-	C:\Windows\system32> net users
+	``C:\Windows\system32> net users``
 
 4. You can find more information about any of the accounts by running this
    command:
 
-   .. code-block:: bash
-
-   C:\Windows\system32> net user Michael
+   ``C:\Windows\system32> net user Michael``
 
 5. The hacker would then probably run commands to find what network connections
    were open and if there were any unmounted disks. As with any well executed
@@ -134,7 +126,7 @@ a computer. Here is the output from completing the above steps on my laptop:
 	User name                    Michael
 	Full Name                    Michael Reuter
 	Comment
-	User's comment
+	Users comment
 	Country/region code          000 (System Default)
 	Account active               Yes
 	Account expires              Never
