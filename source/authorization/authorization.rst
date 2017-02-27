@@ -51,11 +51,29 @@ lesser-privileged accounts. [cac]_
 
 Best Practices
 ---------------
-* One of the most critical mistakes that can be made is hiding capabilities 
-  rather than explicitly enforcing authorization on the server. [bwa]_ 
-* The authorization process should always deny actions by default unless they 
-  are explicitly allowed. [bwa]_
-* Always authorize actions on specific resources.
+Authorizing on the Server
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+One of the most critical mistakes a programmer can make is hiding capabilities 
+rather than explicitly enforcing authorization on the server. For example, it is 
+not sufficient enough to just hide the "delete user" button from users that are 
+not administrators. The server should not trust anything fro the user as far as 
+identity, permissions, or roles, so the server code must perform the 
+authorization of the delete. [bwa]_ 
+
+Deny by Default
+~~~~~~~~~~~~~~~~~
+The authorization mechanism should always deny action by default unless they are 
+explicitly allowed. For example, if there are some actions that require 
+authorization and others that do not, it is safer to just deny by default and 
+override any actions that do not require permission. [bwa]_
+
+Authorizing on Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Resource authorization can be more complex because it validates whether a user 
+can take a particular action against a particular resource. For example, a user 
+should be allowed to modify their own profile, but only their profile. The 
+system must validate that the user is authorized to take action on the specific 
+resource being affected. [bwa]_
 
 Implementations
 ----------------
