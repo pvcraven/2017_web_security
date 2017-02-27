@@ -10,7 +10,7 @@ Data Validation
 
 *Outline*
 ^^^^^^^^^
-* What is data validation? [DATA]_ [Cade]_
+* What is data validation? [Cade]_
 	a. How did data validation come about? (History)
 * "How to" on data validation [WEB]_
 	a. Instructions on how to add data validation to a website.
