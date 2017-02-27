@@ -111,17 +111,17 @@ RBAC and ABAC are just two possible ways of modeling policy and will probably be
 used in most situations. Other approaches that can be used are 
 
 * Mandatory Access Control(MAC): based on sensitivity of the information 
- contained in the objects or resources and a formal authorization. They are 
- mandatory because they restrain subjects from setting security attributes on an 
- object and from passing on their access. [cac]_
+  contained in the objects or resources and a formal authorization. They are 
+  mandatory because they restrain subjects from setting security attributes on an 
+  object and from passing on their access. [cac]_
 * Relationship-Based Access Control(ReBAC): policy that is largely determined by 
- relationship between principals and resources [bwa]_ 
+  relationship between principals and resources [bwa]_ 
 * Discretionary Access Control(DAC): based on the identity and need-to-know of 
- subjects or the groups to which they belong. They are discretionary because a 
- subject with certain access permissions is capable of passing on that access 
- to other subjects. [cac]_
+  subjects or the groups to which they belong. They are discretionary because a 
+  subject with certain access permissions is capable of passing on that access 
+  to other subjects. [cac]_
 * Rule-Based Access Control: dynamic role or permission assignment based on a 
- set of operator-programmed rules [bwa]_
+  set of operator-programmed rules [bwa]_
 
 
 Sources
