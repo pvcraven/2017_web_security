@@ -110,12 +110,12 @@ What You Can Do To Spot/Prevent XSS
   link that leads them to a malicious website. 
   
 	* For example, if you get an email saying that your password/username has expired 
-      or needs to be changed, the safest option is to go to a new tab and go to the 
+	  or needs to be changed, the safest option is to go to a new tab and go to the 
 	  website yourself to see if the password/username really needs changed, and if 
 	  it does, you can change it through the website itself. 
-	
+	  
 	* The same process should be used if you get an email saying that your shipping 
-      or billing information needs to be updated for an online order. 
+	  or billing information needs to be updated for an online order. 
 
 * Make sure that websites that you are visiting are safe, or take precautions before 
   or while you are on the website. 
