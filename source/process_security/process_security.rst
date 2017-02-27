@@ -73,16 +73,19 @@ rights of their account. There are two types:
 
 Here are some example steps an intruder would take to execute a privilege 
 escalation attack:
+
 1. Gather information about the computer you have limited access to. On Windows,
    this can be done by opening the command prompt and changing the directory to
    ``\Windows\system32``. Then execute the following:
 
    ``C:\Windows\system32> systeminfo | findstr /B /C:"OS Name" /C:"OS Version"``
 
-2. If you don't already know them, find the computer's name and the username 
-   you're logged on with:
+2. If you don't already know it, find the computer's name:
 
    ``C:\Windows\system32> hostname``
+
+3. Find the username you're logged on with:
+
    ``C:\Windows\system32> echo %username%``
 
 3. Then, check what other accounts have been created on the system:
