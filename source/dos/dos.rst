@@ -29,7 +29,9 @@ happened to me many times when trying to get downtown during rush hour.
 
 Example and Explanation 
 -----------------------
+
 .. image:: Code.png
+
 [img]_
 This is a straightforward and starts with the user declaring two variables. A and
 B. Both A and B have sizes of 50 and 16. The program will ask the user for the
