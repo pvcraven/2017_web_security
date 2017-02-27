@@ -113,7 +113,7 @@ the lock icon). Furthermore, select the lock icon and it will say "this is a sec
 		
 .. figure:: httpImage.png
 		:align: center
-		:width: 350px
+		:width: 400px
 		:alt: Hot Topic http image
 		
 		This screenshot on Hot Topic's website is the reason why the login page 
@@ -138,7 +138,7 @@ To check this, hover the mouse cursor over the link and it will display the true
  URL. Phishing attempts occur often and they will imitate the real company to 
  their best ability to deceive the clients.
 
-.. figure:: spamEmail.png
+.. figure:: fakeEmail.png
 		:align: center
 		:width: 450px
 		:alt: Fake Password Reset
@@ -158,7 +158,7 @@ company to renew their certificate or visit another.
 
 .. figure:: SSLexpired.png
 		:align: center
-		:width: 400px
+		:width: 500px
 		:alt: SSL Certificate Expired
 		
 		If a SSL certificate expires the end users will be greeted by this 
