@@ -17,8 +17,7 @@ We are going to start out with the basics when dealing with encoding, which is A
 +----------+------------+--------------------------------+
 | ASCII    | Symbol     | Replacement                    | 
 +==========+============+================================+
-| <32      |            | Encode with %xx where xx is    |
-|	       | 		  | the hexadecimal representation |
+| <32      |            | Encode with %xx                |
 +----------+------------+--------------------------------+
 | 32       | space      | + or %20                       |          
 +----------+------------+--------------------------------+
@@ -58,23 +57,21 @@ UTF-16: "16-bit Unicode Transformation Format is a variable-length character enc
 
 If you are using anything other than UTF-8 it needs to be specified in th <meta> tag for example, <meta charset="ISO-8859-1">. The reason for this is due to the fact that HTML5 is defaulted to UTF-8. You have heard me reference Unicode which to clarify is the character set that UTF-8 is using to encode. "The encoding part of this is how those character sets are represented by decimal numbers and then translated to binary numbers and store in the computer [t]_." Below is an example table of the translated decimal numbers.
 
-+------------------------+------------+---------------+
-| Character Codes  		 | Decimal    | Hexadecimal   | 
-+========================+============+===============+
-| C0 Controls and Basic  |  0-127     | 0000-007F     |
-| Latin		| 		      |               |
-+------------------------+------------+---------------+
-| C1 Controls and Latin-1|  128-255   | 0080-00FF     |
-| Supplement		  | 		   |               |          
-+------------------------+------------+---------------+
-| Latin Extended-A       |  256-383   | 0100-017F     |          
-+------------------------+------------+---------------+
-| Latin Extended-B       | 384-591    | 0180-024F     |          
-+------------------------+------------+---------------+
-| Spacing Modifiers      | 688-767    | 02B0-02FF     |          
-+------------------------+------------+---------------+
-| Diacritical Marks      | 768-879    | 0300-036F     |          
-+------------------------+------------+---------------+
++------------------------------------+------------+---------------+
+| Character Codes  		             | Decimal    | Hexadecimal   | 
++====================================+============+===============+
+| C0 Controls & Basic Latin          |  0-127     | 0000-007F     |
++------------------------------------+------------+---------------+
+| C1 Controls and Latin-1 Supplement |  128-255   | 0080-00FF     |       
++------------------------------------+------------+---------------+
+| Latin Extended-A                   |  256-383   | 0100-017F     |          
++------------------------------------+------------+---------------+
+| Latin Extended-B                   | 384-591    | 0180-024F     |          
++------------------------------------+------------+---------------+
+| Spacing Modifiers                  | 688-767    | 02B0-02FF     |          
++------------------------------------+------------+---------------+
+| Diacritical Marks                  | 768-879    | 0300-036F     |          
++------------------------------------+------------+---------------+
 
 .. image :: UTF8.png
    :height: 400px
