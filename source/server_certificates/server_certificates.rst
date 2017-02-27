@@ -86,8 +86,26 @@ display a lock icon either left of the URL (Firefox and Chrome) or right
 (Internet Explorer). Also, if the website is secure, it will have "https" 
 at the beginning of the URL (except Internet Explorer, they only have the lock 
 icon). Furthermore, you can select the lock icon, and it will say "this is a 
-secure connection". 
+secure connection".
 
+.. figure:: cakeUnsecure.png
+		:align: center
+		:width: 400px
+		:alt: Cupcake Form
+		
+		This screenshot is an example of an unsecure website. Even though the 
+		information is not extremely sensitive in this example, it is good 
+		practice to be cautious on what website you are on and what information 
+		is being entered.  
+
+.. figure:: httpsHotTopic.png
+		:align: center
+		: width: 300px
+		:alt: Hot Topic partially secure
+		
+		I took a screenshot of the login page on Hot Topic's website. Even 
+		though it says https, this is an indication that not all data is 
+		encrypted and some of the content is readable. 
 
 .. figure:: amazonSecure.png
 		:align: center
@@ -97,17 +115,7 @@ secure connection".
 		For example, I took a screenshot of Amazon.com to display this is a 
 		secure website. Before the URL, it has a lock icon with the word 
 		"Secure" to identify the information will be encrypted. 
-	
-.. figure:: cakeUnsecure.png
-		:align: center
-		:width: 400px
-		:alt: Cupcake Form
-		
-		This screenshot is an example of an unsecure website. Even though the 
-		information is not extremely sensitive in this example, it is good 
-		practice to be cautious on what website you are on and what information 
-		is being entered. 
-		
+
 2. Always verify the domain. It is possible to visit a website that looks like 
 the real company, however, it is the imposter. For example, there is a suspicious 
 email from your bank stating you need to verify your account information. Do not 
