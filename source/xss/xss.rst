@@ -111,7 +111,7 @@ What You Can Do To Spot/Prevent XSS
   
   * For example, if you get an email saying that your password/username has expired 
     or needs to be changed, the safest option is to go to a new tab and go to the 
-    website yourself to see if the password/username really needs changed, and if 
+	website yourself to see if the password/username really needs changed, and if 
 	it does, you can change it through the website itself. 
 	
   * The same process should be used if you get an email saying that your shipping 
@@ -122,15 +122,14 @@ What You Can Do To Spot/Prevent XSS
   
   * Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
     check out websites when you google them. For Kaspersky, this can show up as a 
-    green tag with a K inside next to websites that it has verified are safe to 
+	green tag with a K inside next to websites that it has verified are safe to 
 	visit, a grey version next to links that it cannot verify, and a red version for 
 	links that are deemed dangerous. 
-	
 
 * Have a good Anti-Virus/ Web Security, such as McAfee AntiVirus Plus, Bitdefender 
   AnitVirus Plus, or Kaspersky Anti-Virus. As shown above, these can protect you from 
   malicious links while googling, but they can also protect the user from phishing 
-  and keylogging attempts. 
+  and keylogging attempts.  
 
 Example of Cross-Site Scripting:
 -------------------------------
