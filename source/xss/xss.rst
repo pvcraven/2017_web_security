@@ -121,7 +121,7 @@ What You Can Do To Spot/Prevent XSS
   or while you are on the website. 
   
 	* Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
-      check out websites when you google them. For Kaspersky, this can show up as a 
+	  check out websites when you google them. For Kaspersky, this can show up as a 
 	  green tag with a K inside next to websites that it has verified are safe to 
 	  visit, a grey version next to links that it cannot verify, and a red version for 
 	  links that are deemed dangerous. 
