@@ -36,7 +36,7 @@ To view the rest of the table go to https://www.tutorialspoint.com/security_test
 URL Encoding
 ------------
 
-Working with websites can be a challenge when it comes to securing your website from hackers. One way to secure your website is by URL encoding. URL encoding deals with "converting characters into a format that can be transmitted over the Internet [u]_." First things first, you have to have to understand that all URLs are sent over the internet by using the ASCII character-set that I talked about before this section.  Since "URLS contain characters outside the ASII set, then the URL has to be converted into a valid format using ASCII [u]_." With this in mind, you have to replace any characters that are "unsafe" with % and any spaces with a +. To encode in JavaScript you must use the function encodeURI(). Below is how JavaScript encodes text.
+Working with websites can be a challenge when it comes to securing your website from hackers. One way to secure your website is by URL encoding. URL encoding deals with "converting characters into a format that can be transmitted over the Internet." First things first, you have to have to understand that all URLs are sent over the internet by using the ASCII character-set that I talked about before this section.  Since "URLS contain characters outside the ASII set, then the URL has to be converted into a valid format using ASCII [u]_." With this in mind, you have to replace any characters that are "unsafe" with % and any spaces with a +. To encode in JavaScript you must use the function encodeURI(). Below is how JavaScript encodes text.
 
 Text:  Hello World
 
@@ -47,7 +47,7 @@ UTF-8 (Unicode) Encoding
 
 Another method to secure your website is using UTF-8. When using this "the goal is to replace the existing character sets with its standard UTF format [t]_." This method is used more frequently and has a high success rate with securing your website. The two most commonly used forms of encoding are UTF-8 and UTF-16.
 
-UTF-8: "a character in UTF-8 can be from 1 to 4 bytes long. UTF-8 can represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. UTF-8 is the preferred encoding for e-mail and web pages [t]_."
+UTF-8: "a character in UTF-8 can be from 1 to 4 bytes long. UTF-8 can represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. UTF-8 is the preferred encoding for e-mail and web pages."
 
 UTF-16: "16-bit Unicode Transformation Format is a variable-length character encoding for Unicode, capable of encoding the entire Unicode repertoire. UTF-16 is used in major operating systems and environments, like Microsoft Windows, Java and .NET [t]_."
 
@@ -76,11 +76,12 @@ To view the rest of the table go to https://www.w3schools.com/charsets/ref_html_
    :height: 400px
    :width: 400px
    :align: center
+[Image]_
 
 Base64 Encoding
 ---------------
 
-Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation [b]_." In JavaScript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
+Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation." In JavaScript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
 
 .. code-block:: plain
 
