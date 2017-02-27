@@ -53,6 +53,14 @@ He's another code example of a simpler way of doing this so you don't need to re
 
 This way, it's stright up what you want to encode instead of through hex numbers, which nobody likes to memorize anyway.
 
+Those were the ways on how to encode simple strings containging table names. Here's an example on how to encode an actual URL in SQL:
+
+.. code-block:: sql
+
+	SET-LOCATION (ENCODE-SQLNAME "my.url.org/urlexample")
+
+Easy as that.
+
 JSON Encoding
 ~~~~~~~~~~~~~
 This is a bit of a different form of encoding. Instead of encoding to keep the data unreadable to the human eye, JSON encoding makes the data readable for us. Without JSON encoding, the data we would get from the database would look like {name="johnathan", businessID=10}, and, even thought that actually is readable to the human eye, it wouldn't make any sense for most people. That's why we use JSON encoding to make it more readable, like "Name: Joahnathan, Business ID: 10." Here's an example in JavaScript using an HTML page:
