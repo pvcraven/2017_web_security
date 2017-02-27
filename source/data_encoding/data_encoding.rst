@@ -45,7 +45,7 @@ Encoded Text:  Hello%20World
 UTF-8 (Unicode) Encoding
 ------------------------
 
-Another method to secure your website is using UTF-8. When using this "the goal is to replace the existing character sets with its standard UTF format [t]_." This method is used more frequently and has a high success rate with securing your website. The two most commonly used forms of encoding are UTF-8 and UTF-16.
+Another method to secure your website is using UTF-8. When using this "the goal is to replace the existing character sets with its standard UTF format." This method is used more frequently and has a high success rate with securing your website. The two most commonly used forms of encoding are UTF-8 and UTF-16.
 
 UTF-8: "a character in UTF-8 can be from 1 to 4 bytes long. UTF-8 can represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. UTF-8 is the preferred encoding for e-mail and web pages."
 
