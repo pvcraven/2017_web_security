@@ -15,14 +15,14 @@ breaking into a computer to steal information, causing irreparable damage to the
 file system, or the computer as a whole.  Directory Traversal happens when a 
 malicious user decides to test if they can get out of the web root directory, 
 which is where they should stay. Now, if they manage to do this, the directory
-traversal attack has begun [ACUNETIX]_. According to [ACUNETIX]_  ,  this is a
+traversal attack has begun [ACUNETIX]_. According to [ACUNETIX]_  , this is a
  pretty simple malicious attack to attempt, basically if you know the system the
  website you are trying to break is being stored on you too can do this 
  malicious attack (I don’t recommend anyone try this at home).
 
- How are these attacks actually executed? In the paper by Wei Xu,   Sandeep 
- Bhatkar,   and R.
- Sekar ,  they explain in much greater detail of how to do directory traversal 
+ How are these attacks actually executed? In the paper by Wei Xu,Sandeep 
+ Bhatkar,and R.
+ Sekar , they explain in much greater detail of how to do directory traversal 
  than other sources currently cited.  To sum it up short and sweet, the process
  of traversing directories depending on security, you try using forward slashes 
  with two dot operators on most file systems to go up directories. Finishing 
