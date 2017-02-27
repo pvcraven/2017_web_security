@@ -88,8 +88,7 @@ There are several indications that can help identify if the website is secure.
 display a lock icon either left of the URL (Firefox and Chrome) or right 
 (Internet Explorer). In the event that the website is secure, it will have 
 "https" at the beginning of the URL (except Internet Explorer, which only has 
-the lock icon). Furthermore, select the lock icon and it will say "this
- is a secure connection".
+the lock icon). Furthermore, select the lock icon and it will say "this is a secure connection".
 
 .. figure:: cakeUnsecure.png
 		:align: center
@@ -114,7 +113,7 @@ the lock icon). Furthermore, select the lock icon and it will say "this
 		
 .. figure:: httpImage.png
 		:align: center
-		:width: 200px
+		:width: 350px
 		:alt: Hot Topic http image
 		
 		This screenshot on Hot Topic's website is the reason why the login page 
@@ -141,7 +140,7 @@ To check this, hover the mouse cursor over the link and it will display the true
 
 .. figure:: spamEmail.png
 		:align: center
-		:width: 300px
+		:width: 450px
 		:alt: Fake Password Reset
 		
 		In this example, Simpson students may have received an email saying 
@@ -207,6 +206,6 @@ Sources
 
 .. [Symantec-Corp] "Types of SSL certificates – choose the right one." Symantec - Global Leader In Next-Generation Cyber Security. Symantec, n.d. Web. 23 Feb. 2017. <https://www.symantec.com/connect/blogs/types-ssl-certificates-choose-right-one>.
 
-..[Microsoft] Sanders, Jeff. "Troubleshooting ASP.NET – The remote certificate is invalid according to the validation procedure." Http Client Protocol Issues (and other fun stuff I support). Microsoft, n.d. Web. 27 Feb. 2017. <https://blogs.msdn.microsoft.com/jpsanders/2009/09/16/troubleshooting-asp-net-the-remote-certificate-is-invalid-according-to-the-validation-procedure/>.
+.. [Microsoft] Sanders, Jeff. "Troubleshooting ASP.NET – The remote certificate is invalid according to the validation procedure." Http Client Protocol Issues (and other fun stuff I support). Microsoft, n.d. Web. 27 Feb. 2017. <https://blogs.msdn.microsoft.com/jpsanders/2009/09/16/troubleshooting-asp-net-the-remote-certificate-is-invalid-according-to-the-validation-procedure/>.
 
-..[Mac] "Some popular Mac apps fail as developer certificates expire." Cult of Mac. Cult of Mac, 20 Feb. 2017. Web. 27 Feb. 2017. <http://www.cultofmac.com/468457/mac-apps-failing-developer-certificates-expire/>.
+.. [Mac] "Some popular Mac apps fail as developer certificates expire." Cult of Mac. Cult of Mac, 20 Feb. 2017. Web. 27 Feb. 2017. <http://www.cultofmac.com/468457/mac-apps-failing-developer-certificates-expire/>.
