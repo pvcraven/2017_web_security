@@ -109,22 +109,22 @@ What You Can Do To Spot/Prevent XSS
   attacks are usually heard coming through emails, and happen when the user clicks on a 
   link that leads them to a malicious website. 
   
-  * For example, if you get an email saying that your password/username has expired 
-    or needs to be changed, the safest option is to go to a new tab and go to the 
-	website yourself to see if the password/username really needs changed, and if 
-	it does, you can change it through the website itself. 
+	* For example, if you get an email saying that your password/username has expired 
+      or needs to be changed, the safest option is to go to a new tab and go to the 
+	  website yourself to see if the password/username really needs changed, and if 
+	  it does, you can change it through the website itself. 
 	
-  * The same process should be used if you get an email saying that your shipping 
-    or billing information needs to be updated for an online order. 
+	* The same process should be used if you get an email saying that your shipping 
+      or billing information needs to be updated for an online order. 
 
 * Make sure that websites that you are visiting are safe, or take precautions before 
   or while you are on the website. 
   
-  * Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
-    check out websites when you google them. For Kaspersky, this can show up as a 
-	green tag with a K inside next to websites that it has verified are safe to 
-	visit, a grey version next to links that it cannot verify, and a red version for 
-	links that are deemed dangerous. 
+	* Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
+      check out websites when you google them. For Kaspersky, this can show up as a 
+	  green tag with a K inside next to websites that it has verified are safe to 
+	  visit, a grey version next to links that it cannot verify, and a red version for 
+	  links that are deemed dangerous. 
 
 * Have a good Anti-Virus/ Web Security, such as McAfee AntiVirus Plus, Bitdefender 
   AnitVirus Plus, or Kaspersky Anti-Virus. As shown above, these can protect you from 
