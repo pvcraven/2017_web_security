@@ -164,7 +164,7 @@ company to renew their certificate or visit another.
 		If a SSL certificate expires the end users will be greeted by this 
 		warning. [Microsoft]_
 		
-Alternatively, a application that requires a SSL certificate functions the same 
+Alternatively, an application that requires a SSL certificate functions the same 
 way. Apple made a recent change in the last year requiring 
  all apps from the Mac App store to have a "valid provisioning profile" that 
  must be updated periodically [Mac]_. For those who did not renew it on time saw
@@ -181,10 +181,10 @@ way. Apple made a recent change in the last year requiring
 		One Password is a popular application on Apple where users have a vault 
 		that stores all of their passwords. This was one of the many 
 		applications that did not renew their certificate resulting in the app 
-		crashing every time the end user attempted to open it. [Mac]_ 
+		crashing everytime the end user attempted to open it. [Mac]_ 
 		
 Keep in mind, not all websites need an SSL certificate due to the type of 
-content. For example, IMDB is a informative website about movies, T.V. shows, 
+content. For example, IMDB is an informative website about movies, T.V. shows, 
 and actors/actresses. Therefore, IMDB made the decision to have the SSL 
 Certificate to be applied only when the user is logging into their account and 
 when viewing their profile. Otherwise, the remainder of the website is unsecure.
