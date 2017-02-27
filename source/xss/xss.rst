@@ -175,17 +175,18 @@ Example of Cross-Site Scripting:
 
 	* Vulnerability: ``<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">`` 
 	  All the attacker needs to do in this case is get the user to click on the link 
-	  shown below, and an alert saying "XSS"(code) will pop up.  [xss-attacks]_ In real 
-	  life, this would almost certainly do more harm than a simple pop-up. Some example 
-	  would be popping up a new form for you to fill out, that would sent the data 
-	  to the hackers, or showing an error with a message saying you need to download 
-	  their specific "software" (most likely malware) to get rid of the error. 	  
+	  shown below, and an alert saying "XSS"(code) will pop up.  [xss-attacks]_  	  
 	
 	* Attack:
 	
 	  Link: ``/form.php?%22%20onload%3D%22alert(%27XSS%27)%3B``
 	  
 	  Code: ``<form action="/form.php?" onload="alert('XSS');" method="post">`` 
+	  
+In real life, this would almost certainly do more harm than a simple pop-up. Some 
+examples would be popping up a new form for you to fill out, that would sent the 
+data to the hackers, or showing an error with a message saying you need to download 
+their specific "software" (most likely malware) to get rid of the error.
 
 
 Sources
