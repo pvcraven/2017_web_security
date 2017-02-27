@@ -58,7 +58,7 @@ UTF-16: "16-bit Unicode Transformation Format is a variable-length character enc
 If you are using anything other than UTF-8 it needs to be specified in th <meta> tag for example, <meta charset="ISO-8859-1">. The reason for this is due to the fact that HTML5 is defaulted to UTF-8. You have heard me reference Unicode which to clarify is the character set that UTF-8 is using to encode. "The encoding part of this is how those character sets are represented by decimal numbers and then translated to binary numbers and store in the computer [t]_." Below is an example table of the translated decimal numbers.
 
 +------------------------------------+------------+---------------+
-| Character Codes  		             | Decimal    | Hexadecimal   | 
+| Character Codes  		      | Decimal    | Hexadecimal   | 
 +====================================+============+===============+
 | C0 Controls & Basic Latin          |  0-127     | 0000-007F     |
 +------------------------------------+------------+---------------+
