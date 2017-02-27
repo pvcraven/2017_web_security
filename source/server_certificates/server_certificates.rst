@@ -100,7 +100,7 @@ secure connection".
 
 .. figure:: httpsHotTopic.png
 		:align: center
-		: width: 300px
+		:width: 300px
 		:alt: Hot Topic partially secure
 		
 		I took a screenshot of the login page on Hot Topic's website. Even 
