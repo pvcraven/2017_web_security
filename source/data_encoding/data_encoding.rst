@@ -18,7 +18,7 @@ We are going to start out with the basics when dealing with encoding, which is A
 | ASCII    | Symbol     | Replacement                    | 
 +==========+============+================================+
 | <32      |            | Encode with %xx where xx is    |
-|	       | 		    | the hexadecimal representation |
+|	       | 		  | the hexadecimal representation |
 +----------+------------+--------------------------------+
 | 32       | space      | + or %20                       |          
 +----------+------------+--------------------------------+
@@ -62,10 +62,10 @@ If you are using anything other than UTF-8 it needs to be specified in th <meta>
 | Character Codes  		 | Decimal    | Hexadecimal   | 
 +========================+============+===============+
 | C0 Controls and Basic  |  0-127     | 0000-007F     |
-| Latin					 | 		      |               |
+| Latin		| 		      |               |
 +------------------------+------------+---------------+
 | C1 Controls and Latin-1|  128-255   | 0080-00FF     |
-| Supplement		     | 		      |               |          
+| Supplement		  | 		   |               |          
 +------------------------+------------+---------------+
 | Latin Extended-A       |  256-383   | 0100-017F     |          
 +------------------------+------------+---------------+
