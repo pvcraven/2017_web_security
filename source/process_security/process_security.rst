@@ -90,7 +90,7 @@ escalation attack:
 
 3. Then, check what other accounts have been created on the system:
 
-	``C:\Windows\system32> net users``
+   ``C:\Windows\system32> net users``
 
 4. You can find more information about any of the accounts by running this
    command:
