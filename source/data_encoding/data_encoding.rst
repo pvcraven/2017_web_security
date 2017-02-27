@@ -19,7 +19,7 @@ We are going to start out with the basics when dealing with encoding, which is A
 +==========+============+================================+
 | <32      |            | Encode with %xx                |
 +----------+------------+--------------------------------+
-| 32       | space      | + or %20                       |          
+| 32       | space      | %20                            |          
 +----------+------------+--------------------------------+
 | 33       | !          | %21                            |          
 +----------+------------+--------------------------------+
@@ -30,10 +30,6 @@ We are going to start out with the basics when dealing with encoding, which is A
 | 36       | $          | %24                            |          
 +----------+------------+--------------------------------+
 
-.. image :: ASCII.png
-   :height: 400px
-   :width: 400px
-   :align: center
    
 To view the rest of the table go to www.tutorialspoint.com
 
@@ -73,10 +69,6 @@ If you are using anything other than UTF-8 it needs to be specified in th <meta>
 | Diacritical Marks                  | 768-879    | 0300-036F     |          
 +------------------------------------+------------+---------------+
 
-.. image :: UTF8.png
-   :height: 400px
-   :width: 400px
-   :align: center
    
 To view the rest of the table go to www.w3schools.com.
 
