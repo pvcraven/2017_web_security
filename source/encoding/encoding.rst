@@ -9,8 +9,6 @@ Introduction
 Encoding is used for the process of putting a sequence of characters (letters, numbers, punctuation, etc.) into a specialized format for efficient transmission or storage. However, encoding can be a little difficult to use at times. Have you ever opened up a file on your computer or seen a text message on your phone that has question marks pop up instead of what you're assumng should be a comma or an emoticon? It is most likely because that that rogram cannot read the type of encoding that the characters are in. Most files containing text are encoded with UTF-8, but that doesn't mean every web developer in the world uses it. [Ld]_
 
 .. figure:: IMG_0134.JPG
-	:height: 300px
-	:length: 300px
 	:align: center
 
 This image depicts some of the many encoding styles out there. You can see how things could easily become derailed if there's a misstep in the choosing of encoding styles.
@@ -41,7 +39,8 @@ SQL Encoding
 ~~~~~~~~~~~~
 In SQL Server, it uses Windows PowerShell as it's scripting language. It doesn't recognize some characters, such as ':', so youw would have to encode it with a % sign followed by its hexadecimal value [Sql]_. He's a code example:
 
-.. code_block:: sql
+.. code-block:: sql
+
 	SET-LOCATION Table%3APizza
 
 This basically is saying "Table:Pizza."
@@ -49,6 +48,7 @@ This basically is saying "Table:Pizza."
 He's another code example of a simpler way of doing this so you don't need to remember the hex value:
 
 .. code-block:: sql
+
 	SET-LOCATION (ENCODE-SQLNAME "Table:Pizza")
 
 This way, it's stright up what you want to encode instead of through hex numbers, which nobody likes to memorize anyway.
@@ -58,6 +58,7 @@ JSON Encoding
 This is a bit of a different form of encoding. Instead of encoding to keep the data unreadable to the human eye, JSON encoding makes the data readable for us. Without JSON encoding, the data we would get from the database would look like {name="johnathan", businessID=10}, and, even thought that actually is readable to the human eye, it wouldn't make any sense for most people. That's why we use JSON encoding to make it more readable, like "Name: Joahnathan, Business ID: 10." Here's an example in JavaScript using an HTML page:
 
 .. code-block:: plain
+
 	var url = "myurl";
 	$.getJSON(url, null, get_data);
 
