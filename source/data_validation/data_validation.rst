@@ -10,24 +10,13 @@ Data Validation
 
 *Outline*
 ^^^^^^^^^
-* Introduction:
-	a. Brief overview of each topic. 
-* What is data validation? [DATA]_ [Cade]_
-	a. Explain what data validation does.
-	b. How did data validation come about? (History)
+* What is data validation? [Cade]_
+	a. How did data validation come about? (History)
 * "How to" on data validation [WEB]_
 	a. Instructions on how to add data validation to a website.
 	b. Regular Expressions (Back End)
 	c. Picture examples.
 
-* Why is data validation important?
-	a. Risks Involving data validation. [Weinstock-Herman]_
-		1. Risk of not having.
-		2. Risk of Front end only.
-		3. Risk of Back end only.
-	b. Picture Examples.
-* Conclusion:
-	b. Brief review of each topic. 
 
 Introduction
 ^^^^^^^^^^^^
@@ -53,6 +42,18 @@ What is Data Validation?
 	digits, so we would not want a users inputing "1119-67-2" as their phone
 	number.
 
+	Data validation on the front end is mainly for the user. It does serve a
+	a small purpose to the website itself. Front end validation makes it
+	possible for the user to easily enter information with no errors. As stated 
+	we want to make sure we receive accurate data, so what happens when a user
+	inputs their phone number as their first name? Front end validation will
+	prevent the website from taking this input and in a nice and pretty way show
+	the user that the data entered is not acceptable. 
+
+	Data validation on the back end is mainly for the website server. The same
+	checks for front end validation are used for back end validation and more security. So a website asks for a first name, however the user enters a code
+	to change or alter the website. The code may pass front end validation, however back end validation is created to stop this.
+
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 	The image below is an example of front end validation. Notice the first 
@@ -75,6 +76,15 @@ How to Code Data Validation
 
 Why is Data Validation Important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+	Front end validation is important because it involves the end user. Without 
+	front end validation the end user would have no way of knowing if their 
+	input was accepted or denied. Front end also prevents bad data from being
+	taken in from good intent users. Back end validation is important because it 
+	involves the last line of defense to prevent bad data from being taken in.
+	Back end validation prevents incorrect values from being taken in from
+	malicious users. If we take the example from above ("What is data validation") the malicious code could pass front end validation. This is why it is important to not only have front end validation for the user, but back end validation for the security of the website. [Weinstock-Herman]_
+
 
 Conclusion
 ^^^^^^^^^^

