@@ -62,11 +62,25 @@ Implementations
 Role-Based Access Control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The most common type of authorization is role-based access control(RBAC). 
-RBAC assigns roles to users and the roles are given permissions. Any user who has been assigned a role inherits the permissions of that role. RBAC can be very helpful when writing code for authorization. For example, instead of listing everyone's name who is given the authorization we can just use the role. This also allows us to easily change code if an employee is hired or fired. Instead of finding or adding their name to every privilege we just need to add them to the role. [bwa]_
+RBAC assigns roles to users and the roles are given permissions. Any user who 
+has been assigned a role inherits the permissions of that role. RBAC can be very 
+helpful when writing code for authorization. For example, instead of listing 
+everyone's name who is given the authorization we can just use the role. This 
+also allows us to easily change code if an employee is hired or fired. Instead 
+of finding or adding their name to every privilege we just need to add them to 
+the role. [bwa]_
 
-This is still not the best solution for authorization with RBAC. As the system evolves and we end up with more and more roles our statements can become complicated very fast. Instead the code should be concerned with whether or not permission should be given to do something. In other words, we will decouple permissions from roles. This can be shown in the code example below,
+.. image:: rbac1.PNG
+	:align: center
+[bwa]_
 
-.. image:: rbac.PNG
+This is still not the best solution for authorization with RBAC. As the system 
+evolves and we end up with more and more roles our statements can become 
+complicated very fast. Instead the code should be concerned with whether or not 
+permission should be given to do something. In other words, we will decouple 
+permissions from roles. This can be shown in the code example below,
+
+.. image:: rbac2.PNG
 	:align: center
 [bwa]_
 
@@ -74,20 +88,45 @@ This is still not the best solution for authorization with RBAC. As the system e
 Attribute-Based Access Control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A more advanced application should look at using attribute-based access 
-control(ABAC). ABAC is like an extension of RBAC. It still can base decisions 
-just on a role assigned to a user, but it can also use any property of the 
-user's profile such as their IP address. [bwa]_
+control(ABAC). ABAC can be thought of as a generalization of RBAC. It can base 
+decisions on any attribute of the user, the environment in which the user 
+exists, or the resource being accessed. Instead of making a decision based just 
+on what roles are assigned to the user, ABAC can use any property of the user's 
+profile. This can be anything from the amount of time worked at the company, the 
+country of their IP address, or the time of day. [bwa]_
+
+The most common way to implement ABAC is using XACML. XACML is an XML based 
+format from Oasis. XACML can be very verbose and arguably cryptic, but it is one 
+of the few options for the standardized model of ABAC. There is another option, 
+which is to build policies in the language chosen for the application, bound to 
+its domain. This is shown as in example in JavaScript below, 
+
+.. image:: abac.PNG
+	:align: center
+[bwa]_
 
 Other Implementations
 ~~~~~~~~~~~~~~~~~~~~~~~
-There are many other ways to implement authorization, but in most cases 
-either RBAC or ABAC will be the best fit.
+RBAC and ABAC are just two possible ways of modeling policy and will probably be 
+used in most situations. Other approaches that can be used are 
+
+* Mandatory Access Control(MAC): based on sensitivity of the information 
+ contained in the objects or resources and a formal authorization. They are 
+ mandatory because they restrain subjects from setting security attributes on an 
+ object and from passing on their access. [cac]_
+* Relationship-Based Access Control(ReBAC): policy that is largely determined by 
+ relationship between principals and resources [bwa]_ 
+* Discretionary Access Control(DAC): based on the identity and need-to-know of 
+ subjects or the groups to which they belong. They are discretionary because a 
+ subject with certain access permissions is capable of passing on that access 
+ to other subjects. [cac]_
+* Rule-Based Access Control: dynamic role or permission assignment based on a 
+ set of operator-programmed rules [bwa]_
 
 
 Sources
 ---------
 
-.. [wsb] Bhasin, Shweta, and (Corporation) NIIT. Web Security Basics. Cincinnati, Ohio: Course PTR, 2003. Print. 20 Feb. 2017.
 .. [bwa] Cairns, Cade, and Daniel Somerfield"`The Basics of Web Application Security <https://martinfowler.com/articles/web-security-basics.html>`_." Martinfowler.com. Martin Fowler, 05 Jan. 2017. Web. 20 Feb. 2017.
 .. [cac] "'Category: Acccess Control <https://www.owasp.org/index.php/Category:Access_Control>'_." OSWAP. OWASP Foundation, 01 June 2016. Web. 21 Feb. 2017.
 .. [wcs] Nahari, Hadi, and Ronald L. Krutz. Web Commerce Security: Design And Development. Indianapolis: Wiley, 2011. Print. 20 Feb. 2017.
