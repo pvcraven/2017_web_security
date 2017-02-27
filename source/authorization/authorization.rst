@@ -36,6 +36,19 @@ happens if a user is editing an object and changes the ID to one that is not
 theirs? Without authorization the user would easily have access to all objects
 in the database regardless of the owner.
 
+Another example of this is when a web or application server runs at too great a 
+permission level. This means that they execute using privileged accounts such as 
+root in UNIX or LOCALSYSTEM in Windows. By running servers as these users the 
+processes run with all of the rights of these users. It is very easy to use 
+malicious code to execute with the authority of a privileged account. If someone 
+were to implement this code, then there could be potential damage from the 
+exploit. This can come into play with databases as well. Often times the 
+database accounts used by web applications have privileges beyond those actually 
+required. This destroys the database server's ability to defend against access 
+to or modification of unauthorized resources. Web servers should be executed 
+under accounts with minimal permissions and applications should use one or more 
+lesser-privileged accounts. [cac]_
+
 Best Practices
 ---------------
 * One of the most critical mistakes that can be made is hiding capabilities 
@@ -49,7 +62,14 @@ Implementations
 Role-Based Access Control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The most common type of authorization is role-based access control(RBAC). 
-RBAC assigns roles to users and the roles are given permissions. [bwa]_
+RBAC assigns roles to users and the roles are given permissions. Any user who has been assigned a role inherits the permissions of that role. RBAC can be very helpful when writing code for authorization. For example, instead of listing everyone's name who is given the authorization we can just use the role. This also allows us to easily change code if an employee is hired or fired. Instead of finding or adding their name to every privilege we just need to add them to the role. [bwa]_
+
+This is still not the best solution for authorization with RBAC. As the system evolves and we end up with more and more roles our statements can become complicated very fast. Instead the code should be concerned with whether or not permission should be given to do something. In other words, we will decouple permissions from roles. This can be shown in the code example below,
+
+.. image:: rbac.PNG
+	:align: center
+[bwa]_
+
 
 Attribute-Based Access Control
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
