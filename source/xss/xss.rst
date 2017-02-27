@@ -168,7 +168,7 @@ Example of Cross-Site Scripting:
 	  ``</script>``
 
 	
-* Reflective XSS: Similar to above, except that the user would have to click on the link 
+* Reflective XSS: Similar to the first stored example above, except that the user would have to click on the link 
   to activate the code. 
   
 * Another reflectve XSS example would be: 
