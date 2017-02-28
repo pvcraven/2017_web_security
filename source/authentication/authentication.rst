@@ -82,6 +82,7 @@ therefore would incorporate something you know (a password) and something you ha
 
 .. image:: authentication_app.png
 	:align: center
+	:width: 100px
 
 This is an example of an app. There are many different services that can sync with this specific type of two factor
 authentication. They all have their own number that can be typed in to a specific spot when logging in to the respective
