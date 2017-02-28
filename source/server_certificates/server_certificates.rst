@@ -23,8 +23,6 @@ sensitive information is not easily obtainable [GlobalSign]_. If a server does
 not have a certificate, it cannot protect the clients from potentially being 
 compromised. 
 
-Who Needs an SSL Certificate?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SSL certificates are not only used to encrypt transactions, but to also verify 
 the identity of the company. Clients are more likely to visit a trusted website 
 such as Amazon, GameStop, U.S. Bank, and more. Therefore, it is highly 
@@ -49,15 +47,16 @@ website that appears genuine but is actually fake. [Digicert]_
 
 Types of Certificates
 ~~~~~~~~~~~~~~~~~~~~~~
-*Domain Validated Certificate*
+**Domain Validated Certificate**
 
 This type of certificate is mainly used for owning the domain name and verifying 
-ownership. This is the cheapest type of certificate where it can be obtained for 
-free. This is not commonly used for commercial purposes because it is a high 
-risk certificate when used on a public website. The risk involves clients not 
-able to verify the organization when they visit the website. [Symantec-Corp]_
+ownership. This type of certificate may be obtained for free, making it the 
+cheapest kind. This is not commonly used for commercial purposes because it is a
+ high risk certificate when used on a public website. The risk involves clients 
+ not able to verify the organization when they visit the website. 
+ [Symantec-Corp]_
 
-*Organization Validated Certificate*
+**Organization Validated Certificate**
 
 This type of certificate is a standard type of certificate that is used 
 on commercial websites. Organization Validated Certificates are trusted because 
@@ -65,10 +64,10 @@ they are "authenticated by real agents against business registry databases
 hosted by governments" [Symantec-Corp]_. This means that the website 
 legitimatizes their business information. 
 
-*Extended Validation Certificate*
+**Extended Validation Certificate**
 
-This type of certificate is the most trusted type of certificates. This gives
-users peace of mind that the domain is a secured website. In addition, it has 
+This type of certificate is the most trusted. This gives
+users peace of mind because the domain is a secured website. In addition, it has 
 more defined guidelines for companies to follow. Basically, it encrypts all data 
 between the user and web server. [Symantec-Corp]_
 
@@ -77,7 +76,8 @@ How to Obtain an SSL Certificate?
 A SSL Certificate can be purchased through a domain provider such as GoDaddy, 
 DigiCert, GlobalSign and more. They will offer several different service 
 packages including standard SSL certificate, Extended Validation Certificate, 
-Multiple-Domains, and Wildcard(s).
+Multiple-Domains, and Wildcard(s). This is going to be variant per company 
+depending on what the company's end goal is for their website. 
 
 How to Tell if a Website is Secure?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,18 +125,18 @@ the lock icon). Furthermore, select the lock icon and it will say "this is a sec
 		:width: 300px
 		:alt: Secure Message
 		
-		For example, this screenshot of Amazon.com displays that it is a 
-		secure website. Before the URL, it has a lock icon with the word 
-		"Secure" to identify that all information will be encrypted. 
+		This screenshot of Amazon.com displays that it is a secure website. 
+		Before the URL, it has a lock icon with the word "Secure" to identify 
+		that all information will be encrypted. 
 
 2. Always verify the domain. It is possible to visit a website that looks like 
-the real company, however, it is the imposter. For example, a suspicious email 
-from U.S. Bank states the account has not been verified and to click on the 
-following link. This is where the first mistake occurs. Do not click on the URL 
-provided within the email because it could be directed to a whole other website. 
-To check this, hover the mouse cursor over the link and it will display the true
- URL. Phishing attempts occur often and they will imitate the real company to 
- their best ability to deceive the clients.
+the real company, however, but it is the imposter. For example, a suspicious 
+email from U.S. Bank states the account has not been verified, and to click on 
+the following link. This is where the first mistake occurs. Do not click on the 
+URL provided within the email because it could be directed to a whole other 
+website. To check this, hover the mouse cursor over the link and it will display
+ the true URL. Phishing attempts occur often and they will imitate the real 
+ company to their best ability to deceive the clients.
 
 .. figure:: fakeEmail.png
 		:align: center
@@ -153,7 +153,7 @@ is advised to only shop at reputable websites such as Amazon. In contrast
 sometimes companies could fail to update their certificate. So if a website that 
 previously had a valid certificate, it will warn end users that the website 
 security certificate presented is not valid. Under those circumstances there 
-will be a chance hackers are to intercept the data. So either wait for the 
+will be a chance hackers to intercept the data. So either wait for the 
 company to renew their certificate or visit another.
 
 .. figure:: SSLexpired.png
