@@ -122,9 +122,9 @@ Below i will cover full fledged prevention techniques.
 ------------
 *Prevention*
 ------------
-#. The first one discussed off the bat from Veracode, explains that the developers in school need to learn to assess the validity of data entered into the Internet browser, to prevent directory transversal.
-
  If you do step 1, it won't allow a nefarious user to break out of the webroot directory. 
+
+#. The first one discussed off the bat from Veracode, explains that the developers in school need to learn to assess the validity of data entered into the Internet browser, to prevent directory transversal.
 
 #. As a developer you need to design programs that through out someone trying to use escape characters in a URL, only take valid data. 
 
