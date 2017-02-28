@@ -66,6 +66,11 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 **Directory Traversal / Poisoned File Upload Examples**
 ---------------------------------------------------
 
+.. image:: bad_upload.jpg
+	:height: 450px
+	:width: 450px
+	:align: center
+	:alt: bad upload 
 
 *Prevention*
 
@@ -75,11 +80,6 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 
 *Prevention* 
 
-.. image:: bad_upload.jpg
-	:height: 450px
-	:width: 450px
-	:align: center
-	:alt: bad upload 
 
 
 
