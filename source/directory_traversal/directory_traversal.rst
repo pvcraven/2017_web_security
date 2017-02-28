@@ -42,7 +42,8 @@ of files are being uploaded not system ruining viruses, or system controlling
 viruses. Now, this is a really bad attack that can cause several bad things to
 happen.Just covering a couple gives a good picture for how bad this attack 
 is for anyone on the receiving end.  Rob Shapland from ComputerWeekly explains 
-two really good reasons, and one, I already glossed over. [COMWEEKLY]_ 
+two really good reasons, and one, I already glossed over. 
+
 One, a nefarious user decides they want to just make your website or web application useless,
 so they upload a file with the same name as a core process that makes your 
 web server run and add it to the same directory.  The core process is then 
@@ -50,7 +51,7 @@ overwritten, making your web application useless. Two, he explains that the
 nefarious user could upload a virus to your web server that hands the keys over
 to him or herself. There are many bad thing that could happen with poisoned 
 upload, but I think those are two of the worst, and in the example section it
-will be  explained how to prevent these attacks. 
+will be  explained how to prevent these attacks. [COMWEEKLY]_ 
 
 
 
