@@ -65,26 +65,30 @@ With that said, they can use the use the below many examples to get out of the
 main web directory. If the website hasn't had a chance to secure, or is not 
 using updated web server an intruder could use the below transversal to 
 display the websites system.init to the nefarious hacker. 
-.. code-block:: bash 
-
-GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
-Host: test.webarticles.com
-
-
-
-
-
-
-
-
-** More Directory Traversal / Poisoned File Upload Examples**
----------------------------------------------------
 
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
 	:align: center
-	:alt: bad upload 
+	:alt: bad upload
+
+	 
+.. code-block:: bash 
+
+
+	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
+	Host: test.webarticles.com
+
+
+
+
+
+
+
+
+
+
+
 
 
 
