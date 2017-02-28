@@ -8,14 +8,38 @@ Introduction
 
 .. image:: file_upload.png
 
-There are many examples of known vulnerabilities regarding web security. These 
-vulnerabilities can be found in a CVE (Common Vulnerabilities and Exposures) 
-database. However, when the vulnerability is placed in the database, the 
-developer isn't the only person who can make a query. Hackers can find the 
-information just as easily, making the vulnerability a race between the 
-developer and the hacker. Here are a list of some known vulernabilities in web
-security, how to abuse said vulnerability, and what steps should be implemented
-to patch the vulnerability.
+Known vulnerabilities are code creations that are known to cause unwanted and 
+unintended effects. Because of the multitude of ways that websites can be 
+attacked, web security is an ongoing fight between security developers and 
+hackers. These security vulnerabilities can include a wide variety of exposures, 
+including Cross Site Scripting, SQL Injection, Insecure File Uploads, 
+Authentication Bypass, and many, many more. To keep things organized, the 
+internet contains dozens of CVE (Common Vulnerabilities and Exposures) databases 
+that are filled with examples of issues other people have found in certain websites. 
+
+Why Release the Vulnerabilities?
+--------------------------------
+
+When the vulnerability is placed in the database, the developer isn't the only 
+one who can make a query. Because the CVE databases are public, hackers can find 
+the information just as easily, making the vulnerability a race between the 
+developer and the hacker. This brings up the question: why would anyone want to 
+create a database of known vulnerabilities? It's much easier to commit the 
+attack than to patch a solution, test it, and push it to the server. 
+
+Fortunately, the vulnerabilities are oftentimes placed in 
+the database by the developer after the vulnerability has been patched. This is 
+done to tighten security on applications being actively developed by other 
+security experts. The experts can find common issues that have been discovered
+by their like-minded peers, then implement the solutions into their own 
+application. 
+
+Listed below are different web applications and their vulnerabilities. No 
+software has been proven to be airtight, and vulnerabilities are being released 
+every day to help combat mischievous attackers. These applications can be 
+developed by anywhere from small, upcoming businesses to software powerhouses. 
+Here is a list of applications that are known to have vulnerabilities, including 
+information on how to combat the vulnerability. 
 
 
 Joomla!
@@ -54,7 +78,7 @@ Apple
 
 Apple is a large, multibillion-dollar company that offers a variety of 
 services. One of these services includes Apple WebKit, a web browser engine 
-used by OS X applications including Safari. There are several past 
+used by OS X applications including Safari [AWK]_. There are several past 
 vulnerabilities found with Apple WebKit, including the following:
 
 **Cross Site Scripting**
