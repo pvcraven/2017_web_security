@@ -49,7 +49,9 @@ Database with recent vulnerabilities with the Joomla application. Known
 vulnerabilities include:
 
 **SQL Injection**
+
 .. image:: sql_injection.gif
+
 Joomla MSG (My Personal Messages) is a way in which users are able to 
 communicate with one another through a website. An exploit was found that 
 allowed for an attacker to log in as another user by appending the default 
@@ -71,7 +73,9 @@ attacker from making their own queries into the database, assuming they haven't
 found a way to bypass the authentication of the database. 
 
 **Insecure File Upload**
+
 .. image:: insecure_file_upload.png
+
 The default Joomla Event Manager (JEM) allows for an authenticated user to 
 upload HTML and HTM files as an attachment. If an attacker was to upload the 
 files containing malicious Javascript coding, a victim would be able to 
@@ -89,7 +93,9 @@ used by OS X applications including Safari [AWK]_. Developers can use Apple WebK
 vulnerabilities found with Apple WebKit, including the following:
 
 **Cross Site Scripting**
+
 .. image:: xss.png
+
 Cross Site Scripting (or XSS) is a vulnerability that is usually found within 
 web applications. An attacker using XSS can inject their script to a normal 
 website, which unknowingly passes the malicious script to the user [XSS]_. The 
