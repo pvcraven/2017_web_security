@@ -68,7 +68,32 @@ the first transversal to display the websites system.init output to themselves.
 
 
 The second code block is specifically trying to transversal a unsecured web 
-application server, also provided by Acunetix. 
+application server, also provided by Acunetix. Basically, the goal is 
+to run the command prompt and allow the intruder get all  file names from that 
+drive. You could replace the c+dir+c with any letter combination of drive letters
+to get all the file names from the computer in a few requests. This attack would 
+further let a hacker mess with your system, being able to run rename commands on 
+core files, if they weren't secured against this attack. Fundamentally changing 
+your system, if it has these flaws. Now, the third example, is if someone were
+to rename the windows load executable file, if this security flaw existed in
+windows an intruder could render a core file useless.That is a shocking change 
+that you can cause a persons computer, by just exploiting an unvalidated input 
+to the web server. [ACUNETIX]_ 
+
+Directory traversal is also, one of the most popular exploits out there, 
+the reason is, as i covered in the introduction it is a simple to execute 
+attack. Now, even though it may be an easier attack to execute, being that is 
+really popular it is going to be one of the first attacks anyone attempts 
+to secure themselves from. This doesn't mean new directory transversal bugs,
+don't show up.
+
+For example Cisco reported, a directory transversal vulnerability
+in a router they service, this occurred on November 9th 2015. This is a never 
+ending battle between hacker an programmer to keep directories secure.The 
+security page also explains, in a brief little description that the code to
+access this particular router is readily available. [CISCO]_
+
+
 
 
 
@@ -79,11 +104,15 @@ application server, also provided by Acunetix.
 	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
 	Host: test.webarticles.com
 
-	Web Server Exploit 
+.. code-block:: bash 
 
 	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/c+dir+c:\ HTTP/1.1
 	Host: server.com
 
+.. code-block:: bash 
+
+	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/ren+winload.exe%3dwinload.txt\ HTTP/1.1
+	Host: server.com
 
 
 
@@ -92,6 +121,8 @@ application server, also provided by Acunetix.
 ------------
 *Prevention*
 ------------
+Securing your web application, router, or other web based device from this 
+exploit is pretty straight forward
 
 
 
@@ -113,8 +144,10 @@ application server, also provided by Acunetix.
 
 **Works Cited**
 ---------------  
+
 .. [VERACODE] DuPaul, Neil."`Directory Traversal <https://www.veracode.com/security/directory-traversal>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
 
+.. [SIMPLYADVANCED]  Goodwin, Danial."`Cheat Sheet for Windows Command Prompt <http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/>`_." *Simplyadvanced*, 3 Aug 2011.Web.Date Accessed 27 Feb 2017.
 .. [VERACODE] No Author List "`CWE/SANS TOP 25 <https://www.veracode.com/directory/cwe-sans-top-25>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
 
 .. [ACUNETIX] No Author Listed "`Directory Traversal Attacks <http://www.acunetix.com/websitesecurity/directory-traversal/>`_." *Acuntetix*.Web.Date Accessed 20 Feb 2017.
@@ -122,7 +155,11 @@ application server, also provided by Acunetix.
 
 .. [CISCO] No Author Listed "`Huawei HG532 Routers Restricted Directory Improper Limitation Pathname Vulnerability <https://tools.cisco.com/security/center/viewAlert.x?alertId=41997>`_." *Cisco*.Web.Date Accessed 20 Feb 2017. Article first published 9 Nov 2015.
 
+.. [W3SCHOOLS] No Author Listed"`"ASCII Encoding Reference." <https://www.w3schools.com/tags/ref_urlencode.asp>`_."w3schools. Web. 27 Feb. 2017.  
+
 .. [COMWEEKLY] Shapland, Robert."`"File Upload Security Best Practices: Block a Malicious File Upload." <http://www.computerweekly.com/answer/File-upload-security-best-practices-Block-a-malicious-file-upload>`_."ComputerWeekly. Computerweekly.com, May 2012. Web. 20 Feb. 2017.  
+
+
 
 .. [USENIX] Xu, Wei, Sandeep Bhatkar, and R. Sekar."`Taint Enhanced Policy Enforcement A Practical Approach to Defeat a Wide Range of Attacks <https://www.usenix.org/legacy/event/sec06/tech/full_papers/xu/xu_html/>`_." *Usenix Security*.Web.Date Accessed 20 Feb 2017.
 
