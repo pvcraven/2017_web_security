@@ -69,14 +69,13 @@ of three, "515-285-2929". [WEB]_
 	:align: center
 
 The image below is an example of server side validation. In order to do this 
-you, you must pause client side first and resume once the server side is set 
-up. This code uses regular expressions to validate there is no malicious 
-inputs going into your website. Once the input passes as valid on the back 
-end, it goes through the client side. Like we stated above if the data 
-submitted is not malicious, but is incorrect, the user will get a nice 
-message explaining what they entered is incorrect. The difference here is we 
-do not care about making a nice message for someone trying to submit 
-something malicious. [WEB]_
+you must pause client side first and resume once the server side is set 
+up. This code uses regular expressions to validate there is no malicious inputs 
+going into your website. Once the input passes as valid on the back end, it goes 
+through the client side. Like we stated above if the data submitted is not 
+malicious, but is incorrect, the user will get a nice message explaining what 
+they entered is incorrect. The difference here is we do not care about making a 
+nice message for someone trying to submit something malicious. [WEB]_
 
 .. image:: backendCodeExample.png
 	:width: 600px
@@ -92,7 +91,7 @@ their input was accepted or denied. Client side also prevents bad data from
 being taken in from good intent users. Server side validation is important 
 because it involves the last line of defense to prevent bad data from being 
 taken in. Server side validation prevents incorrect values from being taken 
-in form malicious users. If we take the example from above ("What is data 
+in from malicious users. If we take the example from above ("What is data 
 validation") the malicious code could pass client side validation. This is 
 why it is important to not only have client side validation for the user, 
 but server side validation for the security of the website. 
@@ -102,12 +101,12 @@ but server side validation for the security of the website.
 Conclusion
 ^^^^^^^^^^
 
-Understanding how to validate data before taking information from user is 
+Understanding how to validate data before taking information from the user is 
 extremely important when it comes to websites that take in data from the end
 users. Using some of the examples above will help you create a solid 
 validation process. The importance of client and server end validation are 
 easy to see once you understand the risks at large without data validation. 
-Once again, there are not shortcuts when it comes to data validation. "If 
+Once again, there are no shortcuts when it comes to data validation. "If 
 you can't control it, you can't trust it." [Cade]_
 
 Sources

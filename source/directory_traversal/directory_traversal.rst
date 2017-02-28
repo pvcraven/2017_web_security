@@ -59,12 +59,16 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 **Directory Traversal Vulnerability Example**
 ---------------------------------------------
 This example of directory traversal is provided and explained by Acunetix 
-as a web application request based intrusion. The intruder, if the website is 
-using get can figure out that the show.asp gets the files and displays them on screen. 
-With that said, they can use the use the below many examples to get out of the
-main web directory. If the website hasn't had a chance to secure, or is not 
-using updated web server an intruder could use the below transversal to 
-display the websites system.init to the nefarious hacker. 
+as a web application request based intrusion. [ACUNETIX]_ The intruder, if the
+website is using get can figure out that the show.asp gets the files and 
+displays any file on screen. With that said, they can use the use the below many 
+examples to get out of the main web directory. If the website hasn't had 
+a chance to secure, or is not using updated web server, an intruder could use 
+the first transversal to display the websites system.init output to themselves.
+
+
+The second code block is specifically trying to transversal a unsecured web 
+application server, also provided by Acunetix. 
 
 
 
@@ -74,6 +78,13 @@ display the websites system.init to the nefarious hacker.
 
 	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
 	Host: test.webarticles.com
+
+	Web Server Exploit 
+
+	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/c+dir+c:\ HTTP/1.1
+	Host: server.com
+
+
 
 
 
