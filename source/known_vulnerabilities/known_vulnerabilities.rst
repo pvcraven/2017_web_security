@@ -15,54 +15,36 @@ security, how to abuse said vulnerability, and what steps should be implemented
 to patch the vulnerability.
 
 
-SQL Injection
--------------
-[SQLI]_
+Joomla!
+-------
 
-.. image:: sql-injection.gif
+Joomla! is a content management system that deals with website creation and 
+distribution. A variety of sites have been created with Joomla!, including 
+Lipton Ice Tea, Lazarex Cancer Foundation, Michael Phelps' Store, and many more
+[JOO]_. Known vulnerabilities with the Joomla! application include:
 
-* Explain:
-	* What is gained
-	* Modifying the tables
-	* Accessing data that doesn't belong to them
-	* Example: real-world effects - target credit card information via accessing
-	 the database files
+**SQL Injection**
+Joomla MSG (My Personal Messages) is a way in which users are able to 
+communicate with one another through a website. An exploit was found that 
+allowed for an attacker to log in as another user by appending the default 
+message website path with SQL queries, resulting in an attacker being able to 
+view other user's messages. Below is an example of how the SQL injection could 
+be implemented into a URL to access another person's messages [EDB]_.::
 
-Broken Authentication and Session Management
---------------------------------------------
-[BASM]_
+	# View someone else's messages
+	http://localhost/[PATH]/index.php?option=com_mymsg&view=msg&filter_box=[Insert_SQL_Here]
+	# Reply as someone else
+	http://localhost/[PATH]/index.php?option=com_mymsg&layout=edit&reply_id=[Insert_SQL_Here]
 
-* Explain:
-	* Gaining access that shouldn't be given
-	* Admin privilages
-	* Accounts get "hijacked"
-	* Example: Malicious attackers hacking a company database to wipe out their
-	 records
-
-Sensitive Data Exposure
------------------------
-[SDE]_
-
-* Explain:
-	* What is it?
-	* How can it affect the website and/or company?
-	* Pitfalls of trading insecure information
-	* Example: Identity theft based on insecure data monitored over a non-
-	encrypted network (using base encoding)
-
-Unvalidated Redirects and Forwards
-----------------------------------
-[URF]_
-
-* What is it?
-* What are the limitations?
-* How does a hacker go about doing this?
-* Example: forwarding a user to a malware site instead of their target site
+**Insecure File Upload**
+The default Joomla Event Manager (JEM) allows for an authenticated user to 
+upload HTML and HTM files as an attachment. If an attacker was to upload the 
+files containing malicious Javascript coding, a victim would be able to 
+download said files. This would put them at risk to whatever hack the attacker 
+created. In order to prevent this type of vulnerability, the JEM should 
+restrict file uploads to valid files of a certain type.
 
 Works Cited
 -----------
-.. [CSV] Kalman, Gergly. `"10 Most Common Web Security Vulnerabilities." <https://www.toptal.com/security/10-most-common-web-security-vulnerabilities>`_ Toptal Engineering Blog. N.p., n.d. Web. 20 Feb. 2017.
-.. [SQLI] `"What Is SQL Injection (SQLi) and How to Fix It." <http://www.acunetix.com/websitesecurity/sql-injection/>`_ Acunetix. N.p., n.d. Web. 20 Feb. 2017.
-.. [BASM] "Broken Authentication and Session Management." Broken Authentication and Session Management - OWASP. N.p., n.d. Web. 20 Feb. 2017.
-.. [SDE] McMullin, Maurice. "OWASP Top Ten Series: Sensitive Data Exposure." Load Balancers. N.p., 29 Dec. 2016. Web. 20 Feb. 2017.
-.. [URF] Gaskill, Chris. "Top 10 Web Security Risks: Unvalidated Redirects and Forwards (#10)." Www.credera.com. N.p., 31 Dec. 2013. Web. 20 Feb. 2017.
+.. [EDB] "Offensive Security’s Exploit Database Archive." <https://www.exploit-db.com/>`_ Exploits Database by Offensive Security. N.p., n.d. Web. 24 Feb. 2017. 
+.. [JOO] "Joomla.org." <https://www.joomla.org/>'_ Joomla! N.p., n.d. Web. 24 Feb. 2017.
