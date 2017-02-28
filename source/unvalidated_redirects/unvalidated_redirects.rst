@@ -43,8 +43,7 @@ so risky?
 Below is the Java code that receives the URL from the 'url' GET parameter (same 
 as the example above) and redirects to that URL.
 
-.. image:: code_1.jpg
-	:align: center
+response.sendRedirect(request.getParameter("url"));
 
 This code is vulnerable because no validation or controls have been applied to 
 verify the certainty of the URL. If no validation is applied, an attacker could 
@@ -52,8 +51,7 @@ create a hyperlink to redirect users to a malicious site.
 
 Instead, the vulnerability could easily be avoided by using the following:
 
-.. image:: code_2.jpg
-	:align: center
+response.sendRedirect("http://simpsonstudentinfo.com")
 
 In this case, the URL is being explicitly declared and cannot be manipulated by 
 attackers. [owasp]_
