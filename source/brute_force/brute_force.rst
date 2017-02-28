@@ -1,6 +1,8 @@
 Brute-Force Attacks
 ===================
 
+*Written by Tyler G, Edited by Lana and Nathan.*
+
 A brute force attack (aka brute force cracking) is when someone runs a program that tries to login to an account by running a loop that tries a 
 long series of passwords.  Someone could make a program that simply goes through a list of the most popular passwords used online 
 until it reaches the end of the list, or it could run through every possible password someone could use, starting with something like "000000" and
@@ -182,5 +184,5 @@ Below is a rough example of how a brute forcing program would work for 4 digit P
 
 [Wikipedia]		Matt Crypto. `"Brute-force attack" <https://en.wikipedia.org/w/index.php?curid=36781082>`_ Wikipedia, 9 Feb. 2017. Web. 18 Feb. 2017.
 
-*Written by Tyler G, Edited by Lana and Nathan.*
+
 
