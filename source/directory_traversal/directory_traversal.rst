@@ -121,14 +121,14 @@ Below i will cover full fledged prevention techniques.
 ------------
 *Prevention*
 ------------
-#. The first one discussed off the bat from Veracode, explains that the developers
-in school need to learn to assess the validity of data 
-entered into the Internet browser, to prevent directory transversal. If you do 
-this step, it won't allow a nefarious user to break out of the webroot directory. 
-#. As a developer you need to design programs that through out someone trying 
-to use escape characters in a URL, only take valid data. 
-#. All developers should stay current with new security exploits, and update 
-against them as soon as possible.  [ACUNETIX]_ [VERACODE]_
+#. The first one discussed off the bat from Veracode, explains that the developers in school need to learn to assess the validity of data entered into the Internet browser, to prevent directory transversal.
+
+ If you do step 1, it won't allow a nefarious user to break out of the webroot directory. 
+
+#. As a developer you need to design programs that through out someone trying to use escape characters in a URL, only take valid data. 
+
+#. All developers should stay current with new security exploits, and update against them as soon as possible.  [ACUNETIX]_ [VERACODE]_
+
 
 
 **Poisoned File Upload Vulnerability Example**
