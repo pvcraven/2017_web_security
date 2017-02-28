@@ -44,11 +44,11 @@ What is Data Validation?
 	JavaScript form validation provides absolutely no value from a security 
 	perspective." [Cade]_
 
-	Data validation on the server side is mainly for the website server. The same
-	checks for client side validation are used for server side validation and more 
-	security. So a website asks for a first name, however the user enters a code
-	to change or alter the website. The code may pass client side validation, 
-	however server side validation is created to stop this.
+	Data validation on the server side is mainly for the website server. The 
+	same checks for client side validation are used for server side validation 
+	and more security. So a website asks for a first name, however the user 
+	enters a code to change or alter the website. The code may pass client side 
+	validation, however server side validation is created to stop this.
 
 How to Code Data Validation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,24 +58,25 @@ How to Code Data Validation
 	"phone" and "birthday_check" we would only want numbers 0-9. The next set of
 	parameters is the format and number of characters allowed. If we look back 
 	at "name" we will only accept names that are between 1 and 20 characters
-	long. "phone" and "birthday_check" both have formatting parameters. Phone for
-	example can use any number between 0-9 three times. After the third number
-	you need a "-". This repeats, then we end with four numbers instead of 
-	three, "515-285-2929". [WEB]_
+	long. "phone" and "birthday_check" both have formatting parameters. Phone 
+	for example can use any number between 0-9 three times. After the third 
+	number you need a "-". This repeats, then we end with four numbers instead 
+	of three, "515-285-2929". [WEB]_
 
 
 .. image:: frontendCodeExample.png
 	:width: 600px
 	:align: center
 
-	The image below is an example of server side validation. In order to do this you,
-	you must pause client side first and resume once the server side is set up. This
-	code uses regular expressions to validate there is no malicious inputs going
-	into your website. Once the input passes as valid on the back end, it goes
-	through the client side. Like we stated above if the data submitted is not
-	malicious, but is incorrect, the user will get a nice message explaining what
-	they entered is incorrect. The difference here is we do not care about making
-	a nice message for someone trying to submit something malicious.  [WEB]_
+	The image below is an example of server side validation. In order to do this 
+	you, you must pause client side first and resume once the server side is set 
+	up. This code uses regular expressions to validate there is no malicious 
+	inputs going into your website. Once the input passes as valid on the back 
+	end, it goes through the client side. Like we stated above if the data 
+	submitted is not malicious, but is incorrect, the user will get a nice 
+	message explaining what they entered is incorrect. The difference here is we 
+	do not care about making a nice message for someone trying to submit 
+	something malicious.  [WEB]_
 
 .. image:: backendCodeExample.png
 	:width: 600px
@@ -85,16 +86,17 @@ How to Code Data Validation
 Why is Data Validation Important?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-	Client side validation is important because it involves the end user. Without 
-	client side validation the end user would have no way of knowing if their 
-	input was accepted or denied. Client side also prevents bad data from being
-	taken in from good intent users. Server side validation is important because it 
-	involves the last line of defense to prevent bad data from being taken in.
-	Server side validation prevents incorrect values from being taken in from
-	malicious users. If we take the example from above ("What is data validation")
-	the malicious code could pass client side validation. This is why it is 
-	important to not only have client side validation for the user, but server side 
-	validation for the security of the website. [Weinstock-Herman]_
+	Client side validation is important because it involves the end user. 
+	Without client side validation the end user would have no way of knowing if 
+	their input was accepted or denied. Client side also prevents bad data from 
+	being taken in from good intent users. Server side validation is important 
+	because it involves the last line of defense to prevent bad data from being 
+	taken in. Server side validation prevents incorrect values from being taken 
+	in form malicious users. If we take the example from above ("What is data 
+	validation") the malicious code could pass client side validation. This is 
+	why it is important to not only have client side validation for the user, 
+	but server side validation for the security of the website. 
+	[Weinstock-Herman]_
 
 
 Conclusion
@@ -102,11 +104,11 @@ Conclusion
 
 	Understanding how to validate data before taking information from user is 
 	extremely important when it comes to websites that take in data from the end
-	users. Using some of the examples above will help you create a solid validation
-	process. The importance of client and server end validation are easy to see once
-	you understand the risks at large without data validation. Once again, there
-	are not shortcuts when it comes to data validation. "If you can't control it,
-	you can't trust it." [Cade]_
+	users. Using some of the examples above will help you create a solid 
+	validation process. The importance of client and server end validation are 
+	easy to see once you understand the risks at large without data validation. 
+	Once again, there are not shortcuts when it comes to data validation. "If 
+	you can't control it, you can't trust it." [Cade]_
 
 Sources
 ^^^^^^^
