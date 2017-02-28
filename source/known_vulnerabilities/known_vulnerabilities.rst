@@ -34,7 +34,7 @@ application. That being said, no software has been proven to be airtight, and
 vulnerabilities are being released every day to help combat mischievous 
 attackers. These applications can be developed by anyone from small, upcoming 
 businesses to software powerhouses. Below are two applications that are 
-known to have vulnerabilities, including information on how to combat them.
+known to have vulnerabilities, including information on how to combat them. 
 
 Joomla!
 -------
@@ -44,7 +44,9 @@ distribution. A variety of sites have been created with Joomla!, including
 Lipton Ice Tea, Lazarex Cancer Foundation, Michael Phelps' Store, and many more
 [JOO]_. Because their product has been used to create millions of websites, 
 security should be a primary concern to protect their partners and their 
-partners' users. Known vulnerabilities with the Joomla! application include:
+partners' users. That being said, there is an extensive list in the Exploit 
+Database with recent vulnerabilities with the Joomla application. Known 
+vulnerabilities include:
 
 **SQL Injection**
 
@@ -61,7 +63,7 @@ be implemented into a URL to access another person's messages [EDB]_.::
 	http://localhost/[PATH]/index.php?option=com_mymsg&layout=edit&reply_id=[Insert_SQL_Here]
 
 To protect against this, the web application should have steps in place to 
-remove system database privilages from normal users. This will prevent an 
+remove system database privileges from normal users. This will prevent an 
 attacker from making their own queries into the database, assuming they haven't 
 found a way to bypass the authentication of the database. 
 
@@ -136,18 +138,27 @@ the HTMLFormElement::reset() function. There was a flaw in how the software
 accessed the associated elements variable, which was able to be modified by the 
 reset function. By adding custom elements to the variable while it is iterated, 
 the already-existing elements are pushed forward, letting the attacker execute 
-his or her own data [EDB]_.
+his or her own data [EDB]_. 
 
-Conclusion
-----------
+Prevention of Known Vulnerabilities
+-----------------------------------
 
-
+In order to protect your web projects, there are plenty of companies that 
+perform security tests that spot weak points in your code. They can pull from 
+CVE databases in order to attack your code in every which way, letting you know 
+exactly how attackers will attempt to breach your security. Utilizing their 
+services, as well as performing security tests of your own, is paramount in 
+creating a safer, more secure internet. There are also update options offered 
+by many CVE database sites, notifying you of any recent breaches in applications 
+like yours. Therefore, using these databases and checking for past security 
+exploits is the best way to prevent attackers from manipulating your website via 
+known vulnerabilities. 
 
 
 Works Cited
 -----------
-.. [EDB] "`Offensive Security’s Exploit Database Archive." <https://www.exploit-db.com/>`_ Exploits Database by Offensive Security. N.p., n.d. Web. 24 Feb. 2017. 
 .. [JOO] "`Joomla.org." <https://www.joomla.org/>`_ Joomla! N.p., n.d. Web. 24 Feb. 2017.
+.. [EDB] "`Offensive Security’s Exploit Database Archive." <https://www.exploit-db.com/>`_ Exploits Database by Offensive Security. N.p., n.d. Web. 24 Feb. 2017. 
+.. [UAF] Stroud, Forrest. "`Use After Free." <http://www.webopedia.com/TERM/U/use-after-free.html>`_ What Is Use After Free? Webopedia Definition. N.p., n.d. Web. 26 Feb. 2017."
 .. [AWK] "`WebKit." <https://webkit.org/>`_ WebKit. N.p., n.d. Web. 24 Feb. 2017.
 .. [XSS] "`What Is Cross-site Scripting and How Can You Fix It?" <https://www.acunetix.com/websitesecurity/cross-site-scripting/>`_ Acunetix. N.p., n.d. Web. 25 Feb. 2017.
-.. [UAF] Stroud, Forrest. "`Use After Free." <http://www.webopedia.com/TERM/U/use-after-free.html>`_ What Is Use After Free? Webopedia Definition. N.p., n.d. Web. 26 Feb. 2017."
