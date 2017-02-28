@@ -53,7 +53,7 @@ This type of certificate is mainly used for owning the domain name and verifying
 ownership. This type of certificate may be obtained for free, making it the 
 cheapest kind. This is not commonly used for commercial purposes because it is a 
 high risk certificate when used on a public website. The risk involves clients 
-not able to verify the organization when they visit the website. [Symantec-Corp]_
+not able to verify the organization when they visit the website.[Symantec-Corp]_
 
 **Organization Validated Certificate**
 
