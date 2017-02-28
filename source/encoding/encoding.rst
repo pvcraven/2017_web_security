@@ -100,7 +100,7 @@ An example would go like this: say Jeremy likes to visit a particular web site t
 
 Sources
 -------
-.. [Ld] Andrew Goldstone "`Literary Data: Some Approaches <http://www.rci.rutgers.edu/~ag978/litdata/encoding/>`_" Encoding problems: spotter's guide. Rutgers, n.d. Web. 21 Feb. 2017.>_
+.. [Ld] Andrew Goldstone "`Literary Data: Some Approaches <http://www.rci.rutgers.edu/~ag978/litdata/encoding/>`_" Encoding problems: spotter's guide. Rutgers, n.d. Web. 21 Feb. 2017.
 
 .. [Gc] "`UTF-8 garbage Characters <https://bytes.com/topic/html-css/answers/153766-utf-8-garbage-characters>`_" Bytes RSS. Bytes.com, n.d. Web. 21 Feb. 2017.
 
