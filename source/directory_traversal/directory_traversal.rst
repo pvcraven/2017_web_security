@@ -57,7 +57,13 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 
 
 **Directory Traversal Vulnerability Example**
---------------------------------------------------------
+---------------------------------------------
+.. image:: bad_upload.jpg
+	:height: 450px
+	:width: 450px
+	:align: center
+	:alt: bad upload
+
 This example of directory traversal is provided and explained by Acunetix 
 as a web application request based intrusion. The intruder, if the website is 
 using get can figure out that the show.asp gets the files and displays them on screen. 
@@ -66,13 +72,9 @@ main web directory. If the website hasn't had a chance to secure, or is not
 using updated web server an intruder could use the below transversal to 
 display the websites system.init to the nefarious hacker. 
 
-.. image:: bad_upload.jpg
-	:height: 450px
-	:width: 450px
-	:align: center
-	:alt: bad upload
 
-	 
+
+
 .. code-block:: bash 
 
 
