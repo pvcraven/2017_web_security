@@ -1,8 +1,6 @@
-
-
 Directory Traversal / Poisoned File Upload
 ==========================================
-
+*Written by Michael B. Edited by Kyle and Michael R*
 Introduction 
 ------------
 
@@ -22,7 +20,6 @@ basically if you know the system the website you are trying to break is being
 stored on you too can do this malicious attack(I don’t recommend anyone 
 try this at home). [ACUNETIX]_ 
 
-
 How are these attacks actually executed? In the paper by Wei Xu,Sandeep Bhatkar
 ,and R.
 Sekar , they explain in much greater detail of how to do directory traversal 
@@ -36,7 +33,7 @@ they go into a little detail, but I don’t think it is necessary here.
 
 *Poisoned File Upload*
 
-Poisoned File Upload is done when a web application, or website don’t validate 
+Poisoned File Upload is done when a web application, or website doesn't validate 
 file inputs to the upload field. Basically, making sure that only allowed types
 of files are being uploaded not system ruining viruses, or system controlling 
 viruses. Now, this is a really bad attack that can cause several bad things to
@@ -52,9 +49,6 @@ nefarious user could upload a virus to your web server that hands the keys over
 to him or herself. There are many bad thing that could happen with poisoned 
 upload, but I think those are two of the worst, and in the example section it
 will be  explained how to prevent these attacks. [COMWEEKLY]_ 
-
-
-
 
 **Directory Traversal Vulnerability Example**
 ---------------------------------------------
@@ -78,14 +72,15 @@ your system, if it has these flaws. Now, the third example, is if someone were
 to rename the windows load executable file, if this security flaw existed in
 windows an intruder could render a core file useless.That is a shocking change 
 that you can cause a persons computer, by just exploiting an unvalidated input 
-to the web server. [ACUNETIX]_ 
+to the web server. This means that directory traversal because of how common it 
+is, and how the exploit can  [ACUNETIX]_ 
 
 Directory traversal is also, one of the most popular exploits out there, 
 the reason is, as i covered in the introduction it is a simple to execute 
 attack. Now, even though it may be an easier attack to execute, being that is 
 really popular it is going to be one of the first attacks anyone attempts 
-to secure themselves from. This doesn't mean new directory transversal bugs,
-don't show up.
+to secure themselves from. Even though it is an already known security issue,
+ doesn’t mean it ceases to pop up again.  [VERACODE_2]_
 
 For example Cisco reported, a directory transversal vulnerability
 in a router they service, this occurred on November 9th 2015. This is a never 
@@ -93,9 +88,12 @@ ending battle between hacker an programmer to keep directories secure.The
 security page also explains, in a brief little description that the code to
 access this particular router is readily available. [CISCO]_
 
-
-
-
+An intruder can also, if they think you have protected against just using the ../
+to transverse directories, they can encode the ../, which is  %2E%2E%2F. 
+They can also do this for the commands below, so encode all those characters to 
+try and get around your filter. That is the technique you use when someone has 
+thought of base security for directory transversal. [USENIX]_ [W3SCHOOLS]_  
+Below i will cover full fledged prevention techniques.
 
 
 .. code-block:: bash 
@@ -115,15 +113,22 @@ access this particular router is readily available. [CISCO]_
 	Host: server.com
 
 
-
-
+[ACUNETIX]_ 
+[SIMPLYADVANCED]_
+[W3SCHOOLS]_
+[USENIX]_
 
 ------------
 *Prevention*
 ------------
-Securing your web application, router, or other web based device from this 
-exploit is pretty straight forward
-
+#. The first one discussed off the bat from Veracode, explains that the developers
+in school need to learn to assess the validity of data 
+entered into the Internet browser, to prevent directory transversal. If you do 
+this step, it won't allow a nefarious user to break out of the webroot directory. 
+#. As a developer you need to design programs that through out someone trying 
+to use escape characters in a URL, only take valid data. 
+#. All developers should stay current with new security exploits, and update 
+against them as soon as possible.  [ACUNETIX]_ [VERACODE]_
 
 
 **Poisoned File Upload Vulnerability Example**
@@ -133,6 +138,9 @@ exploit is pretty straight forward
 	:width: 450px
 	:align: center
 	:alt: bad upload
+
+
+
 
 
 ------------
@@ -148,7 +156,7 @@ exploit is pretty straight forward
 .. [VERACODE] DuPaul, Neil."`Directory Traversal <https://www.veracode.com/security/directory-traversal>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
 
 .. [SIMPLYADVANCED]  Goodwin, Danial."`Cheat Sheet for Windows Command Prompt <http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/>`_." *Simplyadvanced*, 3 Aug 2011.Web.Date Accessed 27 Feb 2017.
-.. [VERACODE] No Author List "`CWE/SANS TOP 25 <https://www.veracode.com/directory/cwe-sans-top-25>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
+.. [VERACODE_2] No Author List "`CWE/SANS TOP 25 <https://www.veracode.com/directory/cwe-sans-top-25>`_." *Veracode*.Web.Date Accessed 20 Feb 2017.
 
 .. [ACUNETIX] No Author Listed "`Directory Traversal Attacks <http://www.acunetix.com/websitesecurity/directory-traversal/>`_." *Acuntetix*.Web.Date Accessed 20 Feb 2017.
 .. [MICROSOFT] No Author Listed  "`Win32/Poison <https://www.microsoft.com/security/portal/threat/encyclopedia/entry.aspx?Name=Win32%2fPoison>`_." *Microsoft*.Web.Date Accessed 20 Feb 2017.
@@ -159,13 +167,4 @@ exploit is pretty straight forward
 
 .. [COMWEEKLY] Shapland, Robert."`"File Upload Security Best Practices: Block a Malicious File Upload." <http://www.computerweekly.com/answer/File-upload-security-best-practices-Block-a-malicious-file-upload>`_."ComputerWeekly. Computerweekly.com, May 2012. Web. 20 Feb. 2017.  
 
-
-
 .. [USENIX] Xu, Wei, Sandeep Bhatkar, and R. Sekar."`Taint Enhanced Policy Enforcement A Practical Approach to Defeat a Wide Range of Attacks <https://www.usenix.org/legacy/event/sec06/tech/full_papers/xu/xu_html/>`_." *Usenix Security*.Web.Date Accessed 20 Feb 2017.
-
-
-
-
-
-*Written by Michael B. Edited by Kyle and Michael R*
-
