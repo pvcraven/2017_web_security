@@ -6,13 +6,16 @@ Data Encoding - Morgan Ryan
 Introduction
 ------------
 
-While working with security issues within your program there are many ways to make sure your program is secure and encoding is of those ways. Encoding involves "applying a specific code, such as letters, symbols and numbers, to your data for conversion into an equivalent cipher [e]_." In other words, encoding will make your code unreadable to other people when they try to view it but will be readable when you view it. If hackers don't understand your code then they won't be able to change anything to enable them to hack your website. The goal is to help you understand encoding, how it can impact your website, and how to use encoding. Once you understand those three things then hopefully your websites will be protect against hackers.
+While working with security issues within your program there are many ways to make sure your program is secure and encoding is of those ways. Encoding involves "applying a specific code, such as letters, symbols and numbers, to your data for conversion into an equivalent cipher [e]_." 
+In other words, encoding will make your code unreadable to other people when they try to view it but will be readable when you view it. If hackers don't understand your code then they won't be able to change anything to enable them to hack your website. 
+The goal is to help you understand encoding, how it can impact your website, and how to use encoding. Once you understand those three things then hopefully your websites will be protect against hackers.
 
 
 ASCII Encoding
 --------------
 
-We are going to start out with the basics when dealing with encoding, which is ASCII encoding. ASCII encoding deals with "the browser or client side of things, it will encode the input according to the character-set used in the web=page and the default character-set in HTML5 which is UTF-8 [s]_." Below is an example table of what each symbol represents and what it gets replaced with to use in the URL before it reaches the server.
+We are going to start out with the basics when dealing with encoding, which is ASCII encoding. ASCII encoding deals with "the browser or client side of things, it will encode the input according to the character-set used in the web page and the default character-set in HTML5 which is UTF-8 [s]_."
+Below is an example table of what each symbol represents and what it gets replaced with to use in the URL before it reaches the server.
 
 +----------+------------+--------------------------------+
 | ASCII    | Symbol     | Replacement                    | 
@@ -36,7 +39,9 @@ To view the rest of the table go to https://www.tutorialspoint.com/security_test
 URL Encoding
 ------------
 
-Working with websites can be a challenge when it comes to securing your website from hackers. One way to secure your website is by URL encoding. URL encoding deals with "converting characters into a format that can be transmitted over the Internet." First things first, you have to have to understand that all URLs are sent over the internet by using the ASCII character-set that I talked about before this section.  Since "URLS contain characters outside the ASII set, then the URL has to be converted into a valid format using ASCII [u]_." With this in mind, you have to replace any characters that are "unsafe" with % and any spaces with a +. To encode in JavaScript you must use the function encodeURI(). Below is how JavaScript encodes text.
+Working with websites can be a challenge when it comes to securing your website from hackers. One way to secure your website is by URL encoding. URL encoding deals with "converting characters into a format that can be transmitted over the Internet."
+First things first, you have to have to understand that all URLs are sent over the internet by using the ASCII character-set that I talked about before this section.  Since "URLS contain characters outside the ASII set, then the URL has to be converted into a valid format using ASCII [u]_." 
+With this in mind, you have to replace any characters that are "unsafe" with % and any spaces with a +. To encode in JavaScript you must use the function encodeURI(). Below is how JavaScript encodes text.
 
 Text:  Hello World
 
@@ -51,7 +56,8 @@ UTF-8: "a character in UTF-8 can be from 1 to 4 bytes long. UTF-8 can represent 
 
 UTF-16: "16-bit Unicode Transformation Format is a variable-length character encoding for Unicode, capable of encoding the entire Unicode repertoire. UTF-16 is used in major operating systems and environments, like Microsoft Windows, Java and .NET."
 
-If you are using anything other than UTF-8 it needs to be specified in th <meta> tag for example, <meta charset="ISO-8859-1">. The reason for this is due to the fact that HTML5 is defaulted to UTF-8. You have heard me reference Unicode which to clarify is the character set that UTF-8 is using to encode. "The encoding part of this is how those character sets are represented by decimal numbers and then translated to binary numbers and store in the computer [t]_." Below is an example table of the translated decimal numbers.
+If you are using anything other than UTF-8 it needs to be specified in th <meta> tag for example, <meta charset="ISO-8859-1">. The reason for this is due to the fact that HTML5 is defaulted to UTF-8. You have heard me reference Unicode which to clarify is the character set that UTF-8 is using to encode. 
+"The encoding part of this is how those character sets are represented by decimal numbers and then translated to binary numbers and store in the computer [t]_." Below is an example table of the translated decimal numbers.
 
 +------------------------------------+------------+---------------+
 | Character Codes  		     | Decimal    | Hexadecimal   | 
@@ -81,7 +87,8 @@ To view the rest of the table go to https://www.w3schools.com/charsets/ref_html_
 Base64 Encoding
 ---------------
 
-Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation." In JavaScript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
+Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation." 
+In JavaScript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
 
 .. code-block:: plain
 
@@ -98,7 +105,8 @@ Lastly, "Base64 is a group of similar binary-to-text encoding schemes that repre
 Conclusion
 ----------
 
-The topics listed above are just a few ways that encoding helps your websites when it comes to security. There are many different ways to encode but these are the most commonly used. These methods above also can be used in a multitude of languages, I showed examples in JavaScript because that is a language that most everyone can understand. The references that were used give examples of what the code would look like in other languages if you want to explore other languages.
+The topics listed above are just a few ways that encoding helps your websites when it comes to security. There are many different ways to encode but these are the most commonly used. 
+These methods above also can be used in a multitude of languages, I showed examples in JavaScript because that is a language that most everyone can understand. The references that were used give examples of what the code would look like in other languages if you want to explore other languages.
 	
 References
 -----------
