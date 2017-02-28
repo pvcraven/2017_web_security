@@ -100,16 +100,16 @@ An example would go like this: say Jeremy likes to visit a particular web site t
 
 Sources
 -------
-.. [Ld] Andrew Goldstone "`Literary Data: Some Approaches <http://www.rci.rutgers.edu/~ag978/litdata/encoding/>`_." Encoding problems: spotter's guide. Rutgers, n.d. Web. 21 Feb. 2017.>_
+.. [Ld] Andrew Goldstone "`Literary Data: Some Approaches <http://www.rci.rutgers.edu/~ag978/litdata/encoding/>`_" Encoding problems: spotter's guide. Rutgers, n.d. Web. 21 Feb. 2017.>_
 
-.. [Gc] "`UTF-8 garbage Characters <https://bytes.com/topic/html-css/answers/153766-utf-8-garbage-characters>`_." Bytes RSS. Bytes.com, n.d. Web. 21 Feb. 2017.
+.. [Gc] "`UTF-8 garbage Characters <https://bytes.com/topic/html-css/answers/153766-utf-8-garbage-characters>`_" Bytes RSS. Bytes.com, n.d. Web. 21 Feb. 2017.
 
-.. [Hb] Marshall Brain "`How Bits and Bytes Work <http://computer.howstuffworks.com/bytes2.htm>`_." HowStuffWorks. HowStuffWorks.com, 01 Apr. 2000. Web. 21 Feb. 2017.
+.. [Hb] Marshall Brain "`How Bits and Bytes Work <http://computer.howstuffworks.com/bytes2.htm>`_" HowStuffWorks. HowStuffWorks.com, 01 Apr. 2000. Web. 21 Feb. 2017.
 
-.. [Css] "`Cross-site scripting <https://en.wikipedia.org/wiki/Cross-site_scripting>`_." Wikipedia. Wikimedia Foundation, 16 Feb. 2017. Web. 23 Feb. 2017.
+.. [Css] "`Cross-site scripting <https://en.wikipedia.org/wiki/Cross-site_scripting>`_" Wikipedia. Wikimedia Foundation, 16 Feb. 2017. Web. 23 Feb. 2017.
 
-.. [Uri] "`Uniform Resource Identifier <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`_." Wikipedia. Wikimedia Foundation, 23 Feb. 2017. Web. 27 Feb. 2017.
+.. [Uri] "`Uniform Resource Identifier <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`_" Wikipedia. Wikimedia Foundation, 23 Feb. 2017. Web. 27 Feb. 2017.
 
-.. [B64] "`Base64 <https://en.wikipedia.org/wiki/Base64>`_." Wikipedia. Wikimedia Foundation, 17 Feb. 2017. Web. 27 Feb. 2017.
+.. [B64] "`Base64 <https://en.wikipedia.org/wiki/Base64>`_" Wikipedia. Wikimedia Foundation, 17 Feb. 2017. Web. 27 Feb. 2017.
 
-.. [Sql] "`Encode and Decode SQL Server Identifiers <https://msdn.microsoft.com/en-us/library/hh231369.aspx>`_." Encode and Decode SQL Server Identifiers. Microsoft, n.d. Web. 27 Feb. 2017.
+.. [Sql] "`Encode and Decode SQL Server Identifiers <https://msdn.microsoft.com/en-us/library/hh231369.aspx>`_" Encode and Decode SQL Server Identifiers. Microsoft, n.d. Web. 27 Feb. 2017.
