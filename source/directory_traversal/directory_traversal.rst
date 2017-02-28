@@ -15,12 +15,12 @@ breaking into a computer to steal information, causing irreparable damage to the
 file system, or the computer as a whole.Directory Traversal happens when a 
 malicious user decides to test if they can get out of the web root directory, 
 which is where they should stay. Now, if they manage to do this, the directory
-traversal attack has begun.[ACUNETIX]_
+traversal attack has begun. [ACUNETIX]_
 
  According to Acunetix , this is a pretty simple malicious attack to attempt, 
  basically if you know the system the website you are trying to break is being 
- stored on you too can do this malicious attack
-  (I don’t recommend anyone try this at home).[ACUNETIX]_ 
+ stored on you too can do this malicious attack(I don’t recommend anyone 
+ try this at home). [ACUNETIX]_ 
 
 
  How are these attacks actually executed? In the paper by Wei Xu,Sandeep Bhatkar
@@ -40,19 +40,17 @@ Poisoned File Upload is done when a web application, or website don’t validate
 file inputs to the upload field. Basically, making sure that only allowed types
 of files are being uploaded not system ruining viruses, or system controlling 
 viruses. Now, this is a really bad attack that can cause several bad things to
-happen.  Just covering a couple gives a good picture for how bad this attack 
+happen.Just covering a couple gives a good picture for how bad this attack 
 is for anyone on the receiving end.  Rob Shapland from ComputerWeekly explains 
-two really good reasons, and one, I already glossed over.[COMWEEKLY]_ 
-
-One, a nefarious user decides they want to just make your website or web
-application useless,
+two really good reasons, and one, I already glossed over. [COMWEEKLY]_ 
+One, a nefarious user decides they want to just make your website or web application useless,
 so they upload a file with the same name as a core process that makes your 
 web server run and add it to the same directory.  The core process is then 
 overwritten, making your web application useless. Two, he explains that the 
 nefarious user could upload a virus to your web server that hands the keys over
- to him or her. There are many bad thing that could happen with poisoned 
- upload, but I think those are two of the worst, and in the example section it
-  will be  explained how to prevent these attacks. 
+to him or herself. There are many bad thing that could happen with poisoned 
+upload, but I think those are two of the worst, and in the example section it
+will be  explained how to prevent these attacks. 
 
 
 
