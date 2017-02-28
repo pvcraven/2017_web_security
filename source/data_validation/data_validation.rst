@@ -19,9 +19,9 @@ Introduction
 	Creating validation can be a lengthy process, however the risk of not 
 	having any validation are high. Users could input code that could change 
 	features of a website, without validation to stop this your website could 
-	be at risk. There are short cuts to data validation such as front end (client
-	 side) or back end (server side) only validation, but these leave the door open for 
-	potential risks. [WEB]_
+	be at risk. There are short cuts to data validation such as front end 
+	(client side) or back end (server side) only validation, but these leave the
+	door open for potential risks. [WEB]_
 
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -65,7 +65,7 @@ How to Code Data Validation
 
 
 .. image:: frontendCodeExample.png
-	:width: 600px3:58 PM 2/27/2017
+	:width: 600px
 	:align: center
 
 	The image below is an example of server side validation. In order to do this you,
@@ -77,7 +77,7 @@ How to Code Data Validation
 	they entered is incorrect. The difference here is we do not care about making
 	a nice message for someone trying to submit something malicious.  [WEB]_
 
-.. image:: backEndCodeExample.png
+.. image:: backendCodeExample.png
 	:width: 600px
 	:align: center
 
