@@ -68,7 +68,7 @@ How to Code Data Validation
 	:width: 600px
 	:align: center
 
-	The image below is an example of server side validation. In order to do this 
+The image below is an example of server side validation. In order to do this 
 	you, you must pause client side first and resume once the server side is set 
 	up. This code uses regular expressions to validate there is no malicious 
 	inputs going into your website. Once the input passes as valid on the back 
@@ -76,7 +76,7 @@ How to Code Data Validation
 	submitted is not malicious, but is incorrect, the user will get a nice 
 	message explaining what they entered is incorrect. The difference here is we 
 	do not care about making a nice message for someone trying to submit 
-	something malicious.  [WEB]_
+	something malicious. [WEB]_
 
 .. image:: backendCodeExample.png
 	:width: 600px
