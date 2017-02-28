@@ -6,19 +6,17 @@ Known Vulnerabilities
 Introduction
 ------------
 
-.. image:: file_upload.png
-
 Known vulnerabilities are code creations that are known to cause unwanted and 
 unintended effects. Because of the multitude of ways that websites can be 
 attacked, web security is an ongoing fight between security developers and 
 hackers. These security vulnerabilities can include a wide variety of exposures, 
-including Cross Site Scripting, SQL Injection, Insecure File Uploads, 
-Authentication Bypass, and many, many more. To keep things organized, the 
+including cross site scripting, SQL injection, insecure file uploads, 
+authentication bypass, and many, many more. To keep things organized, the 
 internet contains dozens of CVE (Common Vulnerabilities and Exposures) databases 
 that are filled with examples of issues other people have found in certain websites. 
 
-Why Release the Vulnerabilities?
---------------------------------
+Why Release the Vulnerabilities to a Database?
+----------------------------------------------
 
 When the vulnerability is placed in the database, the developer isn't the only 
 one who can make a query. Because the CVE databases are public, hackers can find 
@@ -32,15 +30,11 @@ the database by the developer after the vulnerability has been patched. This is
 done to tighten security on applications being actively developed by other 
 security experts. The experts can find common issues that have been discovered
 by their like-minded peers, then implement the solutions into their own 
-application. 
-
-Listed below are different web applications and their vulnerabilities. No 
-software has been proven to be airtight, and vulnerabilities are being released 
-every day to help combat mischievous attackers. These applications can be 
-developed by anywhere from small, upcoming businesses to software powerhouses. 
-Here is a list of applications that are known to have vulnerabilities, including 
-information on how to combat the vulnerability. 
-
+application. That being said, no software has been proven to be airtight, and 
+vulnerabilities are being released every day to help combat mischievous 
+attackers. These applications can be developed by anyone from small, upcoming 
+businesses to software powerhouses. Below are two applications that are 
+known to have vulnerabilities, including information on how to combat them.
 
 Joomla!
 -------
@@ -48,9 +42,11 @@ Joomla!
 Joomla! is a content management system that deals with website creation and 
 distribution. A variety of sites have been created with Joomla!, including 
 Lipton Ice Tea, Lazarex Cancer Foundation, Michael Phelps' Store, and many more
-[JOO]_. Known vulnerabilities with the Joomla! application include:
+[JOO]_. Because their product has been used to create millions of websites, 
+security should be a primary concern to protect their partners and their 
+partners' users. Known vulnerabilities with the Joomla! application include:
 
-**SQL Injection:**
+**SQL Injection**
 
 Joomla MSG (My Personal Messages) is a way in which users are able to 
 communicate with one another through a website. An exploit was found that 
@@ -64,7 +60,12 @@ be implemented into a URL to access another person's messages [EDB]_.::
 	# Reply as someone else
 	http://localhost/[PATH]/index.php?option=com_mymsg&layout=edit&reply_id=[Insert_SQL_Here]
 
-**Insecure File Upload:**
+To protect against this, the web application should have steps in place to 
+remove system database privilages from normal users. This will prevent an 
+attacker from making their own queries into the database, assuming they haven't 
+found a way to bypass the authentication of the database. 
+
+**Insecure File Upload**
 
 The default Joomla Event Manager (JEM) allows for an authenticated user to 
 upload HTML and HTM files as an attachment. If an attacker was to upload the 
@@ -78,7 +79,7 @@ Apple
 
 Apple is a large, multibillion-dollar company that offers a variety of 
 services. One of these services includes Apple WebKit, a web browser engine 
-used by OS X applications including Safari [AWK]_. There are several past 
+used by OS X applications including Safari [AWK]_. Developers can use Apple WebKit to create their own web browsers. There are several past 
 vulnerabilities found with Apple WebKit, including the following:
 
 **Cross Site Scripting**
@@ -124,11 +125,29 @@ similar to this [EDB]_.::
 	 
 	main();
 
+**Use After Free**
+
+Use after free is an issue that targets memory corruption, attempting to access 
+memory after it has been freed by the RAM. This attack can cause the 
+application, or web browser, to crash. In more serious instances, this 
+vulnerability can lead to the attacker remotely executing code on the user's 
+computer [UAF]_. This vulnerability was found in regards to Apple's WebKit in 
+the HTMLFormElement::reset() function. There was a flaw in how the software 
+accessed the associated elements variable, which was able to be modified by the 
+reset function. By adding custom elements to the variable while it is iterated, 
+the already-existing elements are pushed forward, letting the attacker execute 
+his or her own data [EDB]_.
+
+Conclusion
+----------
+
+
 
 
 Works Cited
 -----------
-.. [EDB] "Offensive Security’s Exploit Database Archive." <https://www.exploit-db.com/>`_ Exploits Database by Offensive Security. N.p., n.d. Web. 24 Feb. 2017. 
-.. [JOO] "Joomla.org." <https://www.joomla.org/>'_ Joomla! N.p., n.d. Web. 24 Feb. 2017.
-.. [AWK] "WebKit." <https://webkit.org/>'_ WebKit. N.p., n.d. Web. 24 Feb. 2017.
-.. [XSS] "What Is Cross-site Scripting and How Can You Fix It?" <https://www.acunetix.com/websitesecurity/cross-site-scripting/>'_ Acunetix. N.p., n.d. Web. 25 Feb. 2017.
+.. [EDB] "`Offensive Security’s Exploit Database Archive." <https://www.exploit-db.com/>`_ Exploits Database by Offensive Security. N.p., n.d. Web. 24 Feb. 2017. 
+.. [JOO] "`Joomla.org." <https://www.joomla.org/>`_ Joomla! N.p., n.d. Web. 24 Feb. 2017.
+.. [AWK] "`WebKit." <https://webkit.org/>`_ WebKit. N.p., n.d. Web. 24 Feb. 2017.
+.. [XSS] "`What Is Cross-site Scripting and How Can You Fix It?" <https://www.acunetix.com/websitesecurity/cross-site-scripting/>`_ Acunetix. N.p., n.d. Web. 25 Feb. 2017.
+.. [UAF] Stroud, Forrest. "`Use After Free." <http://www.webopedia.com/TERM/U/use-after-free.html>`_ What Is Use After Free? Webopedia Definition. N.p., n.d. Web. 26 Feb. 2017."
