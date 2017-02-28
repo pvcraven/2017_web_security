@@ -76,7 +76,7 @@ How to Obtain an SSL Certificate?
 A SSL Certificate can be purchased through a domain provider such as GoDaddy, 
 DigiCert, GlobalSign and more. They will offer several different service 
 packages including standard SSL certificate, Extended Validation Certificate, 
-Multiple-Domains, and Wildcard(s). This is going to be variant per company 
+Multiple-Domains, and Wildcard(s). This is going to vary among company 
 depending on what the company's end goal is for their website. 
 
 How to Tell if a Website is Secure?
