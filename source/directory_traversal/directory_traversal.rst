@@ -51,7 +51,7 @@ to him or herself. There are many bad thing that could happen with poisoned
 upload, but I think those are two of the worst, and in the example section it
 will be  explained how to prevent these attacks. [COMWEEKLY]_ 
 
-**Directory Traversal Vulnerability Example**
+**Directory Traversal Vulnerability Examples**
 ---------------------------------------------
 This example of directory traversal is provided and explained by Acunetix 
 as a web application request based intrusion. [ACUNETIX]_ The intruder, if the
@@ -71,17 +71,19 @@ further let a hacker mess with your system, being able to run rename commands on
 core files, if they weren't secured against this attack. Fundamentally changing 
 your system, if it has these flaws. Now, the third example, is if someone were
 to rename the windows load executable file, if this security flaw existed in
-windows an intruder could render a core file useless.That is a shocking change 
-that you can cause a persons computer, by just exploiting an unvalidated input 
-to the web server. This means that directory traversal because of how common it 
-is, and how the exploit can  [ACUNETIX]_ 
+windows an intruder could render a core file useless.It is a shocking change 
+that you can cause a persons computer, by just exploiting improper input from 
+the user to the web server. This means that directory traversal because of how 
+common it is, and how the exploit can be used, it is a very dangerous hack to a computer 
+file system. in the above examples, I laid out just how dangerous. 
+[ACUNETIX]_ [VERACODE_2]_
 
 Directory traversal is also, one of the most popular exploits out there, 
 the reason is, as i covered in the introduction it is a simple to execute 
 attack. Now, even though it may be an easier attack to execute, being that is 
 really popular it is going to be one of the first attacks anyone attempts 
 to secure themselves from. Even though it is an already known security issue,
- doesn’t mean it ceases to pop up again.  [VERACODE_2]_
+doesn’t mean it ceases to pop up again.  [VERACODE_2]_
 
 For example Cisco reported, a directory transversal vulnerability
 in a router they service, this occurred on November 9th 2015. This is a never 
@@ -113,7 +115,6 @@ Below i will cover full fledged prevention techniques.
 	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/ren+winload.exe%3dwinload.txt\ HTTP/1.1
 	Host: server.com
 
-
 [ACUNETIX]_ 
 [SIMPLYADVANCED]_
 [W3SCHOOLS]_
@@ -132,13 +133,37 @@ Below i will cover full fledged prevention techniques.
 
 
 
-**Poisoned File Upload Vulnerability Example**
+**Poisoned File Upload Vulnerability Examples**
 ----------------------------------------------
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
 	:align: center
 	:alt: bad upload
+
+There are several types of Poisoned File Uploads, I covered the type where it 
+combines directory traversal, and the the upload in my introduction. For example,
+you attempt an upload on a not validated upload field, and terrible things 
+happen to your computer because you just uploaded a  virus copy of some 
+windows core files to your system called Win32/Poison from the Microsoft 
+virus database. With this achieved the hacker has access to a lot about your 
+system. [MICROSOFT]_ 
+
+The next one I covered was the hacker uploading a file to destroy, or take over
+the web server computer. All of these are clearly dangerous to your web server 
+computer, your privacy, and your ability to control what happens to your website.
+These are all big bad things that a poisoned file 
+upload can do to you and your computer. The one I want to cover here not covered
+elsewhere here, and that is uploading a gigantic file to prevent the web server 
+from doing anything.  [COMWEEKLY]_ 
+
+The issues that is at hand, is again not validating data the user sends the web 
+server. So it make sense why professor Craven put these two security 
+vulnerabilities together. They can both be used to modify files, and you can 
+use directory transversal in a poisonous file upload. Now, these would be 
+especially bad if this was a business website, it could set you back a year, 
+or two,or more if the hacker is really mean.They can ruin your business for good
+by taking control then modifying it to make you look bad. [COMWEEKLY]_ 
 
 
 
@@ -147,7 +172,17 @@ Below i will cover full fledged prevention techniques.
 ------------
 *Prevention*
 ------------
+It is similar prevention to directory traversal, I just think the Shapland article 
+is more detailed on prevention of poisonous file upload, in comparison to 
+all the others on directory traversal.in regards to the similarities. 
 
+#. Shapland talks, about creating a program, that has a list of acceptable files, and it throws an error at every other invalidly type file.
+#. Again similar to above, a program should be created to make sure a hacker doesn't try to encode file types. He says one, or the other, i think both is correct.
+#. Filename shouldn't have directory transversal embedded in it, to prevent this further have maximum character amount for a filename. 
+#. Every file that is accepted for upload needs to be scanned to make sure it is virus free. 
+#  A important thing about file security that professor Craven went over in class, don't use the name given to the file by the user, use a name you come up with.
+
+Shapland talks about either front end user, or back end checks, I believe in both for more security. I went over all six, but combined three and four from Shapland's list. [COMWEEKLY]_  
 
 
 
