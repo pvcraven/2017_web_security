@@ -11,9 +11,9 @@ Data Validation
 
 Introduction
 ^^^^^^^^^^^^
-Data Validation is one of the most important aspect of coding any website 
+Data Validation is one of the most important aspects of coding any website 
 that takes inputs from an outside user. Data validation is the process in 
-which a website verity's the data being input by the user is in the correct 
+which a website verifies the data being input by the user is in the correct 
 form. For example if the website asks for a first name and the user inputs a
 phone number, validation will prevent the website from taking that input. 
 Creating validation can be a lengthy process, however the risk of not 
@@ -26,23 +26,21 @@ door open for potential risks. [WEB]_
 What is Data Validation?
 ^^^^^^^^^^^^^^^^^^^^^^^^
 "Data validation guarantees to your application that every data value is 
-correct and accurate." [DATA]_ Data Validation answers simple questions such
-such as "is the string alphabetic" or "is the string numerical". If you are
-asking for a first name it will be helpful if you do not accept a telephone
-number as the users first name. Another form of validation is ensuring the
-users uses the correct amount of characters. Most phone numbers are ten
-digits, so we would not want a user's inputting "1119-67-2" as their phone
-number.
+correct and accurate." [DATA]_ Data Validation answers simple questions such as 
+"is the string alphabetic" or "is the string numerical". If you are asking for a
+first name it will be helpful if you do not accept a telephone number as the 
+users first name. Another form of validation is ensuring the user uses the 
+correct amount of characters. Most phone numbers are ten digits, so we would not 
+want a user's input "1119-67-2" as their phone number.
 
 Data validation on the client side is mainly for the user. It does serve a
-a small purpose to the website itself. Client side validation makes it
-possible for the user to easily enter information with no errors. As stated 
-we want to make sure we receive accurate data, so what happens when a user
-inputs their phone number as their first name? client side validation will
-prevent the website from taking this input and in a nice and pretty way show
-the user that the data entered is not acceptable. "Client-side or front end 
-JavaScript form validation provides absolutely no value from a security 
-perspective." [Cade]_
+small purpose to the website itself. Client side validation makes it possible 
+for the user to easily enter information with no errors. As stated  we want to 
+make sure we receive accurate data, so what happens when a user inputs their 
+phone number as their first name? client side validation will prevent the 
+website from taking this input and in a nice and pretty way show the user that 
+the data entered is not acceptable. "Client-side or front end  JavaScript form 
+validation provides absolutely no value from a security perspective." [Cade]_
 
 Data validation on the server side is mainly for the website server. The 
 same checks for client side validation are used for server side validation 
