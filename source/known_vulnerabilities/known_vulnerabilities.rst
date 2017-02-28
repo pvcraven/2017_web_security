@@ -54,8 +54,11 @@ Joomla MSG (My Personal Messages) is a way in which users are able to
 communicate with one another through a website. An exploit was found that 
 allowed for an attacker to log in as another user by appending the default 
 message website path with SQL queries, resulting in an attacker being able to 
-view other user's messages. Below is an example of how the SQL injection could 
-be implemented into a URL to access another person's messages [EDB]_.::
+view other user's messages. 
+`Here <http://2017-web-development.readthedocs.io/en/latest/sql_injection/sql_injection.html>`_ 
+is a link with more information regarding SQL injections. Below is an example of 
+how the SQL injection could be implemented into a URL to access another person's 
+messages in Joomla MSG [EDB]_.::
 
 	# View someone else's messages
 	http://localhost/[PATH]/index.php?option=com_mymsg&view=msg&filter_box=[Insert_SQL_Here]
@@ -73,8 +76,9 @@ The default Joomla Event Manager (JEM) allows for an authenticated user to
 upload HTML and HTM files as an attachment. If an attacker was to upload the 
 files containing malicious Javascript coding, a victim would be able to 
 download said files. This would put them at risk to whatever hack the attacker 
-created. In order to prevent this type of vulnerability, the JEM should 
-restrict file uploads to valid files of a certain type.
+created. More information on insecure file upload can be found 
+`here <http://2017-web-development.readthedocs.io/en/latest/directory_traversal/directory_traversal.html>`_. In order to prevent this type of vulnerability, the 
+JEM should restrict file uploads to valid files of a certain type.
 
 Apple
 -----
@@ -91,7 +95,9 @@ web applications. An attacker using XSS can inject their script to a normal
 website, which unknowingly passes the malicious script to the user [XSS]_. The 
 script language is usually Javascript due to nearly every website using some 
 form of it. The script can then read the information that the user's computer 
-transmits to the website, including location and cookies.
+transmits to the website, including location and cookies. A further description 
+of XSS can be found 
+`here <http://2017-web-development.readthedocs.io/en/latest/xss/xss.html>`_.
 
 Apple's WebKit engine (specifically on Safari 10.0.2) is vulnerable to this 
 type of attack. The code attacks the FrameLoader::clear function that clears the
