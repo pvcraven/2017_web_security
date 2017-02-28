@@ -17,22 +17,22 @@ malicious user decides to test if they can get out of the web root directory,
 which is where they should stay. Now, if they manage to do this, the directory
 traversal attack has begun. [ACUNETIX]_
 
- According to Acunetix , this is a pretty simple malicious attack to attempt, 
- basically if you know the system the website you are trying to break is being 
- stored on you too can do this malicious attack(I don’t recommend anyone 
- try this at home). [ACUNETIX]_ 
+According to Acunetix , this is a pretty simple malicious attack to attempt, 
+basically if you know the system the website you are trying to break is being 
+stored on you too can do this malicious attack(I don’t recommend anyone 
+try this at home). [ACUNETIX]_ 
 
 
- How are these attacks actually executed? In the paper by Wei Xu,Sandeep Bhatkar
- ,and R.
- Sekar , they explain in much greater detail of how to do directory traversal 
- than other sources currently cited.  To sum it up short and sweet, the process
- of traversing directories depending on security, you try using forward slashes 
- with two dot operators on most file systems to go up directories. Finishing 
- with the folder you want to traverse to in mind. If the security is higher, 
- you get more creative and attempt and encode directory traversal. If that fails
- they go into a little detail, but I don’t think it is necessary here.
- [USENIX]_
+How are these attacks actually executed? In the paper by Wei Xu,Sandeep Bhatkar
+,and R.
+Sekar , they explain in much greater detail of how to do directory traversal 
+than other sources currently cited.  To sum it up short and sweet, the process
+of traversing directories depending on security, you try using forward slashes 
+with two dot operators on most file systems to go up directories. Finishing 
+with the folder you want to traverse to in mind. If the security is higher, 
+you get more creative and attempt and encode directory traversal. If that fails
+they go into a little detail, but I don’t think it is necessary here.
+[USENIX]_
 
 *Poisoned File Upload*
 
@@ -58,48 +58,55 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 
 **Directory Traversal Vulnerability Example**
 ---------------------------------------------
+This example of directory traversal is provided and explained by Acunetix 
+as a web application request based intrusion. [ACUNETIX]_ The intruder, if the
+website is using get can figure out that the show.asp gets the files and 
+displays any file on screen. With that said, they can use the use the below many 
+examples to get out of the main web directory. If the website hasn't had 
+a chance to secure, or is not using updated web server, an intruder could use 
+the first transversal to display the websites system.init output to themselves.
+
+
+The second code block is specifically trying to transversal a unsecured web 
+application server, also provided by Acunetix. 
+
+
+
+
+.. code-block:: bash 
+	
+
+	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
+	Host: test.webarticles.com
+
+	Web Server Exploit 
+
+	GET http://server.com/scripts/..%5c../Windows/System32/cmd.exe?/c+dir+c:\ HTTP/1.1
+	Host: server.com
+
+
+
+
+
+
+------------
+*Prevention*
+------------
+
+
+
+**Poisoned File Upload Vulnerability Example**
+----------------------------------------------
 .. image:: bad_upload.jpg
 	:height: 450px
 	:width: 450px
 	:align: center
 	:alt: bad upload
 
-This example of directory traversal is provided and explained by Acunetix 
-as a web application request based intrusion. The intruder, if the website is 
-using get can figure out that the show.asp gets the files and displays them on screen. 
-With that said, they can use the use the below many examples to get out of the
-main web directory. If the website hasn't had a chance to secure, or is not 
-using updated web server an intruder could use the below transversal to 
-display the websites system.init to the nefarious hacker. 
 
-
-
-
-.. code-block:: bash 
-
-
-	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
-	Host: test.webarticles.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Real World Directory Traversal Vulnerability Example**
---------------------------------------------------------
-
-
-
+------------
+*Prevention*
+------------
 
 
 
