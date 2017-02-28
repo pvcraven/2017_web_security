@@ -43,8 +43,8 @@ so risky?
 Below is the Java code that receives the URL from the 'url' GET parameter (same 
 as the example above) and redirects to that URL.
 
-.. code block:: Java
-	response.sendRedirect(request.getParameter("url"));
+.. image:: code_1.jpg
+	:align: center
 
 This code is vulnerable because no validation or controls have been applied to 
 verify the certainty of the URL. If no validation is applied, an attacker could 
@@ -52,8 +52,8 @@ create a hyperlink to redirect users to a malicious site.
 
 Instead, the vulnerability could easily be avoided by using the following:
 
-.. code block:: Java
-	response.sendRedirect("http://simpsonstudentinfo.com")
+.. image:: code_2.jpg
+	:align: center
 
 In this case, the URL is being explicitly declared and cannot be manipulated by 
 attackers. [owasp]_
@@ -103,9 +103,12 @@ With the potential security risks that come into play with unvalidated
 redirects, its important to know that there are other ways to go about sending 
 users to different web pages to avoid the vulnerability. Listed below are a few 
 simple ways to avoid unvalidated redirects. [mtsu]_
+
 	1. Don't use redirects at all.
-	2. Don't involve parameters in calculating the destination. In other words, 
-	don't use user input to determine the destination.
+	
+	2. Don't involve parameters in calculating the destination. 
+	In other words, don't use user input to determine the destination.
+	
 	3. If the destination parameters can't be avoided, be sure the supplied 
 	value is valid and authorized for the user. 
 
