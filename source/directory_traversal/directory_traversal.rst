@@ -70,15 +70,15 @@ display the websites system.init to the nefarious hacker.
 
 
 .. code-block:: bash 
-	:color: blue
 	
+
 	GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
 	Host: test.webarticles.com
 
 
 
 
-
+------------
 *Prevention*
 ------------
 
@@ -93,7 +93,7 @@ display the websites system.init to the nefarious hacker.
 	:alt: bad upload
 
 
-
+------------
 *Prevention*
 ------------
 
