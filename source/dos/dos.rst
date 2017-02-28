@@ -30,7 +30,7 @@ happened to me many times when trying to get downtown during rush hour.
 Example and Explanation 
 -----------------------
 
-.. image:: Code.png
+.. image:: Code.PNG
 
 [img]_
 This is a straightforward and starts with the user declaring two variables. A and
