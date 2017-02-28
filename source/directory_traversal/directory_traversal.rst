@@ -36,7 +36,7 @@ they go into a little detail, but I don’t think it is necessary here.
 
 Poisoned File Upload is done when a web application, or website doesn't validate 
 file inputs to the upload field. Basically, making sure that only allowed types
-of files are being uploaded not system ruining viruses, or system controlling 
+of files are being uploaded, not system ruining viruses, or system controlling 
 viruses. Now, this is a really bad attack that can cause several bad things to
 happen.Just covering a couple gives a good picture for how bad this attack 
 is for anyone on the receiving end.  Rob Shapland from ComputerWeekly explains 
@@ -56,7 +56,7 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 This example of directory traversal is provided and explained by Acunetix 
 as a web application request based intrusion. [ACUNETIX]_ The intruder, if the
 website is using get can figure out that the show.asp gets the files and 
-displays any file on screen. With that said, they can use the use the below many 
+displays any file on screen. With that said, they can use the use the below few 
 examples to get out of the main web directory. If the website hasn't had 
 a chance to secure, or is not using updated web server, an intruder could use 
 the first transversal to display the websites system.init output to themselves.
@@ -81,7 +81,7 @@ file system. in the above examples, I laid out just how dangerous.
 Directory traversal is also, one of the most popular exploits out there, 
 the reason is, as i covered in the introduction it is a simple to execute 
 attack. Now, even though it may be an easier attack to execute, being that is 
-really popular it is going to be one of the first attacks anyone attempts 
+really popular, it is going to be one of the first attacks anyone attempts 
 to secure themselves from. Even though it is an already known security issue,
 doesn’t mean it ceases to pop up again.  [VERACODE_2]_
 
@@ -95,7 +95,7 @@ An intruder can also, if they think you have protected against just using the ..
 to transverse directories, they can encode the ../, which is  %2E%2E%2F. 
 They can also do this for the commands below, so encode all those characters to 
 try and get around your filter. That is the technique you use when someone has 
-thought of base security for directory transversal. [USENIX]_ [W3SCHOOLS]_  
+thought of base security against directory transversal. [USENIX]_ [W3SCHOOLS]_  
 Below i will cover full fledged prevention techniques.
 
 
@@ -127,7 +127,7 @@ Below i will cover full fledged prevention techniques.
 
 #. The first one discussed off the bat from Veracode, explains that the developers in school need to learn to assess the validity of data entered into the Internet browser, to prevent directory transversal.
 
-#. As a developer you need to design programs that through out someone trying to use escape characters in a URL, only take valid data. 
+#. As a developer you need to design programs that throws out someone trying to use escape characters in a URL, only take valid data. 
 
 #. All developers should stay current with new security exploits, and update against them as soon as possible.  [ACUNETIX]_ [VERACODE]_
 
@@ -142,7 +142,7 @@ Below i will cover full fledged prevention techniques.
 	:alt: bad upload
 
 There are several types of Poisoned File Uploads, I covered the type where it 
-combines directory traversal, and the the upload in my introduction. For example,
+combines directory traversal in the the upload in my introduction. For example,
 you attempt an upload on a not validated upload field, and terrible things 
 happen to your computer because you just uploaded a  virus copy of some 
 windows core files to your system called Win32/Poison from the Microsoft 
@@ -154,16 +154,15 @@ the web server computer. All of these are clearly dangerous to your web server
 computer, your privacy, and your ability to control what happens to your website.
 These are all big bad things that a poisoned file 
 upload can do to you and your computer. The one I want to cover here not covered
-elsewhere here, and that is uploading a gigantic file to prevent the web server 
+yet, and that is uploading a gigantic file to prevent the web server 
 from doing anything.  [COMWEEKLY]_ 
 
 The issues that is at hand, is again not validating data the user sends the web 
 server. So it make sense why professor Craven put these two security 
 vulnerabilities together. They can both be used to modify files, and you can 
-use directory transversal in a poisonous file upload. Now, these would be 
-especially bad if this was a business website, it could set you back a year, 
-or two,or more if the hacker is really mean.They can ruin your business for good
-by taking control then modifying it to make you look bad. [COMWEEKLY]_ 
+use directory transversal in a poisonous file upload. Now this would be 
+especially bad if this was a website for a business,  it could set your business back a year, 
+or two,or more. It could be permanent if the hacker was really mean. [COMWEEKLY]_ 
 
 
 
@@ -176,14 +175,13 @@ It is similar prevention to directory traversal, I just think the Shapland artic
 is more detailed on prevention of poisonous file upload, in comparison to 
 all the others on directory traversal.in regards to the similarities. 
 
-#. Shapland talks, about creating a program, that has a list of acceptable files, and it throws an error at every other invalidly type file.
-#. Again similar to above, a program should be created to make sure a hacker doesn't try to encode file types. He says one, or the other, i think both is correct.
+#. Shapland talks, about creating a program, that has a list of acceptable files, and it throws an error at every other invalid file type.
+#. Again similar to above, a program should be created to make sure a hacker doesn't try to encode file types. He says one, or the other, I think both is correct.
 #. Filename shouldn't have directory transversal embedded in it, to prevent this further have maximum character amount for a filename. 
 #. Every file that is accepted for upload needs to be scanned to make sure it is virus free. 
-#  A important thing about file security that professor Craven went over in class, don't use the name given to the file by the user, use a name you come up with.
+#.  A important thing about file security that professor Craven went over in class, don't use the name given to the file by the user, use a name you come up with.
 
 Shapland talks about either front end user, or back end checks, I believe in both for more security. I went over all six, but combined three and four from Shapland's list. [COMWEEKLY]_  
-
 
 
 **Works Cited**
