@@ -56,26 +56,26 @@ will be  explained how to prevent these attacks. [COMWEEKLY]_
 
 
 
-**Real World Directory Traversal Vulnerability Example**
+**Directory Traversal Vulnerability Example**
 --------------------------------------------------------
 This example of directory traversal is provided and explained by Acunetix 
 as a web application request based intrusion. The intruder, if the website is 
 using get can figure out that the show.asp gets the files and displays them on screen. 
 With that said, they can use the use the below many examples to get out of the
- main web directory. If the website hasn't had a chance to secure, 
- or is not using updated web server an intruder could use the below transversal to 
- display the websites system.init to the nefarious hacker. 
+main web directory. If the website hasn't had a chance to secure, or is not 
+using updated web server an intruder could use the below transversal to 
+display the websites system.init to the nefarious hacker. 
 .. code-block:: bash 
 
 GET http://test.webarticles.com/show.asp?view=../../../../../Windows/system.ini HTTP/1.1
 Host: test.webarticles.com
 
-There are multiple attacks 
 
 
 
 
-*Prevention* 
+
+
 
 ** More Directory Traversal / Poisoned File Upload Examples**
 ---------------------------------------------------
