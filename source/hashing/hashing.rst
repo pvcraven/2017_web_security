@@ -26,7 +26,7 @@ One of the more successful developments in the world of computer security was
 the implementation of hashing to encode sensitive material. The main idea of 
 hashing is that a person can convert a value of any size and convert it into 
 a, seemingly, arbitrary value of a uniform size in an irriversable process. 
-The advantage of this is the most obvious in the form of passwords. To 
+The advantage of this is most obvious in passwords. To 
 validate the accuracy of a password, a system must compare the password 
 submitted to the correct answer. However, if for example, a person wanted to 
 sign on to a website like YouTube in this way, they would have to send their 
@@ -39,9 +39,9 @@ the victim's password. A solution to this problem is for a password to be
 encrypted with a hashing function. This hash is used to form a response to 
 a random number, which is a challenge that the server sends to the user. The 
 answer sent back to the server is compared to the expected answer that the 
-server formed with its copy of the users hash that it keeps. If the answers 
-are the same, then the server knows that the user is using the correct password 
-associated with the username.
+server formed with its copy of the users hash which the server keeps. If the 
+answers are the same, then the server knows that the user is using the correct 
+password associated with the username.
  .. image:: challenge_response.png 
 To put the password problem more simply: 
 ----------------------------------------
@@ -64,14 +64,14 @@ Passing the Hash
 ----------------
 Systems like these, which rely on credentials to be exchanged, can be exploited
 in a few ways without ever decoding the hashes. The most common hash attack is 
-called 'Passing the Hash', or PtH. This attack relys on an amount of access to 
+called 'Passing the Hash', or PtH. This attack relies on an amount of access to 
 a system to work, usually in the form of a system administrator. Using access 
 to a system and some software, a hacker can get all of the hashes on a local 
 computer, as well as the usernames associated with the hashes. With this, and 
 additional software, a hacker can impersonate an administrator who is higher 
 in the system and cause problems or get access to important things on the system.
 
-These attacks are some of the most common, in 2016, Yahoo and up to a few 
+These attacks are some of the most common. In 2016, Yahoo and up to a few 
 hundred million accounts were the victims of an attack which compromised 
 passwords and personal information [BBC]_. According to an article by the 
 BBC covering the incident, this attack was likely done with a PtH.
