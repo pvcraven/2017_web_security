@@ -147,7 +147,7 @@ application, or web browser, to crash. In more serious instances, this
 vulnerability can lead to the attacker remotely executing code on the user's 
 computer [UAF]_. This vulnerability was found in regards to Apple's WebKit in 
 the HTMLFormElement::reset() function. There was a flaw in how the software 
-accessed the associated elements variable, which was able to be modified by the 
+accessed the associated elements variable, allowing it to be modifiable by the
 reset function. By adding custom elements to the variable while it is iterated, 
 the already-existing elements are pushed forward, letting the attacker execute 
 his or her own data [EDB]_. 
