@@ -29,7 +29,7 @@ How We Use Encryption Today
 Before there was assymetrical key, the officials were the only ones in need and using encryption. There was no need for someone else toe encrypt something because they were not sending information accross a network.  Now, everywhere you have sensitive information needs to be encrypted, not only on your phone and laptop computer but in the ATM, websites, and servers.
 
 Java code AES encryption example:
------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is an example of how to implement AES encryption using java
 ``aes_encryption_java_example.java``:
@@ -40,6 +40,7 @@ This is an example of how to implement AES encryption using java
 
 Test AES encrypt/decrypt example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Let’s see an example of using AES encryption into java program with ``aes_encryption_decryption_java_example.java``:
 
 .. literalinclude:: aes_encrypt_decrypt_example.java
     :linenos:
