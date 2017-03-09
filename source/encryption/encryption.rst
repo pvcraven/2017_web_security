@@ -24,10 +24,14 @@ Different kinds of encryption
         AES(Advanced Encryption Standard) - a symmetric-key block cipher 
         developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
 * Asymmetric Key
-    Diffie-Hellman - A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman.
+    *Diffie-Hellman - A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
+    * Triple DES - Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
+    * RSA - Is considered an asymmetric algorithm due to its use of a pair of keys. 
+Vulnerability example
 How we use encryption today
 ---------------------------
 Before there was assymetrical key, the officials were the only ones in need and using encryption. There was no need for someone else toe encrypt something because they were not sending information accross a network.  Now, everywhere you have sensitive information needs to be encrypted, not only on your phone and laptop computer but in the ATM, websites, and servers.
+
 Java AES example:
 -----------------
 This is an example of how to implement AES encryption using java
@@ -38,10 +42,6 @@ This is an example of how to implement AES encryption using java
     :language: java
 
 Encryption example
-------------------
-* Triple DES - Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
-* RSA - Is considered an asymmetric algorithm due to its use of a pair of keys. 
-Vulnerability example
 ---------------------
 There is a reason almost everything on your phone is encrypted now-a-days, because you have important information in your phone. Now, what could happen if someone could overpass that encryption and have access to the data and information on your phone. 
 Last year in 2016, chipmaker Qualcomm's mobile processor that was used in 60% of Android had a flaw. In combination with a vulnerability with Android's media sever, together these vulnerabilities could allow someone with physical access to your phone to bypass the full disk encryption.
