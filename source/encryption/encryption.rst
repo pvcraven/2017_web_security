@@ -9,7 +9,7 @@ so that the plain text can only be understood by the authorized person. The tran
 
 History of Encryption
 ---------------------
-The word encryption comes from the Greek word kryptos, meaning hidden or secret.
+*The word encryption comes from the Greek word kryptos, meaning hidden or secret.
 People have been ecrypting text as early since the beginning of communication. 
 * Egyptians scribe used non-standard hieroglyphs to hide the meaning of an inscription.
 * In 700 BC, the Spartans wrote sensitive messages on strips of leather wrapped 
