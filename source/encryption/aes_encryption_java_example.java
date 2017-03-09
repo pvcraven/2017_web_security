@@ -8,7 +8,8 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
  
 public class AES {
- 
+    
+    //Initialize local variables.
     private static SecretKeySpec secretKey;
     private static byte[] key;
  
@@ -16,8 +17,12 @@ public class AES {
     {
         MessageDigest sha = null;
         try {
+            //Convert String to bytes
             key = myKey.getBytes("UTF-8");
+            //Your sha are secure one-way hash functions that take arbitrary-sized 
+            //data and output a fixed-length hash value.
             sha = MessageDigest.getInstance("SHA-1");
+            //Takes in the key
             key = sha.digest(key);
             key = Arrays.copyOf(key, 16); 
             secretKey = new SecretKeySpec(key, "AES");

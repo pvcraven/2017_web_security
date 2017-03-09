@@ -16,7 +16,7 @@ History of Encryption
     :align: center
 Different Kinds of Encryption
 -----------------------------
-* Block Cipher - A block cipher is a method of encrypting text in which an algorithm is applied to a block of data at once as a group.
+* Block Cipher: A block cipher is a method of encrypting text in which an algorithm is applied to a block of data at once as a group.
 * Symmetric Key/ Secret key
 	* DES(Data Encryption Standard): A symmetric-key block cipher published by the National Institute of Standards and Technology (NIST).
 	* AES(Advanced Encryption Standard): A symmetric-key block cipher developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
