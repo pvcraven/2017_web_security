@@ -18,13 +18,13 @@ Different kinds of encryption
 -----------------------------
 * Block Cipher - A block cipher is a method of encrypting text in which an algorithm is applied to a block of data at once as a group.
 * Symmetric Key/ Secret key
-DES(Data Encryption Standard) - A symmetric-key block cipher published 
+	DES(Data Encryption Standard) - A symmetric-key block cipher published 
         by the National 
         Institute of Standards and Technology (NIST).
         AES(Advanced Encryption Standard) - a symmetric-key block cipher 
         developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
 * Asymmetric Key
-    *Diffie-Hellman - A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
+    * Diffie-Hellman - A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
     * Triple DES - Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
     * RSA - Is considered an asymmetric algorithm due to its use of a pair of keys. 
 Vulnerability example
