@@ -5,7 +5,8 @@ Introduction
 We give away important information/data alamost every day to the web. Therefore,
 it is important to who ever we are giving the information to to protect by
 encrypting the data. Encryption is when you convert plain text into cyphertext 
-so that the plain text can only be understood by the authorized person. The translation of data into a secret code. To read an encrypted file, you must have access to a secret key or password that enables you to decrypt it. 
+so that the plain text can only be understood by the authorized person. The translation of data into a secret code. To read an encrypted file, you must have access to a secret key or password that enables you to decrypt it.
+
 History of Encryption
 ---------------------
 The word encryption comes from the Greek word kryptos, meaning hidden or secret.
