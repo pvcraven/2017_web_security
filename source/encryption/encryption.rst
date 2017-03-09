@@ -24,10 +24,9 @@ Different kinds of encryption
         AES(Advanced Encryption Standard) - a symmetric-key block cipher 
         developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
 * Asymmetric Key
-    * Diffie-Hellman - A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
-    * Triple DES - Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
-    * RSA - Is considered an asymmetric algorithm due to its use of a pair of keys. 
-Vulnerability example
+    * Diffie-Hellman: A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
+    * Triple DES: Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
+    * RSA: Is considered an asymmetric algorithm due to its use of a pair of keys.
 How we use encryption today
 ---------------------------
 Before there was assymetrical key, the officials were the only ones in need and using encryption. There was no need for someone else toe encrypt something because they were not sending information accross a network.  Now, everywhere you have sensitive information needs to be encrypted, not only on your phone and laptop computer but in the ATM, websites, and servers.
