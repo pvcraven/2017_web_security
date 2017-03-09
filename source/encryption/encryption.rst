@@ -14,26 +14,34 @@ History of Encryption
 
 .. image:: publicKey.png
     :align: center
-Different kinds of encryption
+Different Kinds of Encryption
 -----------------------------
 * Block Cipher - A block cipher is a method of encrypting text in which an algorithm is applied to a block of data at once as a group.
 * Symmetric Key/ Secret key
-	* DES(Data Encryption Standard) - A symmetric-key block cipher published by the National Institute of Standards and Technology (NIST).
+	* DES(Data Encryption Standard): A symmetric-key block cipher published by the National Institute of Standards and Technology (NIST).
 	* AES(Advanced Encryption Standard): A symmetric-key block cipher developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
 * Asymmetric Key
     * Diffie-Hellman: A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
     * Triple DES: Uses three individual keys with 56 bits each. The total key length is 168 bits, but experts would argue that 112-bits in key strength is more like it.
     * RSA: Is considered an asymmetric algorithm due to its use of a pair of keys.
-How we use encryption today
+How We Use Encryption Today
 ---------------------------
 Before there was assymetrical key, the officials were the only ones in need and using encryption. There was no need for someone else toe encrypt something because they were not sending information accross a network.  Now, everywhere you have sensitive information needs to be encrypted, not only on your phone and laptop computer but in the ATM, websites, and servers.
 
-Java AES example:
+Java code AES encryption example:
 -----------------
+
 This is an example of how to implement AES encryption using java
 ``aes_encryption_java_example.java``:
 
 .. literalinclude:: aes_encryption_java_example.java
+    :linenos:
+    :language: java
+
+Test AES encrypt/decrypt example
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. literalinclude:: aes_encrypt_decrypt_example.java
     :linenos:
     :language: java
 
