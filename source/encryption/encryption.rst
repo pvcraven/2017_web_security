@@ -11,13 +11,12 @@ History of Encryption
 ---------------------
 * The word encryption comes from the Greek word kryptos, meaning hidden or secret. People have been ecrypting text as early since the beginning of communication. 
 * Egyptians scribe used non-standard hieroglyphs to hide the meaning of an inscription.
-* In 700 BC, the Spartans wrote sensitive messages on strips of leather wrapped 
-around sticks.
+* In 700 BC, the Spartans wrote sensitive messages on strips of leather wrapped around sticks.
 * Until this point, all encryption schemes used `Symmetric key`. In 1976, B. 
 Whitfield Diffie and Martin Hellman helped to  solve one of the fundamental 
 problems of cryptography, how to send the key  to decypher the text without 
-exposing the data/information. Then the RSA  implemented  the public-key 
-cryptography using `Asymmetric algorithms`, or  public-key.
+exposing the data/information. 
+* Then the RSA  implemented  the public-key cryptography using `Asymmetric algorithms`, or  public-key.
 
 .. image:: publicKey.png
     :align: center
