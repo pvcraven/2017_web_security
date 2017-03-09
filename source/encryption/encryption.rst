@@ -21,7 +21,7 @@ Different kinds of encryption
 	DES(Data Encryption Standard) - A symmetric-key block cipher published 
         by the National 
         Institute of Standards and Technology (NIST).
-    AES(Advanced Encryption Standard) - a symmetric-key block cipher 
+    AES(Advanced Encryption Standard): A symmetric-key block cipher 
         developed by two Belgian cryptopgrapher  Joan Daemen and Vincent Rijmen.
 * Asymmetric Key
     * Diffie-Hellman: A method of securely exchanging cryptographic keys over a public channel. One of the first public-key protocols as originally conceptualized by Ralph Merkle and named after Whitfield Diffie and Martin Hellman
