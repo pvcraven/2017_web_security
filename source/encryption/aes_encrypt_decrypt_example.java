@@ -1,8 +1,8 @@
 public static void main(String[] args) 
 {
-    final String secretKey = "ssshhhhhhhhhhh!!!!";
+    final String secretKey = "mysecretkey";
      
-    String originalString = "howtodoinjava.com";
+    String originalString = "textIwantToEncrypt";
     String encryptedString = AES.encrypt(originalString, secretKey) ;
     String decryptedString = AES.decrypt(encryptedString, secretKey) ;
      
