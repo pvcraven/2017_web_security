@@ -5,7 +5,11 @@ Known Vulnerabilities
 
 Introduction
 ------------
-There are many examples of known vulnerabilities regarding web security. Although some fixes are easy to implement with a quick Google search, others take time and effort to correct based on the programmer's individual situation. With that in mind, here are examples of known security vulnerabilities and how to combat each issue.
+There are many examples of known vulnerabilities regarding web security. 
+Although some fixes are easy to implement with a quick Google search, others 
+take time and effort to correct based on the programmer's individual situation.
+With that in mind, here are examples of known security vulnerabilities and how 
+to combat each issue.
 
 
 SQL Injection
