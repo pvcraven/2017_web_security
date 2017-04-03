@@ -1,5 +1,5 @@
-Data Encoding - Morgan Ryan
-=============
+Data Encoding - Morgan
+======================
 
 *Written by Morgan, Edited by Anthony and Kyann.*
 
@@ -82,6 +82,7 @@ To view the rest of the table go to https://www.w3schools.com/charsets/ref_html_
    :height: 400px
    :width: 400px
    :align: center
+
 [Image]_
 
 Base64 Encoding
@@ -90,7 +91,7 @@ Base64 Encoding
 Lastly, "Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation."
 In JavaScript there is one function that is used when encoding Base64 strings: btoa(). Using this function "creates a Base64 encoded ASCII string from a string of binary data [b]_." Below is an example code of how to use the function btoa().
 
-.. code-block:: plain
+.. code-block:: javascript
 
 	 function b64EncodeUnicode(str) {
 		 return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {

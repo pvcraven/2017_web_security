@@ -17,7 +17,7 @@ How Encoding Works
 ------------------
 Encoding is fairly simple to do. In Javascript, there is a function called encodeURI, which takes a string and encodes it into a URL. URI is short for Uniform Resource Identifier, which is a string of characters used to identify a resource. A URL is a very common type of URI, which are well known as web addresses. [Uri]_
 
-.. code-block:: plain
+.. code-block:: javascript
 
 	function encodeURL(str)
 	{
@@ -65,7 +65,7 @@ JSON Encoding
 ~~~~~~~~~~~~~
 This is a bit of a different form of encoding. Instead of encoding to keep the data unreadable to the human eye, JSON encoding makes the data readable for us. Without JSON encoding, the data we would get from the database would look like {name="johnathan", businessID=10}, and, even thought that actually is readable to the human eye, it wouldn't make any sense for most people. That's why we use JSON encoding to make it more readable, like "Name: Joahnathan, Business ID: 10." Here's an example in JavaScript using an HTML page:
 
-.. code-block:: plain
+.. code-block:: javascript
 
 	var url = "myurl";
 	$.getJSON(url, null, get_data);
