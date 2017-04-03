@@ -1,6 +1,30 @@
+Final Reports
+=============
 
-Web Security
-=========================================
+.. toctree::
+   :maxdepth: 1
+
+   final/anthony/index
+   final/ashtyne/index
+   final/brooke/index
+   final/cody/index
+   final/cole/index
+   final/esteban/index
+   final/kyann/index
+   final/kyle/index
+   final/lana/index
+   final/michael_b/index
+   final/michael_r/index
+   final/morgan/index
+   final/nathan/index
+   final/paul/index
+   final/rasim/index
+   final/sara/index
+   final/taylor/index
+   final/tyler/index
+
+Midterm - Web Security
+======================
 
 Attack Vectors
 --------------
@@ -9,15 +33,15 @@ Attack Vectors
    :maxdepth: 1
 
 
-   directory_traversal/directory_traversal
-   sql_injection/sql_injection
-   xss/xss
-   dos/dos
-   ddos/ddos
-   brute_force/brute_force
-   unvalidated_redirects/unvalidated_redirects
-   known_vulnerabilities/known_vulnerabilities
-   social_engineering/social_engineering
+   midterm_security/directory_traversal/directory_traversal
+   midterm_security/sql_injection/sql_injection
+   midterm_security/xss/xss
+   midterm_security/dos/dos
+   midterm_security/ddos/ddos
+   midterm_security/brute_force/brute_force
+   midterm_security/unvalidated_redirects/unvalidated_redirects
+   midterm_security/known_vulnerabilities/known_vulnerabilities
+   midterm_security/social_engineering/social_engineering
 
 How to Secure
 -------------
@@ -26,16 +50,16 @@ How to Secure
    :maxdepth: 1
 
 
-   encoding/encoding
-   firewall/firewall
-   authentication/authentication
-   authorization/authorization
-   server_certificates/server_certificates
-   process_security/process_security
-   data_validation/data_validation
-   data_encoding/data_encoding
-   encryption/encryption
-   hashing/hashing
+   midterm_security/encoding/encoding
+   midterm_security/firewall/firewall
+   midterm_security/authentication/authentication
+   midterm_security/authorization/authorization
+   midterm_security/server_certificates/server_certificates
+   midterm_security/process_security/process_security
+   midterm_security/data_validation/data_validation
+   midterm_security/data_encoding/data_encoding
+   midterm_security/encryption/encryption
+   midterm_security/hashing/hashing
 
 Citation Example
 ----------------
