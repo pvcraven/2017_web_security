@@ -1,6 +1,0 @@
-Know that wordpress version x is vulnerable to "this vulnerability"
-Know that the shopping cart is vulnerable to ______
-Scan websites with vulnerability _______ 
-0 Day vulnerabilities
-Go to security websites that list known vulnerabilities
-View logs that show someone scanning your website for vulnerabilities
