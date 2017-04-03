@@ -213,7 +213,7 @@ botnet processes from a device's memory. This is known as memory scraping. This
 behavior helped the attacker to maximize the potential of the botnet devices
 and prevent other malware from doing the same behavior to the devices [Bek]_.
 
-.. code-block ::
+.. code-block:: text
 
   #DEFINE TABLE_MEM_QBOT            // REPORT %S:%S
   #DEFINE TABLE_MEM_QBOT2           // HTTPFLOOD
