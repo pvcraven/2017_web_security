@@ -1,4 +1,4 @@
-Title Goes Here
+AngularJS - Cole Holland
 ===============
 
 Main text goes here.
