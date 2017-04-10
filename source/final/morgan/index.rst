@@ -20,9 +20,9 @@ AngularJS Framework
 
 Above is the script tag that is used to add the AngularJS to an HTML page. With this script tag the HTML is extending by ng-bind, ng-app and ng-model. Listed below are the different directives that come with AngularJS and what each of them entail, along with some sample code as well. 
 
-	-ng-app: directive initializes an AngularJS application.
-	-ng-init: directive initializes application data.
-	-ng-model: directive binds the value of HTML controls (input, select, textarea) to the application.
+	* ng-app: directive initializes an AngularJS application.
+	* ng-init: directive initializes application data.
+	* ng-model: directive binds the value of HTML controls (input, select, textarea) to the application.
 
 Below is a piece of sample code that puts to use the above directives. The print out of the ample codee is listed below the code. After a full understanding of the code below it leads right into the topic of Data Binding. 
 
@@ -70,9 +70,9 @@ More on Directives
 
 Along with what was stated above about ng-model this directive can also:
 
-	-Provide type validation for application data (number,email,required) *Code shown below*
-	-Provide status for application data (invalid, dirty,touched,error)
-	-Provide CSS classes for HTML elements-Bind HTML elements to HTML forms
+	* Provide type validation for application data (number,email,required) *Code shown below*
+	* Provide status for application data (invalid, dirty,touched,error)
+	* Provide CSS classes for HTML elements-Bind HTML elements to HTML forms
 	
 .. code-block:: javascript
 
@@ -133,13 +133,13 @@ Filters
 
 Next we move to filters, filters are used to trasform the data. Below are the various filters used in AngularJS.
 
-	-currency: fomat a number a a currency format-date: format a date to a specified format-filter: slect a subset of items from an array
-	-json: format an object to a json string
-	-limitTo: limits an array/string into a speciried number of elemtns/characters
-	-lowercase: format a string to lower case 
-	-orderBy: orders an array by an expressions
-	-uppercase: format a string to upper case *code shown below*
-	-number: format a number to a string
+	* currency: fomat a number a a currency format-date: format a date to a specified format-filter: slect a subset of items from an array
+	* json: format an object to a json string
+	* limitTo: limits an array/string into a speciried number of elemtns/characters
+	* lowercase: format a string to lower case 
+	* orderBy: orders an array by an expressions
+	* uppercase: format a string to upper case *code shown below*
+	* number: format a number to a string
 	
 .. code-block:: javascript
 
@@ -154,9 +154,9 @@ Services
 
 AngularJS has many built in services, one service that is very commonly used $location. This service helps find the location of an element in the HTML. Below is more services built in AngularJS.
 
-	-$http: requests data from the server
-	-$timeout: display something in a specific amount of time
-	-$interval: display something in a specific amount of time but in intervals
+	* $http: requests data from the server
+	* $timeout: display something in a specific amount of time
+	* $interval: display something in a specific amount of time but in intervals
 
 Display Options
 ================
@@ -215,19 +215,21 @@ Validation
 Lastly, validation is key when it comes to creating a form on a website. "AngularJS offers client-side form validation that checks the state of the form and fields, it then lets the client know about what needs to be filled in or what is already filled in. For the validation functions use HTML5 attributes. Now keep in mind that even though the page has client-side validation it also needs server side validtion to make sure that everything is secure properly." Below is a list of the fields  and forms used in AngularJS.
 
 	Fields:
-	-$untouched: the field has not been touched yet
-	-$touched: the field has been touched
-	-$pristine: the field has not been modified yet 
-	-$dirty: the field content is not valid 
-	-$invalid: the field content is not valid 
-	-$valid: the field content is valid
+	
+	* $untouched: the field has not been touched yet
+	* $touched: the field has been touched
+	* $pristine: the field has not been modified yet 
+	* $dirty: the field content is not valid 
+	* $invalid: the field content is not valid 
+	* $valid: the field content is valid
 	
 	Forms:
-	-$pristine: no fields have been modified yet
-	-$dirty: one or more have been modified
-	-$invalid: the form content is not valid
-	-$valid: the form content is valid
-	-$submitted: the form is submitted
+	
+	* $pristine: no fields have been modified yet
+	* $dirty: one or more have been modified
+	* $invalid: the form content is not valid
+	* $valid: the form content is valid
+	* $submitted: the form is submitted
 	
 All of these are going to give true or false results. Below is sample code of how validation would look like. 
 
