@@ -35,7 +35,7 @@ Below is a piece of sample code that puts to use the above directives. The print
 
 	</div>
 
-.. image :: Directives.png
+.. image :: Directives.PNG
    :height: 400px
    :width: 400px
    :align: center
@@ -60,7 +60,7 @@ Data Binding
 
 	</div>
 	
-.. image :: Repeat.png
+.. image :: Repeat.PNG
    :height: 400px
    :width: 400px
    :align: center
@@ -81,7 +81,7 @@ Along with what was stated above about ng-model this directive can also:
 		<span ng-show="myForm.myAddress.$error.email">Not a valid e-mail address</span>
 	</form>
 	
-.. image :: Model.png
+.. image :: Model.PNG
    :height: 400px
    :width: 400px
    :align: center
@@ -115,7 +115,7 @@ All these directives or applications are controlled by the AngularJS controller.
 	});
 	</script>
 
-.. image :: Controller.png
+.. image :: Controller.PNG
    :height: 400px
    :width: 400px
    :align: center
