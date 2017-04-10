@@ -47,10 +47,10 @@ Data Binding
 
 .. code-block:: javascript
 
-	<div ng-app="" ng-init="names=[
-	{name:'Jani',country:'Norway'},
-	{name:'Hege',country:'Sweden'},
-	{name:'Kai',country:'Denmark'}]">
+	<div ng-app="" ng-int="names=[
+	{name:'Jani', country:'Norway'},
+	{name:'Hege', country:'Sweden'},
+	{name:'Kai', country:'Denmark'}]">
 
 	<ul>
 	  <li ng-repeat="x in names">
@@ -189,6 +189,7 @@ Dropdown Box
 To create a dropdown box with AngularJS use ng-options, but ng-repeat will also create a dropdown box. "The difference between the two are ng-reapt repeats a block of HTML code for each item in an array, it can be used to create options in a dropdown list. The ng-options is made for filling a dropdown list with options and allows the selected selected value to be an object. Dropdowns made from ng-repeat has to be a string.  Below is the code to create the dropdown box with ng-options."
 
 .. code-block:: javascript
+
 	<div ng-app="myApp" ng-controller="myCtrl">
 
 	<select ng-model="selectedName" ng-options="x for x in names">
@@ -202,6 +203,80 @@ To create a dropdown box with AngularJS use ng-options, but ng-repeat will also 
 		$scope.names = ["Emil", "Tobias", "Linus"];
 	});
 	</script>
+	
+On top of these AngularJS allows users to create checkboxes, radio buttons, etc. There are many different styling tips that can be found on w3schools.com. 
+
+Validation
+-----------
+
+Lastly, validation is key when it comes to creating a form on a website. "AngularJS offers client-side form validation that checks the state of the form and fields, it then lets the client know about what needs to be filled in or what is already filled in. For the validation functions use HTML5 attributes. Now keep in mind that even though the page has client-side validation it also needs server side validtion to make sure that everything is secure properly." Below is a list of the fields  and forms used in AngularJS.
+
+	Fields:
+	-$untouched: the field has not been touched yet
+	-$touched: the field has been touched
+	-$pristine: the field has not been modified yet 
+	-$dirty: the field content is not valid 
+	-$invalid: the field content is not valid 
+	-$valid: the field content is valid
+	
+	Forms:
+	-$pristine: no fields have been modified yet
+	-$dirty: one or more have been modified
+	-$invalid: the form content is not valid
+	-$valid: the form content is valid
+	-$submitted: the form is submitted
+	
+All of these are going to give true or false results. Below is sample code of how validation would look like. 
+
+.. code-block:: javascript
+
+	<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<body>
+
+	<h2>Validation Example</h2>
+
+	<form  ng-app="myApp"  ng-controller="validateCtrl"
+	name="myForm" novalidate>
+
+	<p>Username:<br>
+	  <input type="text" name="user" ng-model="user" required>
+	  <span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+	  <span ng-show="myForm.user.$error.required">Username is required.</span>
+	  </span>
+	</p>
+
+	<p>Email:<br>
+	  <input type="email" name="email" ng-model="email" required>
+	  <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+	  <span ng-show="myForm.email.$error.required">Email is required.</span>
+	  <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+	  </span>
+	</p>
+
+	<p>
+	  <input type="submit"
+	  ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||
+	  myForm.email.$dirty && myForm.email.$invalid">
+	</p>
+
+	</form>
+
+	<script>
+	var app = angular.module('myApp', []);
+	app.controller('validateCtrl', function($scope) {
+		$scope.user = 'John Doe';
+		$scope.email = 'john.doe@gmail.com';
+	});
+	</script>
+
+	</body>
+	</html>
+
+Final Statement
+----------------
+
+There are so many different ways that AngularJS can be used in websites, this brief report only touched the surface of what AngularJS can do. There are so many resources out there that can go more in depth on AngularJS. This client-side application is becoming more and more common, so it crucial that everyone becomes familiar with it. 
 
 References
 -----------
