@@ -69,7 +69,7 @@ New Built-in Methods
 New Formatting Methods
 ----------------------
 
-
+Hello
 
 
 
@@ -79,4 +79,21 @@ Sources
 .. [Compatibility] "`ECMAScript 6 compatibility table <https://kangax.github.io/compat-table/es6/>`_" ECMAScript 6 compatibility table. kangax., 2016. Web. 04 Apr. 2017. 
 
 
-* Written by Kyann B*
+.. [ECMAScript_6] Engelschall, Ralf S. "`ECMAScript 6: New Features: Overview and Comparison <http://es6-features.org/#Constants>`_" ECMAScript 6: New Features: Overview and Comparison. Ralf S. Engelschall, 2017. Web. 04 Apr. 2017. 
+
+
+.. [es6_Features] Hoban, Luke. "`Lukehoban/es6features <https://github.com/lukehoban/es6features#math--number--string--array--object-apis>`_" GitHub. N.p., 24 July 2016. Web. 04 Apr. 2017
+
+
+.. [PR_Newswire] PR Newswire. "Lounge Lizard Highlights 3 Ways to Improve JavaScript with ES6." PR Newswire US. PR Newswire, 03 June 2016. Web. 4 Apr. 2017
+
+
+.. [Prusty] Prusty, Narayan. Learning ECMAScript 6: learn all the new ES6 features and be among the most prominent JavaScript developers who can write efficient JS programs as per the latest standards! Birmingham: Packt Publishing, 2015. Print.
+
+.. [Simpson] Simpson, Kyle. You Don't Know JS: ES6 & Beyond. Sebastopol: O'Reilly Media, 2016. Print.
+
+.. [Zakas] Zakas, Nicholas C. Understanding ECMAScript 6: The Definitive Guide for Javascript Developers. San Francisco: No starch Press, 2016. Print. 
+
+
+
+*Written by Kyann B*
