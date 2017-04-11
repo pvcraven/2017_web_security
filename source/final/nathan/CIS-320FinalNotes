@@ -1,0 +1,40 @@
+CIS-320 Final
+Your topic: Node.js
+Possible "projects": Guess the word, 
+
+You can build locally by typing in the command prompt:
+1) cd Desktop\SourceTree\cis-320\web-security
+2) make html
+This will save time from having to push every time you want to see results
+
+----------------------Node.js notes----------------------
+
+What is it?
+It's a way to write web servers using all JavaScript
+http://www.tutorialspoint.com/nodejs/
+https://nodejs.org/en/
+https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
+
+Why use it?
+Event-driven IO, non-blocking
+JavaScript is naturally event-driven
+https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
+
+Other web servers:
+Apache HTTP Server
+NGINX
+Apache Tomcat
+Lighttpd
+https://opensource.com/business/16/8/top-5-open-source-web-servers
+
+Good introduction site:
+https://www.sitepoint.com/node-js-is-the-new-black/
+
+----------------------Chrome V8 Notes----------------------
+
+What is it?
+V8 compiles and executes JavaScript source code, handles memory allocation for objects, and garbage collects objects it no longer needs. (From the site word-for-word)
+https://developers.google.com/v8/
+
+How is it related to Node.js?
+It's the engine that Node.js runs on  
