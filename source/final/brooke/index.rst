@@ -1,5 +1,5 @@
 Angular JS - Brooke Brommel
-===============
+===========================
 
 What is it?
 -----------
@@ -34,7 +34,7 @@ Eventually Abrons quit working on the project and Hevery and his manager (Brad G
 Simple sample and explanation
 -----------------------------
 
-.. code-block:: 
+.. code-block:: HTML
 
 		<!DOCTYPE html>
 		<html>
