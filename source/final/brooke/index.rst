@@ -34,6 +34,8 @@ Eventually Abrons quit working on the project and Hevery and his manager (Brad G
 Simple sample and explanation
 -----------------------------
 
+Example: 
+
 .. code-block:: HTML
 
 		<!DOCTYPE html>
@@ -62,12 +64,12 @@ Conclusion / reflection with your thoughts on using it
 Sources
 -------
 
-.. [AndrewAustin] Austin, Andrew. "An Overview of AngularJS for Managers. <http://andrewaustin.com/an-overview-of-angularjs-for-managers/>`_" Andrew Austin. Andrew Austin, 19 Sept. 2016. Web. 11 Apr. 2017.
+.. [AndrewAustin] Austin, Andrew. "`An Overview of AngularJS for Managers. <http://andrewaustin.com/an-overview-of-angularjs-for-managers/>`_" Andrew Austin. Andrew Austin, 19 Sept. 2016. Web. 11 Apr. 2017.
 
-.. [AngularJS] "AngularJS. <https://docs.angularjs.org/guide/introduction>`_" AngularJS. AngularJS., n.d. Web. 06 Apr. 2017.
+.. [AngularJS] "`AngularJS. <https://docs.angularjs.org/guide/introduction>`_" AngularJS. AngularJS., n.d. Web. 06 Apr. 2017.
 
-.. [stfalcon] "10 reasons to use Angular.js framework to develop the next web application. <https://stfalcon.com/en/blog/post/why-use-angularjs-for-webapps>`_" Студия stfalcon.com. Stfalcon, n.d. Web. 06 Apr. 2017.
+.. [stfalcon] "`10 reasons to use Angular.js framework to develop the next web application. <https://stfalcon.com/en/blog/post/why-use-angularjs-for-webapps>`_" Студия stfalcon.com. Stfalcon, n.d. Web. 06 Apr. 2017.
 
-.. [w3schools] "AngularJS Tutorial. <https://www.w3schools.com/angular/default.asp>`_" AngularJS Tutorial. W3schools, n.d. Web. 06 Apr. 2017.
+.. [w3schools] "`AngularJS Tutorial. <https://www.w3schools.com/angular/default.asp>`_" AngularJS Tutorial. W3schools, n.d. Web. 06 Apr. 2017.
 
 
