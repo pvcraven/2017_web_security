@@ -9,6 +9,8 @@ Angular JS is a framework that is distributed as a javascript file and implement
 What would you use it for?
 --------------------------
 
+Angular JS provides many options for developing.  Navigation menus are made particularyly easy with the use of Angular JS.  By combining the framework with some HTML and CSS, interactive menus that respond to user input can be utilized.  Single page applications can also be simply created instead of applications with many separate pages.  Single page applications can give the user the feel of using a desktop application rather than a multi-page website.  
+
 Why you should use it
 ---------------------
 
@@ -20,7 +22,7 @@ Angular JS has a lightweight, easy to understand code pattern making it easier f
 Drawbacks
 ---------
 
-Though there are many perks of using Angular JS, it has its drawbacks just as anything does.  Angular JS is not easy to learn if JQuery was previously used.  Once it is learned, it becomes more naturally and has many helpful quirks about it.  Angular JS also slows down if too many event handlers are used.  At about two thousand event handles the application starts to slow, but based on the size of the application, this may not even be an issue. There is also no migrating backward to previous versions.  You can always prepare your code, but there is never any promises that everything will run smoothly and as planned.  [stfalcon]  Not every application is best used with Angular JS because it is based off of a CRUD (create, read, update, delete) mindset.  [AngularJS]  As you can see, there are some drawbacks to using Angular JS, but it is easy to say that the perks out way the negatives.  [stfalcon]
+Though there are many perks of using Angular JS, it has its drawbacks just as anything does.  Angular JS is not easy to learn if JQuery was previously used.  Once it is learned, it becomes more naturally and has many helpful quirks about it.  Angular JS also slows down if too many event handlers are used.  At about two thousand event handles the application starts to slow, but based on the size of the application, this may not even be an issue. There is also no migrating backward to previous versions.  You can always prepare your code, but there is never any promises that everything will run smoothly and as planned.  [stfalcon]  Not every application is best used with Angular JS because it is based off of a CRUD (create, read, update, delete) mindset.  [AngularJS]  And once you have written in Angular JS, there is poor error reporting, making debugging a tough task.  As you can see, there are some drawbacks to using Angular JS, but it is easy to say that the perks out way the negatives.  [stfalcon]
 
 History
 -------
@@ -52,11 +54,18 @@ Example:
 		</html>
 		
 In this example, the <div ng-app""> tag lets Angular JS that it is part of an Angular JS application.  The ng-model directive then links the input field to the application variable name.  Finally, the ng-bind directive links the innerHTML of the paragraph element to the application variable name.  [w3schools] 
-	
-More complex sample
--------------------
-Screen shots
-------------
+
+.. image :: firstOutput.png
+
+Here is the simple output from the code.  As you can see, it looks just like any html would.
+
+.. image :: secondOutput.png
+
+As you type in the box, the user input is automatically reflected on the page. This happens because of the directive which links the input field to the variable name and then is linked to the application.
+
+.. image :: finalOutput.png
+
+
 Conclusion / reflection with your thoughts on using it
 ------------------------------------------------------
 
