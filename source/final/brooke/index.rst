@@ -34,8 +34,6 @@ Eventually Abrons quit working on the project and Hevery and his manager (Brad G
 Simple sample and explanation
 -----------------------------
 
-Example: 
-
 .. code-block:: Angular JS
 
 		<!DOCTYPE html>
