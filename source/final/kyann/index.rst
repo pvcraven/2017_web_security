@@ -35,8 +35,60 @@ to read, and lets other developers know that the variable will not be changing, 
 should not be changed by them. [PR_Newswire]_
 
 
-Block-Scope
------------
+Block-Scope and Let
+-------------------
+
+Block-scope variables are variables that can only be used inside a 'block' of code. 
+With ``var``, any variable declared in JavaScript with ES5 is a global variable, or 
+one that can be accessed anywhere in the function. 
+
+.. code-block:: javascript
+	:Caption: Global variable
+	
+	var global = "Hello";
+	
+	function block (x)
+	{
+		var a = 5;
+	}
+	
+	console.log(global);
+	console.log(a)
+	
+	
+.. code-block:: text
+	:Caption: Output
+	
+	Hello
+	5
+	
+Because both variables were declared with ``var``, they were global variables that 
+could be called later in the program.
+
+ES6 has included an option to use ``let`` inside of ``var`` when declaring a variable, 
+and it will be a block-scope variable.
+
+.. code-block:: javascript
+	:Caption: Block-scope variable
+	
+	var global = "Hello";
+	
+	function block (x)
+	{
+		let block = 5;
+		console.log(block)
+	}
+	
+	console.log(global);
+	console.log(block)
+	
+	
+.. code-block:: text
+	:Caption: Output
+	
+	5
+	Hello
+	Reference Error Exception
 
 * Explain what block-scope is
 
@@ -50,20 +102,71 @@ Block-Scope
 
 [ECMAScript_6]_
 
+[Prusty]_ 
+
 
 
 Parameter Values
 ----------------
 
-* What default parameters are
+Default parameters are used when the programmer wants a certain value to be used 
+if one isn't given when the method is called. If a parameter is specified but not 
+given a value, it is set to ``undefined``.
 
-* How/when they can be used
+Defualt parameters are useful when being undefined could cause an incorrect answer, 
+cause an error, or crash the program. ES5 did have a way to set default parameters, 
+but it was slightly complex and time consuming. The new ES6 version is much easier to 
+use, and makes the code nicer to read. 
 
-* What was used in ES5 instead
+In ES5, there was no easy way to set default parameters. Instead, programmers would 
+check within the function to see of the parameter was underfined and then set if 
+to a value if it was. 
+
+* What was used in ES5
+
+	.. code-block:: javascript
+		:Caption: Return the sum of three numbers
+		
+		function defaultValues(a, b, c)
+		{
+			if (b ===undefined)
+				b = 5;
+			if (c === undefined)
+				c = 12;
+			return a + b + c;
+		}
+		
+		f(1, 2, 3)
+		
+		f(1, 2)
+		
+		f(5)
+	
 
 * What is used in ES6 - simpler
 
-* Example code
+	.. code-block:: javascript
+		:Caption: Return the sum of three numbers
+		
+		function defaultValues(a, b = 5, c = 12)
+		{
+			return a + b + c;
+		}
+		
+		f(1, 2, 3)
+		
+		f(1, 2)
+		
+		f(5)
+	
+* Output 
+	
+	.. code-block:: javascript
+		:Caption: The output for both functions remains the same. 
+		
+		f(1, 2, 3) === 6 //1+2+3
+		f(1, 2) === 15 // 1+2+12
+		f(1) === 18 //1+5+12
 
 [Prusty]_
 
