@@ -65,7 +65,9 @@ The New Features
 	function syntax with a single argument (Identifier => Expression),
 	Eliminating the need for "function" or "return" and some parentheses. In 
 	order to write a function with multiple arguments, using the arrow syntax,
-	parentheses will be needed.
+	parentheses will be needed. [Orendorff]_
+
+	Jon Russo
 
 	.. image:: arrows.png
 
@@ -113,5 +115,7 @@ Work Cited
 .. [Popoola] Popoola, AbdulFattaah. `"Posts about JavaScript history on CodeKraft>." <https://abdulapopoola.com/tag/javascript-history/>`_ CodeKraft. N.p., 28 Mar. 2016. Web. 13 Apr. 2017.
 
 .. [Classes] `"Classes." <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>`_ Mozilla Developer Network. N.p., n.d. Web. 13 Apr. 2017.
+
+.. [Orendorff] Orendorff, Jason. `"ES6 In Depth: Arrow functions." <https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/>`_ Mozilla Hacks – the Web developer blog. N.p., 4 June 2015. Web. 15 Apr. 2017.
 
 
