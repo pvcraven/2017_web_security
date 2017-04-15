@@ -54,11 +54,20 @@ The New Features
 	Creating a child of a class or sub class of another class is done using 
 	"extends". [Classes]_
 
-	.. image:: declaration_expression.png 	
+	.. image:: classes.png 	
 
 * Arrows
 
-	* Code Samples comparison to ES5
+	Arrows have been apart of JavaScript since the ES1. The way arrows are used
+	have changed over time. Today arrows look like this "=>". These same keys
+	can represent a comment when they are used at the beginning of a line. It 
+	also represents the "goes to" operator. ES6 turns these keys into a simple
+	function syntax with a single argument (Identifier => Expression),
+	Eliminating the need for "function" or "return" and some parentheses. In 
+	order to write a function with multiple arguments, using the arrow syntax,
+	parentheses will be needed.
+
+	.. image:: arrows.png
 
 * Modules
 
