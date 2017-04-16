@@ -102,7 +102,18 @@ The New Features
 
 * Promises
 	
-	* Code Samples com
+	Promises have been around awhile, but wasn't adopted by JavaScript until
+	ES6. Promises allow users to handle asynchronous processes in a synchronous
+	way. Promises are a value that will be handled at some point in the future.
+	Similar to callbacks in that respect, except with promises the user is
+	guaranteed the same value as before. Promises have three states. Pending, 
+	which is waiting for the promise to be fulfilled. Fulfilled, when the
+	the value is passed to the handler. Rejected, the promise is called by the
+	second handler instead of the first. Some negatives of using promises are
+	once you set one you cannot cancel it and you cannot determine the state of
+	a promise (pending, fulfilled, or rejected). [Atchley]_
+
+	.. image:: promises.png
 
 * Tail Calls
 	
@@ -145,3 +156,5 @@ Work Cited
 .. [OctalandBinary] `"A Quick Look at Octal and Binary Literals in ES6." <http://www.javascripttutorial.net/es6/octal-and-binary-literals/>`_ JavaScript Tutorial. N.p., n.d. Web. 15 Apr. 2017.
 
 .. [Modules] `"Understanding ES6 Modules." <https://www.sitepoint.com/understanding-es6-modules/>`_ SitePoint. SitePoint, 07 Jan. 2016. Web. 15 Apr. 2017.
+
+.. [Atchley] Atchley, Dave. `"ES6 Promises (the Basics)." <http://www.datchley.name/es6-promises/>`_ Musings of a caffeinated coder. Dave Atchley, 19 Nov. 2015. Web. 15 Apr. 2017.
