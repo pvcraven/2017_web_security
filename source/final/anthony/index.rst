@@ -67,13 +67,18 @@ The New Features
 	order to write a function with multiple arguments, using the arrow syntax,
 	parentheses will be needed. [Orendorff]_
 
-	Jon Russo
 
 	.. image:: arrows.png
 
 * Modules
 
-	* Code Samples comparison to ES5 
+	Modules allow a user to export variables or functions and import them on a
+	different file. When creating a module, the functions and variables inside
+	are not visible to to any outside files without explicitly exporting them. 
+	This allows a user to export only certain parts of a function. A user also
+	has to define a keyword to export under. [Modules]_
+
+	.. image:: modules.png
 	
 * let vs var
 	
@@ -85,11 +90,30 @@ The New Features
 
 * Binary and Octal Literals
 
-	* Code Samples comparison to ES5 
+	Binary and Octal numbers can now be represented with literals. This was not
+	possible in ES5. Binary was only allowed if you used a parseInt. The only
+	way to show octal numbers in ES5 was through the use of (0) as a prefix. If 
+	a number is outside of 0-7 is used the prefixed 0 will be ignored and 
+	return decimals. In ES6 instead of returning decimal it will return a syntax
+	error. Binary and Octal are required to be prefixed with 0o for octal and.
+	0b for binary. [OctalandBinary]_
+
+	.. image:: binary_octal.png
 
 * Promises
 	
-	* Code Samples comparison to ES5
+	Promises have been around awhile, but wasn't adopted by JavaScript until
+	ES6. Promises allow users to handle asynchronous processes in a synchronous
+	way. Promises are a value that will be handled at some point in the future.
+	Similar to callbacks in that respect, except with promises the user is
+	guaranteed the same value as before. Promises have three states. Pending, 
+	which is waiting for the promise to be fulfilled. Fulfilled, when the
+	the value is passed to the handler. Rejected, the promise is called by the
+	second handler instead of the first. Some negatives of using promises are
+	once you set one you cannot cancel it and you cannot determine the state of
+	a promise (pending, fulfilled, or rejected). [Atchley]_
+
+	.. image:: promises.png
 
 * Tail Calls
 	
@@ -97,16 +121,27 @@ The New Features
 
 * Conclusion(Personal thoughts/reflection)
 
+	Overall I believe ES6 is a very user-friendly update. The key new features
+	highlighted above allow for more concise and organized code. Classes have
+	been in works for a long time and finally implemented in ES6. Arrows allow
+	users to create a function in one line of code. Previously this took
+	multiple lines of code, which allows the user to save time and create more
+	organized code. Modules allow a user to write a function or var in one file,
+	export it, import it in a different file, and use the function or variable
+	in different files without having to rewrite the same code. Previously in
+	ES5 a user was unable to use binary numbers and had to use parseInt to use
+	octal numbers. ES6 changed this allowing users the ability to use both
+	binary and octal numbers. It also changed how users see errors when coding
+	binary and octal, instead of just showing decimal form it now shows error.
+	ES6 had many updates and overall made JavaScript easier and better. ES7 had
+	original plans of being released within the next few years. Leaving many 
+	users hungry to see what cool features ES7 will have. 
+
 Work Cited
 ----------
 
 * https://github.com/lukehoban/es6features
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
-* http://es6-features.org/#PromiseUsage
-* http://stackoverflow.com/questions/22539815/arent-promises-just-callbacks
 * http://imgur.com/a/2lZWZ
-* https://daveceddia.com/react-es5-createclass-vs-es6-classes/
-* https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/
 
 .. [Allardice] Allardice, James. `"Venntro Development." <http://dev.venntro.com/2013/09/es6-part-1/>`_ An introduction to ES6 Part 1: Using ES6 Today. N.p., 13 Sept. 2013. Web. 12 Apr. 2017.
 
@@ -114,8 +149,12 @@ Work Cited
 
 .. [Popoola] Popoola, AbdulFattaah. `"Posts about JavaScript history on CodeKraft>." <https://abdulapopoola.com/tag/javascript-history/>`_ CodeKraft. N.p., 28 Mar. 2016. Web. 13 Apr. 2017.
 
-.. [Classes] `"Classes." <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>`_ Mozilla Developer Network. N.p., n.d. Web. 13 Apr. 2017.
+.. [Classemake hrmls] `"Classes." <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>`_ Mozilla Developer Network. N.p., n.d. Web. 13 Apr. 2017.
 
 .. [Orendorff] Orendorff, Jason. `"ES6 In Depth: Arrow functions." <https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/>`_ Mozilla Hacks – the Web developer blog. N.p., 4 June 2015. Web. 15 Apr. 2017.
 
+.. [OctalandBinary] `"A Quick Look at Octal and Binary Literals in ES6." <http://www.javascripttutorial.net/es6/octal-and-binary-literals/>`_ JavaScript Tutorial. N.p., n.d. Web. 15 Apr. 2017.
 
+.. [Modules] `"Understanding ES6 Modules." <https://www.sitepoint.com/understanding-es6-modules/>`_ SitePoint. SitePoint, 07 Jan. 2016. Web. 15 Apr. 2017.
+
+.. [Atchley] Atchley, Dave. `"ES6 Promises (the Basics)." <http://www.datchley.name/es6-promises/>`_ Musings of a caffeinated coder. Dave Atchley, 19 Nov. 2015. Web. 15 Apr. 2017.
