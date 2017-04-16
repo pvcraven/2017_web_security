@@ -1,5 +1,5 @@
 AngularJS - Morgan Ryan
-===============
+========================
 
 Introduction
 -------------
@@ -36,8 +36,6 @@ Below is a piece of sample code that puts to use the above directives. The print
 	</div>
 
 .. image :: Directives.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 Data Binding
@@ -61,8 +59,6 @@ Data Binding
 	</div>
 	
 .. image :: Repeat.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 More on Directives
@@ -83,8 +79,6 @@ Along with what was stated above about ng-model this directive can also:
 	</form>
 	
 .. image :: Model.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 AngularJS Controller
@@ -117,8 +111,6 @@ All these directives or applications are controlled by the AngularJS controller.
 	</script>
 
 .. image :: Controller.PNG
-   :height: 400px
-   :width: 400px
    :align: center
    
 Scopes
