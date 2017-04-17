@@ -69,15 +69,15 @@ essentially the same as having public and private methods in a class. [you]_
 .. code-block :: JavaScript
 
 	function printFlash() {
-    console.log("Flash: CW");
-}
+    	console.log("Flash: CW");
+	}
 
-function printDoctorWho() {
-    console.log("Doctor Who: BBC");
-}
+	function printDoctorWho() {
+	    console.log("Doctor Who: BBC");
+	}
 
-module.exports.flash = printFlash;
-module.exports.doctorWho = printDoctorWho;
+	module.exports.flash = printFlash;
+	module.exports.doctorWho = printDoctorWho;
 
 If we have multiple things to export in a single module it may seem very
 repetitive. To fix this we use a variable called ``module.exports``. Module.exports
@@ -189,6 +189,7 @@ that is listening on port 8888 and simply writes ``Hello World!``.
 	console.log("Server is running...");
 
 Result
+
 .. image:: basicserver.png
 	:align: center
 
@@ -227,6 +228,7 @@ page that does not exists.
 	console.log("Server is running...");
 
 Result
+
 .. image:: webfile.png
 	:align: center
 
