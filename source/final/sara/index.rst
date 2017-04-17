@@ -190,7 +190,7 @@ that is listening on port 8888 and simply writes ``Hello World!``.
 
 Result
 
-.. image:: basicserver.png
+.. image:: basicserver.jpg
 	:align: center
 
 
@@ -229,7 +229,7 @@ page that does not exists.
 
 Result
 
-.. image:: webfile.png
+.. image:: webfile.jpg
 	:align: center
 
 
