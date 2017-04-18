@@ -24,7 +24,7 @@ Above is the script tag that is used to add the AngularJS to an HTML page. With 
 	* ng-init: directive initializes application data.
 	* ng-model: directive binds the value of HTML controls (input, select, textarea) to the application.
 
-Below is a piece of sample code that puts to use the above directives. The print out of the ample codee is listed below the code. After a full understanding of the code below it leads right into the topic of Data Binding. 
+Below is a piece of sample code that puts to use the above directives. The print out of the sample code is listed below the code. After a full understanding of the code below it leads right into the topic of Data Binding. 
 
 .. code-block:: javascript
 
@@ -151,10 +151,10 @@ AngularJS has many built in services, one service that is very commonly used $lo
 	* $interval: display something in a specific amount of time but in intervals
 
 Display Options
-================
+----------------
 	
 AngularJS Tables
------------------
+^^^^^^^^^^^^^^^^^
 
 Once all the data is the way it is supposed to be putting it in a table is super simple in AngularJS. Below is the code to use to display a table in AngularJS.
 
