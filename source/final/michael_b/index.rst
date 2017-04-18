@@ -1,14 +1,47 @@
 AngularJS-Michael Borland
 =========================
 
+Introduction to AngularJS
+-------------------------
+
+Scope
+~~~~~
+NG-app
+~~~~~~
+Data binding
+~~~~~~~~~~~~
+
+Controller
+~~~~~~~~~~
+
+Module 
+~~~~~~
+
 The Brief History of Google's AngularJS
 ---------------------------------------
+AnglarJS is a relatively young history as a JavaScript Library, 
+in comparison to another one that is used very heavily Jquery. AngularJS was 
+released by Google to be an open source library on November 11th 2010 [GITHUB]_ [TECHCRUNCH]_. 
+Jquery is older with four years its senior, this is another library that was 
+added to JavaScript with the intention of simplifying things, as angularJS is
+meant to do.Similar concept, but different ways of doing it. 
+As discussed in the tech crunch article, AngularJS first iteration made a whole lot
+of programming difficulties easier. a big bonus they covered in the Tech crunch 
+article, of angular 2.0 was more features that focus  on the phone application market.
+The problem when looking the iterations, programmers have to figure out which
+version to go with because they are not compatible.Switching to two as a 
+programmer is for most a financial question, do we have the capital to burn to 
+spend the time upgrading.[TECHCRUNCH]_ If it is a beginner asking the question, it is 
+do i want to be on the most current version? Those are some good things the 
+Tech crunch article makes a beginner and a profession think about. 
+
+This is really rough and bad, i struggled to get things together with my schedule. I will have the entire thing done and not crap by Thursday. It is bad, so don't feel bad for being a little rough with comments.  
 
 
 Content Delivery Network Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-AngularJS has two ways of implementing the libraries that compose the entirety of the framework in your HTML pages. One, is going to the website: `AngularJS <https://angularjs.org/>`_ and downloading the library, or you can use a content delivery network. Now, to explain further the content delivery network, it is a static or not group of Web Servers that that will always send you to a server location nearest to your IP, that is a very brief a limited description of a CDN explained in much more detail by ..[AMZ]_. Sites that are available as content delivery networks are the two listed below in the example, and several others. Programmers can investigate CDN’s to see if they offer the libraries that they’re looking for. By searching AngularJS CDN on Google and it should come up with the most popular CDN for Angular. The CDN's that are listed below, may not necessarily come up with angular content, but they could serve up other libraries. The list came in part, in no particular order from: `cdnreviews <http://www.cdnreviews.com/popular-cdns/>`_. 
+AngularJS has two ways of implementing the libraries that compose the entirety of the framework in your HTML pages. One, is going to the website: `AngularJS <https://angularjs.org/>`_ and downloading the library, or you can use a content delivery network. Now, to explain further the content delivery network, it is a static or not group of Web Servers that that will always send you to a server location nearest to your IP, that is a very brief a limited description of a CDN explained in much more detail by [AMZ]_. Sites that are available as content delivery networks are the two listed below in the example, and several others. Programmers can investigate CDN’s to see if they offer the libraries that they’re looking for. By searching AngularJS CDN on Google and it should come up with the most popular CDN for Angular. The CDN's that are listed below, may not necessarily come up with angular content, but they could serve up other libraries. The list came in part, in no particular order from: `cdnreviews <http://www.cdnreviews.com/popular-cdns/>`_. 
 
 * Amazon cloud front
 * MaxCDN
@@ -58,25 +91,7 @@ Examples Of Libraries Available In AngularJS
 	</body>
 	</html>
 
-Introduction to AngularJS
--------------------------
-* I will going to  when angular JS was developed by Google and The 2 Different Versions, and the differences between the two, and the positives and negatives between the two.  I will step them through each aspect that they need to know of angular JS in order to understand The example below which is a form. How this will be done is each important concept will get its own and subheading and paragraph explaining the importance and then a paragraph explaining what the example does.I will focus on doing a more complex example, yet to be determined and go it even more in depth into Framework features, and I will have sublists for any new big concept that I cover.
 
-For example, it will be probably formatted like this.
-
-
-Scope
-~~~~~
-NG-app
-~~~~~~
-Data binding
-~~~~~~~~~~~~
-
-Controller
-~~~~~~~~~~
-
-Module 
-~~~~~~
 
 
 Form Example
@@ -139,13 +154,21 @@ Explanation of what the form does goes here.
 	</body>
 	</html>
 
+More Advanced Topics 
+--------------------
+
 Undetermined example
 ~~~~~~~~~~~~~~~~~~~~
 
 
 References 
 ----------
-.. [AMZ] No Author List."`Amazon CloudFront – Content Delivery Network (CDN) <https://aws.amazon.com/cloudfront/?sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=google&sc_medium=juice_test_nb&sc_content=cdn_p&sc_detail=cdn&sc_category=cloudfront&sc_segment=164981649830&sc_matchtype=p&sc_country=US&s_kwcid=AL!4422!3!164981649830!p!!g!!cdn&ef_id=WO8RiAAABBvbPdZA:20170413055000:s>`_.Amazon.Web.Date Accessed 20 Feb 2017"
+the TechCrunch article 
+
+.. [AMZ] No Author List."`Amazon CloudFront – Content Delivery Network (CDN) <https://aws.amazon.com/cloudfront/?sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=google&sc_medium=juice_test_nb&sc_content=cdn_p&sc_detail=cdn&sc_category=cloudfront&sc_segment=164981649830&sc_matchtype=p&sc_country=US&s_kwcid=AL!4422!3!164981649830!p!!g!!cdn&ef_id=WO8RiAAABBvbPdZA:20170413055000:s>`_.Amazon.Web.Date Accessed 13 April 2017"
+
+
+.. [John] John Resig."`jQuery 1.0 <https://blog.jquery.com/2006/08/26/jquery-10/>`_.Jquery.com.Date Accessed 18 April 2017" 
 
 
 
