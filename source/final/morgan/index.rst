@@ -1,15 +1,15 @@
 AngularJS - Morgan Ryan
-===============
+========================
 
 Introduction
 -------------
 
-AngularJS is a "JavaScript-based open-source front-end web application framework that is maintained by Google with a community of individuals and corporations to address many of the challenges encountered in developing single-page applications [wikiAngularJS]_." AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications. In short terms AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
+AngularJS is a "JavaScript-based open-source front-end web application framework that is maintained by Google with a community of individuals and corporations to address many of the challenges encountered in developing single-page applications [wikiAngularJS]_." "AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications." In short terms, AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
 
 History of AngularJS
 ---------------------
 
-AngularJS first came about when the first team started working on it in 2014. It first reads the HTML page it then interprets the tag attributes in the HTML to directives, which is a language construct, to make the inputs and outputs readable by JavaScript variables. Then those variables are grabbed by JSON resources. Some common websites that use this is ABC News, Sprint, Walgreens, etc. This is used a lot throughout the world, according to various sources it is used on 12,000 sites and this was from 2016! 
+AngularJS first came about when the first team started working on it in 2014. It first reads the HTML page it then interprets the tag attributes in the HTML to directives, which is a language construct, to make the inputs and outputs readable by JavaScript variables. Then those variables are grabbed by JSON resources. "Some common websites that use this is ABC News, Sprint, Walgreens, etc. This is used a lot throughout the world, according to various sources it is used on 12,000 sites and this was from 2016!" 
 
 AngularJS Framework
 --------------------
@@ -36,14 +36,12 @@ Below is a piece of sample code that puts to use the above directives. The print
 	</div>
 
 .. image :: Directives.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 Data Binding
 ---------------------
 
-"Data Binding in AngularJS binds AngularJS expressions with AngularJS data." In the code above this is shown with the {{ firstName }} part of the code. This section of the code is bound with the ng-model="firstName." The next directive is ng-repeat which repeats an HTML element. It can clones HTML elements when the item is in a collection. Below is sample code that explains how this works and the output of this code. 
+"Data Binding in AngularJS binds AngularJS expressions with AngularJS data." In the code above this is shown with the {{ firstName }} part of the code. This section of the code is bound with the ng-model="firstName." The next directive is ng-repeat which repeats an HTML element. It can clone HTML elements when the item is in a collection. Below is sample code that explains how this works and the output of this code. 
 
 .. code-block:: javascript
 
@@ -61,8 +59,6 @@ Data Binding
 	</div>
 	
 .. image :: Repeat.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 More on Directives
@@ -83,8 +79,6 @@ Along with what was stated above about ng-model this directive can also:
 	</form>
 	
 .. image :: Model.PNG
-   :height: 400px
-   :width: 400px
    :align: center
 
 AngularJS Controller
@@ -117,14 +111,12 @@ All these directives or applications are controlled by the AngularJS controller.
 	</script>
 
 .. image :: Controller.PNG
-   :height: 400px
-   :width: 400px
    :align: center
    
 Scopes
 -------
 
-Now tying HTML and Controllers together, the binding part between them which is the scope has to be used. The scope is an object with properties and methods, it is also available for both the HTML and the controller. To properly use scope the tag would be $scope wich gets the access to the properties. But that tag only works for the controller, to use it in the HTML the tag would be refering to the propertyname like {{ firstName }}.
+Now tying HTML and Controllers together, the binding part between them which is when the scope has to be used. "The scope is an object with properties and methods, it is also available for both the HTML and the controller." To properly use scope the tag would be $scope wich gets the access to the properties. But that tag only works for the controller, to use it in the HTML the tag would be refering to the propertyname like {{ firstName }}.
 
 To keep things straight the view is the HTML, the model is the data available in the HTML and the controller is the JavaScript function that does things to the data. Now adding scope which is the model. 
 
