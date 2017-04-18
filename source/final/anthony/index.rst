@@ -91,8 +91,8 @@ The New Features
 	way to show octal numbers in ES5 was through the use of (0) as a prefix. If 
 	a number is outside of the 0-7 range than the prefixed 0 will be ignored and 
 	return decimals. In ES6 instead of returning decimal it will return a syntax
-	error. Binary and Octal are required to be prefixed with 0o for octal and.
-	0b for binary. [OctalandBinary]_
+	error. Binary and Octal are required to be prefixed with "0o" for octal and
+	"0b" for binary. [OctalandBinary]_
 
 	.. image:: binary_octal.png
 
