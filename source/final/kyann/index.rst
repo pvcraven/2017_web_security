@@ -195,7 +195,7 @@ recommended to use.
 ES6 String Interpolation also makes it easier for programmers to call attributes 
 of objects in strings without having to use concatenation. Previously in ES5, in 
 order to call an object attribute and add it to a string, the programmer would have 
-to end the string "" and concatenate on the object's attribute. In ES6, this was changed 
+to end the string and concatenate on the object's attribute. In ES6, this was changed 
 so that the object call could be made within the string itself. This, in addition to 
 being able to write strings on multiple lines made strings much easier to code, and 
 easier for other programmers to read. 
