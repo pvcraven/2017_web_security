@@ -106,7 +106,7 @@ Eventually Abrons quit working on the project and Hevery and his manager
 (Brad Green) took it from there.  Angular JS’s first big hit was when Google 
 took on a company called DoubleClick.  They used Angular JS to rewrite part of 
 DoubleClick.  DoubleClick’s success then gave light to Angular JS and it is now
-used internally and externally by Google. [AndrewAustin]_
+used internally and externally by Google.  [AndrewAustin]_
 
 Simple sample and explanation
 -----------------------------
