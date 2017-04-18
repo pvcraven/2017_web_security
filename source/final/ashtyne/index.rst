@@ -47,9 +47,7 @@ Using AngularJS, one can extend HTML with attributes called directives [W3]_. Di
 are HTML codes that begin with "ng-." To make proper HTML, the code should
 be "data-ng-" [W3]_.
 
-	* ng-app – This tells AngularJS to be active in whatever portion of the page/code
-	piece it is added to and defines it as an AngularJS application [AJS]_. This will
-	also automatically initialize the application when the page is loaded [W3]_.
+	* ng-app – This tells AngularJS to be active in whatever portion of the page/code piece it is added to and defines it as an AngularJS application [AJS]_. This will also automatically initialize the application when the page is loaded [W3]_.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -58,10 +56,7 @@ be "data-ng-" [W3]_.
 	        <p>This is how to initialize AngularJS.</p>
 	    </div>
 
-	* ng-model – This links the form and model so that whenever something is typed in
-	the input box, it shows up wherever you call the model name [AJS]_. This directive
-	can also provide validation for application data, status for application data,
-	provide CSS classes for HTML elements, and bind HTML elements to HTML forms [W3]_.
+	* ng-model – This links the form and model so that whenever something is typed in the input box, it shows up wherever you call the model name [AJS]_. This directive can also provide validation for application data, status for application data, provide CSS classes for HTML elements, and bind HTML elements to HTML forms [W3]_.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -70,9 +65,7 @@ be "data-ng-" [W3]_.
 			Name: <input ng-model="name">
 		</div>
 	
-	* ng-init – This initializes AngularJS application variables by defining initial
-	values for an application [W3]_. This is typically placed directly after the
-	"ng-app" in the code.
+	* ng-init – This initializes AngularJS application variables by defining initial values for an application [W3]_. This is typically placed directly after the "ng-app" in the code.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -81,9 +74,7 @@ be "data-ng-" [W3]_.
 	        <p>This is how to initialize AngularJS.</p>
 	    </div>
 
-	* ng-bind – This is a way to automatically update either the view when the model
-	changes or the model when the view changes [AJS]_. This is typically used when an
-	application already has a data model [W3]_.
+	* ng-bind – This is a way to automatically update either the view when the model changes or the model when the view changes [AJS]_. This is typically used when an application already has a data model [W3]_.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -100,10 +91,7 @@ be "data-ng-" [W3]_.
 
 	Binds can also be made using expressions.
 
-	* Expression – These are written inside {{}} and will print data exactly as it is
-	written and can	be used in the same way as a bind [W3]_. Expressions bind data to
-	the HTML in the same way that the binds do. Unlike JavaScript expressions,
-	AngularJS expressions don't support conditionals, loops, and exceptions 
+	* Expression – These are written inside {{}} and will print data exactly as it is written and can be used in the same way as a bind [W3]_. Expressions bind data to the HTML in the same way that the binds do. Unlike JavaScript expressions, AngularJS expressions don't support conditionals, loops, and exceptions 
 
 	Example Code
 	^^^^^^^^^^^^
@@ -117,12 +105,7 @@ be "data-ng-" [W3]_.
 		:width: 300px
 		:align: center
 	
-	* Controller – This is a JavaScript object that controls the data of an AngularJS
-	application. Controllers are JavaScript objects that are created by a JavaScript
-	object constructor [W3]_. This section of code is where the functions and values
-	values are defined along with the rest of the application's behavior. Controllers
-	can be called with $scope. This is the owner of the application's variables and
-	functions. It is also the binding between the HTML and the JavaScript.
+	* Controller – This is a JavaScript object that controls the data of an AngularJS application. Controllers are JavaScript objects that are created by a JavaScript object constructor [W3]_. This section of code is where the functions and values values are defined along with the rest of the application's behavior. Controllers can be called with $scope. This is the owner of the application's variables and functions. It is also the binding between the HTML and the JavaScript.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -146,9 +129,7 @@ be "data-ng-" [W3]_.
 		:width: 300px
 		:align: center
 
-	* Module – This defines an application and is a container for different parts of an
-	application and for the application controller [W3]_. Once the module is created,
-	controllers and other AngularJS features can be added. A module makes the application easier to maintain, test, and read.
+	* Module – This defines an application and is a container for different parts of an application and for the application controller [W3]_. Once the module is created, controllers and other AngularJS features can be added. A module makes the application easier to maintain, test, and read.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -170,14 +151,9 @@ be "data-ng-" [W3]_.
 		:width: 300px
 		:align: center
 
-	* Deep Linking - This is where the user is in the application and can bookmark and
-	email links to places inside the application. AngularJS uses deep linking and
-	desktop app-like behavior [AJS]_.
+	* Deep Linking - This is where the user is in the application and can bookmark and email links to places inside the application. AngularJS uses deep linking and desktop app-like behavior [AJS]_.
 
-	* Form Validation - This is the client side validation. AngularJS lets you create
-	validation rules for the specific form without having to write JavaScript [AJS]_.
-	It monitors the forms state and notifies the user. It can also hold information
-	about the form, whether is has been entered in or not [W3]_.
+	* Form Validation - This is the client side validation. AngularJS lets you create validation rules for the specific form without having to write JavaScript [AJS]_. It monitors the forms state and notifies the user. It can also hold information about the form, whether is has been entered in or not [W3]_.
 
 	Example Code
 	^^^^^^^^^^^^
@@ -196,16 +172,9 @@ be "data-ng-" [W3]_.
 		:width: 300px
 		:align: center
 
-	* Filter - This is a part of AngularJS that can transform data. An example of
-	this would be if someone entered a decimal, then the filter would change it into
-	a currency. Filters in AngularJS are simply added into expressions that already
-	exist [W3]_.
+	* Filter - This is a part of AngularJS that can transform data. An example of this would be if someone entered a decimal, then the filter would change it into a currency. Filters in AngularJS are simply added into expressions that already exist [W3]_.
 
-	* Animations - AngularJS provides animated transitions from one piece of the
-	screen to another. In the example below there is a colored box, and when the
-	check box is clicked on; the colored box decreases upward and disappears. There
-	are animation features such as showing a box, repeating, and switching, just to
-	name a few.
+	* Animations - AngularJS provides animated transitions from one piece of the screen to another. In the example below there is a colored box, and when the check box is clicked on; the colored box decreases upward and disappears. There are animation features such as showing a box, repeating, and switching, just to name a few.
 
 	Example Code
 	^^^^^^^^^^^^
