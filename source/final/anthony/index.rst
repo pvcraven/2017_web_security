@@ -7,7 +7,7 @@ What is it?
 	ES6, also referred to as "Harmony", is the sixth major update to ECMAScript
 	language. ECMAScript is a set of standards issued that was created for
 	JavaScript. Other languages that follow these standards are JScript and
-	ActionScritp. With each update of the standards JavaScript is then updated 
+	ActionScript. With each update of the standards JavaScript is then updated 
 	to comply with these standards. ES6 is compatible with most browsers, however 
 	certain features are only available in the most up to date browser. Chrome 
 	and Firefox are the most popular among users of
@@ -77,7 +77,7 @@ The New Features
 
 	Modules allow a user to export variables or functions and import them on a
 	different file. When creating a module, the functions and variables inside
-	are not visible to to any outside files without explicitly exporting them. 
+	are not visible to any outside files without explicitly exporting them. 
 	This allows a user to export only certain parts of a function. A user also
 	has to define a keyword to export under. [Modules]_
 
@@ -89,7 +89,7 @@ The New Features
 	Binary and Octal numbers can now be represented with literals. This was not
 	possible in ES5. Binary was only allowed if you used a parseInt. The only
 	way to show octal numbers in ES5 was through the use of (0) as a prefix. If 
-	a number is outside of 0-7 is used the prefixed 0 will be ignored and 
+	a number is outside of the 0-7 range than the prefixed 0 will be ignored and 
 	return decimals. In ES6 instead of returning decimal it will return a syntax
 	error. Binary and Octal are required to be prefixed with 0o for octal and.
 	0b for binary. [OctalandBinary]_
