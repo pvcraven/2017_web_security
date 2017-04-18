@@ -445,13 +445,17 @@ and getters and setters can be used directly within a class:
 			get dozEggs () {return this._dozEggs; }
 			set loavesBread (loavesBread) {this._loavesBread = loavesBread; }
 			get loavesBread () {return this._loavesBread; }
-			get potentialEggSandwiches () {return Math.min(this._loavesBread * 10, this._dozEggs * 6); }
+			get potentialEggSandwiches () 
+				{return Math.min(this._loavesBread * 10, this._dozEggs * 6); }
 		}
 
 		myShoppingList = new Shoppinglist(0, 6, 2);
-		console.log(myShoppingList.potentialEggSandwiches); //returns # of possible egg sandwiches from what is still on the shopping list
-		myShoppingList.loavesBread = myShoppingList.loavesBread - 2; //runs the setter for loavesBread
-		console.log(myShoppingList.potentialEggSandwiches); //0 loavesBread on the list, 0 potentialEggSandwiches
+		//returns # of possible egg sandwiches from what is still on the shopping list
+		console.log(myShoppingList.potentialEggSandwiches); 
+		//runs the setter for loavesBread
+		myShoppingList.loavesBread = myShoppingList.loavesBread - 2; 
+		//0 loavesBread on the list, 0 potentialEggSandwiches
+		console.log(myShoppingList.potentialEggSandwiches); 
 
 .. image:: img/sandwiches.png
 	:height: 250px
