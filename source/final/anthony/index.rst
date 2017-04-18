@@ -1,5 +1,5 @@
-ECMAScript 6
-============
+ECMAScript 6 - Anthony Russo
+============================
 
 What is it? 
 -----------
@@ -125,13 +125,12 @@ The New Features
 	binary and octal, instead of just showing decimal form it now shows error.
 	ES6 had many updates and overall made JavaScript easier and better. ES7 had
 	original plans of being released within the next few years. Leaving many 
-	users hungry to see what cool features ES7 will have. 
+	users hungry to see what cool features ES7 will have. [Hoban]_
 
 Work Cited
 ----------
 
-* https://github.com/lukehoban/es6features
-* http://imgur.com/a/2lZWZ
+.. [Hoban] Hoban, Luke. `"ES6features." <https://github.com/lukehoban/es6features#let--const>`_ GitHub. N.p., 24 July 2016. Web. 18 Apr. 2017.
 
 .. [Allardice] Allardice, James. `"Venntro Development." <http://dev.venntro.com/2013/09/es6-part-1/>`_ An introduction to ES6 Part 1: Using ES6 Today. N.p., 13 Sept. 2013. Web. 12 Apr. 2017.
 
@@ -139,7 +138,7 @@ Work Cited
 
 .. [Popoola] Popoola, AbdulFattaah. `"Posts about JavaScript history on CodeKraft>." <https://abdulapopoola.com/tag/javascript-history/>`_ CodeKraft. N.p., 28 Mar. 2016. Web. 13 Apr. 2017.
 
-.. [Classemake hrmls] `"Classes." <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>`_ Mozilla Developer Network. N.p., n.d. Web. 13 Apr. 2017.
+.. [Classes] `"Classes." <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes>`_ Mozilla Developer Network. N.p., n.d. Web. 13 Apr. 2017.
 
 .. [Orendorff] Orendorff, Jason. `"ES6 In Depth: Arrow functions." <https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/>`_ Mozilla Hacks – the Web developer blog. N.p., 4 June 2015. Web. 15 Apr. 2017.
 
