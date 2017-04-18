@@ -250,7 +250,7 @@ References
 ----------
 
 .. [W3]	"`AngularJS Introduction <https://www.w3schools.com/angular/angular_intro.asp>`_." W3Schools.com. Web. 06 April 2017.
-.. [AJS] "`AngularJS - Superheroic Javascript MVW Framework <https://angularjs.org/>.`_" Google. Web. 06 April 2017.
-.. [AJSHist] "'AngularJS History <https://angularzone.wordpress.com/angularjs-history/>.'_" 
-.. [Wiki] "AngularJS <https://en.wikipedia.org/wiki/AngularJS>`_." Wikipedia.org. Web. 10A April 2017.
-.. [JOAJS] "'THe Java Origins of AngularJS: Angular vs JSF vs GWT <http://blog.jhades.org/the-java-origins-of-angular-js-angular-vs-jsf-vs-gwt/>`_." Disqus. Web. 11 April 2017.
+.. [AJS] "`AngularJS - Superheroic Javascript MVW Framework <https://angularjs.org/>`_." Google. Web. 06 April 2017.
+.. [AJSHist] "`AngularJS History <https://angularzone.wordpress.com/angularjs-history/>'_." 
+.. [Wiki] "`AngularJS <https://en.wikipedia.org/wiki/AngularJS>`_." Wikipedia.org. Web. 10A April 2017.
+.. [JOAJS] "`THe Java Origins of AngularJS: Angular vs JSF vs GWT <http://blog.jhades.org/the-java-origins-of-angular-js-angular-vs-jsf-vs-gwt/>`_." Disqus. Web. 11 April 2017.
