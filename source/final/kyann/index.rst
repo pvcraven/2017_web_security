@@ -177,7 +177,7 @@ to program in concatenation at the end of each line. There actually was a way to
 recommended to use. 
 
 .. code-block:: javascript
-	:Caption: Correct was to use String Interpolation in Es5
+	:Caption: Correct was to use String Interpolation in ES5
 	
 	var string = "Here is a string \n" +
 	"on multiple line"
@@ -442,7 +442,7 @@ on a section that specifies currency, and what currency to use.
 		13.4.2017
 
   
-There is no equivalent function in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
+There is no equivalent functions in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
 
 
 
