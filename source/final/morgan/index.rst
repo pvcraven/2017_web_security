@@ -5,9 +5,9 @@ Introduction
 -------------
 
 AngularJS is a "JavaScript-based open-source front-end web application framework that is maintained by Google with a community of individuals and corporations to address many of the challenges encountered in developing single-page applications." [wikiAngularJS]_
- "AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications."
- [wikiAngularJS]_ In short terms, AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. 
- Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
+"AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications."
+[wikiAngularJS]_ In short terms, AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. 
+Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
 
 History of AngularJS
 ---------------------
@@ -97,10 +97,10 @@ AngularJS Controller
 All these directives or applications are controlled by the AngularJS controller. 
 In order for the controller to be defined in the HTML the correct call is ng-controller. Below is a more in depth explaination of the application.
 
-	"The AngularJS application is defined by ng-app="myApp." the application runs inside the <div>. 
-	The ng-controler="myCtrl" attribute is an AngularJS directive. It defines a controller. The mtCtrl funtion is a JavaScript Funtion.AngularJS will invoke the controller with a $scopte object. 
-	In AngularJS, $scopte si the application object (the owner of application variables and functions).
-	The controller creates two properties in the scopte. The ng-model directives bind the input fields to the controler properties." [w3SchoolsAngularJS]_
+"The AngularJS application is defined by ng-app="myApp." the application runs inside the <div>. 
+The ng-controler="myCtrl" attribute is an AngularJS directive. It defines a controller. The mtCtrl funtion is a JavaScript Funtion.AngularJS will invoke the controller with a $scopte object.
+In AngularJS, $scopte si the application object (the owner of application variables and functions).
+The controller creates two properties in the scopte. The ng-model directives bind the input fields to the controler properties." [w3SchoolsAngularJS]_
 	
 .. code-block:: javascript
 
