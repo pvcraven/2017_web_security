@@ -5,15 +5,18 @@ What is it?
 -----------
 
 	ES6, also referred to as "Harmony", is the sixth major update to ECMAScript
-	language. ECMAScript, or as most people call it JavaScript, is compatible
-	with most browsers, however certain ES6 features are only available in the 
-	most update browser. Chrome and Firefox are the most popular among users of
+	language. ECMAScript is a set of standards issued that was created for
+	JavaScript. Other languages that follow these standards are JScript and
+	ActionScritp. With each update of the standards JavaScript is then updated 
+	to comply with these standards. ES6 is compatible with most browsers, however 
+	certain features are only available in the most up to date browser. Chrome 
+	and Firefox are the most popular among users of
 	ES6. [Allardice]_
 
 How is it used?
 ---------------
 
-	Individual's who wish to use ES6 now may need to use a third party service 
+	Individuals who wish to use ES6 now may need to use a third party service 
 	in order for all to be able to view and use websites created. Even though 
 	many browsers like Chrome support 90% of ES6 features, most users who wish
 	to get a head start on using ES6 will need to use a service like `Babel <https://babeljs.io/>`_ 
@@ -106,7 +109,7 @@ The New Features
 	once you set one you cannot cancel it and you cannot determine the state of
 	a promise (pending, fulfilled, or rejected). [Atchley]_
 
-	.. image:: promises.png
+	.. image:: promise.png
 
 
 * Conclusion(Personal thoughts/reflection)

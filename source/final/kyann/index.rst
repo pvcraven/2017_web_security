@@ -40,7 +40,7 @@ Block-Scope and Let
 
 Block-scope variables are variables that can only be used inside a 'block' of code. 
 With ``var``, any variable declared in JavaScript with ES5 is a global variable, or 
-one that can be accessed anywhere in the function. [Block_Scope]_
+one that can be accessed anywhere in the function. [Block_scope]_
 
 .. code-block:: javascript
 	:Caption: Global variable
@@ -101,17 +101,18 @@ and it will be a block-scope variable.
 Parameter Values
 ----------------
 
-Default parameters are used when the programmer wants a certain value to be used 
+Default parameters are used when the programmer wants a certain value to be set  
 if one isn't given when the method is called. If a parameter is specified but not 
 given a value, it is set to ``undefined``.
 
-Default parameters are useful when being undefined could cause an incorrect answer, 
-cause an error, or crash the program. ES5 did have a way to set default parameters, 
+Having an undefined answer when a function is called could cause errors, give an 
+incorrect answer, or even crash the program. Programmers could find defaul parameters 
+useful to help avoid these situations. ES5 did have a way to set default parameters, 
 but it was slightly complex and time consuming. The new ES6 version is much easier to 
 use, and makes the code nicer to read. 
 
 In ES5, there was no easy way to set default parameters. Instead, programmers would 
-check within the function to see of the parameter was undefined and then set if 
+check within the function to see if the parameter was undefined and then set it 
 to a value if it was. 
 
 * What was used in ES5
@@ -171,18 +172,18 @@ String Interpolation
 
 ES6 adds an update the JavaScripts string interpolation. The first update that was 
 made from ES5 to ES6 was the ability to write strings on multiple lines without having 
-to program in concatination at the end of each line. There actually was a way to 
+to program in concatenation at the end of each line. There actually was a way to 
 "technically" accomplish this in ES5, but it was also considered a bug and not 
 recommended to use. 
 
 .. code-block:: javascript
-	:Caption: Correct was to use String Interpolation in Es5
+	:Caption: Correct was to use String Interpolation in ES5
 	
 	var string = "Here is a string \n" +
 	"on multiple line"
 	
 
-.. code-block:: javascript
+.. code-block:: text
 	:Caption: ES5 Bug
 	
 	var string = "To get a string on multiple lines \"
@@ -194,7 +195,7 @@ recommended to use.
 ES6 String Interpolation also makes it easier for programmers to call attributes 
 of objects in strings without having to use concatenation. Previously in ES5, in 
 order to call an object attribute and add it to a string, the programmer would have 
-to end the string "" and concatenate on the object's attribute. In ES6, this was changed 
+to end the string and concatenate on the object's attribute. In ES6, this was changed 
 so that the object call could be made within the string itself. This, in addition to 
 being able to write strings on multiple lines made strings much easier to code, and 
 easier for other programmers to read. 
@@ -224,7 +225,7 @@ be on multiple lines, or have an object select in the middle of the string is by
 using ` `backticks` ` instead of the normal "double quotes" or 'single quotes'. 
 
 
-[Zakas]_  pg 26-28
+[Zakas_Understanding]_  pg 26-28
 [es6_Features]_
 
 
@@ -275,7 +276,7 @@ read and code.
 
 * Number Type
 	In ES5, to check a number's type, the programmer would have to write a function 
-	themselves to do it. ES6 now includes several functions to help check numebr 
+	themselves to do it. ES6 now includes several functions to help check number
 	types. These methods include ``.isNaN`` which checks if something is not a number, 
 	and ``.isFinite`` which checks to make sure you have a finite, and not an infinite, 
 	number. Both functions are used by calling Number, then ".", then the name of the 
@@ -309,7 +310,7 @@ read and code.
 
 
 * Number Truncation
-	Number trunaction is a pretty simple function, its purpose is to take a floating 
+	Number truncation is a pretty simple function, its purpose is to take a floating 
 	point number and drop off the decimal or fraction part. However, it does not 
 	round the number, it strictly drops off the decimal. Like Number Type, this 
 	was possible in ES5, but the code had to be written by the programmer and it 
@@ -332,7 +333,7 @@ read and code.
 * Number Sign
 	Number sign is also a simple function that takes place of the programmer having 
 	to personally write the function. This function will return what sign the number 
-	entered has. The possible anwers are 1 (positive), -1 (negative) and 0/-0 for 
+	entered has. The possible answers are 1 (positive), -1 (negative) and 0/-0 for 
 	positive and negative 0 or decimal numbers
 	
 	.. code-block:: javascript
@@ -441,7 +442,7 @@ on a section that specifies currency, and what currency to use.
 		13.4.2017
 
   
-There is no equivalent function in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
+There is no equivalent functions in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
 
 
 
@@ -466,7 +467,7 @@ Sources
 
 .. [Simpson] Simpson, Kyle. You Don't Know JS: ES6 & Beyond. Sebastopol: O'Reilly Media, 2016. Print.
 
-.. [Zakas] Zakas, Nicholas C. Understanding ECMAScript 6: The Definitive Guide for Javascript Developers. San Francisco: No starch Press, 2016. Print. 
+.. [Zakas_Understanding] Zakas, Nicholas C. Understanding ECMAScript 6: The Definitive Guide for Javascript Developers. San Francisco: No starch Press, 2016. Print. 
 
 
 

@@ -93,6 +93,9 @@ and faster performance. Angular 2 can also be used with TypeScript [Mul]_.
 AngularJS Components
 --------------------
 
+Directives
+~~~~~~~~~~
+
 Directive - a directive is a marker on a HTML tag that tells Angular to 
 run or reference JavaScript code.
 
@@ -112,6 +115,9 @@ if the canShow expression is true.
 
 For not showing certain data, ``ng-hide`` can be used.
 
+Modules
+~~~~~~~
+
 Module - where pieces of an application are written. Modules make it more 
 maintainable, testable, and readable. Modules define applications and act as 
 containers for different parts of an application. Modules are containers for 
@@ -125,6 +131,9 @@ to the module [Ang]_.
 
 	var app = angular.module("angularjsApp", []);
 
+Expressions
+~~~~~~~~~~~
+
 Expression - expressions allow the insertion of dynamic values into HTML [Pol]_.
 Expressions are written inside double braces and AngularJS will output data
 exactly where the expression is written. AngularJS expressions bind data to 
@@ -135,6 +144,9 @@ exceptions whereas JavaScript expressions do [Ang]_.
 .. code-block :: JavaScript
 
 	<p>An example of an expression: {{ price * amount }}</p>
+
+Controllers
+~~~~~~~~~~~
 
 Controller - controllers help to show data on the web page. 
 Controllers are where the application's behavior is defined by defining 
@@ -179,6 +191,9 @@ the view gets access to these properties [Ang]_.
 		<h1 ng-repeat="name in school.classes">name</h1>
 	</div>
 
+Two-Way Data Binding
+~~~~~~~~~~~~~~~~~~~~
+
 Two-Way Data Binding - expressions are re-evaluated when a property changes 
 on the page. With the AngularJS, you can bind the value of an input field 
 to a variable that is created. The binding is called two-way binding, 
@@ -194,6 +209,9 @@ not interacted with the control yet, and it could return true for dirty if
 the user already interacted with the control. Pristine and dirty signify 
 whether the user actually changed anything while touched and untouched 
 signify if the user has been to that control [Roz]_.
+
+Filters
+~~~~~~~
 
 Filters are a neat aspect of AngularJS that can be added to format data. Some 
 filters include, currency, data, filter, JSON, limitTo, lowercase, number, 
