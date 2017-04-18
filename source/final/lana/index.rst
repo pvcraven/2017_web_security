@@ -193,7 +193,7 @@ or multiple lines. Some of these practices were considered syntax bugs so it was
 not the best practice. An example of a work around idea was to add “\” when the 
 intentions of the results are to be a single line instead of multiple lines.
 
-.. figure:: ES5_singleLineWorkAround.png
+.. figure:: singleLineWorkAround.png
 		:align: center
 		:width: 300px
 		:alt: single line syntax before ES6
