@@ -236,7 +236,7 @@ Several built in functions for ES5 have been updated to work faster and/or be ea
 read and code. 
 
 * Repeating Strings
-	As the name suggests, this function allows the programmers to repeating a string 
+	As the name suggests, this function allows the programmers to repeat a string 
 	a certain number of times.
 	
 	.. code-block:: javascript
@@ -361,7 +361,7 @@ New Formatting Methods
 There have been several new updates that have been added to ES6 that are based on 
 location. These include new formatting functions for time and date, currency, and money. 
 They are all built in functions, and the location is based on a BCP 47 language tag. 
-Some examples of a BCP 47 language tag included [Arai]_ 
+Some examples of a BCP 47 language tag included: [Arai]_ 
 
 * "hi" - Stands for Hindi
 
@@ -370,7 +370,7 @@ Some examples of a BCP 47 language tag included [Arai]_
 * "en" - Stands for English
 
 You can also add on locations in addition to language, in order to work with different 
-dialects. For example
+dialects. For example:
 
 * "en-US" is English in the United States
 
@@ -378,7 +378,8 @@ dialects. For example
 
 * "de-AT" is German used in Australia 
 
-The new formatting functions 
+The New Formatting Functions 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Number Formatting:
 
@@ -392,7 +393,7 @@ The new formatting functions
 	
 german.format will return "999.888.777,58", and the american.format will return 
 "999,888,777.58". The difference between the two may seem small, as the German number 
-system uses commas were the American used periods and vice versa, but it does create 
+system uses commas were the American uses periods and vice versa, but it does create 
 several benefits, such as
 
 	* Making it easier to format to local currency, as there was no easy way to do this 
@@ -445,7 +446,11 @@ on a section that specifies currency, and what currency to use.
 There is no equivalent functions in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
 
 
+Conclusion
+----------
 
+There have been many differnet updates to the newest version of JavaScript, from 
+fixing smaller functions to work better, adding in entirely new functions, to ...
 
 
 Sources
