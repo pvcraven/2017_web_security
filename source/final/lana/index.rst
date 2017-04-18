@@ -64,6 +64,7 @@ ES6 New Features
 ~~~~~~~~~~~~~~~~~~~
 
 **Var vs. Let**
+
 Typically to declare a variable was by using "var". Wherever they occur, the 
 code executes the variables first, this is known as "hoisting". If the variable 
 is declared outside of a function, it is considered a global variable. With the 
@@ -140,6 +141,7 @@ the global variable.
 
 
 **Arrow Function**
+
 Arrow functions is a shorter function syntax... Kind of. It is best used when 
 the function is small, and inline. Functions can be written the typical way of 
 writing a function, however, the arrow function provides a "cleaner" and more 
@@ -187,6 +189,7 @@ determined by looking up the scope chain. [Zakas]_
 
 
 **Template Literals**
+
 ECMAScript 5 lacked features for certain situations dealing with multiple 
 strings. Programmers found work around ideas to make results on a single line, 
 or multiple lines. Some of these practices were considered syntax bugs so it was 
@@ -240,6 +243,7 @@ by “${variable}”. This update avoids previous work around and is a cleaner w
 to output text and variables.
 
 **Classes**
+
 JavaScript did not have classes prior to ES6 update. Instead, there were 
 libraries that functioned like a class, but became very unclear and confusing 
 for many programmers.
@@ -283,11 +287,14 @@ followed by “()”.
 they behave. Class declarations are not hoisted unlike function declaration. 
 Class declarations behave similarly to let declarations, so they exist in the 
 block until execution reaches the declaration.
+
 •	All code within the class declarations runs in strict mode and there is no 
 way to opt out of it. Strict mode is a way to have better error-checking into 
 your code.
+
 •	In the new ES6 features, methods are non-enumerable meaning an object 
 property can not be modified within the class. 
+
 •	Calling a constructor without “new” will throw an error message. 
 
 There are actually a lot of changes on how a class behaves so what was listed 
