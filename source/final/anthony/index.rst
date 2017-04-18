@@ -94,7 +94,7 @@ The New Features
 	error. Binary and Octal are required to be prefixed with "0o" for octal and
 	"0b" for binary. [OctalandBinary]_
 
-	.. image:: binary_octal.png
+	.. image:: binaryandoctal.png
 
 * Promises
 	
