@@ -154,9 +154,6 @@ returns its result, whereas event handling works on the observer pattern. An
 observer is a function that listens to or observes an event. Whenever an event 
 is initiated, the observer starts executing. [tut]_
 
-Express
-~~~~~~~
-
 
 Basic Server Application
 ------------------------
@@ -187,6 +184,7 @@ that is listening on port 8888 and simply writes ``Hello World!``.
 	// create the server on port 8888 using request function onRequest
 	http.createServer(onRequest).listen(8888);
 	console.log("Server is running...");
+[you]_
 
 Result
 
@@ -226,6 +224,7 @@ page that does not exists.
 
 	http.createServer(onRequest).listen(8888);
 	console.log("Server is running...");
+[you]_
 
 Result
 
@@ -235,6 +234,18 @@ Result
 
 Conclusion
 ----------
+Overall, Node.js is a very useful tool to have when making any web application.
+It is extremely helpful when creating data intensive and real time applications
+because of its event driven and asynchronous environment. Because of this it makes
+retrieving data and sending it to the server so much faster than other technologies.
+The built in modules make coding much simpler for the programmer and most of the
+concepts are easy to pick up on. The most useful module by far has to be the ``http``
+module. This module allows us to create a server with one line of code, versus
+the numerous lines it would take otherwise. As far as learning how to use Node.js, 
+it is fairly easy as long as you have previous JavaScript experience. I would 
+definitely recommend any web developer to look into Node.js because it could 
+possibly simplify an application, and if not it is still a very useful tool to 
+know about.
 
 
 Sources
