@@ -109,7 +109,7 @@ The New Features
 	once you set one you cannot cancel it and you cannot determine the state of
 	a promise (pending, fulfilled, or rejected). [Atchley]_
 
-	.. image:: promises.png
+	.. image:: promise.png
 
 
 * Conclusion(Personal thoughts/reflection)
