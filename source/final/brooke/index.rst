@@ -44,9 +44,9 @@ talked about withinin IT communities, books, and online sources giving everyone
 a more broad understanding of it making it a widely understood and popular 
 framework.  Because of this, there are many solutions and templates already 
 made available.  It is said that Angular JS handles all of the "glue code" that
- had to previously be writen and puts it into a structure of its own.  In case 
- the developer does not want to follow a specific structure, there is the 
- flexibility to create a varied structure if needed.   [AngularJS]_
+had to previously be writen and puts it into a structure of its own.  In case 
+the developer does not want to follow a specific structure, there is the 
+flexibility to create a varied structure if needed.   [AngularJS]_
 
 Angular JS has a lightweight, easy to understand code pattern which makes it 
 easier for developers.  It allows for more efficient and productive programming
