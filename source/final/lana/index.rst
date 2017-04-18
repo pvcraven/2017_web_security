@@ -5,7 +5,7 @@ ECMAScript 6
 What is it?
 ~~~~~~~~~~~~~~~
 ECMAScript is the standardize language for JavaScript and is defined by ECMA-262 
-standard [Zakas, Nicholas]_. JavaScript is used in most web browsers allowing 
+standard [Zakas]_. JavaScript is used in most web browsers allowing 
 programmers to create more functionality, but with a user friendly interaction 
 for the client. So with the new ECMAScript 6, also known as ES6, this will allow 
 programmers to write more readable and cleaner code. With the latest update, 
@@ -24,7 +24,7 @@ JavaScript. It allows programmers to enhance the web browser’s interface(s)
 making the website more dynamic.
 
 The most common web browsers include Firefox, Chrome, Safari, Internet Explorer, 
-Microsoft Edge, and Opera. According to kangax, all of the listed most common 
+Microsoft Edge, and Opera. According to Kangax, all of the listed most common 
 web browsers excluding Internet Explorer have implemented 97% of the new 
 features. Wheras, Internet Explorer only support 11% of the new features. That 
 may be due to Microsoft Edge is suppose to replace Internet Explorer. [Kangax]_
@@ -69,7 +69,7 @@ code executes the variables first, this is known as "hoisting". If the variable
 is declared outside of a function, it is considered a global variable. With the 
 new ES6 update, a new way to declare a variable is by using "let". So declaring 
 a let variable has the same syntax compared to var. Essentially, let could 
-replace the var declaration. [Zakas, Nicholas]_
+replace the var declaration. [Zakas]_
 
 .. figure:: varForLoop.png
 		:align: center
@@ -99,10 +99,7 @@ that are declared as “var” are considered as function scope, whereas “let�
 variables are considered block scope. Notice the two images above. The first one 
 shows how variables inside a function can be called anywhere INSIDE the 
 function. Also, the second image displays how let variables can not be access 
-outside the block functions. [Zakas, Nicholas]_
-
-
-
+outside the block functions. [Zakas]_
 
 Another difference is that ‘let’ variables can not be re-declared using the same 
 name.
@@ -186,7 +183,7 @@ A common error in Javascript is how binding “this” inside a function. The va
 of “this” could be changed inside a function which may not be the intention of 
 the programmer. The purpose of the arrow function is to eliminate the number of 
 errors. Arrow functions do not bind “this”, meaning the value of “this” is 
-determined by looking up the scope chain. [Zakas, Nicholas]_
+determined by looking up the scope chain. [Zakas]_
 
 
 **Template Literals**
@@ -321,8 +318,8 @@ Sources
 
 .. [gitHub] Hoban, Luke. "Lukehoban/es6features." GitHub. N.p., n.d. Web. 11 Apr. 2017. <https://github.com/lukehoban/es6features/blob/master/README.md>.
 
-..[Zakas, Nicholas] Zakas, Nicholas C. Understanding ECMAScript 6: the definitive guide for Javascript developers. San Francisco: No starch Press, 2016. Print.
+.. [Zakas] Zakas, Nicholas C. Understanding ECMAScript 6: the definitive guide for Javascript developers. San Francisco: No starch Press, 2016. Print.
 
-..[Kangax] ECMAScript 6 compatibility table. N.p., n.d. Web. 17 Apr. 2017. <https://kangax.github.io/compat-table/es6/>.
+.. [Kangax] ECMAScript 6 compatibility table. N.p., n.d. Web. 17 Apr. 2017. <https://Kangax.github.io/compat-table/es6/>.
 
-..[ECMAScript] ECMAScript® 2016 Language Specification. N.p.: ECMA International, June 2016. PDF. < https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf>.
+.. [ECMAScript] ECMAScript® 2016 Language Specification. N.p.: ECMA International, June 2016. PDF. < https://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf>.
