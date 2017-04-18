@@ -163,12 +163,14 @@ Undetermined example
 
 References 
 ----------
-the TechCrunch article 
+.. [TECHCRUNCH] Frederic Lardinois."`Google launches final release version of Angular 2.0 <https://techcrunch.com/2016/09/14/google-launches-final-release-version-of-angular-2-0/>`_.Crunch Network.Web.Date Accessed 18 April 2017" 
+
+.. [John] John Resig."`jQuery 1.0 <https://blog.jquery.com/2006/08/26/jquery-10/>`_.Jquery.com.Web.Date Accessed 18 April 2017" 
 
 .. [AMZ] No Author List."`Amazon CloudFront – Content Delivery Network (CDN) <https://aws.amazon.com/cloudfront/?sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=google&sc_medium=juice_test_nb&sc_content=cdn_p&sc_detail=cdn&sc_category=cloudfront&sc_segment=164981649830&sc_matchtype=p&sc_country=US&s_kwcid=AL!4422!3!164981649830!p!!g!!cdn&ef_id=WO8RiAAABBvbPdZA:20170413055000:s>`_.Amazon.Web.Date Accessed 13 April 2017"
 
+.. [GITHUB] No Author Listed."`First Known Release Of AngularJS <https://github.com/angular/angular.js/releases?after=v0.9.4>`_.GitHub.Web.Date Accessed 18 April 2017."
 
-.. [John] John Resig."`jQuery 1.0 <https://blog.jquery.com/2006/08/26/jquery-10/>`_.Jquery.com.Date Accessed 18 April 2017" 
 
 
 
