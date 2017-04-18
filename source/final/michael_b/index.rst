@@ -1,6 +1,22 @@
 AngularJS-Michael Borland
 =========================
 
+Introduction to AngularJS
+-------------------------
+
+Scope
+~~~~~
+NG-app
+~~~~~~
+Data binding
+~~~~~~~~~~~~
+
+Controller
+~~~~~~~~~~
+
+Module 
+~~~~~~
+
 The Brief History of Google's AngularJS
 ---------------------------------------
 AnglarJS is a relatively young history as a JavaScript Library, 
@@ -18,6 +34,8 @@ programmer is for most a financial question, do we have the capital to burn to
 spend the time upgrading.[TECHCRUNCH]_ If it is a beginner asking the question, it is 
 do i want to be on the most current version? Those are some good things the 
 Tech crunch article makes a beginner and a profession think about. 
+
+This is really rough and bad, i struggled to get things together with my schedule. I will have the entire thing done and not crap by Thursday. It is bad, so don't feel bad for being a little rough with comments.  
 
 
 Content Delivery Network Description
@@ -73,25 +91,7 @@ Examples Of Libraries Available In AngularJS
 	</body>
 	</html>
 
-Introduction to AngularJS
--------------------------
 
-
-
-
-
-Scope
-~~~~~
-NG-app
-~~~~~~
-Data binding
-~~~~~~~~~~~~
-
-Controller
-~~~~~~~~~~
-
-Module 
-~~~~~~
 
 
 Form Example
@@ -163,12 +163,11 @@ Undetermined example
 
 References 
 ----------
+the TechCrunch article 
+
 .. [AMZ] No Author List."`Amazon CloudFront – Content Delivery Network (CDN) <https://aws.amazon.com/cloudfront/?sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=google&sc_medium=juice_test_nb&sc_content=cdn_p&sc_detail=cdn&sc_category=cloudfront&sc_segment=164981649830&sc_matchtype=p&sc_country=US&s_kwcid=AL!4422!3!164981649830!p!!g!!cdn&ef_id=WO8RiAAABBvbPdZA:20170413055000:s>`_.Amazon.Web.Date Accessed 13 April 2017"
 
-.. [TECHCRUNCH] Frederic Lardinois."`Google launches final release version of Angular 2.0<https://techcrunch.com/2016/09/14/google-launches-final-release-version-of-angular-2-0/>`_.Crunch Network.Date Accessed 18 April 2017"
-.. [GITHUB]
-.. [W3SSCHOOLS]
-.. [ANGULARJS]
+
 .. [John] John Resig."`jQuery 1.0 <https://blog.jquery.com/2006/08/26/jquery-10/>`_.Jquery.com.Date Accessed 18 April 2017" 
 
 
