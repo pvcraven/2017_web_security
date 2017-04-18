@@ -80,13 +80,6 @@ The New Features
 
 	.. image:: modules.png
 	
-* let vs var
-	
-	* Code Samples comparison to ES5
-
-* Template Strings
-
-	* Code Samples comparison to ES5
 
 * Binary and Octal Literals
 
@@ -115,9 +108,6 @@ The New Features
 
 	.. image:: promises.png
 
-* Tail Calls
-	
-	* Code Samples comparison to ES5 
 
 * Conclusion(Personal thoughts/reflection)
 
