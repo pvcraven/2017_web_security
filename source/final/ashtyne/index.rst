@@ -14,7 +14,7 @@ frontend applications using Java [JOAJS]_. It was created for an online JSON sto
 cost per megabyte, but not many people were interested so Hevery and Abrons decided
 to make AngularJS an open-source library [Wiki]_.
 
-Google supported AngularJS from the start because Hevery worked there.It is
+Google supported AngularJS from the start because Hevery worked there. It is
 continuously updated and maintained by Google and a community of individuals
 and corporations. Version 1.0 of AngularJS was released in 2012 and by Version
 1.2, AngularJS did not support Internet Explorer versions 6 or 7. When AngularJS
@@ -44,7 +44,7 @@ quick to develop" [AJS]_. AngularJS can be extended and can be easily used with 
 libraries. 
 
 Using AngularJS, one can extend HTML with attributes called directives [W3]_. Directives
-are HTML codes that begin with "ng-." In order to make proper HTML, the code should
+are HTML codes that begin with "ng-." To make proper HTML, the code should
 be "data-ng-" [W3]_.
 
 	* ng-app – This tells AngularJS to be active in whatever portion of the page/code
@@ -100,9 +100,9 @@ be "data-ng-" [W3]_.
 
 	Binds can also be made using expressions.
 
-	Expression – These are written inside {{}} and will print data exactly as it is
+	* Expression – These are written inside {{}} and will print data exactly as it is
 	written and can	be used in the same way as a bind [W3]_. Expressions bind data to
-	the HTML in the same way that the binds do. Unlike JacaScript expressions,
+	the HTML in the same way that the binds do. Unlike JavaScript expressions,
 	AngularJS expressions don't support conditionals, loops, and exceptions 
 
 	Example Code
@@ -170,12 +170,81 @@ be "data-ng-" [W3]_.
 		:width: 300px
 		:align: center
 
+	* Deep Linking - This is where the user is in the application and can bookmark and
+	email links to places inside the application. AngularJS uses deep linking and
+	desktop app-like behavior [AJS]_.
+
+	* Form Validation - This is the client side validation. AngularJS lets you create
+	validation rules for the specific form without having to write JavaScript [AJS]_.
+	It monitors the forms state and notifies the user. It can also hold information
+	about the form, whether is has been entered in or not [W3]_.
+
+	Example Code
+	^^^^^^^^^^^^
+	.. code-block:: javascript
+		<p>Number of roses:</p>
+
+		<form name="myForm">
+			<input type="number" name="myInput" ng-model="myInput" required>
+		</form>
+
+		<p>The input's valid state is:</p>
+		<h1>{{myForm.myInput.$valid}}</h1>
+
+	.. figure:: validationExample.PNG
+		:height: 300px
+		:width: 300px
+		:align: center
+
+	* Filter - This is a part of AngularJS that can transform data. An example of
+	this would be if someone entered a decimal, then the filter would change it into
+	a currency. Filters in AngularJS are simply added into expressions that already
+	exist [W3]_.
+
+	* Animations - AngularJS provides animated transitions from one piece of the
+	screen to another. In the example below there is a colored box, and when the
+	check box is clicked on; the colored box decreases upward and disappears. There
+	are animation features such as showing a box, repeating, and switching, just to
+	name a few.
+
+	Example Code
+	^^^^^^^^^^^^
+	.. code-block:: javascript
+		div {
+			transition: all linear 0.5s;
+			background-color: purple;
+			height: 100px;
+			width: 100%;
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+
+		.ng-hide {
+		  height: 0;
+		  width: 0;
+		  background-color: transparent;
+		  top:-200px;
+		  left: 200px;
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+
+		<body ng-app="ngAnimate">
+
+		<h1>Hide the Rose Order: <input type="checkbox" ng-model="myCheck"></h1>
+
+		<div ng-hide="myCheck"></div>
+
 Closing
 -------
 
-Before AngularJS developers used HTMl to create static documents. Now, with all of
-these AngularJS pieces and more, the world of single-page JavaScript applications
-has been completely changed. It is so revolutionary that popular websites such as, Walgreens, Intel, Sprint, and others use AngularJS [Wiki]_.
+Before AngularJS developers used HTML to create static documents. Now, with
+these AngularJS pieces and all the unnamed ones, the world of single-page JavaScript
+applications have been completely changed. It is so revolutionary that popular
+websites such as, Walgreens, Intel, Sprint, and others use AngularJS [Wiki]_.
 
 References
 ----------
