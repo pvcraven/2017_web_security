@@ -19,16 +19,16 @@ standardization. [ES]_
 ES was improved upon soon after its initial release with versions 2 and 3, the
 later being released in 1999. This is where things get a little weird. Unlike 
 most other programming languages and technologies, new additions to ES standards
-were not released for ten years with version 5 following in 2009. Version 4 was
-abandoned. [ES]_
+were not released for ten years with version 5 following in 2009. Version 4
+doesn't exist because the project was abandoned. [ES]_
 
 Version 5, named ES5, is currently very popular and supported by all major
-browsers. [ES5]_ Version 6 which is also called ES6 and ES2015 is gaining
-popularity and the topic of this report. With version 6 which was standardized
-in 2015, the naming system changed to ES followed by the year it was published.
-This is in an effort to launch new versions every year and not wait for an
-entire feature set to be completed. ES2016 is actually the newest standard but
-it takes a few years for changes to be widely adopted. [ES]_
+browsers. [ES5]_ Version 6, the topic of this report, is gaining popularity. It 
+is also called ES6 and ES2015. With version 6, which was standardized in 2015, 
+the naming system changed to ES followed by the year it was published. This is 
+in an effort to launch new versions every year and not wait for an entire 
+feature set to be completed. ES2016 is actually the newest standard but it takes 
+a few years for changes to be widely adopted. [ES]_
 
 Uses
 ----
@@ -36,18 +36,18 @@ JavaScript and the new features available in ES6 have a wide variety of uses.
 JavaScript is popular as a client-side scripting tool, enabling websites to
 hold interactive content that can provide a captivating and useful web design
 while allowing features to run faster. JavaScript is also becoming popular as
-a back-end tool with its inclusion in languages such as Node.js. This server
-technology isn't useful for all applications, but it works very well for network 
-applications because it can support thousands of concurrent connections. [Node]_
-There are many more possible applications for the technology which will likely
-be realized in the future.
+a back-end tool with its inclusion in languages such as Node.js. This language
+isn't useful for all services, but it works very well for network applications 
+because it can support thousands of concurrent connections. [Node]_ There are 
+many more possible applications for the technology which will likely be realized 
+in the future.
 
 New features
 ------------
 Constants
 ^^^^^^^^^
-Also known as immutable variables, the concept of constant variables is simply
-variables that cannot be reassigned. [ES6NF]_
+Also known as immutable variables, constant variables are simply variables that 
+cannot be reassigned. [ES6NF]_
 
 Example:
     
