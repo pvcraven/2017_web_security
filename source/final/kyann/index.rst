@@ -112,7 +112,7 @@ but it was slightly complex and time consuming. The new ES6 version is much easi
 use, and makes the code nicer to read. 
 
 In ES5, there was no easy way to set default parameters. Instead, programmers would 
-check within the function to see of the parameter was undefined and then set if 
+check within the function to see if the parameter was undefined and then set it 
 to a value if it was. 
 
 * What was used in ES5
