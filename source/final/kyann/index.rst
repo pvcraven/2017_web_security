@@ -32,7 +32,7 @@ variable is one that cannot be assigned any new content. Instead of using the ty
 Const can be especially useful in programming situations where there are multiple 
 programmers or developers working on the same project. It makes the code a little 
 easier to read, and lets other developers know that the variable will not be changing, 
-and should not be changed by them. [PR_Newswire]_
+and should not be changed by them. [PR_Newswire]_ [Simpson]_
 
 
 Block-Scope and Let
@@ -40,7 +40,7 @@ Block-Scope and Let
 
 Block-scope variables are variables that can only be used inside a 'block' of code. 
 With ``var``, any variable declared in JavaScript with ES5 is a global variable, or 
-one that can be accessed anywhere in the function. [Block-Scope]_
+one that can be accessed anywhere in the function. [Block_Scope]_
 
 .. code-block:: javascript
 	:Caption: Global variable
@@ -221,10 +221,11 @@ easier for other programmers to read.
 	
 An important part of this change was that in order to signify a string that will 
 be on multiple lines, or have an object select in the middle of the string is by 
-using `backticks` instead of the normal "double quotes" or 'single quotes'. 
+using ` `backticks` ` instead of the normal "double quotes" or 'single quotes'. 
 
 
 [Zakas]_  pg 26-28
+[es6_Features]_
 
 
 New Built-in Methods
@@ -253,6 +254,7 @@ read and code.
 	``.includes``. 
 
 	.. code-block:: javascript
+	
 		"Kyann".startsWith("Ky")
 		"Simpson".endsWith("son")
 		"JavaScript".includes("Scr")
@@ -260,7 +262,7 @@ read and code.
 		"Simpson".startsWith("imp", 1)
 		"Simpson".startsWith("imp", 2)
 		
-	.. code-clock:: text
+	.. code-block:: text
 		:Caption: Output
 		
 		true
@@ -284,7 +286,7 @@ read and code.
 	display "Infinity". If displayed as a number, it would show 1.797693134862315E+308. It 
 	can also be used to represent negative infinity by putting a "-" sign in front. 
 	
-	.. code-clock:: javascript
+	.. code-block:: javascript
 	
 		Number.isNan(2017)
 		Number.isNan(Hello)
@@ -333,14 +335,14 @@ read and code.
 	entered has. The possible anwers are 1 (positive), -1 (negative) and 0/-0 for 
 	positive and negative 0 or decimal numbers
 	
-	..code-block:: javascript
+	.. code-block:: javascript
 		
 		console.log(Math.sign(2017))
 		console.log(Math.sign(-2014))
 		console.log(Math.sign(0))
 		console.log(Math.sign(-0.1)
 		
-	..code-block:: text
+	.. code-block:: text
 		:Caption: Output
 		
 		1
@@ -450,7 +452,7 @@ Sources
 
 .. [Arai] Arai. "`Intl <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl>`_" Intl, MDN. 05 Apr. 2017. Web. 13 Apr. 2017
 
-.. [Block-scope] "`Javascript: Block scope. http://www.programmerinterview.com/index.php/javascript/javascript-block-scope/`_" Programmer and Software Interview Questions and Answers. ProgrammerInterview, n.d. Web. 06 Apr. 2017.
+.. [Block_scope] "`Javascript: Block scope. <http://www.programmerinterview.com/index.php/javascript/javascript-block-scope/>`_" Programmer and Software Interview Questions and Answers. ProgrammerInterview, n.d. Web. 06 Apr. 2017.
 
 .. [Compatibility] "`ECMAScript 6 compatibility table <https://kangax.github.io/compat-table/es6/>`_" ECMAScript 6 compatibility table. kangax., 2016. Web. 04 Apr. 2017. 
 
