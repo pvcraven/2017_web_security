@@ -28,21 +28,21 @@ How is it used?
 History
 -------
 
-	How did JavaScript was created in late 1996 / early 1997 by Brendan Eich.
-	The first release of JavaScript on the ECMAScript was June of 1997, ES1. 
-	Exactly one year later, June 1998, ES2 was released. ES2 only brought minor 
-	changes. December 1999 was the first big improvement. ES3 was introduced
-	which included the adoption across all browsers. ES3 also included try / 
-	catch, errors, and improved how the string was handled. Almost 10 years
-	passed before the next version was released. July 2008, ES3.1 or ES4 was 
-	introduced with a lot of opposition. The initial idea was to completely 
-	overhaul JavaScript, with proposed ideas including classes, modules, and
-	static typing. However, many thought this would "break the Internet". The 
-	two sides agreed to release a smaller upgrade deemed ES3.1 which eventually
-	became ES5. 2009 ES5 was official released and was the first major upgrade 
-	since 1999. ES5 included native JSON support, undefined, infinity values,
-	and more. After the debacle that was ES4, the two opposition came together
-	and decided to create the ideas in ES4 in ES6. ES6 features were completed
+	JavaScript was created in late 1996 / early 1997 by Brendan Eich. The first 
+	release of JavaScript on the ECMAScript was June of 1997, ES1. Exactly one 
+	year later, June 1998, ES2 was released. ES2 only brought minor changes. 
+	December 1999 was the first big improvement. ES3 was introduced which 
+	included the adoption across all browsers. ES3 also included try / catch, 
+	errors, and improved how the string was handled. Almost 10 years passed 
+	before the next version was released. July 2008, ES3.1 or ES4 was introduced
+	with a lot of opposition. The initial idea was to completely overhaul 
+	JavaScript, with proposed ideas including classes, modules, and static 
+	typing. However, many thought this would "break the Internet". The two sides 
+	agreed to release a smaller upgrade deemed ES3.1 which eventually became 
+	ES5. 2009, ES5 was official released and was the first major upgrade since 
+	1999. ES5 included native JSON support, undefined, infinity values, and 
+	more. After the debacle that was ES4, the two opposing sides came together 
+	and decided to create the ideas from ES4 in ES6. ES6 features were completed
 	in 2015. ES7 is already on the table for late 2017 / early 2018. [Popoola]_
 	
 The New Features
@@ -61,12 +61,12 @@ The New Features
 
 * Arrows
 
-	Arrows have been apart of JavaScript since the ES1. The way arrows are used
-	have changed over time. Today arrows look like this "=>". These same keys
+	Arrows have been a part of JavaScript since ES1. The way arrows are used
+	has changed over time. Today arrows look like this "=>". These same keys
 	can represent a comment when they are used at the beginning of a line. It 
 	also represents the "goes to" operator. ES6 turns these keys into a simple
 	function syntax with a single argument (Identifier => Expression),
-	Eliminating the need for "function" or "return" and some parentheses. In 
+	eliminating the need for "function" or "return" and some parentheses. In 
 	order to write a function with multiple arguments, using the arrow syntax,
 	parentheses will be needed. [Orendorff]_
 
@@ -98,7 +98,7 @@ The New Features
 
 * Promises
 	
-	Promises have been around awhile, but wasn't adopted by JavaScript until
+	Promises have been around awhile, but weren't adopted by JavaScript until
 	ES6. Promises allow users to handle asynchronous processes in a synchronous
 	way. Promises are a value that will be handled at some point in the future.
 	Similar to callbacks in that respect, except with promises the user is
@@ -106,8 +106,8 @@ The New Features
 	which is waiting for the promise to be fulfilled. Fulfilled, when the
 	the value is passed to the handler. Rejected, the promise is called by the
 	second handler instead of the first. Some negatives of using promises are
-	once you set one you cannot cancel it and you cannot determine the state of
-	a promise (pending, fulfilled, or rejected). [Atchley]_
+	once you set one you cannot cancel it, also you cannot determine the state 
+	of a promise (pending, fulfilled, or rejected). [Atchley]_
 
 	.. image:: promise.png
 
