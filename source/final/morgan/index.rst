@@ -4,12 +4,12 @@ AngularJS - Morgan Ryan
 Introduction
 -------------
 
-AngularJS is a "JavaScript-based open-source front-end web application framework that is maintained by Google with a community of individuals and corporations to address many of the challenges encountered in developing single-page applications [wikiAngularJS]_." "AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications." In short terms, AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
+AngularJS is a "JavaScript-based open-source front-end web application framework that is maintained by Google with a community of individuals and corporations to address many of the challenges encountered in developing single-page applications." [wikiAngularJS]_ "AngularJS is put in place to help simplify the development and testing of mobile apps but providing client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) and will work with most up to date internet applications." [wikiAngularJS]_ In short terms, AngularJS takes your framework and adapts and extends your HTML and creates it in a format that is able to be used by different models and views. Once this process is complete the end result for AngularJS is to improve the testing and performance of the program. 
 
 History of AngularJS
 ---------------------
 
-AngularJS first came about when the first team started working on it in 2014. It first reads the HTML page it then interprets the tag attributes in the HTML to directives, which is a language construct, to make the inputs and outputs readable by JavaScript variables. Then those variables are grabbed by JSON resources. "Some common websites that use this is ABC News, Sprint, Walgreens, etc. This is used a lot throughout the world, according to various sources it is used on 12,000 sites and this was from 2016!" 
+AngularJS first came about when the first team started working on it in 2014. It first reads the HTML page it then interprets the tag attributes in the HTML to directives, which is a language construct, to make the inputs and outputs readable by JavaScript variables. Then those variables are grabbed by JSON resources. "Some common websites that use this is ABC News, Sprint, Walgreens, etc. This is used a lot throughout the world, according to various sources it is used on 12,000 sites and this was from 2016!" [wikiAngularJS]_
 
 AngularJS Framework
 --------------------
@@ -41,7 +41,7 @@ Below is a piece of sample code that puts to use the above directives. The print
 Data Binding
 ---------------------
 
-"Data Binding in AngularJS binds AngularJS expressions with AngularJS data." In the code above this is shown with the {{ firstName }} part of the code. This section of the code is bound with the ng-model="firstName." The next directive is ng-repeat which repeats an HTML element. It can clone HTML elements when the item is in a collection. Below is sample code that explains how this works and the output of this code. 
+"Data Binding in AngularJS binds AngularJS expressions with AngularJS data." [wikiAngularJS]_ In the code above this is shown with the {{ firstName }} part of the code. This section of the code is bound with the ng-model="firstName." The next directive is ng-repeat which repeats an HTML element. It can clone HTML elements when the item is in a collection. Below is sample code that explains how this works and the output of this code. 
 
 .. code-block:: javascript
 
@@ -86,7 +86,7 @@ AngularJS Controller
 
 All these directives or applications are controlled by the AngularJS controller. In order for the controller to be defined in the HTML the correct call is ng-controller. Below is a more in depth explaination of the application.
 
-	"The AngularJS application is defined by ng-app="myApp." the application runs inside the <div>. The ng-controler="myCtrl" attribute is an AngularJS directive. It defines a controller. The mtCtrl funtion is a JavaScript Funtion.AngularJS will invoke the controller with a $scopte object. In AngularJS, $scopte si the application object (the owner of application variables and functions). The controller creates two properties in the scopte. The ng-model directives bind the input fields to the controler properties [w3SchoolsAngularJS]_." 
+	"The AngularJS application is defined by ng-app="myApp." the application runs inside the <div>. The ng-controler="myCtrl" attribute is an AngularJS directive. It defines a controller. The mtCtrl funtion is a JavaScript Funtion.AngularJS will invoke the controller with a $scopte object. In AngularJS, $scopte si the application object (the owner of application variables and functions). The controller creates two properties in the scopte. The ng-model directives bind the input fields to the controler properties." [w3SchoolsAngularJS]_
 	
 .. code-block:: javascript
 
@@ -116,7 +116,7 @@ All these directives or applications are controlled by the AngularJS controller.
 Scopes
 -------
 
-Now tying HTML and Controllers together, the binding part between them which is when the scope has to be used. "The scope is an object with properties and methods, it is also available for both the HTML and the controller." To properly use scope the tag would be $scope wich gets the access to the properties. But that tag only works for the controller, to use it in the HTML the tag would be refering to the propertyname like {{ firstName }}.
+Now tying HTML and Controllers together, the binding part between them which is when the scope has to be used. "The scope is an object with properties and methods, it is also available for both the HTML and the controller." [w3SchoolsAngularJS]_ To properly use scope the tag would be $scope wich gets the access to the properties. But that tag only works for the controller, to use it in the HTML the tag would be refering to the propertyname like {{ firstName }}.
 
 To keep things straight the view is the HTML, the model is the data available in the HTML and the controller is the JavaScript function that does things to the data. Now adding scope which is the model. 
 
@@ -179,9 +179,9 @@ Once all the data is the way it is supposed to be putting it in a table is super
 	</script>
 	
 Dropdown Box
------------
+^^^^^^^^^^^^^^^^^
 
-To create a dropdown box with AngularJS use ng-options, but ng-repeat will also create a dropdown box. "The difference between the two are ng-reapt repeats a block of HTML code for each item in an array, it can be used to create options in a dropdown list. The ng-options is made for filling a dropdown list with options and allows the selected selected value to be an object. Dropdowns made from ng-repeat has to be a string.  Below is the code to create the dropdown box with ng-options."
+To create a dropdown box with AngularJS use ng-options, but ng-repeat will also create a dropdown box. "The difference between the two are ng-reapt repeats a block of HTML code for each item in an array, it can be used to create options in a dropdown list. The ng-options is made for filling a dropdown list with options and allows the selected selected value to be an object. Dropdowns made from ng-repeat has to be a string.  Below is the code to create the dropdown box with ng-options." [w3SchoolsAngularJS]_
 
 .. code-block:: javascript
 
@@ -202,9 +202,9 @@ To create a dropdown box with AngularJS use ng-options, but ng-repeat will also 
 On top of these AngularJS allows users to create checkboxes, radio buttons, etc. There are many different styling tips that can be found on w3schools.com. 
 
 Validation
------------
+^^^^^^^^^^^^^^^^^
 
-Lastly, validation is key when it comes to creating a form on a website. "AngularJS offers client-side form validation that checks the state of the form and fields, it then lets the client know about what needs to be filled in or what is already filled in. For the validation functions use HTML5 attributes. Now keep in mind that even though the page has client-side validation it also needs server side validtion to make sure that everything is secure properly." Below is a list of the fields  and forms used in AngularJS.
+Lastly, validation is key when it comes to creating a form on a website. "AngularJS offers client-side form validation that checks the state of the form and fields, it then lets the client know about what needs to be filled in or what is already filled in. For the validation functions use HTML5 attributes. Now keep in mind that even though the page has client-side validation it also needs server side validtion to make sure that everything is secure properly." [w3SchoolsAngularJS]_ Below is a list of the fields  and forms used in AngularJS.
 
 	Fields:
 	
