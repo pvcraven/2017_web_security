@@ -101,17 +101,18 @@ and it will be a block-scope variable.
 Parameter Values
 ----------------
 
-Default parameters are used when the programmer wants a certain value to be used 
+Default parameters are used when the programmer wants a certain value to be set  
 if one isn't given when the method is called. If a parameter is specified but not 
 given a value, it is set to ``undefined``.
 
-Default parameters are useful when being undefined could cause an incorrect answer, 
-cause an error, or crash the program. ES5 did have a way to set default parameters, 
+Having an undefined answer when a function is called could cause errors, give an 
+incorrect answer, or even crash the program. Programmers could find defaul parameters 
+useful to help avoid these situations. ES5 did have a way to set default parameters, 
 but it was slightly complex and time consuming. The new ES6 version is much easier to 
 use, and makes the code nicer to read. 
 
 In ES5, there was no easy way to set default parameters. Instead, programmers would 
-check within the function to see of the parameter was undefined and then set if 
+check within the function to see if the parameter was undefined and then set it 
 to a value if it was. 
 
 * What was used in ES5
