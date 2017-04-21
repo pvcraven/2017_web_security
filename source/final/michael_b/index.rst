@@ -154,11 +154,8 @@ Explanation of what the form does goes here.
 	</body>
 	</html>
 
-More Advanced Topics 
---------------------
 
-Undetermined example
-~~~~~~~~~~~~~~~~~~~~
+
 
 
 References 
