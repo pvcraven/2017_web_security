@@ -15,11 +15,11 @@ static documents is fixed by using a library or a framework.  With Angular JS,
 it teaches the browser by using directives.  
 
 Directives are extended HTML attributes that all have the prefix of "ng-".  
-What follows the prefix is what tells the HTML what to do to style it.  These
-directives could include data binding, repeating HTML elements, DOM controls, 
-form validation, event handling, and putting HTML into reusable components.  
-It also gives you the freedom to create new directives if needed by using the
-.directive funtion. [AngularJS]_ 
+What follows the prefix is what tells the HTML what to do to style it. [w3schools]_
+These directives could include data binding, repeating HTML elements, DOM 
+controls, form validation, event handling, and putting HTML into reusable 
+components.  It also gives you the freedom to create new directives if needed 
+by using the .directive funtion. [AngularJS]_ 
 
 History
 -------
