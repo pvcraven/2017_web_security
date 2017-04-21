@@ -19,7 +19,7 @@ What follows the prefix is what tells the HTML what to do to style it.  These
 directives could include data binding, repeating HTML elements, DOM controls, 
 form validation, event handling, and putting HTML into reusable components.  
 It also gives you the freedom to create new directives if needed by using the
-.directive funtion.  [AngularJS]_ 
+.directive funtion. [AngularJS]_ 
 
 History
 -------
@@ -44,7 +44,7 @@ Eventually Abrons quit working on the project and Hevery and his manager
 (Brad Green) took it from there.  Angular JS’s first big hit was when Google 
 took on a company called DoubleClick.  They used Angular JS to rewrite part of 
 DoubleClick.  DoubleClick’s success then gave light to Angular JS and it is now
-used internally and externally by Google.  [AndrewAustin]_
+used internally and externally by Google. [AndrewAustin]_
 
 What would you use it for?
 --------------------------
@@ -80,7 +80,7 @@ made available.
 It is said that Angular JS handles all of the "glue code" that
 had to previously be writen and puts it into a structure of its own.  In case 
 the developer does not want to follow a specific structure, there is the 
-flexibility to create a varied structure if needed.   [AngularJS]_  Angular
+flexibility to create a varied structure if needed. [AngularJS]_  Angular
 JS has a lightweight, easy to understand code pattern which makes it 
 easier for developers.  It allows for more efficient and productive programming
 as it uses directives on top of the standard HTML.  Using directives adds 
@@ -95,8 +95,7 @@ validation of the forms.  With that you can do many things such as change
 behavior of different elements in the user interface to make it more user 
 friendly. It also has its own built in abilities to handle errors, but also 
 gives the developer the capabilities to create their own validators for the 
-entire form or just for specific fields based on the needs of the application.
-[AngularJS]_
+entire form or just for specific fields based on the needs of the application. [AngularJS]_
  
 
 Drawbacks
@@ -142,8 +141,7 @@ Example:
 In this example, the <div ng-app""> tag lets Angular JS that it is part of an 
 Angular JS application.  The ng-model directive then links the input field to 
 the application variable name.  Finally, the ng-bind directive links the 
-innerHTML of the paragraph element to the application variable name.  
-[w3schools]_
+innerHTML of the paragraph element to the application variable name. [w3schools]_
 
 .. image :: firstOutput.PNG
 
