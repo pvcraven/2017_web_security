@@ -41,6 +41,14 @@ the node.js module is used to execute it. To test the installation open the
 command prompt and navigate to the directory where main.js is saved. Then type 
 ``node main.js`` and hit enter. "Hello, World!" should appear. 
 
+History of Node.js
+------------------
+Node.js was started by Ryan Dahl and a team of other developers that worked for 
+a company named Joyent. The first release in 2009 only supported Linux, but 
+since then Node.js has been expanded to be cross platform, supporting OS X, 
+Microsoft Windows, and Linux. Node.js is now under the care of The Node.js 
+Foundation which guides the development and release of Node.js.  
+
 Why use Node.js?
 ----------------
 
@@ -114,10 +122,15 @@ happening?
 How Does Node.js Work?
 ----------------------
 
-Node.js uses what is called asynchronous event-driven, non-blocking runtime. 
-There is quite obviously a lot of explaination for that phrase to make any sense
-to the average listener, so the next few sections will hopefully provide some 
-clarity. 
+The code is executed using Google Chrome's V8 JavaScript Engine, and that helps
+Node.js execute code very efficiently. This, however, is not the only feature of
+Node.js that make it a good choice for building applications. Node.js is also 
+single threaded, but the non-blocking nature of Node.js (which will be 
+explained in a later section) enables it to serve a much larger number of 
+requests than traditional servers. Node.js uses what is called asynchronous 
+event-driven, non-blocking runtime. There is obviously a lot of explaination for
+that phrase to make any sense to the average listener, so the next few sections 
+will hopefully provide some clarity. 
 
 Asynchronous Event-Driven Programming
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -311,31 +324,56 @@ command-line by entering ``node PrintCIS.js`` ::
 	    console.log(output);
 	  });
 	
-Nothing happened? Enter a number into the command prompt.
+Nothing happened? Type a number into the command prompt and hit Enter.
 
 	.. image :: img/PrintCIS.PNG
 
-Enter any font size and watch the letters get bigger!
+Enter any font size and watch the letters get bigger! This example shows that 
+by using Node.js, JavaScript can be used to make applications that take and 
+process input just the same as any other programming language. This is only one 
+example of what can be done with JavaScript. Experimentation is encouraged in 
+order to learn all the capabilities of JavaScript using Node.js. 
 
+Other Features of Node.js
+-------------------------
 
-Creating a HTTP Server -- Not Sure if I want to include this
-^^^^^^^^^^^^^^^^^^^^^^
+As mentioned previously, Node.js also provides a library that makes programming 
+in JavaScript easier to program with, and also adds features to the language. 
 
-The next step is to get out of the command prompt and to start operating on a 
-server. ::
-	var http = require("http");
+One of these additions is the introduction of global objects. This includes 
+__filename and __dirname, which can be printed to show the file path and 
+directory that the file is located in, respectively. There are also three Global 
+functions. ``setTimeout()`` can be used to run a callback after a certain number 
+of milliseconds. ``clearTimeout()`` is used to clear a previously set timer. The 
+last is ``setInterval()`` which can be used to run a function repeatedly after 
+a specified number of milliseconds. 
 
-	http.createServer(function (request, response) {
-		response.writeHead(200, {'Content-Type': 'text/plain'});
+Another feature of Node.js is the modules that it provides. One of these is the
+HTTP Module, which was used in the second example above. The HTTP module makes 
+it possible to create a web server and client with JavaScript. Node.js also 
+comes equipped with several utility modules. The uses of these modules vary. 
+The OS Module provides functions that are related to operating-systems. There is
+the Path Module, which adds the capability of handling and transforming file 
+paths. The Net Module acts as a network wrapper. A module called the DNS Module
+makes DNS lookup possible with JavaScript functions. Finally the Domain Module 
+allows the handling of multiple I/O operations in one group. 
 
-		response.end('Hello World\n');
-	}).listen(8081);
+Conclusion
+----------
 
-	console.log('Server running at http://127.0.0.1:8081/');
-
+Node.js expands the usefulness of JavaScript in many ways. Whether it is on the 
+server, or to write an application in JavaScript, Node.js provides this 
+capability. While there is a bit of a learning curve to understand the libraries
+added to JavaScript by Node.js, asynchronous, and non-blocking methods of 
+programming, once these are understood Node.js can be utilized to make extremely
+fast applications. Node.js simplifies programming with JavaScript, as well
+as networking applications as a whole. Node.js is still a fairly new technology 
+and is being tweaked and improved constantly.
 
 https://organicdonut.com/2013/08/technical-understanding-javascript-node-js-and-their-libraries/#
 
 https://www.oreilly.com/ideas/what-is-node
 
 http://stackoverflow.com/questions/17959663/why-is-node-js-single-threaded
+
+http://www.dotnettricks.com/learn/nodejs/brief-history-of-nodejs-and-iojs
