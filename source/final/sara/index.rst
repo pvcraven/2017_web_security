@@ -215,10 +215,11 @@ page that does not exists.
 
 .. code-block :: JavaScript
 
+	// import http and fs modules
 	var http = require('http');
 	var fs = require('fs');
 
-	// 404 response
+	// 404 response error message
 	function send404 (response) {
 	    response.writeHead(404, {"Content-Type": "text/plain"});
 	    response.write("Error 404: Page Not Found");
@@ -227,15 +228,22 @@ page that does not exists.
 
 	// handle a user request
 	function onRequest(request, response) {
+		// if the user requests the index page
 	    if(request.method == 'GET' && request.url == '/'){
+
+	    	// type of context being written to the server
 	        response.writeHead(200, {"Content-Type": "text/html"});
+
+	        // use fs to read the html file and pipe it to the response
 	        fs.createReadStream("./index.html").pipe(response);
 	    }
+	    // the page the user requested does not exist
 	    else{
 	        send404(response);
 	    }
 	}
 
+	// create the server on port 8888
 	http.createServer(onRequest).listen(8888);
 	console.log("Server is running...");
 [you]_
