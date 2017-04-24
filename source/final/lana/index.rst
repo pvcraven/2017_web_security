@@ -288,19 +288,23 @@ to use the “function” keyword to make a function. Instead, name the method
 followed by open and close parentheses. 
 
 
-* With the new feature, there are some differences between the two and how 
+* 
+With the new feature, there are some differences between the two and how 
 they behave. Class declarations are not hoisted unlike function declaration. 
 Class declarations behave similarly to let declarations, so they exist in the 
 block until execution reaches the declaration.
 
-* All code within the class declarations runs in strict mode and there is no 
+* 
+All code within the class declarations runs in strict mode and there is no 
 way to opt out of it. Strict mode is a way to have better error-checking into 
 your code.
 
-* In the new ES6 features, methods are non-enumerable meaning an object 
-property can not be modified within the class. 
-
-* Calling a constructor without “new” will throw an error message. 
+* 
+In the new ES6 features, methods are non-enumerable meaning an object 
+property can not be modified within the class.
+ 
+*
+Calling a constructor without “new” will throw an error message. 
 There are actually a lot of changes on how a class behaves so what was listed 
 above is just a small handful of those alterations.
 
