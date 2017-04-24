@@ -63,6 +63,11 @@ one that can be accessed anywhere in the function. [Block_scope]_
 	console.log(global);
 	console.log(a)
 	
+Because both variables were declared with ``var``, they were global variables that 
+could be called later in the program, as shown by the output below. This was the 
+only available option in ES5, although ``var``, and using global variables, is still 
+used in ES6. 
+	
 	
 .. code-block:: text
 	:Caption: Output
@@ -70,12 +75,11 @@ one that can be accessed anywhere in the function. [Block_scope]_
 	Hello
 	5
 	
-Because both variables were declared with ``var``, they were global variables that 
-could be called later in the program.
 
-ES6 has included an option to use ``let`` inside of ``var`` when declaring a variable, 
-and it will be a block-scope variable. The below code is similar to the ES5 version, 
-except that the ``var a`` is replaced by ``let block``. 
+
+ES6 has included an option to use ``let`` instead of ``var`` when declaring a variable, 
+which will make the variable  it will be a block-scope variable. The below code 
+is similar to the above version, except that the ``var a`` is replaced by ``let block``. 
 
 .. code-block:: javascript
 	:Caption: Block-scope variable
