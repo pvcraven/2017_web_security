@@ -19,25 +19,26 @@ at Brat Tech LLC [AJSHist]_. They felt that they were not productive at building
 front-end applications using Java [JOAJS]_. It was created for an online JSON storage
 service’s behind-the-scenes software. AngularJS was originally only available online and
 cost per megabyte, but not many people were interested so Hevery and Abrons decided
-to make AngularJS an open-source library [Wiki]_.
+to make AngularJS an open-source library [Wiki]_. Making the code open source, has lead
+to the web community being able to make contributions and create a better platform [FMH]_.
 
-Google supported AngularJS from the start because Hevery and Abrons worked there. It is
-continuously updated and maintained by Google and a community of individuals
-and corporations. Version 1.0 of AngularJS was released in 2012 and by Version
-1.2, AngularJS did not support Internet Explorer versions 6 or 7. When AngularJS
-Version 1.3 came out, it dropped its support of Internet Explorer 8 [AJSHist]_.
-Version 1.5 was released and added many new concepts including a piece based on
-architecture. When AngularJS released Version 1.6, it had removed the Sandbox, which
-was thought to provide extra security. When Version 2+ came out, AngularJS was simply
-called Angular, which which went on to become an open-source front-end web application.
-The most recent version is Angular 4, which was announced on December 13, 2016 [Wiki]_.
+Google supported AngularJS from the start because Hevery worked there as the Senior
+Computer Scientist and Technical Lead Manager. In this position he leads teams to
+figure out ways to increase speed and quality of of code [FMH]_. It is continuously updated
+and maintained by Google and a community of individuals and corporations. Version 1.0
+of AngularJS was released in 2012 and by Version 1.2, AngularJS did not support
+Internet Explorer versions 6 or 7. When AngularJS Version 1.3 came out, it dropped its
+support of Internet Explorer 8 [AJSHist]_. Version 1.5 was released and added many new
+concepts including a piece based on architecture. When AngularJS released Version 1.6,
+it had removed the Sandbox, which was thought to provide extra security. When Version
+2+ came out, AngularJS was simply called Angular, which which went on to become an
+open-source front-end web application. The most recent version is Angular 4, which
+was announced on December 13, 2016 [Wiki]_.
 
 In 2012, a plug-in for Google Chrome called Batarang was released. The purpose of
 this was mainly to improve the debugging of web applications. This plug-in however,
 did not work with any of the versions of AngularJS after Version 1.2. Now, as of the
 latter half of 2016, the plug-in works with all versions of Angular [Wiki]_.
-
-JavaScript framework, library written in JavaScript
 
 HTML attribute extension with directives and binds data to HTML with expressions
 
@@ -50,13 +51,14 @@ excels. It creates an environment that is "extraordinarily expressive, readable,
 quick to develop" [AJS]_. AngularJS can be extended and easily used with other
 libraries. 
 
-Using AngularJS, one can extend HTML with attributes called directives [W3]_. Directives
-are HTML codes that begin with "ng-." To make proper HTML, the code should
-be "data-ng-" [W3]_.
+AngularJS has a JavaScript framework for. This means that the library containing
+all of the shortcuts is written in JavaScript. Using AngularJS, one can extend
+HTML with attributes called directives [W3]_. Directives are HTML codes that begin
+with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
 
 * ng-app – This tells AngularJS to be active in whatever portion of the page/code piece
-it is added to and defines it as an AngularJS application [AJS]_. This will also automatically
-initialize the application when the page is loaded [W3]_.
+	it is added to and defines it as an AngularJS application [AJS]_. This will also automatically
+	initialize the application when the page is loaded [W3]_.
 
 Example Code
 ^^^^^^^^^^^^
@@ -68,9 +70,9 @@ Example Code
     </div>
 
 * ng-model – This links the form and model so that whenever something is typed in the input box,
-it shows up wherever you call the model name [AJS]_. This directive can also provide validation
-for application data, status for application data, provide CSS classes for HTML elements, and
-bind HTML elements to HTML forms [W3]_.
+	it shows up wherever you call the model name [AJS]_. This directive can also provide validation
+	for application data, status for application data, provide CSS classes for HTML elements, and
+	bind HTML elements to HTML forms [W3]_.
 
 Example Code
 ^^^^^^^^^^^^
@@ -82,7 +84,7 @@ Example Code
 	</div>
 
 * ng-init – This initializes AngularJS application variables by defining initial values for an
-application [W3]_. This is typically placed directly after the "ng-app" in the code.
+	application [W3]_. This is typically placed directly after the "ng-app" in the code.
 
 Example Code
 ^^^^^^^^^^^^
@@ -94,8 +96,8 @@ Example Code
     </div>
 
 * ng-bind – This is a way to automatically update either the view when the model changes or the
-model when the view changes [AJS]_. This is typically used when an application already has a
-data model [W3]_.
+	model when the view changes [AJS]_. This is typically used when an application already has a
+	data model [W3]_.
 
 Example Code
 ^^^^^^^^^^^^
@@ -115,9 +117,9 @@ Example Code
 Binds can also be made using this next type of directive, an expression.
 
 * Expression – These are written inside {{}} and will print data exactly as it is written and
-can be used in the same way as a bind  because they both bind the data to the HTML [W3]_.
-Unlike JavaScript expressions, AngularJS expressions don't support conditionals, loops,
-and exceptions.
+	can be used in the same way as a bind  because they both bind the data to the HTML [W3]_.
+	Unlike JavaScript expressions, AngularJS expressions don't support conditionals, loops,
+	and exceptions.
 
 Example Code
 ^^^^^^^^^^^^
@@ -134,11 +136,11 @@ Example Code
 	:align: center
 
 * Controller – This is a JavaScript object that controls the data of an AngularJS application.
-Controllers, more specifically, are JavaScript objects that are created by a JavaScript object
-constructor [W3]_. This section of code is where the functions and values are defined along
-with the rest of the application's behavior. Controllers can be called with $scope. This is
-the owner of the application's variables and functions. It is also the binding between the
-HTML and the JavaScript.
+	Controllers, more specifically, are JavaScript objects that are created by a JavaScript object
+	constructor [W3]_. This section of code is where the functions and values are defined along
+	with the rest of the application's behavior. Controllers can be called with $scope. This is
+	the owner of the application's variables and functions. It is also the binding between the
+	HTML and the JavaScript.
 
 Example Code
 ^^^^^^^^^^^^
@@ -165,8 +167,8 @@ Example Code
 	:align: center
 
 * Module – This defines an application and is a container for different parts of an application
-and for the application controller [W3]_. A module makes the application easier to maintain,
-test, and read. Once the module is created, controllers and other AngularJS features can be added.
+	and for the application controller [W3]_. A module makes the application easier to maintain,
+	test, and read. Once the module is created, controllers and other AngularJS features can be added.
 
 Example Code
 ^^^^^^^^^^^^
@@ -191,12 +193,12 @@ Example Code
 	:align: center
 
 * Deep Linking - AngularJS uses deep linking and desktop app-like behavior [AJS]_. This is
-where the user is in the application and can bookmark and email links to places inside the application.
+	where the user is in the application and can bookmark and email links to places inside the application.
 
 * Form Validation - This is the client side validation. AngularJS lets you create validation
-rules for the specific form without having to write JavaScript [AJS]_.  It can also hold
-information about the form, whether is has been entered in or not [W3]_. It monitors the form's
-state and notifies the user.
+	rules for the specific form without having to write JavaScript [AJS]_.  It can also hold
+	information about the form, whether is has been entered in or not [W3]_. It monitors the form's
+	state and notifies the user.
 
 Example Code
 ^^^^^^^^^^^^
@@ -218,14 +220,14 @@ Example Code
 	:align: center
 
 * Filter - This is a part of AngularJS that can transform data. Filters in AngularJS
-are simply added into expressions that already exist [W3]_. An example of this would be if
-someone entered a decimal, then the filter would change it into a currency.
+	are simply added into expressions that already exist [W3]_. An example of this would be if
+	someone entered a decimal, then the filter would change it into a currency.
 
 
 * Animations - AngularJS provides animated transitions from one piece of the screen to another.
-In the example below there is a colored box, and when the check box is clicked on; the colored
-box decreases upward and disappears. There are animation features such as showing a box,
-repeating, and switching, just to name a few.
+	In the example below there is a colored box, and when the check box is clicked on; the colored
+	box decreases upward and disappears. There are animation features such as showing a box,
+	repeating, and switching, just to name a few.
 
 Example Code
 ^^^^^^^^^^^^
@@ -276,3 +278,4 @@ References
 .. [AJSHist] "`AngularJS History <https://angularzone.wordpress.com/angularjs-history/>`_." 
 .. [Wiki] "`AngularJS <https://en.wikipedia.org/wiki/AngularJS>`_." Wikipedia.org. Web. 10A April 2017.
 .. [JOAJS] "`THe Java Origins of AngularJS: Angular vs JSF vs GWT <http://blog.jhades.org/the-java-origins-of-angular-js-angular-vs-jsf-vs-gwt/>`_." Disqus. Web. 11 April 2017.
+.. [FMH] "`Misko Hevery, Inventor of Angular And How Open Source Languages Are Redefining Enterprise Software <https://www.forbes.com/sites/louiscolumbus/2016/11/14/misko-hevery-inventor-of-angular-and-how-open-source-languages-are-redefining-enterprise-software/#3c83c368270d>`_." Forbes.com. Web. 23 April 2017.
