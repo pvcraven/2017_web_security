@@ -5,17 +5,17 @@ What is Angular JS, Exactly?
 ----------------------------
 Basically, Angular JS is a very powerful, open-source front-end web
 application framework used exclusively by JavaScript for Single Page
-Application (SPA) projects. [Tp]_ It is maily maintained by Google,
+Application (SPA) projects. [Tp]_ It is mainly maintained by Google,
 as well as a community of individuals and corporations to address 
 the quantity of challenges presented by SPA's. [Wp]_
 
 The purpose for this framework is to try and simplify both the 
 development and the testing of SPA's by using itself for client-side
 model-view-controller (MVS) and model-view-viewmodel (MVVM) 
-architectures, which are software architectural patterns that help
+architectures, both of which are software architectural patterns that help
 implement user interfaces on computers. However, Angluar JS largely
 fails to do this due to each new version failing to protect the
-core API and destroy important pieces of code that depends on
+core API and destroying important pieces of code that depend on
 previous versions. [Wp]_
 
 History
@@ -30,7 +30,7 @@ Tech decided to release the framework as an open-source library
 and Abrons decided to quit Angular altogether.
 
 Eventually, Hevery went on to work for Google, specifically on a
-team that was currently invovled in the making of a project called
+team that was currently involved in the making of a project called
 Google Feedback. During the development of the project, the team
 wrote more than 17,000 lines of code in about 6 months. Any
 programmer, including Hevery, can see that if something needs that
@@ -47,8 +47,8 @@ by Green, GetAngular was re-amped as Angular JS. This investment into
 the new technology paid off when Google took control of a company
 called DoubleClick. [Aa]_ Hevery's team was assigned the job of
 re-writting the applications of the company with the Angular JS
-framework, and the apps code was shortened significantly and ran
-better that it ever has before. Because of this big success, Google
+framework, and the apps code from the company was shortened significantly and ran
+better that it ever did before. Because of this big success, Google
 invested more and more in the growth of Angular JS and the Angular
 team has grown rapidly.
 
@@ -61,15 +61,15 @@ using the <script> tag. The tag should look like this:
 
 The "...1.4.8..." part can vary based on different versions,
 of course. Angluar interprets the attributes in the page as 
-directives, which are used to extend HTML that  start with ng-.
+directives, which start with ng- and are used to extend HTML.
 Some examples of these directives are:
 
-*ng-app, which starts an Angular JS application.
-*ng-init, which initializes the application data.
-*ng-model, which binds the values of Angular JS application 
-data to HTML input controls.
-*ng-repeat, which repeats HTML elements for each item
-in a collection. [Tp]_
+* ng-app, which starts an Angular JS application.
+* ng-init, which initializes the application data.
+* ng-model, which binds the values of Angular JS application 
+  data to HTML input controls.
+* ng-repeat, which repeats HTML elements for each item
+  in a collection. [Tp]_
 
 Here are some code examples of these directives:
 
@@ -129,11 +129,11 @@ Other Cool Features of Angular
 Scopes are used as the binding parts between the HTML and the
 JavaScript, or rather the view and the controller. Think of
 scope as a liibrary, like JQuery, except it can only be used
-through the view and the controller. Think of it like this:
+through the view and the controller. Also, think of it like this:
 if an application were made up of a View (the HTML), a Model
 (data available for the current view), and a Controller
 (the JavaScript function that makes/changes/removes/controls the data),
-then the scope is the Model due to to it showing what is available
+then the scope is the Model due to it showing what is available
 to view and applying the JavaScript to it.
 
 Controllers are regular JavaScript objects that control the
@@ -147,17 +147,17 @@ Animations are from the transformation of HTML elements that give
 you the illusion of it being in motion. The tag used for animation,
 ngAnimate, does not specifically animate the HTML, but adds and
 remove classes on the fly, so to speak. If an event occurs, the
-tag will recognize it and can hige, show, or do anything else
+tag will recognize it and can hide, show, or do anything else
 available throught the animation on Angular.
 
 Angular JS comes with its own API, which stand for Application
-Programming Interface. This frameworks specific API is a collection
+Programming Interface. This framework's specific API is a collection
 of JavaScript functions that perform common functions such as
 comparing and iterating objects and converting data.
 
 Filters can be used to format data. These filters include
 currency (formats numbers to currency format), date
-(formats dates to specidied format), json
+(formats dates to specified format), json
 (formats objects to JSON string), and more. You can call
 these filters on the fly in expressions to, for example,
 make a variable containing the word apple to uppercase,
@@ -181,19 +181,19 @@ bottlenecks and even offers a GUI for debugging the applications.
 What are the Cons of Angular?
 -----------------------------
 Unfortunately, Angular JS has terrible error reporting. What is
-mean by that is when you get an error in the JavaScript console,
-you'll more likely than not be pointed to the complete wrong line
-and you'll be none the wiser as to where the error is. A way to
+meant by that is when you get an error in the JavaScript console,
+you will more likely than not be pointed to the complete wrong line
+and will be none the wiser as to where the error is. A way to
 fix this annoying bug is to have your code manually return where
 the errors would occur instead of having the browser run a stack trace.
 
-Because of the flexibility of Angular is that it is not opinionated.
-What is meant by that is if you were to look at abunch of different
-Angular JS applications, you'd would most likely find each of them
-doing things completely different from the others. A lot of people
-like this kind of flexibility, but there are those that would prefer
-everything to work all the same way and for the coders to change them
-when they want them to.
+Because of the flexibility of Angular, another potential issue is
+that it is not opinionated. What is implied by that is if you were
+to look at a bunch of different Angular JS applications, you would
+most likely find each of them doing things completely different from
+the others. A lot of people like this kind of flexibility, but there
+are those that would prefer everything to work all the same way and
+for the coders to change them when they want them to.
 
 Conslusion
 ----------
