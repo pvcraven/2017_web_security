@@ -71,7 +71,8 @@ Because both variables were declared with ``var``, they were global variables th
 could be called later in the program.
 
 ES6 has included an option to use ``let`` inside of ``var`` when declaring a variable, 
-and it will be a block-scope variable.
+and it will be a block-scope variable. The below code is similar to the ES5 version, 
+except that the ``var a`` is replaced by ``let block``. 
 
 .. code-block:: javascript
 	:Caption: Block-scope variable
@@ -457,7 +458,7 @@ Conclusion
 There have been many different updates to the newest version of JavaScript, from 
 fixing smaller functions to work better, adding in entirely new functions, or adding 
 in different programming styles. Many of these updates give the programmer the option 
-to write code that is either easier or more straight forward than before, or simply 
+to write code that is either easier or more straight-forward than before, or simply 
 make the code more readable. 
 
 
