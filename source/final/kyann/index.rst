@@ -384,6 +384,10 @@ dialects. For example:
 
 * "de-AT" is German used in Australia 
 
+All the new functions are first called using ``Intl``, followed by the function name. 
+This is used to set a variable to the specific language, or country dialect. To use this 
+new formatting, the programmer will then go ``variableName.format(Number to format)``. 
+
 The New Formatting Functions 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -412,7 +416,7 @@ several benefits, such as
 * Currency Formatting:
 
 The currency formatting starts off similar to the basic number formatter, but adds 
-on a section that specifies currency, and what currency to use. 
+on a section that specifies "currency", and what then what specific currency to use. 
 
 	.. code-block:: javascript
 		
@@ -433,6 +437,13 @@ on a section that specifies currency, and what currency to use.
 
 * Date and Time Formatting:
 
+Dates and times use a different function that NumberFormat, quite intuilively called 
+``DateTimeFormat``. Similar to the first number formatter, all the needs to be put in 
+hte parentethese is the BCP 47 code. This is especially useful when translating dates
+that just switch the order of the day and month, as these could be easily confused. 
+Three differnet examples of date formatting would be day/month/year (Germany), 
+month/day/year (United States), and year/month/day (Japan). 
+
 	.. code-block:: javascript
 		
 		var american = new Intl.DateTimeFormat("en-US")
@@ -449,7 +460,8 @@ on a section that specifies currency, and what currency to use.
 		13.4.2017
 
   
-There is no equivalent functions in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
+There are no equivalent functions in ES5, so all of these functions are brand new
+to ES6. [ECMAScript_6]_ 
 
 
 Conclusion
