@@ -6,13 +6,27 @@ Node.js - Sara Nielsen
 
 What is it?
 -----------
-Node.js was developed by Ryan Dahl in 2009 and it is a server-side platform built 
+Node.js is a server-side platform built 
 on Chrome's JavaScript runtime for easily building fast and scalable network
 applications. It is an open source, cross-platform runtime environment for
 developing server-side and networking applications. [tut]_ Node.js applications
 are written in JavaScript, but runs on the server. When running JavaScript in an
 application the code runs on the web browser and completes once all code has been
 run. Node.js runs on the server continuously until it is stopped manually. [you]_ 
+
+History
+-------
+Node.js was originally developed by Ryan Dahl in 2009. The initial release was supported
+by Mac OSX and Linux only. Dahl created Node.js because he desired an easier way
+for the browser to query the web server. This idea first came to him when he was
+uploading a file to Flickr and the progress bar showed that the browser had no idea
+how much of the file had actually been uploaded. Dahl noticed that the code used with the 
+most popular web server at the time, Apache HTTP Server, either blocked the entire 
+process or implied multiple execution stacks when having simultaneous connections.
+This is where Dahl got the idea of creating an asynchronous and event-driven platform. 
+Dahl presented his project at the inaugural European JSConf on November 8, 2009 and
+the project received a standing ovation. Since then a package manager, npm, was created,
+a Windows version was released, and Timothy Fontaine took lead of the project. [wik]_
 
 What is it used for?
 --------------------
@@ -253,4 +267,5 @@ Sources
 .. [air] Vladutu, Alexandru. "Node.js Tutorial – Step-by-Step Guide For Getting Started." Www.airpair.com. AirPair, n.d. Web. 10 Apr. 2017. <https://www.airpair.com/javascript/node-js-tutorial>.
 .. [cod] Pollack, Greg, and Carlos Souza. "Real-Time Web with Node.js." Code School. PluralSight, n.d. Web. 11 Apr. 2017. <https://www.codeschool.com/courses/real-time-web-with-node-js>.
 .. [tut] Tutorialspoint.com. "Node.js Tutorial." Www.tutorialspoint.com. Tutorials Point, n.d. Web. 11 Apr. 2017. <https://www.tutorialspoint.com/nodejs/index.htm>.
+.. [wik] "Node.js." Wikipedia. Wikimedia Foundation, 24 Apr. 2017. Web. 24 Apr. 2017. <https://en.wikipedia.org/wiki/Node.js>.
 .. [you] YouTube. Thenewboston, 5 Apr. 2015. Web. 10 Apr. 2017. <https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBMdkKFn3HasZnnAqVjzHn_>.
