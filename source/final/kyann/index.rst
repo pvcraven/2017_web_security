@@ -32,6 +32,8 @@ at any other point in the code.
 	
 * With a const variable, this will not be allowed, and will pop up an error that 
   indicates constant is of type const and cannot be reassigned. 
+  
+  .. image:: const_example.png
  
 
 Const can be especially useful in programming situations where there are multiple 
