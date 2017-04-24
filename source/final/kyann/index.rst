@@ -1,18 +1,22 @@
 New Features in JavaScript ES6 - Kyann
 ======================================
 
-There have been many new additions and changes made from JavaScript ES5 to ES6. 
-Some of the changes that will be highlighted in this example will be constants, 
-block-scope variables and functions, default parameter values, String Interpolation, 
-Array Matching, Classes, Unicode with strings and Regular Expressions, binary and 
-octal. Finally, there are several new built-in functions and formatting options. 
+EMSAScript 6, also know as "Harmony" and often shortened to ES6, is the sixth 
+release of the language, and was released in June 2015. EMSAScript, or "ES" for 
+short, is also general refered to as "JavaScript". There have been many new additions 
+and changes made from JavaScript ES5 (the prevoius version) to ES6. Some of the 
+changes that will be highlighted in this example will be constants, block-scope 
+variables and functions, default parameter values, and string interpolation. Finally, 
+there are several new built-in functions and formatting options. 
 
 Constants
 ---------
 
 One of the new features of ES6 is the ability to use constant variables. A constant 
 variable is one that cannot be assigned any new content. Instead of using the typical 
-``var`` to declare the variable, ``const`` is used. 
+``var`` to declare the variable, ``const`` is used. ``var`` was the only option 
+available in ES5, which meant that any variable created in the code could be accessed 
+from any other point in the code. 
 
 .. code-block:: javascript
 
@@ -449,8 +453,11 @@ There is no equivalent functions in ES5, so all of these functions are brand new
 Conclusion
 ----------
 
-There have been many differnet updates to the newest version of JavaScript, from 
-fixing smaller functions to work better, adding in entirely new functions, to ...
+There have been many different updates to the newest version of JavaScript, from 
+fixing smaller functions to work better, adding in entirely new functions, or adding 
+in different programming styles. Many of these updates give the programmer the option 
+to write code that is either easier or more straight forward than before, or simply 
+make the code more readable. 
 
 
 Sources
