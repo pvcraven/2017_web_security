@@ -34,6 +34,7 @@ at any other point in the code.
   indicates constant is of type const and cannot be reassigned. 
   
   .. image:: const_example.png
+     :alt: const error image
  
 
 Const can be especially useful in programming situations where there are multiple 
