@@ -29,19 +29,22 @@ ECMAScript 4 made their way into ECMAScript 6, which was released in 2015. [Ben]
 
 Arrow Functions
 ---------------
-A quick note before I start explaining any of these features - I learned about
-all of these new features from one source, and that is es6-features.org.
+A quick note before these features are explained - all of these new features 
+can be found from one source, and that is es6-features.org.
 It has all the new features listed out, with links to bring up two fields,
 one showing an example of the feature in ES6, and the other showing how to
 do the same thing in ES5 (if it is possible in ES5). [Features]_
 One of the great new things that ES6 brings is "arrow functions", also known
 as "fat arrow functions", so called because their identifying feature is
-a fat arrow =>, as opposed to a skinny arrow ->. This is a new way to declare
-anonymous functions that just cuts down on the amount of code that is
+a fat arrow ``=>``, as opposed to a skinny arrow ``->``. This is a new way to 
+declare anonymous functions that just cuts down on the amount of code that is
 necessary. The two following examples are the ES6 and ES5 methods 
 respectively:
+
 ``name = v => v * 2;``
+
 ``name = function (v) { return v * 2; }``
+
 While this is admittedly a very simple example, the new way took approximately 
 half the characters in code to make the same function in an expression.
 Another important feature of arrow functions is that they do not replace
@@ -71,7 +74,7 @@ an arrow function will simply take these from the parent function and
 make changes to that value. This makes things like the above example much easier.
 
 Extended Parameter Handling
-===========================
+---------------------------
 ES6 has improved upon parameter handling tremendously. Possibly one of the
 most useful changes is how streamlined making default values for a function
 parameter is. Before, each value that was supposed to have a default value
@@ -83,7 +86,7 @@ as seen below:
 		:caption: Default values
 		:linenos:
 
-		function divide (a, b = 1) {
+		function divide (a, b = 1) { // declares function with second parameter defaulting to 1
 			return (a / b);
 		}
 
@@ -108,9 +111,11 @@ product of multiple numbers:
 				return product;
 		}
 
-With older versions of JavaScript, one would have to create an array within
-the function body that picks up the extra arguments. This eliminates that need
-in a way that is easy to implement.
+		console.log(multiply(1,2,3,4,5)); // prints 120
+
+With older versions of JavaScript, one would have to have an array in
+the function body that gets any extra inputs beyond what the function
+already asks for. This eliminates that need in a way that is easy to implement.
 
 Related to parameter handling is the spread operator, which breaks apart
 both independent variables and arrays into their component parts. Sometimes
@@ -140,7 +145,7 @@ and this helps in that regard. The following two examples show how that is done:
 		console.log(adding(2,3,[...numberGroup])); // prints 35;
 		
 
-.. image:: img/heart_cap.png
+.. image:: img/heart_cap.jpg
 	:height: 270px
 	:width: 270px
 	:align: center
@@ -151,7 +156,7 @@ its component parts, which is useful for when the program needs to access
 each value in the array.
 
 Template Literals
-=================
+-----------------
 ES6 brings template literals to JavaScript, which makes adding values into a 
 string much simpler than it otherwise would be. Rather than breaking up the 
 string with extra quotes, plusses, and variable names, the programmer can
@@ -218,8 +223,8 @@ interpreted as escape characters:
 
 This is something that simply couldn't be done in previous versions of
 JavaScript, instead, the programmer had to put an additional backslash
-behind all the other backslashes to "escape the escape". It worked, but it
-was a lot more work than this is, and the plan failed a lot more easily, as
+behind all the other backslashes to "escape the escape". It was a less
+efficient way to do it, and the plan failed a lot more easily, as
 missing one backslash would mess up the whole thing. In a long string,
 avoiding that is going to be a lot harder than simply surrounding it with
 "String.raw ` `"
@@ -253,7 +258,7 @@ putting variables into the object). To clarify, look at the following two exampl
 		console.log(obj);
 
 
-.. image:: img/what_up.png
+.. image:: img/what_up.jpg
 	:height: 160px
 	:width: 250px
 	:align: center
@@ -279,14 +284,15 @@ the object's property definition, as seen below:
 		var age = 53;
 		obj = { name: 'Jim Penny' };
 		obj[ "gift at age " + age] = 'another tie';
+		console.log(obj);
 
 
-.. image:: img/jim_penny.png
+.. image:: img/jim_penny.jpg
 	:height: 170px
 	:width: 270px
 	:align: center
 
-While this difference doesn't make a huge difference functionally, it makes the
+While this doesn't make a huge difference functionally, it makes the
 code cleaner by isolating the property definition within the original definition.
 
 Another object feature that was introduced in the ES6 version of JavaScript
@@ -305,7 +311,7 @@ is the ability to put method notation directly into the object definition:
 		};
 		console.log(object.BMICalc(object.meterHeight, object.kilogramMass));
 
-.. image:: img/bmi.png
+.. image:: img/bmi.jpg
 	:height: 350px
 	:width: 240px
 	:align: center
@@ -370,11 +376,11 @@ module.
 
 
 Classes
-=======
+-------
 Probably the biggest and most important change ES6 makes is the introduction
 of classes into JavaScript.  The functionality mirrors that of traditional
 object-oriented programming languages like Java.  The constructor must also
-be defined when defining a class, as well the other methods of the class.
+be defined when defining a class, as well as the other methods of the class.
 The following example shows how:
 	
 
@@ -424,8 +430,8 @@ its result in that new use.  The example below shows how both are done:
 		console.log(rob.minExpectedDeadlift()); // prints 1000;
 
 In ES6, one can also create static methods so that a default version can be
-used instead of having to create an instance of the class to use the function,
-and getters and setters can be used directly within a class:
+used instead of having to create an instance of the class to use the function;
+getters and setters can be used directly within a class as well:
 
 	.. code-block:: javascript
 		:caption: getters and setters
@@ -457,7 +463,7 @@ and getters and setters can be used directly within a class:
 		//0 loavesBread on the list, 0 potentialEggSandwiches
 		console.log(myShoppingList.potentialEggSandwiches); 
 
-.. image:: img/sandwiches.png
+.. image:: img/sandwiches.jpg
 	:height: 250px
 	:width: 250px
 	:align: center
@@ -471,13 +477,13 @@ but many of the things one would want to do are much more complicated.
 On top of that, there are certain things that just cannot be done with
 ES5 that ES6 allows for. It might not impact all projects significantly,
 but many of those that it does impact will benefit greatly from the greater
-functionality.  It is because of these cases that I think it should be
+functionality.  It is because of these cases that it should be
 implemented whenever possible.
 
 
 Citations
 ---------
-.. [Features] Engelschall, Ralf S. "EMCAScript - New Features: Overview & Comparison." ECMAScript 6: New Features: Overview and Comparison. Ralf S Engelschall, 2016. Web. 17 Apr. 2017. <http://es6-features.org/>
+.. [Features] Engelschall, Ralf S. "ECMAScript - New Features: Overview & Comparison." ECMAScript 6: New Features: Overview and Comparison. Ralf S Engelschall, 2016. Web. 17 Apr. 2017. <http://es6-features.org/>
 
 .. [Mozilla] Various Authors. "ECMAScript 2015 Support in Mozilla." Mozilla Developer Network. Mozilla Developer Network, 26 Jan. 2017. Web. 17 Apr. 2017. <https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla>.
 
