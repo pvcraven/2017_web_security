@@ -80,7 +80,8 @@ could replace the var declaration. [Zakas]_
 		:align: center
 		:width: 400px
 		:alt: var for loop function example
-		:caption: The variable is declared within the for loop INSIDE the 
+		
+		The variable is declared within the for loop INSIDE the 
 		function. Notice, that the variable can be called outside the for loop, 
 		meaning the variable is function scoped. It can only be called inside 
 		the function.
@@ -90,7 +91,8 @@ could replace the var declaration. [Zakas]_
 		:align: center
 		:width: 400px
 		:alt: let for loop example
-		:caption: This is similar to the picture above, but the variable was 
+		
+		This is similar to the picture above, but the variable was 
 		declared by using “let”. Notice that the variable is called outside the 
 		function. However, there is an error message saying "variable is not 
 		define". Let variables are blocked scope and that is why it can not be 
@@ -111,7 +113,8 @@ name.
 		:align: center
 		:width: 300px
 		:alt: variables declared by var
-		:caption: The variable "count" is declared by using var which is 
+		
+		The variable "count" is declared by using var which is 
 		valid. It just replaces the value of count with the new value. 
 
 
@@ -119,7 +122,8 @@ name.
 		:align: center
 		:width: 300px
 		:alt: variables declared by var
-		:caption: Notice the variable lemon is declared by using “let” which is 
+		
+		Notice the variable lemon is declared by using “let” which is 
 		valid for the first variable, but not for the second. The second 
 		variable states gives an error message because “let” can not redefined 
 		an identifier that already exists in the same scope. 
@@ -153,16 +157,16 @@ syntax.
 		:align: center
 		:width: 300px
 		:alt: Standard Function Example
-		:caption: A simple example of how to write a function
+		
+		A simple example of how to write a function
 
  
 .. figure:: singleArrowFunction.png
 		:align: center
-		:width: 300px
+		:width: 400px
 		:alt: arrow function
 		
 		
-
 The image above is an example of an arrow function. The entire function is on a 
 single line. The keyword “function” has been removed; In this example 
 “helloWorld” is the function name followed by “name” which is the parameter; 
@@ -193,12 +197,13 @@ multiple lines.
 		:align: center
 		:width: 300px
 		:alt: single line syntax before ES6
-		:caption: Even though this is a simple example, it displays how 
+		
+		Even though this is a simple example, it displays how 
 		programmers would make the string results output on a single line 
 		instead of multiple. 
 
 Another work around to make string results on multiple lines was by adding 
-backslash + n + backslash (\n\) wherever a new line was needed.
+backslash + n + backslash wherever a new line was needed.
 
 .. figure:: multilineString.png
 		:align: center
@@ -206,7 +211,7 @@ backslash + n + backslash (\n\) wherever a new line was needed.
 		:alt: Multiple Line Example Before ES6
 		
 ECMAScript 5 lacked some features which is in now included in ES6 – template 
-literals ‘fixes’ multiline strings, basic string formatting and HTML escaping 
+literals "fixes" multiline strings, basic string formatting and HTML escaping 
 (the ability to transform a string so it is safe to insert into HTML). 
 JavaScript could have added more functionality to already existing strings, but 
 template literals are a new approach to solve some problems.
@@ -247,7 +252,8 @@ for many programmers.
 		:align: center
 		:width: 300px
 		:alt: confusing way to write a class and method
-		:caption: old way to write a class
+		
+		old way to write a class
 
 		
 		
@@ -261,7 +267,8 @@ created by using the “new” operator.
 		:align: center
 		:width: 400px
 		:alt: Easier way to write classes
-		:caption: New way to write a class
+		
+		New way to write a class
 
 
 .. figure:: classObject.png
@@ -280,17 +287,21 @@ associated with the class. Since the class has a concise syntax there is no need
 to use the “function” keyword to make a function. Instead, name the method 
 followed by open and close parentheses. 
 
+
 •	With the new feature, there are some differences between the two and how 
 they behave. Class declarations are not hoisted unlike function declaration. 
 Class declarations behave similarly to let declarations, so they exist in the 
 block until execution reaches the declaration.
 
+
 •	All code within the class declarations runs in strict mode and there is no 
 way to opt out of it. Strict mode is a way to have better error-checking into 
 your code.
 
+
 •	In the new ES6 features, methods are non-enumerable meaning an object 
 property can not be modified within the class. 
+
 
 •	Calling a constructor without “new” will throw an error message. 
 There are actually a lot of changes on how a class behaves so what was listed 
@@ -305,7 +316,7 @@ common with callbacks. However, it was not powerful enough for programmers.
 Therefore, promises were the solution to this issue. Promises are an alternate 
 option for asynchronous programming. Resembling events and callbacks, a promise 
 specifies some code to be executed later, but promises also explicitly indicate 
-whether the code resolved or failed. [Zakas, Nicholas]_
+whether the code resolved or failed. [Zakas]_
 
 In the example below may be a silly concept. Nevertheless, this shows how a 
 promise is set up. Notice that a promise is created; usually it takes two 
@@ -315,7 +326,7 @@ results are an odd number, it will be resolved else it will be rejected.
 
 .. figure:: promiseExample.png
 	:align: center
-	:width: 300px
+	:width: 500px
 	:alt: Promise Example
 
 A promise life cycle has three stages. Pending, fulfilled, and rejected.
@@ -329,7 +340,7 @@ fulfilled and rejected stage.
 
 .. figure:: promiseExampleRun.png
 	:align: center
-	:width: 300px
+	:width: 400px
 	:alt: Promise Example Run
 
 Again, this is a simple example and there are more 
