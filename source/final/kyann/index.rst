@@ -15,17 +15,18 @@ Constants
 One of the new features of ES6 is the ability to use constant variables. A constant 
 variable is one that cannot be assigned any new content. Instead of using the typical 
 ``var`` to declare the variable, ``const`` is used. ``var`` was the only option 
-available in ES5, which meant that any variable created in the code could be accessed 
-from any other point in the code. 
+available in ES5, which meant that any variable created in the code could be changed 
+at any other point in the code. 
 
 .. code-block:: javascript
+	:Caption: Const Declaration
 
 	const constant = 5
 	print(constant) // 5
 	
 	
 .. code-block:: javascript
-	:Caption: Error
+	:Caption: Error, the const value can't be changed. 
 
 	constant +=2 
 	
