@@ -3,7 +3,7 @@ New Features in JavaScript ES6 - Kyann
 
 ECMAScript 6, also known as "Harmony" and often shortened to ES6, is the sixth 
 release of the language, and was released in June 2015. ECMAScript, or "ES" for 
-short, is also general referred to as "JavaScript". There have been many new additions 
+short, is also generally referred to as "JavaScript". There have been many new additions 
 and changes made from JavaScript ES5 (the previous version) to ES6. Some of the 
 changes that will be highlighted in this example will be constants, block-scope 
 variables and functions, default parameter values, and string interpolation. Finally, 
@@ -168,7 +168,7 @@ to a value if it was.
 * Output 
 	
 	.. code-block:: javascript
-		:Caption: The output for both functions remains the same. 
+		:Caption: The output of both functions remains the same. 
 		
 		f(1, 2, 3) === 6 //1+2+3
 		f(1, 2) === 15 // 1+2+12
@@ -234,7 +234,7 @@ easier for other programmers to read.
 	"at ${college.name}.`
 	
 An important part of this change was that in order to signify a string that will 
-be on multiple lines, or have an object select in the middle of the string is by 
+be on multiple lines, or have an object selected in the middle of the string is by 
 using ` `back ticks` ` instead of the normal "double quotes" or 'single quotes'. 
 
 
@@ -327,7 +327,7 @@ read and code.
 
 * Number Truncation
 	Number truncation is a pretty simple function, its purpose is to take a floating 
-	point number and drop off the decimal or fraction part. However, it does not 
+	point number and drop off the decimal or fractional part. However, it does not 
 	round the number, it strictly drops off the decimal. Like Number Type, this 
 	was possible in ES5, but the code had to be written by the programmer and it 
 	was not a built in function. 
