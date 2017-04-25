@@ -19,7 +19,7 @@ to essentially rewrite the same program in the upgraded version.The
 tech crunch article also, announced the release date for angular 2.0 out of beta
 in 2014,so took them four years to innovate the framework to make it even more 
 efficient, and make mobile development easier. In doing so as mentioned above 
-they made one and two incompatible[TECHCRUNCH]_. 
+they made versions incompatible[TECHCRUNCH]_. this is a test of the dynamic nature of the updating of paper on push.  
 
 
 Introduction to AngularJS
