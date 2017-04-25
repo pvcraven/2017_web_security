@@ -211,7 +211,7 @@ Binds can also be made using this next type of directive, an expression.
 * 	**Form Validation:** This is the client side validation. AngularJS lets
 	you create validation rules for the specific form without having to write
 	JavaScript [AJS]_.  It can also hold information about the form, whether
-	is has been entered in or not [W3]_. It monitors the form's state and
+	it has been entered in or not [W3]_. It monitors the form's state and
 	notifies the user.
 
 *Example Code*
@@ -295,5 +295,5 @@ References
 .. [AJS] "`AngularJS - Superheroic Javascript MVW Framework <https://angularjs.org/>`_." Google. Web. 06 April 2017.
 .. [AJSHist] "`AngularJS History <https://angularzone.wordpress.com/angularjs-history/>`_." 
 .. [Wiki] "`AngularJS <https://en.wikipedia.org/wiki/AngularJS>`_." Wikipedia.org. Web. 10A April 2017.
-.. [JOAJS] "`THe Java Origins of AngularJS: Angular vs JSF vs GWT <http://blog.jhades.org/the-java-origins-of-angular-js-angular-vs-jsf-vs-gwt/>`_." Disqus. Web. 11 April 2017.
+.. [JOAJS] "`The Java Origins of AngularJS: Angular vs JSF vs GWT <http://blog.jhades.org/the-java-origins-of-angular-js-angular-vs-jsf-vs-gwt/>`_." Disqus. Web. 11 April 2017.
 .. [FMH] "`Misko Hevery, Inventor of Angular And How Open Source Languages Are Redefining Enterprise Software <https://www.forbes.com/sites/louiscolumbus/2016/11/14/misko-hevery-inventor-of-angular-and-how-open-source-languages-are-redefining-enterprise-software/#3c83c368270d>`_." Forbes.com. Web. 23 April 2017.
