@@ -1,0 +1,353 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hand",
+				"hand_left"
+			],
+			[
+				"left",
+				"left_hand"
+			],
+			[
+				"righ",
+				"right_hand"
+			],
+			[
+				"delete",
+				"delete_mode_activated"
+			],
+			[
+				"lig",
+				"lighten-2"
+			],
+			[
+				"dele",
+				"delete_mode_activated"
+			],
+			[
+				"dar",
+				"darken-2"
+			],
+			[
+				"darken",
+				"text-darken-2"
+			],
+			[
+				"lighte",
+				"lighten-4"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"li",
+				"lighten-2"
+			],
+			[
+				"light",
+				"lighten-1"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"interv",
+				"interval_dif"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"date",
+				"date_diff"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "final/esteban/index.rst",
+			"settings":
+			{
+				"buffer_size": 10971,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 648.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/esierra/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/esierra/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/esierra/Documents/Esteban Sierra/Pagos Suzie",
+		"/C/Users/esierra/Documents/2017_web_security/source/final/esteban/index.rst",
+		"/C/Users/esierra/Documents/FINALCIS320/countries.js",
+		"/C/Users/esierra/Documents/FINALCIS320/app.js",
+		"/C/Users/esierra/Documents/main.js",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/imagenes.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/etiquetas_para_texto.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/encabezados.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/atributos/atributos.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/caracteres_especiales/caracteres_especiales.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/intro_html/intro_html.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/comentarios.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/html.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/resto_de_etiquetas.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/lista.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/formas.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/caracteres_especiales/tablas.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/caracteres_especiales/vinculos.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/comentarios.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/index.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/css/css.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/javascript/javascript.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/code/test.html",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/html/comentarios/comentarios.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/Introduccion/intro_html.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/_html.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/comentarios.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/atributos.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/CSS/_css.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/JAVASCRIPT/_javascript.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/html.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/leccion1.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/leccion3/leccion3.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/HTML/introduccion.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/leccion1/introduccion.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/leccion1.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/example3.html",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/index0.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/_static/html/leccion1/example1.html",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/Leccion1/leccion1.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/Leccion1/Leccion1.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/source/Leccion_1.rst",
+		"/C/Users/esierra/Documents/2017_web_security/source/encryption/encryption.rst",
+		"/C/Users/esierra/Documents/Project/Desarrollo_Web/Lesson1.rst",
+		"/C/Users/esierra/Documents/2017_web_security/source/encryption/aes_encryption_java_example.java",
+		"/C/Users/esierra/Documents/2017_web_security/source/encryption/aes_encrypt_decrypt_example.java",
+		"/C/Users/esierra/Documents/sourceTree/2017_web_security/source/encryption/encryption.rst",
+		"/C/xampp/htdocs/api/add_button.php",
+		"/C/xampp/htdocs/remote.php",
+		"/C/xampp/htdocs/php/__login_navbar.php",
+		"/C/xampp/htdocs/login.php",
+		"/C/xampp/htdocs/api/remove_button.php",
+		"/C/xampp/htdocs/api/add_command.php",
+		"/C/xampp/htdocs/php/__navbar.php",
+		"/C/xampp/htdocs/api/remoto_connected.php",
+		"/C/xampp/htdocs/info.php",
+		"/C/xampp/htdocs/template.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/php/_remoto-connected.php",
+		"/C/xampp/htdocs/php/__head.php",
+		"/C/xampp/htdocs/php/__db.php",
+		"/C/xampp/htdocs/css/source/sass/components/_variables.scss",
+		"/C/Users/esierra/Documents/GitHub/remoto/index.php",
+		"/C/Users/esierra/Documents/Project/BlueberrySymposium/BlueberrySymposium/BlueberrySymposium/template.php",
+		"/C/Users/esierra/Documents/P01337983S",
+		"/C/Users/esierra/Documents/Project/TinCan/thetincan-master/thetincan-master/css/joyride-2.1.css",
+		"/C/Users/esierra/Documents/Project/BlueberrySymposium/NanoBytes-uncommonhacks-f714be78526a/NanoBytes-uncommonhacks-f714be78526a/add_game.php",
+		"/C/Users/esierra/Documents/Project/BlueberrySymposium/NanoBytes-uncommonhacks-f714be78526a/NanoBytes-uncommonhacks-f714be78526a/template.php",
+		"/C/Users/esierra/Documents/Project/BlueberrySymposium/NanoBytes-uncommonhacks-f714be78526a/NanoBytes-uncommonhacks-f714be78526a/.hgignore",
+		"/C/xampp/tomcat/webapps/test-app/test.html",
+		"/C/xampp/tomcat/webapps/test-app/WEB-INF/TestServlet.java",
+		"/C/xampp/tomcat/webapps/test-app/WEB-INF/web.xml",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/anonymous/onefile.html"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"spellcheck",
+			"src"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "final/esteban/index.rst",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4613,
+								4613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RestructuredText/reStructuredText.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
