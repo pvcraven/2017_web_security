@@ -19,7 +19,7 @@ networking, which would not be possible if Node itself was written in
 JavaScript. Node not only provides the program to run JavaScript, but provides 
 a JavaScript library that greatly enhances the capabilities of the language. 
 Before getting too much into the details of Node.js, here is a guide to getting 
-it set up and testing the installation. 
+it set up and testing the installation. [org]_
 
 Installing Node.js
 ------------------
@@ -39,7 +39,7 @@ following code into the file ::
 This is just like a normal Javascript file, the difference is that 
 the node.js module is used to execute it. To test the installation open the 
 command prompt and navigate to the directory where main.js is saved. Then type 
-``node main.js`` and hit enter. "Hello, World!" should appear. 
+``node main.js`` and hit enter. "Hello, World!" should appear. [tut]_
 
 History of Node.js
 ------------------
@@ -47,7 +47,7 @@ Node.js was started by Ryan Dahl and a team of other developers that worked for
 a company named Joyent. The first release in 2009 only supported Linux, but 
 since then Node.js has been expanded to be cross platform, supporting OS X, 
 Microsoft Windows, and Linux. Node.js is now under the care of The Node.js 
-Foundation which guides the development and release of Node.js.  
+Foundation which guides the development and release of Node.js. [bhn]_
 
 Why use Node.js?
 ----------------
@@ -66,7 +66,7 @@ A translator, such as JSON is used to change the format of the data when sending
 and receiving it from the server. Using a translator like JSON can pose an 
 issue because it needs to be able to support the data type that you are using, 
 and that just adds one more layer of potential problems that could be avoided 
-altogether by using Node.js.
+altogether by using Node.js. [win]_
 
 Running a File Server with Node.js
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -117,7 +117,7 @@ screen should appear.
 	.. image:: img/FileServer.PNG
 
 It is that easy to create a file server with Node.js! But what exactly is 
-happening?
+happening? [win]_
 
 How Does Node.js Work?
 ----------------------
@@ -130,7 +130,7 @@ explained in a later section) enables it to serve a much larger number of
 requests than traditional servers. Node.js uses what is called asynchronous 
 event-driven, non-blocking runtime. There is obviously a lot of explaination for
 that phrase to make any sense to the average listener, so the next few sections 
-will hopefully provide some clarity. 
+will hopefully provide some clarity. [org]_
 
 Asynchronous Event-Driven Programming
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -144,7 +144,7 @@ fired. Then the code that is attached to that event runs. It isn't possible to
 see what order the code will be executed in when looking at the source. In the 
 above example the file server only provides files at the users request. When a 
 user requests a file an event is triggered, and the server retrieves the file. 
-The rest of the time the node is inactive. 
+The rest of the time the node is inactive. [sin]_
 
 Non-Blocking
 ^^^^^^^^^^^^
@@ -156,7 +156,7 @@ non-JavaScript operations when using Node.js. In the above example, if another
 function was added to the program then that function would not have to wait for 
 the program to retrieve the file before it could execute. This feature, combined
 with asynchronous event-driven programming makes Node.js really fast. Speed is 
-one of the major advantages of Node.js.
+one of the major advantages of Node.js. [tut]_
 
 Using Javascript to program
 ---------------------------
@@ -356,7 +356,7 @@ The OS Module provides functions that are related to operating-systems. There is
 the Path Module, which adds the capability of handling and transforming file 
 paths. The Net Module acts as a network wrapper. A module called the DNS Module
 makes DNS lookup possible with JavaScript functions. Finally the Domain Module 
-allows the handling of multiple I/O operations in one group. 
+allows the handling of multiple I/O operations in one group. [tut]_
 
 Conclusion
 ----------
@@ -370,10 +370,13 @@ fast applications. Node.js simplifies programming with JavaScript, as well
 as networking applications as a whole. Node.js is still a fairly new technology 
 and is being tweaked and improved constantly.
 
-https://organicdonut.com/2013/08/technical-understanding-javascript-node-js-and-their-libraries/#
 
-https://www.oreilly.com/ideas/what-is-node
+.. [win] Brett McLaughlin "`What is Node.js? <https://www.oreilly.com/ideas/what-is-node>`_." O'Reilly, 06 Jul. 2011. Web. 22 Apr. 2017.
 
-http://stackoverflow.com/questions/17959663/why-is-node-js-single-threaded
+.. [org] Erty Seidel "`What are Javascript, AJAX, jQuery, AngularJS, and Node.js? <https://organicdonut.com/2013/08/technical-understanding-javascript-node-js-and-their-libraries/>`_." Organic Donut, 07 Aug. 2013. Web. 22 Apr. 2017.
 
-http://www.dotnettricks.com/learn/nodejs/brief-history-of-nodejs-and-iojs
+.. [bhn] Shailendra Chauhan "`Brief history of node.js and io.js <http://www.dotnettricks.com/learn/nodejs/brief-history-of-nodejs-and-iojs>`_." DotNetTricks, 07 Sep. 2016. Web. 22 Apr. 2017.
+
+.. [sin] Chris Tavares "`Why is Node.js single threaded? <http://stackoverflow.com/questions/17959663/why-is-node-js-single-threaded>`_." StackOverflow, 21 Dec. 2013. Web. 22 Apr. 2017.
+
+.. [tut] "`Node.js Tutorial <https://www.tutorialspoint.com/nodejs/>`_." Tutorialspoint, 2017. Web. 22 Apr. 2017.
