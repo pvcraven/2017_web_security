@@ -16,31 +16,30 @@ on their grandmother's FaceBook page. There certainly wouldn't be a way to chang
 viewing preferences on a YouTube video. Without JavaScript, the fancy menu bar to 
 the left of this text wouldn't change colors based on where the user placed their 
 cursor. Before JavaScript, web pages were simply words, links, pictures, and 
-whatever could be crafted through the burdening restrictions of HTML. (6)
+whatever could be crafted through the burdening restrictions of HTML [WHA]_.
 
 When Brendan Eich created JavaScript, the web no longer had to be boring. Web 
 developers could create interactive objects for more convenient browsing. Finally, 
 there was a way to access the user's computer without forcing them to load a 
 separate page! There was a problem, though: JavaScript was strictly client-side. 
 There wasn't an easy way for the server to initiate contact with the user, and 
-this issue limited developers in what they could do (4). For example, if an eBay 
+this issue limited developers in what they could do [WHY]_. For example, if an eBay 
 user wanted to know real-time when a bid was made on their product, tough luck. 
 They better get used to mashing that refresh button.
 
 That's why when Ryan Dahl developed Node.js in 2009 it gained huge momentum from 
-the get-go (1). Used by huge corporations such as Neflix, GitHub, Google, and 
+the get-go [ABT]_. Used by huge corporations such as Neflix, GitHub, Google, and 
 PayPal, Node.js is a widely popular server-side platform that uses JavaScript to 
-let developers create lightweight web applications (7). Node.js applications are 
-coded in Javascript, and they're lightning fast. Instead of using common languages 
-like Java to run their servers, full-stack developers can now use the same 
-language in both their front-end and back-end applications. But enough of how 
+let developers create lightweight web applications [SIT]_. Node.js applications are coded in Javascript, and they're lightning fast. Instead of using common 
+languages like Java to run their servers, full-stack developers can now use the 
+same language in both their front-end and back-end applications. But enough of how
 Node.js came to be. What is Node.js, and why is it so popular?
 
 What is Node.js?
 ~~~~~~~~~~~~~~~~
 The official Node.js website defines Node.js as, "a JavaScript runtime built on 
 Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O 
-model that makes it lightweight and efficient." (3). These features allow for 
+model that makes it lightweight and efficient." [NDE]_. These features allow for 
 Node.js applications to serve more requests than traditional back-end servers, 
 which is crucial if the owner wishes to serve multiple thousands of clients at a 
 time. Below is a more in-depth list of Node.js features and why people care about 
@@ -60,9 +59,8 @@ server is optimized to make as many connections as possible, but there is a cost
 Because the server runs everything in a single thread, the server sacrifices CPU 
 power for more connections to clients. This is important because it highlights the 
 situations for which a developer should pick Node.js: lightweight applications 
-that require few CPU operations (4). By running everything in Node.js via events, 
-requests from the user are idle when there is no I/O. Resources aren't wasted on 
-connections that aren't currently exchanging information.
+that require few CPU operations [WHY]_. By running everything in Node.js via events, requests from the user are idle when there is no I/O. Resources aren't 
+wasted on connections that aren't currently exchanging information [EVN]_.
 
 But if a thousand clients request information at the same time on a single thread, 
 wouldn't the hypothetical last client have to wait for every other client before 
@@ -77,21 +75,21 @@ gather that information *without blocking the entire event loop*. This is called
 callback Instead of waiting for information, the event loop moves to the next 
 event and trusts the callback to perform the operation. The process is then 
 responsible for, once the information has been gathered, sending that information 
-to the client (9).
+to the client [HOW]_.
 
 Fast Performance
 ~~~~~~~~~~~~~~~~
 When used correctly to fill its niche, Node.js can greatly outperform other tools.
-A test created by (2) perfectly captures the beneficial aspects of Node.js in 
-comparison to PHP, another popular language in back-end web development. To do 
-this, the tester ran a simple for loop that did three separate calculations and 
-printed to the console the amount of time it took to finish the loop. The tester 
-then timed two different applications: one using PHP, the other using Node.js. It 
-was found that as the number of iterations increased, the PHP application's time 
-increased in a linear fashion. However, the tester found that the Node.js 
-application finished at a more logarithmic (faster) rate when doing the same 
-calculations. When the number of iterations was increased to one billion, the PHP 
-application was 93% slower than the Node.js one (2).
+A test created by Maciej Sopylo perfectly captures the beneficial aspects of 
+Node.js in comparison to PHP, another popular language in back-end web 
+development. To do this, Sopylo ran a simple for loop that did three separate 
+calculations and printed to the console the amount of time it took to finish the 
+loop. Sopylo then timed two different applications: one using PHP, the other using
+Node.js. It was found that as the number of iterations increased, the PHP 
+application's time increased in a linear fashion. However, the tester found that 
+the Node.js application finished at a more logarithmic (faster) rate when doing 
+the same calculations. When the number of iterations was increased to one billion, 
+the PHP application was 93% slower than the Node.js one [BEG]_.
 
 Examples of Node.js Applications
 --------------------------------
@@ -130,7 +128,10 @@ itself.
 The first two lines are simply including the http and url modules. On the next 
 line, by using the createServer() function built into the http module, the code is 
 able to read the data with the .read() function or consume it in the 'end' event 
-(2). 
+[BEG]_.
+
+.. image:: img/get_example.png
+	:align: center
 
 Bulls and Cows Game
 ~~~~~~~~~~~~~~~~~~~
@@ -250,27 +251,45 @@ cows (letters that are in the word, but incorrectly placed).
 	    return numCows;
 	}
 
+For example, if the data is a non-isogram like "title", the application will respond with an error message.
+
+.. image:: img/bulls_iso.png
+	:align: center
+
+If the data is a 5-letter isogram, the application appropriately responds.
+
+.. image:: img/bulls_norm.png
+	:align: center
+
+And finally, if the data is correct, the congratulations message is displayed.
+
+.. image:: img/bulls_correct.png
+	:align: center
+
 Conclusion
 ----------
-
-We're doing Node.js, 'cause it's awesome.
+Node.js is an extremely useful tool that allows for programmers to have responsive 
+web applications that can handle multitudes of requests at the same time. Its 
+fast, event driven, asynchronous nature has been the future of web development 
+ever since its conception in 2009. Because of the flexibility of its JavaScript 
+framework, there isn't a limit on the things Node.js can create. If a developer is 
+condsidering different languages to create their web application, Node.js makes 
+its own case with its unparalleled speed and ease of use. 
 
 References
 ----------
-1 - http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html
+.. [ABT] http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html
 
-2 - https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
+.. [BEG] https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
 
-3 - https://nodejs.org/en/
+.. [NDE] https://nodejs.org/en/
 
-4 - https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
+.. [WHY] https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
 
-5 - https://developers.google.com/v8/
+.. [WHA] http://www.makeuseof.com/tag/what-is-javascript-and-can-the-internet-exist-without-it/
 
-6 - http://www.makeuseof.com/tag/what-is-javascript-and-can-the-internet-exist-without-it/
+.. [SIT] https://www.coderfactoryacademy.edu.au/posts/top-8-sites-built-with-node-js
 
-7 - https://www.coderfactoryacademy.edu.au/posts/top-8-sites-built-with-node-js
+.. [EVN] https://developers.redhat.com/blog/2016/08/16/why-should-i-use-node-js-the-non-blocking-event-io-framework/
 
-8 - https://developers.redhat.com/blog/2016/08/16/why-should-i-use-node-js-the-non-blocking-event-io-framework/
-
-9 - https://softwareengineeringdaily.com/2015/08/02/how-does-node-js-work-asynchronously-without-multithreading/
+.. [HOW] https://softwareengineeringdaily.com/2015/08/02/how-does-node-js-work-asynchronously-without-multithreading/
