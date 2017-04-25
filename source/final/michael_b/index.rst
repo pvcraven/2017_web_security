@@ -1,5 +1,26 @@
-AngularJS-Michael Borland
-=========================
+AngularJS Tutorial By:Michael Borland
+=====================================
+The Brief History of Google's AngularJS
+---------------------------------------
+
+Angular.js was developed by Google as an open source way to make HTML at the time,
+HTML5 now more efficient and gives a simpler way to do what would take would take
+a bunch of JavaScript to achieve before angular. The development history of
+AngularJS the first release was put on GitHub in 2010 on November 11 [GITHUB]_.
+The tech crunch article went into depth about the second full version release of 
+AngularJS. It offered some insightful details on what are the big pluses to the 
+two versus one, and it made a point of pointing out that  one and two are not at 
+all compatible. Article offered up some possible solutions to help you make your 
+decision on which version to pick. The modern progression of things is probably 
+go with two if you’re new to angular JS. If you’re a developer coming under 
+projects that are written and angular JS 1.0-1.6 what this tutorial written. 
+The decision whether to upgrade it is tied to availability of the money or not, 
+to essentially rewrite the same program in the upgraded version.The
+tech crunch article also, announced the release date for angular 2.0 out of beta
+in 2014,so took them four years to innovate the framework to make it even more 
+efficient, and make mobile development easier. In doing so as mentioned above 
+they made versions incompatible[TECHCRUNCH]_. this is a test of the dynamic nature of the updating of paper on push.  
+
 
 Introduction to AngularJS
 -------------------------
@@ -17,26 +38,17 @@ Controller
 Module 
 ~~~~~~
 
-The Brief History of Google's AngularJS
----------------------------------------
-AnglarJS is a relatively young history as a JavaScript Library, 
-in comparison to another one that is used very heavily Jquery. AngularJS was 
-released by Google to be an open source library on November 11th 2010 [GITHUB]_ [TECHCRUNCH]_. 
-Jquery is older with four years its senior, this is another library that was 
-added to JavaScript with the intention of simplifying things, as angularJS is
-meant to do.Similar concept, but different ways of doing it. 
-As discussed in the tech crunch article, AngularJS first iteration made a whole lot
-of programming difficulties easier. a big bonus they covered in the Tech crunch 
-article, of angular 2.0 was more features that focus  on the phone application market.
-The problem when looking the iterations, programmers have to figure out which
-version to go with because they are not compatible.Switching to two as a 
-programmer is for most a financial question, do we have the capital to burn to 
-spend the time upgrading.[TECHCRUNCH]_ If it is a beginner asking the question, it is 
-do i want to be on the most current version? Those are some good things the 
-Tech crunch article makes a beginner and a profession think about. 
 
-This is really rough and bad, i struggled to get things together with my schedule. I will have the entire thing done and not crap by Thursday. It is bad, so don't feel bad for being a little rough with comments.  
 
+
+
+
+ 
+An important topic to discuss when trying to implement libraries nowadays is
+the use of linking in with content delivery networks. 
+Below CDN's are described in a little bit of detail, as they pertain to the
+implementation of AngularJS the framework, and the many libraries that increase
+the functionality of the framework.
 
 Content Delivery Network Description
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,6 +64,7 @@ AngularJS has two ways of implementing the libraries that compose the entirety o
 Examples Of Libraries Available In AngularJS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. code-block:: html
+	:linenos:
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -62,8 +75,7 @@ Examples Of Libraries Available In AngularJS
 	<!-- This is the main library that you need to have linked, or downloaded to use AngularJS. -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
-
-	<!-- These are a bunch of libraries that expand the functionality of the above library. -->
+	<!-- These are a bunch of libraries that expand the functionality of the above  the above framework. -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-messages.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-message-format.min.js.map"></script>
@@ -91,14 +103,12 @@ Examples Of Libraries Available In AngularJS
 	</body>
 	</html>
 
-
-
-
 Form Example
 ~~~~~~~~~~~~
 Explanation of what the form does goes here.
 
 .. code-block:: html
+	:linenos:
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -135,6 +145,8 @@ Explanation of what the form does goes here.
 	<p>Hidden Field Test: {{hf}}</p>
 
 	</div>
+	<!-- The below script tag contains the code that constructs the
+	 AngularJS form Application, and allows for the data binding above. -->
 	<script>
 	var testFormApp = angular.module('myAngularTest', []);
 	testFormApp.controller('testForm',function($scope){
@@ -154,14 +166,11 @@ Explanation of what the form does goes here.
 	</body>
 	</html>
 
-
-
-
-
 References 
 ----------
 .. [TECHCRUNCH] Frederic Lardinois."`Google launches final release version of Angular 2.0 <https://techcrunch.com/2016/09/14/google-launches-final-release-version-of-angular-2-0/>`_.Crunch Network.Web.Date Accessed 18 April 2017" 
 
+.. [ANGULAR] No author listed. "`What is angular JS? <https://docs.angularjs.org/guide/introduction>`_. Google. Web. Date Accessed 24 April 2017."
 .. [John] John Resig."`jQuery 1.0 <https://blog.jquery.com/2006/08/26/jquery-10/>`_.Jquery.com.Web.Date Accessed 18 April 2017" 
 
 .. [AMZ] No Author List."`Amazon CloudFront – Content Delivery Network (CDN) <https://aws.amazon.com/cloudfront/?sc_channel=PS&sc_campaign=acquisition_US&sc_publisher=google&sc_medium=juice_test_nb&sc_content=cdn_p&sc_detail=cdn&sc_category=cloudfront&sc_segment=164981649830&sc_matchtype=p&sc_country=US&s_kwcid=AL!4422!3!164981649830!p!!g!!cdn&ef_id=WO8RiAAABBvbPdZA:20170413055000:s>`_.Amazon.Web.Date Accessed 13 April 2017"

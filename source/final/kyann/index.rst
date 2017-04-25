@@ -1,32 +1,40 @@
 New Features in JavaScript ES6 - Kyann
 ======================================
 
-There have been many new additions and changes made from JavaScript ES5 to ES6. 
-Some of the changes that will be highlighted in this example will be constants, 
-block-scope variables and functions, default parameter values, String Interpolation, 
-Array Matching, Classes, Unicode with strings and Regular Expressions, binary and 
-octal. Finally, there are several new built-in functions and formatting options. 
+ECMAScript 6, also known as "Harmony" and often shortened to ES6, is the sixth 
+release of the language, and was released in June 2015. ECMAScript, or "ES" for 
+short, is also generally referred to as "JavaScript". There have been many new additions 
+and changes made from JavaScript ES5 (the previous version) to ES6. Some of the 
+changes that will be highlighted in this example will be constants, block-scope 
+variables and functions, default parameter values, and string interpolation. Finally, 
+there are several new built-in functions and formatting options. 
 
 Constants
 ---------
 
 One of the new features of ES6 is the ability to use constant variables. A constant 
 variable is one that cannot be assigned any new content. Instead of using the typical 
-``var`` to declare the variable, ``const`` is used. 
+``var`` to declare the variable, ``const`` is used. ``var`` was the only option 
+available in ES5, which meant that any variable created in the code could be changed 
+at any other point in the code. 
 
 .. code-block:: javascript
+	:Caption: Const Declaration
 
 	const constant = 5
 	print(constant) // 5
 	
 	
 .. code-block:: javascript
-	:Caption: Error
+	:Caption: Error, the const value can't be changed. 
 
 	constant +=2 
 	
 * With a const variable, this will not be allowed, and will pop up an error that 
   indicates constant is of type const and cannot be reassigned. 
+  
+  .. image:: const_example.png
+     :alt: const error image
  
 
 Const can be especially useful in programming situations where there are multiple 
@@ -55,6 +63,11 @@ one that can be accessed anywhere in the function. [Block_scope]_
 	console.log(global);
 	console.log(a)
 	
+Because both variables were declared with ``var``, they were global variables that 
+could be called later in the program, as shown by the output below. This was the 
+only available option in ES5, although ``var``, and using global variables, is still 
+used in ES6. 
+	
 	
 .. code-block:: text
 	:Caption: Output
@@ -62,11 +75,11 @@ one that can be accessed anywhere in the function. [Block_scope]_
 	Hello
 	5
 	
-Because both variables were declared with ``var``, they were global variables that 
-could be called later in the program.
 
-ES6 has included an option to use ``let`` inside of ``var`` when declaring a variable, 
-and it will be a block-scope variable.
+
+ES6 has included an option to use ``let`` instead of ``var`` when declaring a variable, 
+which will make the variable  it will be a block-scope variable. The below code 
+is similar to the above version, except that the ``var a`` is replaced by ``let block``. 
 
 .. code-block:: javascript
 	:Caption: Block-scope variable
@@ -106,7 +119,7 @@ if one isn't given when the method is called. If a parameter is specified but no
 given a value, it is set to ``undefined``.
 
 Having an undefined answer when a function is called could cause errors, give an 
-incorrect answer, or even crash the program. Programmers could find defaul parameters 
+incorrect answer, or even crash the program. Programmers could find default parameters 
 useful to help avoid these situations. ES5 did have a way to set default parameters, 
 but it was slightly complex and time consuming. The new ES6 version is much easier to 
 use, and makes the code nicer to read. 
@@ -133,7 +146,7 @@ to a value if it was.
 		
 		f(1, 2)
 		
-		f(5)
+		f(1)
 	
 
 * What is used in ES6 - simpler
@@ -150,12 +163,12 @@ to a value if it was.
 		
 		f(1, 2)
 		
-		f(5)
+		f(1)
 	
 * Output 
 	
 	.. code-block:: javascript
-		:Caption: The output for both functions remains the same. 
+		:Caption: The output of both functions remains the same. 
 		
 		f(1, 2, 3) === 6 //1+2+3
 		f(1, 2) === 15 // 1+2+12
@@ -170,7 +183,7 @@ to a value if it was.
 String Interpolation
 --------------------
 
-ES6 adds an update the JavaScripts string interpolation. The first update that was 
+ES6 adds an update the JavaScript’s string interpolation. The first update that was 
 made from ES5 to ES6 was the ability to write strings on multiple lines without having 
 to program in concatenation at the end of each line. There actually was a way to 
 "technically" accomplish this in ES5, but it was also considered a bug and not 
@@ -221,8 +234,8 @@ easier for other programmers to read.
 	"at ${college.name}.`
 	
 An important part of this change was that in order to signify a string that will 
-be on multiple lines, or have an object select in the middle of the string is by 
-using ` `backticks` ` instead of the normal "double quotes" or 'single quotes'. 
+be on multiple lines, or have an object selected in the middle of the string is by 
+using ` `back ticks` ` instead of the normal "double quotes" or 'single quotes'. 
 
 
 [Zakas_Understanding]_  pg 26-28
@@ -251,8 +264,10 @@ read and code.
 
 * Searching in Strings
 	Searching in strings has also been updated in ES6 for simplicity and easier 
-	readability. The new methods include ``.startsWith``, ``.endsWith``, and 
-	``.includes``. 
+	readability. It was possible to search strings in ES5, but the only method 
+	that was used was ``.index``. ``.index`` was also a lot more complicated to 
+	use, and wasn't as easily read through afterwards. The new methods in ES6 include 
+	``.startsWith``, ``.endsWith``, and ``.includes``. 
 
 	.. code-block:: javascript
 	
@@ -272,6 +287,7 @@ read and code.
 		
 		true
 		false
+	
 	
 
 * Number Type
@@ -311,7 +327,7 @@ read and code.
 
 * Number Truncation
 	Number truncation is a pretty simple function, its purpose is to take a floating 
-	point number and drop off the decimal or fraction part. However, it does not 
+	point number and drop off the decimal or fractional part. However, it does not 
 	round the number, it strictly drops off the decimal. Like Number Type, this 
 	was possible in ES5, but the code had to be written by the programmer and it 
 	was not a built in function. 
@@ -378,6 +394,10 @@ dialects. For example:
 
 * "de-AT" is German used in Australia 
 
+All the new functions are first called using ``Intl``, followed by the function name. 
+This is used to set a variable to the specific language, or country dialect. To use this 
+new formatting, the programmer will then go ``variableName.format(Number to format)``. 
+
 The New Formatting Functions 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -406,7 +426,7 @@ several benefits, such as
 * Currency Formatting:
 
 The currency formatting starts off similar to the basic number formatter, but adds 
-on a section that specifies currency, and what currency to use. 
+on a section that specifies "currency", and what then what specific currency to use. 
 
 	.. code-block:: javascript
 		
@@ -427,6 +447,13 @@ on a section that specifies currency, and what currency to use.
 
 * Date and Time Formatting:
 
+Dates and times use a different function that NumberFormat, quite intuitively called 
+``DateTimeFormat``. Similar to the first number formatter, all the needs to be put in 
+the parentheses is the BCP 47 code. This is especially useful when translating dates
+that just switch the order of the day and month, as these could be easily confused. 
+Three different examples of date formatting would be day/month/year (Germany), 
+month/day/year (United States), and year/month/day (Japan). 
+
 	.. code-block:: javascript
 		
 		var american = new Intl.DateTimeFormat("en-US")
@@ -443,14 +470,18 @@ on a section that specifies currency, and what currency to use.
 		13.4.2017
 
   
-There is no equivalent functions in ES5, so all of these functions are brand new. [ECMAScript_6]_ 
+There are no equivalent functions in ES5, so all of these functions are brand new
+to ES6. [ECMAScript_6]_ 
 
 
 Conclusion
 ----------
 
-There have been many differnet updates to the newest version of JavaScript, from 
-fixing smaller functions to work better, adding in entirely new functions, to ...
+There have been many different updates to the newest version of JavaScript, from 
+fixing smaller functions to work better, adding in entirely new functions, or adding 
+in different programming styles. Many of these updates give the programmer the option 
+to write code that is either easier or more straight-forward than before, or simply 
+make the code more readable. 
 
 
 Sources
