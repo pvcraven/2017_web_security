@@ -5,63 +5,66 @@ Introduction
 ------------
 AngularJS is a type of JavaScript structural framework. It can easily be added 
 to HTML and allows HTML’s syntax to be extended [W3]_. It can convey the
-application’s components efficiently. It ends up compacting much of the code that
-would typically have to be written, into simple HTML additions. The framework is used
-by reading the HTML page with its embedded custom tag attributes. Then AngularJS
-interprets the attributes to a model that is represented by standard JavaScript
-variables, which can be set within the code or retrieved from JSON resources [Wiki]_.
+application’s components efficiently. It ends up compacting much of the code
+that would typically have to be written, into simple HTML additions. The
+framework is used by reading the HTML page with its embedded custom tag
+attributes. Then AngularJS interprets the attributes to a model that is
+represented by standard JavaScript variables, which can be set within the code
+or retrieved from JSON resources [Wiki]_.
 
 History
 -------
 
-AngualarJS was developed in 2009 by Misko Hevery and Adam Abrons while they were
-at Brat Tech LLC [AJSHist]_. They felt that they were not productive at building
-front-end applications using Java [JOAJS]_. It was created for an online JSON storage
-service’s behind-the-scenes software. AngularJS was originally only available online and
-cost per megabyte, but not many people were interested so Hevery and Abrons decided
-to make AngularJS an open-source library [Wiki]_. Making the code open source, has lead
-to the web community being able to make contributions and create a better platform [FMH]_.
+AngualarJS was developed in 2009 by Misko Hevery and Adam Abrons while they
+were at Brat Tech LLC [AJSHist]_. They felt that they were not productive at
+building front-end applications using Java [JOAJS]_. It was created for an
+online JSON storage service’s behind-the-scenes software. AngularJS was
+originally only available online and cost per megabyte, but not many people
+were interested so Hevery and Abrons decided to make AngularJS an open-source
+library [Wiki]_. Making the code open source, has lead to the web community
+being able to make contributions and create a better platform [FMH]_.
 
-Google supported AngularJS from the start because Hevery worked there as the Senior
-Computer Scientist and Technical Lead Manager. In this position he leads teams to
-figure out ways to increase speed and quality of of code [FMH]_. It is continuously updated
-and maintained by Google and a community of individuals and corporations. Version 1.0
-of AngularJS was released in 2012 and by Version 1.2, AngularJS did not support
-Internet Explorer versions 6 or 7. When AngularJS Version 1.3 came out, it dropped its
-support of Internet Explorer 8 [AJSHist]_. Version 1.5 was released and added many new
-concepts including a piece based on architecture. When AngularJS released Version 1.6,
-it had removed the Sandbox, which was thought to provide extra security. When Version
-2+ came out, AngularJS was simply called Angular, which which went on to become an
-open-source front-end web application. The most recent version is Angular 4, which
-was announced on December 13, 2016 [Wiki]_.
+Google supported AngularJS from the start because Hevery worked there as the
+Senior Computer Scientist and Technical Lead Manager. In this position he
+leads teams to figure out ways to increase speed and quality of of code [FMH]_.
+It is continuously updated and maintained by Google and a community of
+individuals and corporations. Version 1.0 of AngularJS was released in 2012
+and by Version 1.2, AngularJS did not support Internet Explorer versions 6 or
+7. When AngularJS Version 1.3 came out, it dropped its support of Internet
+Explorer 8 [AJSHist]_. Version 1.5 was released and added many new concepts
+including a piece based on architecture. When AngularJS released Version 1.6,
+it had removed the Sandbox, which was thought to provide extra security. When
+Version 2+ came out, AngularJS was simply called Angular, which which went on
+to become an open-source front-end web application. The most recent version is
+Angular 4, which was announced on December 13, 2016 [Wiki]_.
 
-In 2012, a plug-in for Google Chrome called Batarang was released. The purpose of
-this was mainly to improve the debugging of web applications. This plug-in however,
-did not work with any of the versions of AngularJS after Version 1.2. Now, as of the
-latter half of 2016, the plug-in works with all versions of Angular [Wiki]_.
-
-HTML attribute extension with directives and binds data to HTML with expressions
+In 2012, a plug-in for Google Chrome called Batarang was released. The purpose
+of this was mainly to improve the debugging of web applications. This plug-in
+however, did not work with any of the versions of AngularJS after Version 1.2.
+Now, as of the latter half of 2016, the plug-in works with all versions of
+Angular [Wiki]_.
 
 The Basics of Angular JS
 ------------------------
 
-As previously stated in the first paragraph, AngularJS is an extension to HTML. Where
-HTML fails in being able to declare dynamic views in web-applications, AngularJS
-excels. It creates an environment that is "extraordinarily expressive, readable, and
-quick to develop" [AJS]_. AngularJS can be extended and easily used with other
-libraries. 
+As previously stated in the first paragraph, AngularJS is an extension to
+HTML. Where HTML fails in being able to declare dynamic views in
+web-applications, AngularJS excels. It creates an environment that is
+"extraordinarily expressive, readable, and quick to develop" [AJS]_. AngularJS
+can be extended and easily used with other libraries. 
 
-AngularJS has a JavaScript framework for. This means that the library containing
-all of the shortcuts is written in JavaScript. Using AngularJS, one can extend
-HTML with attributes called directives [W3]_. Directives are HTML codes that begin
-with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
+AngularJS has a JavaScript framework for. This means that the library
+containing all of the shortcuts is written in JavaScript. Using AngularJS, one
+can extend HTML with attributes called directives [W3]_. Directives are HTML
+codes that begin with "ng-." To make proper HTML, the code should be
+"data-ng-" [W3]_.
 
-* 	**bold**ng-app:**bold** This tells AngularJS to be active in whatever portion of the page/code piece
-	it is added to and defines it as an AngularJS application [AJS]_. This will also automatically
-	initialize the application when the page is loaded [W3]_.
+* 	**ng-app:** This tells AngularJS to be active in whatever portion of the
+	page/code piece it is added to and defines it as an AngularJS application
+	[AJS]_. This will also automatically initialize the application when the
+	page is loaded [W3]_.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -69,13 +72,13 @@ with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
         <p>This is how to initialize AngularJS.</p>
     </div>
 
-* 	**bold**ng-model:**bold** This links the form and model so that whenever something is typed in the input box,
-	it shows up wherever you call the model name [AJS]_. This directive can also provide validation
-	for application data, status for application data, provide CSS classes for HTML elements, and
-	bind HTML elements to HTML forms [W3]_.
+* 	**ng-model:** This links the form and model so that whenever something is
+	typed in the input box, it shows up wherever you call the model name [AJS]_.
+	This directive can also provide validation for application data, status
+	for application data, provide CSS classes for HTML elements, and bind HTML
+	elements to HTML forms [W3]_.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -83,11 +86,11 @@ with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
 		Name: <input ng-model="name">
 	</div>
 
-* 	**bold**ng-init:**bold** This initializes AngularJS application variables by defining initial values for an
-	application [W3]_. This is typically placed directly after the "ng-app" in the code.
+* 	**ng-init:** This initializes AngularJS application variables by defining
+	initial values for an application [W3]_. This is typically placed directly
+	after the "ng-app" in the code.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -95,12 +98,11 @@ with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
         <p>This is how to initialize AngularJS.</p>
     </div>
 
-* 	**bold**ng-bind:**bold** This is a way to automatically update either the view when the model changes or the
-	model when the view changes [AJS]_. This is typically used when an application already has a
-	data model [W3]_.
+* 	**ng-bind:** This is a way to automatically update either the view when
+	the model changes or the model when the view changes [AJS]_. This is
+	typically used when an application already has a data model [W3]_.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -116,13 +118,12 @@ with "ng-." To make proper HTML, the code should be "data-ng-" [W3]_.
 
 Binds can also be made using this next type of directive, an expression.
 
-* 	**bold**Expression:**bold** These are written inside {{}} and will print data exactly as it is written and
-	can be used in the same way as a bind  because they both bind the data to the HTML [W3]_.
-	Unlike JavaScript expressions, AngularJS expressions don't support conditionals, loops,
-	and exceptions.
+* 	**Expression:** These are written inside {{}} and will print data exactly
+	as it is written and can be used in the same way as a bind  because they
+	both bind the data to the HTML [W3]_. Unlike JavaScript expressions,
+	AngularJS expressions don't support conditionals, loops, and exceptions.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -135,15 +136,15 @@ Binds can also be made using this next type of directive, an expression.
 	:width: 300px
 	:align: center
 
-* 	**bold**Controller:**bold** This is a JavaScript object that controls the data of an AngularJS application.
-	Controllers, more specifically, are JavaScript objects that are created by a JavaScript object
-	constructor [W3]_. This section of code is where the functions and values are defined along
-	with the rest of the application's behavior. Controllers can be called with $scope. This is
-	the owner of the application's variables and functions. It is also the binding between the
-	HTML and the JavaScript.
+* 	**Controller:** This is a JavaScript object that controls the data of an
+	AngularJS application. Controllers, more specifically, are JavaScript
+	objects that are created by a JavaScript object constructor [W3]_. This
+	section of code is where the functions and values are defined along with
+	the rest of the application's behavior. Controllers can be called with
+	$scope. This is the owner of the application's variables and functions. It
+	is also the binding between the HTML and the JavaScript.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -166,12 +167,12 @@ Binds can also be made using this next type of directive, an expression.
 	:width: 300px
 	:align: center
 
-* 	**bold**Module:**bold** This defines an application and is a container for different parts of an application
-	and for the application controller [W3]_. A module makes the application easier to maintain,
-	test, and read. Once the module is created, controllers and other AngularJS features can be added.
+* 	**Module:** This defines an application and is a container for different
+	parts of an application and for the application controller [W3]_. A module
+	makes the application easier to maintain, test, and read. Once the module
+	is created, controllers and other AngularJS features can be added.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -192,17 +193,17 @@ Binds can also be made using this next type of directive, an expression.
 	:width: 300px
 	:align: center
 
-* 	**bold**Deep Linking:**bold** AngularJS uses deep linking and desktop app-like behavior [AJS]_. This is
-	where the user is in the application and can bookmark and email links to places inside
-	the application.
+* 	**Deep Linking:** AngularJS uses deep linking and desktop app-like
+	behavior [AJS]_. This is where the user is in the application and can
+	bookmark and email links to places inside the application.
 
-* 	**bold**Form Validation:**bold** This is the client side validation. AngularJS lets you create validation
-	rules for the specific form without having to write JavaScript [AJS]_.  It can also hold
-	information about the form, whether is has been entered in or not [W3]_. It monitors the form's
-	state and notifies the user.
+* 	**Form Validation:** This is the client side validation. AngularJS lets
+	you create validation rules for the specific form without having to write
+	JavaScript [AJS]_.  It can also hold information about the form, whether
+	is has been entered in or not [W3]_. It monitors the form's state and
+	notifies the user.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -220,18 +221,19 @@ Binds can also be made using this next type of directive, an expression.
 	:width: 300px
 	:align: center
 
-* 	**bold**Filter:**bold** This is a part of AngularJS that can transform data. Filters in AngularJS
-	are simply added into expressions that already exist [W3]_. An example of this would be if
-	someone entered a decimal, then the filter would change it into a currency.
+* 	**Filter:** This is a part of AngularJS that can transform data. Filters
+	in AngularJS are simply added into expressions that already exist [W3]_.
+	An example of this would be if someone entered a decimal, then the filter
+	would change it into a currency.
 
 
-* 	**bold**Animations:**bold** AngularJS provides animated transitions from one piece of the screen to another.
-	In the example below there is a colored box, and when the check box is clicked on; the colored
-	box decreases upward and disappears. There are animation features such as showing a box,
-	repeating, and switching, just to name a few.
+* 	**Animations:** AngularJS provides animated transitions from one piece of
+	the screen to another. In the example below there is a colored box, and
+	when the check box is clicked on; the colored box decreases upward and
+	disappears. There are animation features such as showing a box, repeating,
+	and switching, just to name a few.
 
-	Example Code
-	^^^^^^^^^^^^
+"*Example Code*""
 
 .. code-block:: javascript
 
@@ -267,9 +269,13 @@ Closing
 -------
 
 Before, AngularJS developers used HTML to create static documents. Now, with
-these AngularJS pieces and all the unnamed ones, the world of single-page JavaScript
-applications has been completely changed. It is so revolutionary that many popular
-websites, such as Walgreens, Intel, Sprint, and others, use AngularJS [Wiki]_.
+these AngularJS pieces and all the unnamed ones, the world of single-page
+JavaScript applications has been completely changed. It is so revolutionary
+that many popular websites, such as Walgreens, Intel, Sprint, and over 12,000
+others, use AngularJS [Wiki]_. While AngularJS is very popular, it is not the
+only coding framework out there. There are many others and they are all trying
+to further innovate code in order to distribute compelling experiences for
+users. 
 
 References
 ----------
