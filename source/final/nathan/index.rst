@@ -278,18 +278,18 @@ its own case with its unparalleled speed and ease of use.
 
 References
 ----------
-.. [ABT] http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html
+.. [ABT] "About Node.js, and Why You Should Add Node.js to Your Skill Set?" Training.com Blog. N.p., n.d. Web. 24 Apr. 2017. <http://blog.training.com/2016/09/about-nodejs-and-why-you-should-add.html>.
 
-.. [BEG] https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314
+.. [WHY] Capan, Tomislav. "Why The Hell Would I Use Node.js? A Case-by-Case Tutorial." Toptal Engineering Blog. N.p., n.d. Web. 24 Apr. 2017. <https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js>.
 
-.. [NDE] https://nodejs.org/en/
+.. [SIT] Graf, Ashley. "Top 8 Sites Built with Node.js." Board the Fast Track to an Exciting Career in Tech @ Coder Factory Academy. N.p., n.d. Web. 24 Apr. 2017. <https://www.coderfactoryacademy.edu.au/posts/top-8-sites-built-with-node-js>.
 
-.. [WHY] https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
+.. [HOW] Jeff. "How Does Node.js Work Asynchronously without Multithreading?" Software Engineering Daily. N.p., n.d. Web. 24 Apr. 2017. <https://softwareengineeringdaily.com/2015/08/02/how-does-node-js-work-asynchronously-without-multithreading/>.
 
-.. [WHA] http://www.makeuseof.com/tag/what-is-javascript-and-can-the-internet-exist-without-it/
+.. [WHA] Long, Moe, Mihir Patkar, and Matthew Hughes. "What Is JavaScript, And Can the Internet Exist Without It?" MakeUseOf. N.p., 25 Jan. 2015. Web. 24 Apr. 2017. <http://www.makeuseof.com/tag/what-is-javascript-and-can-the-internet-exist-without-it/>.
 
-.. [SIT] https://www.coderfactoryacademy.edu.au/posts/top-8-sites-built-with-node-js
+.. [BEG] "Node.js for Beginners." Code Envato Tuts+. N.p., n.d. Web. 24 Apr. 2017. <https://code.tutsplus.com/tutorials/nodejs-for-beginners--net-26314>.
 
-.. [EVN] https://developers.redhat.com/blog/2016/08/16/why-should-i-use-node-js-the-non-blocking-event-io-framework/
+.. [NDE] Node.js. N.p., n.d. Web. 24 Apr. 2017. <https://nodejs.org/en/>.
 
-.. [HOW] https://softwareengineeringdaily.com/2015/08/02/how-does-node-js-work-asynchronously-without-multithreading/
+.. [EVN] Valdez, Cesar. "Why Should I Use Node.js: The Non-blocking Event I/O Framework? – RHD Blog." Red Hat Developers. N.p., n.d. Web. 24 Apr. 2017. <https://developers.redhat.com/blog/2016/08/16/why-should-i-use-node-js-the-non-blocking-event-io-framework/>.
