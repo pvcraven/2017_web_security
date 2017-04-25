@@ -1,10 +1,10 @@
 New Features in JavaScript ES6 - Kyann
 ======================================
 
-EMSAScript 6, also know as "Harmony" and often shortened to ES6, is the sixth 
-release of the language, and was released in June 2015. EMSAScript, or "ES" for 
-short, is also general refered to as "JavaScript". There have been many new additions 
-and changes made from JavaScript ES5 (the prevoius version) to ES6. Some of the 
+ECMAScript 6, also known as "Harmony" and often shortened to ES6, is the sixth 
+release of the language, and was released in June 2015. ECMAScript, or "ES" for 
+short, is also general referred to as "JavaScript". There have been many new additions 
+and changes made from JavaScript ES5 (the previous version) to ES6. Some of the 
 changes that will be highlighted in this example will be constants, block-scope 
 variables and functions, default parameter values, and string interpolation. Finally, 
 there are several new built-in functions and formatting options. 
@@ -119,7 +119,7 @@ if one isn't given when the method is called. If a parameter is specified but no
 given a value, it is set to ``undefined``.
 
 Having an undefined answer when a function is called could cause errors, give an 
-incorrect answer, or even crash the program. Programmers could find defaul parameters 
+incorrect answer, or even crash the program. Programmers could find default parameters 
 useful to help avoid these situations. ES5 did have a way to set default parameters, 
 but it was slightly complex and time consuming. The new ES6 version is much easier to 
 use, and makes the code nicer to read. 
@@ -183,7 +183,7 @@ to a value if it was.
 String Interpolation
 --------------------
 
-ES6 adds an update the JavaScripts string interpolation. The first update that was 
+ES6 adds an update the JavaScript’s string interpolation. The first update that was 
 made from ES5 to ES6 was the ability to write strings on multiple lines without having 
 to program in concatenation at the end of each line. There actually was a way to 
 "technically" accomplish this in ES5, but it was also considered a bug and not 
@@ -235,7 +235,7 @@ easier for other programmers to read.
 	
 An important part of this change was that in order to signify a string that will 
 be on multiple lines, or have an object select in the middle of the string is by 
-using ` `backticks` ` instead of the normal "double quotes" or 'single quotes'. 
+using ` `back ticks` ` instead of the normal "double quotes" or 'single quotes'. 
 
 
 [Zakas_Understanding]_  pg 26-28
@@ -264,8 +264,10 @@ read and code.
 
 * Searching in Strings
 	Searching in strings has also been updated in ES6 for simplicity and easier 
-	readability. The new methods include ``.startsWith``, ``.endsWith``, and 
-	``.includes``. 
+	readability. It was possible to search strings in ES5, but the only method 
+	that was used was ``.index``. ``.index`` was also a lot more complicated to 
+	use, and wasn't as easily read through afterwards. The new methods in ES6 include 
+	``.startsWith``, ``.endsWith``, and ``.includes``. 
 
 	.. code-block:: javascript
 	
@@ -285,6 +287,7 @@ read and code.
 		
 		true
 		false
+	
 	
 
 * Number Type
@@ -444,11 +447,11 @@ on a section that specifies "currency", and what then what specific currency to 
 
 * Date and Time Formatting:
 
-Dates and times use a different function that NumberFormat, quite intuilively called 
+Dates and times use a different function that NumberFormat, quite intuitively called 
 ``DateTimeFormat``. Similar to the first number formatter, all the needs to be put in 
-hte parentethese is the BCP 47 code. This is especially useful when translating dates
+the parentheses is the BCP 47 code. This is especially useful when translating dates
 that just switch the order of the day and month, as these could be easily confused. 
-Three differnet examples of date formatting would be day/month/year (Germany), 
+Three different examples of date formatting would be day/month/year (Germany), 
 month/day/year (United States), and year/month/day (Japan). 
 
 	.. code-block:: javascript
