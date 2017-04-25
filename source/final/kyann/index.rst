@@ -146,7 +146,7 @@ to a value if it was.
 		
 		f(1, 2)
 		
-		f(5)
+		f(1)
 	
 
 * What is used in ES6 - simpler
@@ -163,7 +163,7 @@ to a value if it was.
 		
 		f(1, 2)
 		
-		f(5)
+		f(1)
 	
 * Output 
 	
