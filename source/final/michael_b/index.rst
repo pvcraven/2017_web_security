@@ -38,7 +38,7 @@ There are couple reasons that AngularJS is attractive to all kinds of developers
 
 Directives 
 ~~~~~~~~~~
-Directives are the NG–controller,app,or model  that are part of the the HTML in the form properties below. Out of habit in the form example below, I named the form  attributes the same thing to make it easier when making changes in the future,  and it makes it easier to remember if you're trying to manipulate in another program.It also makes it easy when you're having to remember which directive you're trying to use is the right over in the label name so you don't have to go far.The directives here are bound to each field name,  first name last name etc., now they are prepared  to be able to  automatically update  if  something is entered into an input box. The data binding just has to take place and in order for your form to work.  First though you need to be stepped through the scope object, how it's used in data binding, and then  discuss the properties of the data binding represented in the example.
+Directives are the NG–controller,app,or model  that are part of the the HTML in the form properties below. Out of habit in the form example below, I named the form  attributes the same thing to make it easier when making changes in the future,  and it makes it easier to remember if you're trying to manipulate in another program.It also makes it easy when you're having to remember which directive you're trying to use is the right over in the label name so you don't have to go far.The directives here are bound to each field name,  first name last name etc., now they are prepared  to be able to  automatically update  if  something is entered into an input box. The data binding just has to take place and in order for your form to work.  First though you need to be stepped through the scope object, how it's used in data binding, and then  discuss the properties of the data binding represented in the example. [ANGULAR_2]_
 
 
 Data binding and Scope
@@ -47,7 +47,7 @@ The data binding in scope principle is in general the double brackets in the dou
 
 
  [ANGULAR_4]_ [ANGULAR_3]_
- 
+
 Module and Controller
 ~~~~~~~~~~~~~~~~~~~~~
 
